@@ -120,3 +120,10 @@ export interface DealSubmission {
   sourceUrl: string
   submittedBy?: string
 }
+
+
+export interface FilterChip {
+  label: string
+  key: string
+  value?: string
+}
