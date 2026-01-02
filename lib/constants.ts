@@ -74,3 +74,11 @@ export const CHART_COLORS = [
   "#15803d", "#1d4ed8", "#7c3aed", "#b45309",
   "#dc2626", "#0891b2", "#db2777", "#65a30d",
 ] as const
+
+
+export const SORT_OPTIONS = [
+  { label: "Newest First", value: "date-desc" },
+  { label: "Oldest First", value: "date-asc" },
+  { label: "Highest Amount", value: "amount-desc" },
+  { label: "Lowest Amount", value: "amount-asc" },
+] as const
