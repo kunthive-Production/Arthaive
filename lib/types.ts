@@ -127,3 +127,10 @@ export interface FilterChip {
   key: string
   value?: string
 }
+
+
+export interface ApiResponse<T> {
+  data: T
+  error?: string
+  status: number
+}
