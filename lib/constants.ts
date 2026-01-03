@@ -87,3 +87,12 @@ export const SORT_OPTIONS = [
 export const PAGINATION_SIZES = [10, 20, 50, 100] as const
 
 export const DEFAULT_PAGE_SIZE = 20
+
+
+export const AMOUNT_RANGES = [
+  { label: "Any", min: 0, max: Infinity },
+  { label: "< ₹1Cr", min: 0, max: 100 },
+  { label: "₹1–10Cr", min: 100, max: 1000 },
+  { label: "₹10–100Cr", min: 1000, max: 10000 },
+  { label: "> ₹100Cr", min: 10000, max: Infinity },
+] as const
