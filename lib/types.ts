@@ -150,3 +150,11 @@ export interface SearchResult {
   total: number
   query: string
 }
+
+
+export type SortOrder = "asc" | "desc"
+
+export interface SortConfig {
+  field: string
+  order: SortOrder
+}
