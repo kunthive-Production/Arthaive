@@ -96,3 +96,12 @@ export const AMOUNT_RANGES = [
   { label: "₹10–100Cr", min: 1000, max: 10000 },
   { label: "> ₹100Cr", min: 10000, max: Infinity },
 ] as const
+
+
+export const NAV_ITEMS = [
+  { label: "Home", href: "/" },
+  { label: "Explore", href: "/explore" },
+  { label: "Investors", href: "/investors" },
+  { label: "Analytics", href: "/analytics" },
+  { label: "Submit Deal", href: "/submit" },
+] as const
