@@ -158,3 +158,10 @@ export interface SortConfig {
   field: string
   order: SortOrder
 }
+
+
+export interface NavItem {
+  label: string
+  href: string
+  active?: boolean
+}
