@@ -175,3 +175,10 @@ export interface WeeklyDigest {
   topSectors: string[]
   dateRange: { from: string; to: string }
 }
+
+
+export interface UserPreferences {
+  savedSearches: DealFilters[]
+  watchedSectors: string[]
+  watchedInvestors: string[]
+}
