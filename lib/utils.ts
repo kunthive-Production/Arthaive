@@ -57,3 +57,7 @@ export function truncateText(text: string, maxLen = 80): string {
 export function isValidUrl(url: string): boolean {
   try { new URL(url); return true } catch { return false }
 }
+
+export function formatYear(dateStr: string): string {
+  return new Date(dateStr).getFullYear().toString()
+}
