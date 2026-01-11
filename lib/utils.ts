@@ -97,3 +97,7 @@ export function formatAmountUSD(usd: number): string {
 // utility module — last updated 2026-01-11
 
 // utility module — last updated 2026-01-11
+
+export function capitalizeFirst(str: string): string {
+  return str.charAt(0).toUpperCase() + str.slice(1)
+}
