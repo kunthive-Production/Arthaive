@@ -220,3 +220,7 @@ export function formatStage(stage: string): string {
 // utility module — last updated 2026-01-20
 
 // utility module — last updated 2026-01-20
+
+export function pluralize(count: number, singular: string, plural?: string): string {
+  return count === 1 ? singular : (plural ?? singular + "s")
+}
