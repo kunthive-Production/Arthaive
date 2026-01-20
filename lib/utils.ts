@@ -224,3 +224,5 @@ export function formatStage(stage: string): string {
 export function pluralize(count: number, singular: string, plural?: string): string {
   return count === 1 ? singular : (plural ?? singular + "s")
 }
+
+// utility module — last updated 2026-01-20
