@@ -127,3 +127,10 @@ export const FISCAL_QUARTERS: Record<string, { label: string; months: number[] }
   Q3: { label: "Q3 (Oct–Dec)", months: [9, 10, 11] },
   Q4: { label: "Q4 (Jan–Mar)", months: [0, 1, 2] },
 }
+
+
+export const EXPORT_FORMATS = [
+  { label: "CSV", value: "csv" as const },
+  { label: "JSON", value: "json" as const },
+  { label: "Excel", value: "xlsx" as const },
+] as const
