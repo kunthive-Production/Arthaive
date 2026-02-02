@@ -207,3 +207,11 @@ export interface ExportOptions {
   fields?: string[]
   filename?: string
 }
+
+
+export interface CompareResult {
+  metricA: number
+  metricB: number
+  delta: number
+  pctChange: number
+}
