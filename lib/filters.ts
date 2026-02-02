@@ -7,3 +7,12 @@ export function buildQueryString(filters: Record<string, string | string[] | num
   }
   return params.toString()
 }
+
+export function parseQueryString(search: string): Record<string, string | string[]> {
+  const params = new URLSearchParams(search)
+  const result: Record<string, string | string[]> = {}
+  for (const [k, v] of params.entries()) {
+    result[k] = v.includes(",") ? v.split(",") : v
+  }
+  return result
+}
