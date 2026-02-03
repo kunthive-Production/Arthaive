@@ -16,3 +16,10 @@ export function parseQueryString(search: string): Record<string, string | string
   }
   return result
 }
+
+export function countActiveFilters(filters: Record<string, unknown>): number {
+  return Object.values(filters).filter(v => {
+    if (Array.isArray(v)) return v.length > 0
+    return v !== "" && v !== undefined && v !== null && v !== 1
+  }).length
+}
