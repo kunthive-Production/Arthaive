@@ -23,3 +23,7 @@ export function countActiveFilters(filters: Record<string, unknown>): number {
     return v !== "" && v !== undefined && v !== null && v !== 1
   }).length
 }
+
+export function mergeFilters<T extends Record<string, unknown>>(base: T, patch: Partial<T>): T {
+  return { ...base, ...patch, page: 1 }
+}
