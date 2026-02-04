@@ -425,3 +425,9 @@ export function parseAmount(str: string): number {
 export function compareAmounts(a: number, b: number): -1 | 0 | 1 {
   return a < b ? -1 : a > b ? 1 : 0
 }
+
+export function formatGrowth(prev: number, curr: number): string {
+  if (!prev) return "N/A"
+  const pct = ((curr - prev) / prev) * 100
+  return (pct >= 0 ? "+" : "") + pct.toFixed(1) + "%"
+}
