@@ -431,3 +431,7 @@ export function formatGrowth(prev: number, curr: number): string {
   const pct = ((curr - prev) / prev) * 100
   return (pct >= 0 ? "+" : "") + pct.toFixed(1) + "%"
 }
+
+export function formatPercentage(value: number, decimals = 1): string {
+  return value.toFixed(decimals) + "%"
+}
