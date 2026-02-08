@@ -42,3 +42,10 @@ export function buildLineData(series: Array<{ label: string; points: Array<{ x: 
     })),
   }
 }
+
+export function buildPieData(items: Array<{ label: string; value: number }>, colors: string[]): object {
+  return {
+    labels: items.map(i => i.label),
+    datasets: [{ data: items.map(i => i.value), backgroundColor: colors.slice(0, items.length) }],
+  }
+}
