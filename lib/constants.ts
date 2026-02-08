@@ -185,3 +185,7 @@ export const SHARE_PLATFORMS = [
 export const WEEKLY_DIGEST_DAY = 1
 export const SEARCH_DEBOUNCE_MS = 300
 export const MAX_BOOKMARKS = 50
+
+
+export const API_VERSION = "v1"
+export const API_BASE = `/api/${API_VERSION}`
