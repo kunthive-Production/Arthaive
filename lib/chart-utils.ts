@@ -31,3 +31,14 @@ export function buildBarData(items: Array<{ label: string; value: number }>, col
     datasets: [{ data: items.map(i => i.value), backgroundColor: color, borderRadius: 4 }],
   }
 }
+
+export function buildLineData(series: Array<{ label: string; points: Array<{ x: string; y: number }> }>): object {
+  return {
+    datasets: series.map((s, idx) => ({
+      label: s.label,
+      data: s.points,
+      tension: 0.3,
+      fill: false,
+    })),
+  }
+}
