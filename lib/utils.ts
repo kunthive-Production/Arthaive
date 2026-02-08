@@ -442,3 +442,7 @@ export function median(nums: number[]): number {
   const m = Math.floor(s.length / 2)
   return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2
 }
+
+export function mean(nums: number[]): number {
+  return nums.length ? nums.reduce((a, b) => a + b, 0) / nums.length : 0
+}
