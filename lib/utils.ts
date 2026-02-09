@@ -451,3 +451,7 @@ export function stddev(nums: number[]): number {
   const m = mean(nums)
   return Math.sqrt(mean(nums.map(n => (n - m) ** 2)))
 }
+
+export function toTitleCase(str: string): string {
+  return str.replace(/\b\w/g, c => c.toUpperCase())
+}
