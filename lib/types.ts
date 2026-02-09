@@ -272,3 +272,12 @@ export interface SharePayload {
   text?: string
   platform?: "twitter" | "linkedin" | "whatsapp" | "copy"
 }
+
+
+export interface NotifyPrefs {
+  email?: string
+  sectors?: string[]
+  stages?: string[]
+  minAmount?: number
+  frequency: "daily" | "weekly"
+}
