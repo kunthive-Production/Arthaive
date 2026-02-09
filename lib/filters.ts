@@ -45,3 +45,16 @@ export function removeFilterValue(filters: Record<string, string | string[]>, ke
   if (Array.isArray(current)) return { ...filters, [key]: current.filter(v => v !== value) }
   return { ...filters, [key]: "" }
 }
+
+export function getStageColor(stage: string): string {
+  const map: Record<string, string> = {
+    "Pre-Seed": "bg-purple-100 text-purple-800",
+    "Seed": "bg-green-100 text-green-800",
+    "Series A": "bg-blue-100 text-blue-800",
+    "Series B": "bg-indigo-100 text-indigo-800",
+    "Series C": "bg-yellow-100 text-yellow-800",
+    "Debt": "bg-gray-100 text-gray-800",
+    "Bridge": "bg-orange-100 text-orange-800",
+  }
+  return map[stage] ?? "bg-gray-100 text-gray-700"
+}
