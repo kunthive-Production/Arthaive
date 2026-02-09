@@ -49,3 +49,11 @@ export function buildPieData(items: Array<{ label: string; value: number }>, col
     datasets: [{ data: items.map(i => i.value), backgroundColor: colors.slice(0, items.length) }],
   }
 }
+
+export function calcMovingAverage(values: number[], window = 3): number[] {
+  return values.map((_, i) => {
+    const start = Math.max(0, i - window + 1)
+    const slice = values.slice(start, i + 1)
+    return slice.reduce((a, b) => a + b, 0) / slice.length
+  })
+}
