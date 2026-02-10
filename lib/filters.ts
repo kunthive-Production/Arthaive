@@ -58,3 +58,11 @@ export function getStageColor(stage: string): string {
   }
   return map[stage] ?? "bg-gray-100 text-gray-700"
 }
+
+export function sortDealsByField<T extends Record<string, unknown>>(deals: T[], field: keyof T, order: "asc" | "desc" = "desc"): T[] {
+  return [...deals].sort((a, b) => {
+    const av = a[field], bv = b[field]
+    if (typeof av === "number" && typeof bv === "number") return order === "asc" ? av - bv : bv - av
+    return order === "asc" ? String(av).localeCompare(String(bv)) : String(bv).localeCompare(String(av))
+  })
+}
