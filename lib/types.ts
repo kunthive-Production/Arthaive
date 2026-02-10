@@ -281,3 +281,13 @@ export interface NotifyPrefs {
   minAmount?: number
   frequency: "daily" | "weekly"
 }
+
+
+export interface AnalyticsFilter {
+  dateFrom?: string
+  dateTo?: string
+  sectors?: string[]
+  stages?: string[]
+  cities?: string[]
+  metric: "count" | "amount" | "avg"
+}
