@@ -203,3 +203,9 @@ export const FUNDING_STAGES_ORDER = [
   "Pre-Seed", "Seed", "Series A", "Series B",
   "Series C", "Series D", "Pre-IPO", "Bridge", "Debt",
 ] as const
+
+
+export const TOP_CITIES = [
+  "Bengaluru", "Mumbai", "Delhi NCR", "Hyderabad",
+  "Chennai", "Pune", "Kolkata", "Ahmedabad", "Gurugram",
+] as const
