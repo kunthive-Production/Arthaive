@@ -66,3 +66,10 @@ export function sortDealsByField<T extends Record<string, unknown>>(deals: T[], 
     return order === "asc" ? String(av).localeCompare(String(bv)) : String(bv).localeCompare(String(av))
   })
 }
+
+export function paginateArray<T>(arr: T[], page: number, size: number): { items: T[]; total: number; totalPages: number } {
+  const total = arr.length
+  const totalPages = Math.ceil(total / size)
+  const items = arr.slice((page - 1) * size, page * size)
+  return { items, total, totalPages }
+}
