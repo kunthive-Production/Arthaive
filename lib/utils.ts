@@ -463,3 +463,7 @@ export function camelToKebab(str: string): string {
 export function kebabToCamel(str: string): string {
   return str.replace(/-([a-z])/g, (_, c) => c.toUpperCase())
 }
+
+export function stripHtml(html: string): string {
+  return html.replace(/<[^>]*>/g, "")
+}
