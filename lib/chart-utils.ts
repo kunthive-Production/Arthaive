@@ -57,3 +57,8 @@ export function calcMovingAverage(values: number[], window = 3): number[] {
     return slice.reduce((a, b) => a + b, 0) / slice.length
   })
 }
+
+export function normalizeToPercent(values: number[]): number[] {
+  const total = values.reduce((a, b) => a + b, 0)
+  return total ? values.map(v => (v / total) * 100) : values.map(() => 0)
+}
