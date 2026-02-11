@@ -209,3 +209,8 @@ export const TOP_CITIES = [
   "Bengaluru", "Mumbai", "Delhi NCR", "Hyderabad",
   "Chennai", "Pune", "Kolkata", "Ahmedabad", "Gurugram",
 ] as const
+
+
+export const BREAKPOINTS = {
+  sm: 640, md: 768, lg: 1024, xl: 1280,
+} as const
