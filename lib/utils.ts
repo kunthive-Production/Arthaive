@@ -467,3 +467,7 @@ export function kebabToCamel(str: string): string {
 export function stripHtml(html: string): string {
   return html.replace(/<[^>]*>/g, "")
 }
+
+export function formatNumber(n: number): string {
+  return new Intl.NumberFormat("en-IN").format(Math.round(n))
+}
