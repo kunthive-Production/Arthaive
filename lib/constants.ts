@@ -214,3 +214,13 @@ export const TOP_CITIES = [
 export const BREAKPOINTS = {
   sm: 640, md: 768, lg: 1024, xl: 1280,
 } as const
+
+
+export const DEFAULT_FILTERS = {
+  sector: [] as string[],
+  stage: [] as string[],
+  location: "",
+  search: "",
+  page: 1,
+  pageSize: 20,
+}
