@@ -84,3 +84,7 @@ export function buildMonthlyTrend(deals: Array<{ date?: string; amount?: number 
   }
   return Object.entries(byMonth).sort(([a], [b]) => a.localeCompare(b)).map(([month, v]) => ({ month, ...v }))
 }
+
+export function topN<T>(items: T[], n: number, scoreFn: (item: T) => number): T[] {
+  return [...items].sort((a, b) => scoreFn(b) - scoreFn(a)).slice(0, n)
+}
