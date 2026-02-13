@@ -305,3 +305,12 @@ export type FundingStage =
   | "Pre-Seed" | "Seed" | "Series A" | "Series B"
   | "Series C" | "Series D" | "Series E"
   | "Pre-IPO" | "Bridge" | "Debt" | "Grant"
+
+
+export type DealSource = "scrape" | "press" | "filing" | "tip" | "manual"
+
+export interface DealMeta {
+  source: DealSource
+  confidence: "high" | "medium" | "low"
+  verifiedAt?: string
+}
