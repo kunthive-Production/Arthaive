@@ -74,3 +74,10 @@ export function getChartColorByIndex(idx: number): string {
   const palette = ["#15803d","#1d4ed8","#7c3aed","#b45309","#dc2626","#0891b2","#db2777","#65a30d","#9333ea","#0d9488"]
   return palette[idx % palette.length]
 }
+
+export function buildStackedBarData(series: Array<{ label: string; data: number[]; color: string }>, xLabels: string[]): object {
+  return {
+    labels: xLabels,
+    datasets: series.map(s => ({ label: s.label, data: s.data, backgroundColor: s.color, stack: "stack0" })),
+  }
+}
