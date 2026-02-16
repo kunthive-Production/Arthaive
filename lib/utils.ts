@@ -496,3 +496,7 @@ export function chunkArray<T>(arr: T[], size: number): T[][] {
   for (let i = 0; i < arr.length; i += size) result.push(arr.slice(i, i + size))
   return result
 }
+
+export function flatUnique<T>(arrays: T[][]): T[] {
+  return [...new Set(arrays.flat())]
+}
