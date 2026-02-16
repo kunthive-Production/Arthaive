@@ -322,3 +322,12 @@ export interface PaginationState {
   total: number
   totalPages: number
 }
+
+
+export interface TableColumn<T = unknown> {
+  key: string
+  label: string
+  sortable?: boolean
+  render?: (value: T) => string
+  width?: number
+}
