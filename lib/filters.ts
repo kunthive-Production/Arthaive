@@ -104,3 +104,13 @@ export function buildSectorStats(deals: Array<{ sectors?: string[]; amount?: num
   }
   return stats
 }
+
+export function buildCityStats(deals: Array<{ location?: string; amount?: number }>): Record<string, { count: number; total: number }> {
+  const stats: Record<string, { count: number; total: number }> = {}
+  for (const deal of deals) {
+    const city = deal.location ?? "Unknown"
+    if (!stats[city]) stats[city] = { count: 0, total: 0 }
+    stats[city].count++; stats[city].total += deal.amount ?? 0
+  }
+  return stats
+}
