@@ -78,3 +78,14 @@ export function aggregateDealsByQuarter(deals: Array<{ date?: string; amount?: n
   }
   return stats
 }
+
+export function buildInvestorProfile(name: string, deals: Array<{ investors?: string[]; sectors?: string[]; stage?: string; amount?: number; date?: string }>): { name: string; dealCount: number; totalDeployed: number; sectors: string[]; stages: string[] } {
+  const myDeals = deals.filter(d => d.investors?.includes(name))
+  return {
+    name,
+    dealCount: myDeals.length,
+    totalDeployed: myDeals.reduce((s, d) => s + (d.amount ?? 0), 0),
+    sectors: [...new Set(myDeals.flatMap(d => d.sectors ?? []))],
+    stages: [...new Set(myDeals.map(d => d.stage).filter(Boolean) as string[])],
+  }
+}
