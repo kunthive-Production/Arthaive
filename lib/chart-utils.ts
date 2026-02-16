@@ -92,3 +92,10 @@ export function calcTrendLine(points: number[]): { slope: number; intercept: num
   const slope = den ? num / den : 0
   return { slope, intercept: meanY - slope * meanX }
 }
+
+export function buildDonutData(items: Array<{ label: string; value: number }>, colors: string[]): object {
+  return {
+    labels: items.map(i => i.label),
+    datasets: [{ data: items.map(i => i.value), backgroundColor: colors, cutout: "65%" }],
+  }
+}
