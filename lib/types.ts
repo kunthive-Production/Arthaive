@@ -331,3 +331,11 @@ export interface TableColumn<T = unknown> {
   render?: (value: T) => string
   width?: number
 }
+
+
+export interface FilterPreset {
+  id: string
+  name: string
+  filters: DealFilters
+  createdAt: string
+}
