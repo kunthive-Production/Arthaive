@@ -120,3 +120,8 @@ export function buildAreaData(points: Array<{ x: string; y: number }>, color = "
     }],
   }
 }
+
+export function calcYAxisMax(values: number[], roundTo = 1000): number {
+  const max = Math.max(...values, 0)
+  return Math.ceil(max / roundTo) * roundTo
+}
