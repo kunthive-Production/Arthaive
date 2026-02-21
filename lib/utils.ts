@@ -528,3 +528,14 @@ export function omit<T extends object, K extends keyof T>(obj: T, keys: K[]): Om
 export function mapValues<T, U>(obj: Record<string, T>, fn: (v: T, k: string) => U): Record<string, U> {
   return Object.fromEntries(Object.entries(obj).map(([k, v]) => [k, fn(v, k)]))
 }
+
+export function deepMerge<T extends Record<string, unknown>>(base: T, override: Partial<T>): T {
+  const result = { ...base }
+  for (const key in override) {
+    const v = override[key]
+    if (v && typeof v === "object" && !Array.isArray(v)) {
+      result[key] = deepMerge(base[key] as Record<string, unknown>, v as Record<string, unknown>) as T[typeof key]
+    } else if (v !== undefined) { result[key] = v as T[typeof key] }
+  }
+  return result
+}
