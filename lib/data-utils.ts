@@ -130,3 +130,12 @@ export function computeFundingMatrix(deals: Array<{ sectors?: string[]; stage?: 
 export function normalizeInvestorName(name: string): string {
   return name.trim().replace(/\s+/g, " ").replace(/(\s+fund|\s+ventures|\s+capital|\s+partners)$/i, "")
 }
+
+export function matchDuplicateDeals<T extends { company?: string; amount?: number; date?: string }>(a: T, b: T, threshold = 0.8): boolean {
+  if (!a.company || !b.company) return false
+  const sameName = a.company.toLowerCase() === b.company.toLowerCase()
+  const sameAmount = a.amount === b.amount
+  const sameDate = a.date?.slice(0, 7) === b.date?.slice(0, 7)
+  const score = (sameName ? 0.5 : 0) + (sameAmount ? 0.3 : 0) + (sameDate ? 0.2 : 0)
+  return score >= threshold
+}
