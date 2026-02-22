@@ -145,3 +145,13 @@ export function buildTimeAxis(from: string, to: string, unit: "month" | "quarter
   }
   return [...new Set(result)]
 }
+
+export function buildBubbleData(items: Array<{ x: number; y: number; r: number; label: string }>): object {
+  return {
+    datasets: items.map((item, i) => ({
+      label: item.label,
+      data: [{ x: item.x, y: item.y, r: item.r }],
+      backgroundColor: getChartColorByIndex(i) + "99",
+    })),
+  }
+}
