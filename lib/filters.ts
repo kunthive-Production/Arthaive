@@ -160,3 +160,8 @@ export function buildInvestorIndex(deals: Array<{ investors?: string[] }>): Reco
   }
   return idx
 }
+
+export function calcMarketShare(stats: Record<string, { total: number }>): Record<string, number> {
+  const grand = Object.values(stats).reduce((s, v) => s + v.total, 0)
+  return Object.fromEntries(Object.entries(stats).map(([k, v]) => [k, grand ? (v.total / grand) * 100 : 0]))
+}
