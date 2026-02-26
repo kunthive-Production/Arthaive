@@ -149,3 +149,5 @@ export function deserializeDeal(json: string): Record<string, unknown> {
 }
 
 // data-utils — updated 2026-02-25
+
+// data-utils — updated 2026-02-26
