@@ -167,3 +167,14 @@ export function buildRadarData(labels: string[], datasets: Array<{ label: string
     })),
   }
 }
+
+export function buildAnnotations(points: Array<{ index: number; label: string; color?: string }>): object[] {
+  return points.map(p => ({
+    type: "line",
+    xMin: p.index,
+    xMax: p.index,
+    borderColor: p.color ?? "#ef4444",
+    borderWidth: 1,
+    label: { content: p.label, display: true, position: "start" },
+  }))
+}
