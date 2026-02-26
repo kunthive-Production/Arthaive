@@ -570,3 +570,7 @@ export function formatDealAge(dateStr: string): string {
   if (days < 30) return `${Math.floor(days / 7)}w ago`
   return `${Math.floor(days / 30)}mo ago`
 }
+
+export function isRecentDeal(dateStr: string, withinDays = 30): boolean {
+  return (Date.now() - new Date(dateStr).getTime()) / 86400000 <= withinDays
+}
