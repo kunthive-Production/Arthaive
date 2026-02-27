@@ -574,3 +574,8 @@ export function formatDealAge(dateStr: string): string {
 export function isRecentDeal(dateStr: string, withinDays = 30): boolean {
   return (Date.now() - new Date(dateStr).getTime()) / 86400000 <= withinDays
 }
+
+export function zipArrays<A, B>(a: A[], b: B[]): Array<[A, B]> {
+  const len = Math.min(a.length, b.length)
+  return Array.from({ length: len }, (_, i) => [a[i], b[i]])
+}
