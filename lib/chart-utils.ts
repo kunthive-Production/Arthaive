@@ -185,3 +185,11 @@ export function buildTreemapData(items: Array<{ label: string; value: number; gr
   const leafNodes = items.map((item, i) => ({ id: `leaf-${i}`, parent: item.group ?? "root", value: item.value, label: item.label }))
   return [{ id: "root", parent: "", value: 0, label: "All" }, ...groupNodes, ...leafNodes]
 }
+
+export function formatTooltipValue(value: number, metric: "amount" | "count" | "percent" = "amount"): string {
+  if (metric === "percent") return value.toFixed(1) + "%"
+  if (metric === "count") return String(Math.round(value))
+  if (value >= 1e7) return "\u20b9" + (value / 1e7).toFixed(1) + "Cr"
+  if (value >= 1e5) return "\u20b9" + (value / 1e5).toFixed(1) + "L"
+  return "\u20b9" + value.toLocaleString("en-IN")
+}
