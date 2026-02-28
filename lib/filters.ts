@@ -191,3 +191,11 @@ export function parseCSVString(csv: string): Array<Record<string, string>> {
     return Object.fromEntries(keys.map((k, i) => [k.trim(), (vals[i] ?? "").trim()]))
   })
 }
+
+export function validateDealRecord(deal: Record<string, unknown>): string[] {
+  const errors: string[] = []
+  if (!deal.company) errors.push("company required")
+  if (!deal.amount || isNaN(Number(deal.amount))) errors.push("valid amount required")
+  if (!deal.date || !/^\d{4}-\d{2}-\d{2}$/.test(String(deal.date))) errors.push("date must be YYYY-MM-DD")
+  return errors
+}
