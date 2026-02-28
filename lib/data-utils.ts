@@ -171,3 +171,7 @@ export function chunkDeals<T>(deals: T[], batchSize = 100): T[][] {
 // data-utils — updated 2026-02-28
 
 // data-utils — updated 2026-02-28
+
+export function applyDealTransforms<T>(deals: T[], transforms: Array<(d: T) => T>): T[] {
+  return deals.map(deal => transforms.reduce((d, fn) => fn(d), deal))
+}
