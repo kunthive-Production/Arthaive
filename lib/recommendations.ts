@@ -1,0 +1,36 @@
+import type { FundingDeal as Deal } from "@/data/funding-data"
+
+function featureVector(deal: Deal, allSectors: string[], allStages: string[]): number[] {
+  const sectorVec = allSectors.map((s) => (deal.sectors?.includes(s) ? 1 : 0))
+  const stageVec = allStages.map((s) => (deal.stage === s ? 1 : 0))
+  const amountBucket = Math.min(Math.floor(Math.log10(deal.amount + 1)), 4)
+  return [...sectorVec, ...stageVec, amountBucket / 4]
+}
+
+function cosineSimilarity(a: number[], b: number[]): number {
+  const dot = a.reduce((s, v, i) => s + v * b[i], 0)
+  const magA = Math.sqrt(a.reduce((s, v) => s + v * v, 0))
+  const magB = Math.sqrt(b.reduce((s, v) => s + v * v, 0))
+  return magA && magB ? dot / (magA * magB) : 0
+}
+
+export function getSimilarDeals(
+  target: Deal,
+  allDeals: Deal[],
+  n = 5
+): Deal[] {
+  const allSectors = [...new Set(allDeals.flatMap((d) => d.sectors ?? []))]
+  const allStages = [...new Set(allDeals.map((d) => d.stage))]
+
+  const targetVec = featureVector(target, allSectors, allStages)
+
+  return allDeals
+    .filter((d) => d.id !== target.id)
+    .map((deal) => ({
+      deal,
+      score: cosineSimilarity(targetVec, featureVector(deal, allSectors, allStages)),
+    }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, n)
+    .map(({ deal }) => deal)
+}
