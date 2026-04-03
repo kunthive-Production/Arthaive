@@ -34,3 +34,8 @@ export async function copyToClipboard(text: string): Promise<boolean> {
     return false
   }
 }
+
+
+export function buildDealUrl(dealId: string): string {
+  return `/deal/${encodeURIComponent(dealId)}`
+}
