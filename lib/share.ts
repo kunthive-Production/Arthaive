@@ -39,3 +39,8 @@ export async function copyToClipboard(text: string): Promise<boolean> {
 export function buildDealUrl(dealId: string): string {
   return `/deal/${encodeURIComponent(dealId)}`
 }
+
+
+export function buildInvestorUrl(name: string): string {
+  return `/investors/${encodeURIComponent(name.toLowerCase().replace(/\s+/g, "-"))}`
+}
