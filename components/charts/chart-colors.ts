@@ -21,3 +21,7 @@ export const STAGE_COLORS: Record<string, string> = {
 export function colorForIndex(i: number): string {
   return CHART_COLORS[i % CHART_COLORS.length]
 }
+
+
+export const CHART_GRID_COLOR = "hsl(var(--muted))"
+export const CHART_AXIS_COLOR = "hsl(var(--muted-foreground))"
