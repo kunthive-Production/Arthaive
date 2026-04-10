@@ -39,3 +39,7 @@ export const TOOLTIP_STYLE = {
   borderRadius: "6px",
   fontSize: 12,
 }
+
+
+export const CHART_ANIMATION_MS = 400
+export const CHART_ANIMATION_EASING = "ease-out"
