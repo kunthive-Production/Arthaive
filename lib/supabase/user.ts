@@ -35,3 +35,14 @@ export async function upsertProfile(
   if (error) throw error
   return data
 }
+
+
+export async function getPublicProfile(userId: string) {
+  const supabase = await createClient()
+  const { data } = await supabase
+    .from("profiles")
+    .select("id, full_name, avatar_url")
+    .eq("id", userId)
+    .single()
+  return data
+}
