@@ -34,3 +34,23 @@ export function getSimilarDeals(
     .slice(0, n)
     .map(({ deal }) => deal)
 }
+
+
+export function getRelatedSectors(
+  targetSectors: string[],
+  allDeals: import("@/data/funding-data").FundingDeal[]
+): string[] {
+  const coOccurrence = new Map<string, number>()
+  for (const d of allDeals) {
+    if (!d.sectors?.some((s) => targetSectors.includes(s))) continue
+    for (const s of d.sectors ?? []) {
+      if (!targetSectors.includes(s)) {
+        coOccurrence.set(s, (coOccurrence.get(s) ?? 0) + 1)
+      }
+    }
+  }
+  return Array.from(coOccurrence.entries())
+    .sort(([, a], [, b]) => b - a)
+    .slice(0, 5)
+    .map(([s]) => s)
+}
