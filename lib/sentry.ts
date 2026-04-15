@@ -35,3 +35,11 @@ export function setUser(userId: string, email: string) {
     console.debug("[Sentry] setUser", { userId, email })
   }
 }
+
+
+export function startTransaction(name: string, op: string) {
+  if (process.env.NODE_ENV === "development") {
+    console.debug(`[Sentry] startTransaction: ${name} (${op})`)
+  }
+  return { finish: () => {} }
+}
