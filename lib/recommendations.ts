@@ -69,3 +69,21 @@ export function getTopInvestorsByDeals(
     .slice(0, n)
     .map(([name]) => name)
 }
+
+
+export function buildSectorCoOccurrence(
+  deals: import("@/data/funding-data").FundingDeal[]
+): Map<string, Map<string, number>> {
+  const matrix = new Map<string, Map<string, number>>()
+  for (const deal of deals) {
+    const sectors = deal.sectors ?? []
+    for (const s1 of sectors) {
+      if (!matrix.has(s1)) matrix.set(s1, new Map())
+      for (const s2 of sectors) {
+        if (s1 === s2) continue
+        matrix.get(s1)!.set(s2, (matrix.get(s1)!.get(s2) ?? 0) + 1)
+      }
+    }
+  }
+  return matrix
+}
