@@ -54,3 +54,16 @@ export function buildSectorUrl(sector: string): string {
 export function getShareTitle(company: string, stage: string): string {
   return `${company} · ${stage} | India Startup Funding`
 }
+
+
+export function encodeFilters(filters: Record<string, unknown>): string {
+  return btoa(JSON.stringify(filters))
+}
+
+export function decodeFilters(encoded: string): Record<string, unknown> {
+  try {
+    return JSON.parse(atob(encoded))
+  } catch {
+    return {}
+  }
+}
