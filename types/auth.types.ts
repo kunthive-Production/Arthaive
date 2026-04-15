@@ -43,3 +43,11 @@ export interface NotificationPreferences {
   weeklyDigest: boolean
   newDealToast: boolean
 }
+
+
+export type DateRange = {
+  from: string
+  to: string
+}
+
+export type ChartGrouping = "day" | "week" | "month" | "quarter" | "year"
