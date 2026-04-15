@@ -28,3 +28,10 @@ export function addBreadcrumb(
     console.debug(`[Sentry breadcrumb][${category}]`, message, data)
   }
 }
+
+
+export function setUser(userId: string, email: string) {
+  if (process.env.NODE_ENV === "development") {
+    console.debug("[Sentry] setUser", { userId, email })
+  }
+}
