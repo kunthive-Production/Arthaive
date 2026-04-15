@@ -28,3 +28,11 @@ export const AUTH_ERROR_CODES = {
   SESSION_EXPIRED: "session_expired",
   RATE_LIMITED: "over_email_send_rate_limit",
 } as const
+
+
+export class AuthSessionExpiredError extends Error {
+  constructor() {
+    super("Session expired. Please sign in again.")
+    this.name = "AuthSessionExpiredError"
+  }
+}
