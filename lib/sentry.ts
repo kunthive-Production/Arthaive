@@ -17,3 +17,14 @@ export function captureMessage(message: string, level: "info" | "warning" | "err
     console.log(`[Sentry stub][${level}]`, message)
   }
 }
+
+
+export function addBreadcrumb(
+  message: string,
+  category: string,
+  data?: Record<string, unknown>
+) {
+  if (process.env.NODE_ENV === "development") {
+    console.debug(`[Sentry breadcrumb][${category}]`, message, data)
+  }
+}
