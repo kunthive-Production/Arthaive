@@ -79,3 +79,10 @@ export function diffFilters(
   }
   return diff
 }
+
+
+export function formatAmount(amount: number): string {
+  if (amount >= 10000) return `₹${(amount / 1000).toFixed(1)}K Cr`
+  if (amount >= 1000) return `₹${(amount / 1000).toFixed(2)}K Cr`
+  return `₹${amount.toLocaleString("en-IN")} Cr`
+}
