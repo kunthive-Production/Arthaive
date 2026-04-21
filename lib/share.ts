@@ -92,3 +92,11 @@ export function isoDayOfWeek(dateStr: string): number {
   const d = new Date(dateStr)
   return d.getDay() === 0 ? 7 : d.getDay()
 }
+
+
+export function quarterLabel(dateStr: string): string {
+  const month = parseInt(dateStr.slice(5, 7), 10)
+  const year = dateStr.slice(2, 4)
+  const q = Math.ceil(month / 3)
+  return `Q${q} FY${year}`
+}
