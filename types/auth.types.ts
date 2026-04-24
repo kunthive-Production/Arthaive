@@ -58,3 +58,10 @@ export interface ChartAnnotation {
   label: string
   color?: string
 }
+
+
+export interface SectorFilter {
+  sectors: string[]
+  excludeSectors: string[]
+  minDealCount: number
+}
