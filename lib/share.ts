@@ -105,3 +105,8 @@ export function quarterLabel(dateStr: string): string {
 export function getOgImageUrl(type: "deal" | "sector" | "investor", slug: string): string {
   return `/api/og?type=${type}&slug=${encodeURIComponent(slug)}`
 }
+
+
+export function clipAmount(amount: number, max = 10000): number {
+  return Math.min(amount, max)
+}
