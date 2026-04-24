@@ -51,3 +51,10 @@ export type DateRange = {
 }
 
 export type ChartGrouping = "day" | "week" | "month" | "quarter" | "year"
+
+
+export interface ChartAnnotation {
+  date: string
+  label: string
+  color?: string
+}
