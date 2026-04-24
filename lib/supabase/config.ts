@@ -20,3 +20,8 @@ export function validateConfig(): { valid: boolean; missing: string[] } {
   if (!SUPABASE_ANON_KEY) missing.push("NEXT_PUBLIC_SUPABASE_ANON_KEY")
   return { valid: missing.length === 0, missing }
 }
+
+
+export const QUERY_CACHE_TIME = 5 * 60 * 1000
+export const REALTIME_TIMEOUT = 30 * 1000
+export const MAX_RETRY_ATTEMPTS = 3
