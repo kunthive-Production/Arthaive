@@ -110,3 +110,9 @@ export function getOgImageUrl(type: "deal" | "sector" | "investor", slug: string
 export function clipAmount(amount: number, max = 10000): number {
   return Math.min(amount, max)
 }
+
+
+export function safeDealUrl(dealId: string | undefined): string {
+  if (!dealId) return "/explore"
+  return buildDealUrl(dealId)
+}
