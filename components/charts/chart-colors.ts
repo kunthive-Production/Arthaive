@@ -74,3 +74,14 @@ export function hexToRgba(hex: string, alpha: number): string {
   const b = parseInt(hex.slice(5, 7), 16)
   return `rgba(${r},${g},${b},${alpha})`
 }
+
+
+export function niceChartDomain(
+  values: number[],
+  paddingFactor = 0.1
+): [number, number] {
+  const min = Math.min(...values)
+  const max = Math.max(...values)
+  const pad = (max - min) * paddingFactor
+  return [Math.max(0, min - pad), max + pad]
+}
