@@ -121,3 +121,15 @@ export function safeDealUrl(dealId: string | undefined): string {
 export function isValidAmount(amount: unknown): amount is number {
   return typeof amount === "number" && isFinite(amount) && amount >= 0
 }
+
+
+export function formatTimeAgo(isoDate: string): string {
+  const diff = Date.now() - new Date(isoDate).getTime()
+  const secs = Math.floor(diff / 1000)
+  if (secs < 60) return `${secs}s ago`
+  const mins = Math.floor(secs / 60)
+  if (mins < 60) return `${mins}m ago`
+  const hours = Math.floor(mins / 60)
+  if (hours < 24) return `${hours}h ago`
+  return `${Math.floor(hours / 24)}d ago`
+}
