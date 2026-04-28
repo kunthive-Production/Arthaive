@@ -29,3 +29,7 @@ export const MAX_RETRY_ATTEMPTS = 3
 
 export const LIVE_FEED_MAX_ITEMS = 50
 export const LIVE_FEED_TOAST_DURATION = 4000
+
+
+export const REALTIME_DEALS_CHANNEL = "deals-live"
+export const REALTIME_ALERTS_CHANNEL = "user-alerts"
