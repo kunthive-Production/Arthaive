@@ -97,3 +97,10 @@ export interface LiveFeedState {
   paused: boolean
   totalReceived: number
 }
+
+
+export interface FeedEventCounters {
+  today: number
+  thisWeek: number
+  thisMonth: number
+}
