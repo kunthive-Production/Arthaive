@@ -89,3 +89,11 @@ export interface LiveFeedFilters {
   minAmount?: number
   paused: boolean
 }
+
+
+export interface LiveFeedState {
+  deals: import("@/data/funding-data").FundingDeal[]
+  connected: boolean
+  paused: boolean
+  totalReceived: number
+}
