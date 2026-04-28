@@ -222,3 +222,14 @@ export function calculateCAGR(
   if (!startValue || !years) return 0
   return Math.round(((Math.pow(endValue / startValue, 1 / years) - 1) * 100) * 10) / 10
 }
+
+
+export function dealDensity(
+  sector: string,
+  city: string,
+  deals: import("@/data/funding-data").FundingDeal[]
+): number {
+  return deals.filter(
+    (d) => d.sectors?.includes(sector) && d.location === city
+  ).length
+}
