@@ -233,3 +233,16 @@ export function dealDensity(
     (d) => d.sectors?.includes(sector) && d.location === city
   ).length
 }
+
+
+export function investorStageBreakdown(
+  investorName: string,
+  deals: import("@/data/funding-data").FundingDeal[]
+): Record<string, number> {
+  const result: Record<string, number> = {}
+  for (const d of deals) {
+    if (d.leadInvestor !== investorName && !d.investors?.includes(investorName)) continue
+    result[d.stage] = (result[d.stage] ?? 0) + 1
+  }
+  return result
+}
