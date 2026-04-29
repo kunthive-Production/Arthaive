@@ -151,3 +151,17 @@ export interface DealCardConfig {
   showWatchlist: boolean
   showSimilar: boolean
 }
+
+
+export interface FilterPreset {
+  id: string
+  name: string
+  filters: Record<string, unknown>
+  isDefault: boolean
+}
+
+export const DEFAULT_FILTER_PRESETS: FilterPreset[] = [
+  { id: "all", name: "All Deals", filters: {}, isDefault: true },
+  { id: "seed", name: "Seed Stage", filters: { stages: ["Seed","Pre-Seed"] }, isDefault: false },
+  { id: "large", name: "Large Rounds (>100 Cr)", filters: { minAmount: 100 }, isDefault: false },
+]
