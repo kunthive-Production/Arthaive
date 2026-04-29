@@ -171,3 +171,14 @@ export function absoluteUrl(path: string): string {
 export function canonicalUrl(path: string): string {
   return absoluteUrl(path).split("?")[0]
 }
+
+
+export function buildDealMetaDescription(
+  company: string,
+  amount: number,
+  stage: string,
+  sectors: string[]
+): string {
+  const sectorStr = sectors.slice(0, 2).join(" and ")
+  return `${company} raised ₹${amount.toLocaleString("en-IN")} Cr in ${stage} funding. ${sectorStr} sector. Track all Indian startup deals.`
+}
