@@ -33,3 +33,9 @@ export const LIVE_FEED_TOAST_DURATION = 4000
 
 export const REALTIME_DEALS_CHANNEL = "deals-live"
 export const REALTIME_ALERTS_CHANNEL = "user-alerts"
+
+
+export const ISR_REVALIDATE_ANALYTICS = 3600
+export const ISR_REVALIDATE_SECTORS = 86400
+export const ISR_REVALIDATE_INVESTORS = 86400
+export const ISR_REVALIDATE_HOME = 1800
