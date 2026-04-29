@@ -160,3 +160,9 @@ export function formatUsd(amount: number): string {
   if (amount >= 1_000) return `$${(amount / 1_000).toFixed(0)}K`
   return `$${amount}`
 }
+
+
+export function absoluteUrl(path: string): string {
+  const base = process.env.NEXT_PUBLIC_BASE_URL ?? "https://ind-startup-funding.vercel.app"
+  return `${base}${path.startsWith("/") ? path : `/${path}`}`
+}
