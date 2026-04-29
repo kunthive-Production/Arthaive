@@ -39,3 +39,8 @@ export const ISR_REVALIDATE_ANALYTICS = 3600
 export const ISR_REVALIDATE_SECTORS = 86400
 export const ISR_REVALIDATE_INVESTORS = 86400
 export const ISR_REVALIDATE_HOME = 1800
+
+
+export function cacheKey(...parts: string[]): string {
+  return parts.join(":")
+}
