@@ -166,3 +166,8 @@ export function absoluteUrl(path: string): string {
   const base = process.env.NEXT_PUBLIC_BASE_URL ?? "https://ind-startup-funding.vercel.app"
   return `${base}${path.startsWith("/") ? path : `/${path}`}`
 }
+
+
+export function canonicalUrl(path: string): string {
+  return absoluteUrl(path).split("?")[0]
+}
