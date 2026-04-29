@@ -128,3 +128,7 @@ export interface SchemaOrgFinancialTransaction {
   currency: "INR"
   sender: SchemaOrgOrganization
 }
+
+
+export const AVATAR_SIZES = [32, 64, 128] as const
+export type AvatarSize = (typeof AVATAR_SIZES)[number]
