@@ -141,3 +141,13 @@ export interface AppNotification {
   description?: string
   duration?: number
 }
+
+
+export type DealCardVariant = "default" | "compact" | "detailed" | "featured"
+
+export interface DealCardConfig {
+  variant: DealCardVariant
+  showBookmark: boolean
+  showWatchlist: boolean
+  showSimilar: boolean
+}
