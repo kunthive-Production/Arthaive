@@ -44,3 +44,12 @@ export const ISR_REVALIDATE_HOME = 1800
 export function cacheKey(...parts: string[]): string {
   return parts.join(":")
 }
+
+
+export const PERF_BUDGET = {
+  FCP: 1500,
+  LCP: 2500,
+  CLS: 0.1,
+  FID: 100,
+  TTFB: 800,
+}
