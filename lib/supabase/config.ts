@@ -74,3 +74,8 @@ export function requireServiceRole() {
     throw new Error("SUPABASE_SERVICE_ROLE_KEY not configured")
   }
 }
+
+
+export const DATA_CURRENCY_SYMBOL = "₹"
+export const DATA_CURRENCY_UNIT = "Cr"
+export const DATA_USD_RATE = 83.5
