@@ -174,3 +174,12 @@ export interface PipelineStats {
   errorsFound: number
   lastRun: string
 }
+
+
+export interface DataQualityScore {
+  dealId: string
+  completeness: number
+  sourceReliability: number
+  amountConfidence: number
+  overall: number
+}
