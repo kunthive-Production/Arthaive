@@ -67,3 +67,10 @@ export const EXPORT_LIMIT = 5000
 export const RATE_LIMIT_WINDOW_MS = 60 * 1000
 export const RATE_LIMIT_MAX_REQUESTS = 100
 export const EXPORT_RATE_LIMIT = 10
+
+
+export function requireServiceRole() {
+  if (!SUPABASE_SERVICE_ROLE_KEY) {
+    throw new Error("SUPABASE_SERVICE_ROLE_KEY not configured")
+  }
+}
