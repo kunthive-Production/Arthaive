@@ -236,3 +236,6 @@ export type FundingGeoData = GeoCoordinate & {
   totalFunding: number
   dealCount: number
 }
+
+
+export type { Database } from "./database.types"
