@@ -239,3 +239,10 @@ export type FundingGeoData = GeoCoordinate & {
 
 
 export type { Database } from "./database.types"
+
+
+export interface RobotsRule {
+  userAgent: string
+  allow?: string[]
+  disallow?: string[]
+}
