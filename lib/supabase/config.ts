@@ -79,3 +79,13 @@ export function requireServiceRole() {
 export const DATA_CURRENCY_SYMBOL = "₹"
 export const DATA_CURRENCY_UNIT = "Cr"
 export const DATA_USD_RATE = 83.5
+
+
+export const SITEMAP_PRIORITIES = {
+  home: 1.0,
+  analytics: 0.9,
+  explore: 0.9,
+  investors: 0.8,
+  deal: 0.5,
+  sector: 0.7,
+} as const
