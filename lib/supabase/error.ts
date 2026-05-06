@@ -42,3 +42,23 @@ export function shouldRetry(err: unknown): boolean {
   if (!isAuthError(err)) return false
   return !["invalid_credentials","user_not_found"].includes((err as import("@supabase/supabase-js").AuthError).code ?? "")
 }
+
+
+export async function withRetry<T>(
+  fn: () => Promise<T>,
+  maxAttempts = 3,
+  baseDelay = 500
+): Promise<T> {
+  let lastError: unknown
+  for (let i = 0; i < maxAttempts; i++) {
+    try {
+      return await fn()
+    } catch (err) {
+      lastError = err
+      if (i < maxAttempts - 1) {
+        await new Promise((r) => setTimeout(r, baseDelay * Math.pow(2, i)))
+      }
+    }
+  }
+  throw lastError
+}
