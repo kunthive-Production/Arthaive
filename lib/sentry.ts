@@ -80,3 +80,10 @@ export const SENTRY_CONFIG = {
   replaysSessionSampleRate: 0.05,
   replaysOnErrorSampleRate: 1.0,
 } as const
+
+
+export function logSlowQuery(query: string, durationMs: number, threshold = 500) {
+  if (durationMs > threshold) {
+    captureMessage(`Slow query: ${query} (${durationMs}ms)`, "warning")
+  }
+}
