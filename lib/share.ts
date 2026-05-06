@@ -201,3 +201,8 @@ export function arrayToCsv(rows: Record<string, unknown>[]): string {
 export function memoKey(...parts: (string | number | boolean | null | undefined)[]): string {
   return parts.map((p) => String(p ?? "")).join("|")
 }
+
+
+export function buildAvatarSrcSet(baseUrl: string): string {
+  return [32, 64, 128].map((s) => `${baseUrl}?w=${s} ${s}w`).join(", ")
+}
