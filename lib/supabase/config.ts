@@ -112,3 +112,7 @@ export function requestKey(method: string, url: string, params?: Record<string, 
   const paramStr = params ? JSON.stringify(params) : ""
   return `${method}:${url}:${paramStr}`
 }
+
+
+export const GZIP_THRESHOLD = 1024
+export const MAX_RESPONSE_SIZE = 10 * 1024 * 1024
