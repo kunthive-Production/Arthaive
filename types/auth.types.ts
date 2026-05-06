@@ -255,3 +255,11 @@ export interface PageMeta {
   ogImage?: string
   noIndex?: boolean
 }
+
+
+export interface CursorPage<T> {
+  items: T[]
+  nextCursor: string | null
+  hasMore: boolean
+  total?: number
+}
