@@ -293,3 +293,10 @@ export interface ApiMeta {
   generatedAt: string
   cacheHit?: boolean
 }
+
+
+export interface ErrorBoundaryState {
+  hasError: boolean
+  error: Error | null
+  errorInfo: { componentStack: string } | null
+}
