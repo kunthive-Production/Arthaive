@@ -124,3 +124,8 @@ export const REQUIRED_ENV_VARS = [
 ] as const
 
 export type RequiredEnvVar = (typeof REQUIRED_ENV_VARS)[number]
+
+
+export const APP_VERSION = process.env.NEXT_PUBLIC_APP_VERSION ?? "1.0.0"
+export const API_VERSION = "v1"
+export const DATA_VERSION = "2026-05"
