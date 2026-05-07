@@ -107,3 +107,14 @@ export function logStructuredError(
   captureException(err, { ...context, classification })
   if (context.userId) setUser(context.userId, "")
 }
+
+
+export function getErrorRecoverySuggestion(err: unknown): string {
+  const type = classifyError(err)
+  switch (type) {
+    case "auth": return "Please sign in again to continue."
+    case "network": return "Check your connection and try again."
+    case "data": return "The data could not be loaded. Try refreshing."
+    default: return "Something went wrong. Please try again."
+  }
+}
