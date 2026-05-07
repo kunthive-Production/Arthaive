@@ -87,3 +87,13 @@ export function logSlowQuery(query: string, durationMs: number, threshold = 500)
     captureMessage(`Slow query: ${query} (${durationMs}ms)`, "warning")
   }
 }
+
+
+export function classifyError(err: unknown): "auth" | "network" | "data" | "unknown" {
+  if (err instanceof Error) {
+    if (err.message.includes("401") || err.message.includes("auth")) return "auth"
+    if (err.message.includes("fetch") || err.message.includes("network")) return "network"
+    if (err.message.includes("parse") || err.message.includes("JSON")) return "data"
+  }
+  return "unknown"
+}
