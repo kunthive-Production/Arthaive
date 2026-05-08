@@ -206,3 +206,9 @@ export function memoKey(...parts: (string | number | boolean | null | undefined)
 export function buildAvatarSrcSet(baseUrl: string): string {
   return [32, 64, 128].map((s) => `${baseUrl}?w=${s} ${s}w`).join(", ")
 }
+
+
+export function isMobileWidth(): boolean {
+  if (typeof window === "undefined") return false
+  return window.innerWidth < 768
+}
