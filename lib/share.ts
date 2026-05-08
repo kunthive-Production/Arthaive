@@ -224,3 +224,22 @@ export function restoreScrollPosition(key: string) {
   const y = Number(sessionStorage.getItem(`scroll:${key}`) ?? 0)
   window.scrollTo({ top: y, behavior: "instant" })
 }
+
+
+export async function writeClipboard(text: string): Promise<boolean> {
+  try {
+    if (navigator.clipboard) {
+      await navigator.clipboard.writeText(text)
+      return true
+    }
+    const el = document.createElement("textarea")
+    el.value = text
+    document.body.appendChild(el)
+    el.select()
+    document.execCommand("copy")
+    document.body.removeChild(el)
+    return true
+  } catch {
+    return false
+  }
+}
