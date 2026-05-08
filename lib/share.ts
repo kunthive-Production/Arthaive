@@ -212,3 +212,15 @@ export function isMobileWidth(): boolean {
   if (typeof window === "undefined") return false
   return window.innerWidth < 768
 }
+
+
+export function saveScrollPosition(key: string) {
+  if (typeof window === "undefined") return
+  sessionStorage.setItem(`scroll:${key}`, String(window.scrollY))
+}
+
+export function restoreScrollPosition(key: string) {
+  if (typeof window === "undefined") return
+  const y = Number(sessionStorage.getItem(`scroll:${key}`) ?? 0)
+  window.scrollTo({ top: y, behavior: "instant" })
+}
