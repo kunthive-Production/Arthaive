@@ -140,3 +140,6 @@ export const KEYBOARD_SHORTCUTS = {
   escape: "Escape",
   commandPalette: "k",
 } as const
+
+
+export const BUILD_TIME = new Date().toISOString()
