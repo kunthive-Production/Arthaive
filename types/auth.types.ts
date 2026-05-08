@@ -325,3 +325,13 @@ export interface PrintConfig {
   dateRange?: string
   watermark?: string
 }
+
+
+export interface KeyboardShortcut {
+  key: string
+  ctrlKey?: boolean
+  metaKey?: boolean
+  shiftKey?: boolean
+  action: string
+  description: string
+}
