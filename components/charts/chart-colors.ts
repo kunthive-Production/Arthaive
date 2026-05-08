@@ -106,3 +106,6 @@ export const Z_INDEX = {
   toast: 150,
   dropdown: 200,
 } as const
+
+
+export const FOCUS_RING_CLASS = "focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
