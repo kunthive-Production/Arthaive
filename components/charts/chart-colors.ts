@@ -109,3 +109,13 @@ export const Z_INDEX = {
 
 
 export const FOCUS_RING_CLASS = "focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
+
+
+export function getChartTheme(isDark: boolean) {
+  return {
+    background: isDark ? "hsl(222 47% 11%)" : "#ffffff",
+    text: isDark ? "#e2e8f0" : "#1e293b",
+    grid: isDark ? "hsl(215 28% 20%)" : "hsl(214 32% 91%)",
+    primary: "hsl(var(--primary))",
+  }
+}
