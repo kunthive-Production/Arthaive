@@ -335,3 +335,13 @@ export interface KeyboardShortcut {
   action: string
   description: string
 }
+
+
+export interface CommandItem {
+  id: string
+  label: string
+  description?: string
+  icon?: string
+  action: () => void
+  keywords?: string[]
+}
