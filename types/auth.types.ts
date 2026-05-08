@@ -317,3 +317,11 @@ export type AriaRole =
   | "complementary"
   | "search"
   | "status"
+
+
+export interface PrintConfig {
+  includeCharts: boolean
+  includeMeta: boolean
+  dateRange?: string
+  watermark?: string
+}
