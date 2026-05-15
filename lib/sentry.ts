@@ -1,20 +1,24 @@
-const SENTRY_DSN = process.env.NEXT_PUBLIC_SENTRY_DSN
+const isProd = process.env.NODE_ENV === "production"
 
 export function captureException(error: unknown, context?: Record<string, unknown>) {
-  if (!SENTRY_DSN) {
-    if (process.env.NODE_ENV === "development") {
-      console.error("[Sentry stub]", error, context)
-    }
-    return
+  if (isProd) {
+    console.error(JSON.stringify({
+      level: "error",
+      timestamp: new Date().toISOString(),
+      message: error instanceof Error ? error.message : String(error),
+      stack: error instanceof Error ? error.stack : undefined,
+      ...context,
+    }))
+  } else {
+    console.error("[error]", error, context)
   }
-
-  // Real Sentry integration via @sentry/nextjs when DSN is configured
-  console.error(error, context)
 }
 
 export function captureMessage(message: string, level: "info" | "warning" | "error" = "info") {
-  if (process.env.NODE_ENV === "development") {
-    console.log(`[Sentry stub][${level}]`, message)
+  if (isProd) {
+    console.log(JSON.stringify({ level, timestamp: new Date().toISOString(), message }))
+  } else {
+    console.log(`[${level}]`, message)
   }
 }
 
@@ -73,13 +77,6 @@ export class PerfMeasure {
 }
 
 
-export const SENTRY_CONFIG = {
-  environment: process.env.NODE_ENV,
-  release: process.env.NEXT_PUBLIC_APP_VERSION,
-  tracesSampleRate: 0.1,
-  replaysSessionSampleRate: 0.05,
-  replaysOnErrorSampleRate: 1.0,
-} as const
 
 
 export function logSlowQuery(query: string, durationMs: number, threshold = 500) {
