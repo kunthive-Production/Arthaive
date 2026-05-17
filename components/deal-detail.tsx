@@ -19,91 +19,117 @@ interface DealDetailProps {
   }
 }
 
+function formatCrores(amount: number) {
+  const cr = amount / 100
+  if (cr >= 1000) return `₹${(cr / 1000).toFixed(1)}K Cr`
+  return `₹${cr.toFixed(0)} Cr`
+}
+
+function formatDate(dateStr: string) {
+  return new Date(dateStr).toLocaleDateString("en-IN", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  })
+}
+
 export function DealDetail({ deal }: DealDetailProps) {
+  const otherInvestors = deal.investors.filter((inv) => inv !== deal.leadInvestor)
+
   return (
-    <main className="max-w-4xl mx-auto px-4 md:px-6 py-12">
+    <main className="max-w-5xl mx-auto px-4 md:px-6 py-10">
       <BackButton fallback="/explore" />
-      {/* Header */}
-      <div className="neo-border p-8 mb-8 bg-white">
-        <div className="flex items-start justify-between gap-6 mb-6">
-          <div>
-            <div className="bg-green-700 text-white px-4 py-2 font-bold text-sm w-fit mb-4">{deal.stage}</div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 break-words">{deal.company}</h1>
-            <div className="text-sm text-gray-600 uppercase font-semibold mb-4">
-              {deal.location} • {new Date(deal.date).toLocaleDateString()}
-            </div>
-          </div>
-        </div>
 
-        <div className="text-5xl font-bold text-green-700 mb-2">₹{(deal.amount / 100).toFixed(0)}Cr</div>
-        <div className="text-sm text-gray-600 uppercase font-semibold">Funding Amount</div>
-      </div>
-
-      {/* Details Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-        {/* Description */}
-        <div className="md:col-span-2">
-          <div className="neo-border p-6 mb-6 bg-white">
-            <h2 className="font-bold text-lg uppercase mb-4 text-green-700">About</h2>
-            <p className="text-gray-700 leading-relaxed">{deal.description}</p>
-          </div>
-
-          {/* Sectors */}
-          <div className="neo-border p-6 bg-white">
-            <h3 className="font-bold text-lg uppercase mb-4 text-green-700">Sectors</h3>
-            <div className="flex flex-wrap gap-3">
-              {deal.sectors.map((sector) => (
-                <div key={sector} className="neo-border-accent px-4 py-2 font-semibold text-sm">
-                  {sector}
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* Investors */}
-        <div className="neo-border p-6 bg-white h-fit">
-          <h3 className="font-bold text-lg uppercase mb-6 text-green-700">Investors</h3>
-          <div className="space-y-3">
+      {/* Hero card */}
+      <div className="neo-border bg-white mb-6">
+        <div className="p-8 border-b-4 border-black">
+          <div className="flex flex-wrap items-start justify-between gap-4 mb-6">
             <div>
-              <div className="text-xs font-bold uppercase text-gray-600 mb-1">Lead Investor</div>
-              <div className="font-bold text-sm bg-green-700 text-white px-3 py-2">{deal.leadInvestor}</div>
+              <span className="inline-block bg-green-700 text-white px-3 py-1 text-xs font-bold uppercase tracking-wider mb-3">
+                {deal.stage}
+              </span>
+              <h1 className="text-4xl md:text-5xl font-bold leading-tight">{deal.company}</h1>
+              <p className="text-gray-500 font-semibold mt-2 text-sm uppercase tracking-wide">
+                {deal.location} &nbsp;·&nbsp; {formatDate(deal.date)}
+              </p>
             </div>
-
-            {deal.investors.length > 1 && (
-              <div className="border-t-2 border-gray-200 pt-4">
-                <div className="text-xs font-bold uppercase text-gray-600 mb-2">Other Investors</div>
-                <div className="space-y-2">
-                  {deal.investors.map((inv) => (
-                    <div key={inv} className="text-sm font-semibold px-3 py-2 bg-gray-100">
-                      {inv}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
+            <div className="text-right">
+              <div className="text-4xl md:text-5xl font-bold text-green-700">{formatCrores(deal.amount)}</div>
+              <div className="text-xs text-gray-500 font-semibold uppercase tracking-wide mt-1">Funding Raised</div>
+            </div>
           </div>
+        </div>
+
+        {/* Sectors strip */}
+        <div className="px-8 py-4 flex flex-wrap gap-2">
+          {deal.sectors.map((sector) => (
+            <span key={sector} className="neo-border-accent px-3 py-1 text-xs font-bold uppercase bg-white">
+              {sector}
+            </span>
+          ))}
         </div>
       </div>
 
-      {/* Source Link */}
-      {deal.sourceUrl && (
-        <div className="neo-border p-6 bg-green-50 mb-8">
-          <a
-            href={deal.sourceUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-bold text-green-700 hover:text-green-900 flex items-center gap-2 group"
-          >
-            View Original Source →<span className="group-hover:translate-x-1 transition">↗</span>
-          </a>
-        </div>
-      )}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        {/* Left column */}
+        <div className="lg:col-span-2 space-y-6">
+          {/* About */}
+          <div className="neo-border p-6 bg-white">
+            <h2 className="text-xs font-bold uppercase tracking-widest text-green-700 mb-3">About this Deal</h2>
+            <p className="text-gray-700 leading-relaxed text-base">{deal.description}</p>
+          </div>
 
-      {/* Back Link */}
-      <Link href="/explore" className="font-bold text-green-700 hover:text-green-900 flex items-center gap-2">
-        ← Back to Explore
-      </Link>
+          {/* Source */}
+          {deal.sourceUrl && (
+            <div className="neo-border p-5 bg-green-50 flex items-center justify-between gap-4">
+              <div>
+                <div className="text-xs font-bold uppercase tracking-widest text-green-700 mb-1">Source</div>
+                <div className="text-sm text-gray-600 truncate max-w-sm">{deal.sourceUrl}</div>
+              </div>
+              <a
+                href={deal.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="shrink-0 bg-green-700 text-white font-bold text-sm px-4 py-2 hover:bg-green-800 transition-colors"
+              >
+                Read Article ↗
+              </a>
+            </div>
+          )}
+        </div>
+
+        {/* Right column — investors */}
+        <div className="neo-border bg-white p-6 h-fit">
+          <h2 className="text-xs font-bold uppercase tracking-widest text-green-700 mb-4">Investors</h2>
+
+          <div className="mb-4">
+            <div className="text-xs font-bold uppercase text-gray-400 mb-2">Lead</div>
+            <Link
+              href={`/investors/${encodeURIComponent(deal.leadInvestor)}`}
+              className="block bg-green-700 text-white font-bold text-sm px-4 py-3 hover:bg-green-800 transition-colors"
+            >
+              {deal.leadInvestor}
+            </Link>
+          </div>
+
+          {otherInvestors.length > 0 && (
+            <div>
+              <div className="text-xs font-bold uppercase text-gray-400 mb-2">Co-investors</div>
+              <div className="space-y-2">
+                {otherInvestors.map((inv) => (
+                  <Link
+                    key={inv}
+                    href={`/investors/${encodeURIComponent(inv)}`}
+                    className="block border-2 border-gray-200 px-4 py-2 text-sm font-semibold hover:border-black transition-colors"
+                  >
+                    {inv}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
     </main>
   )
 }
