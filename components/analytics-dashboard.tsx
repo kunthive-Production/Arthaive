@@ -383,7 +383,7 @@ export function AnalyticsDashboard() {
                 wrapperStyle={{ paddingTop: "20px" }}
                 formatter={(value, entry) => (
                   <span className="text-xs">
-                    {value}: ₹{entry.payload.amount}Cr
+                    {value}: ₹{entry.payload?.amount}Cr
                   </span>
                 )}
               />
