@@ -1,6 +1,8 @@
 import { Suspense } from "react"
 import { LiveDealFeed } from "@/components/live-deal-feed"
 
+export const dynamic = "force-dynamic"
+
 export const metadata = {
   title: "Live Feed | India Startup Funding",
   description: "Real-time stream of Indian startup funding deals",
