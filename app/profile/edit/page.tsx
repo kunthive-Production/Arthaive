@@ -2,6 +2,7 @@ import { redirect } from "next/navigation"
 import { createClient } from "@/lib/supabase/server"
 import { getProfile } from "@/lib/supabase/user"
 
+export const dynamic = "force-dynamic"
 export const metadata = { title: "Edit Profile | India Startup Funding" }
 
 export default async function EditProfilePage() {

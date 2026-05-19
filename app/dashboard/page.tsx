@@ -4,6 +4,7 @@ import { getBookmarks, getWatchlist, getSavedSearches, getAlerts } from "@/lib/s
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Bookmark, Bell, Search, Star } from "lucide-react"
 
+export const dynamic = "force-dynamic"
 export const metadata = { title: "Dashboard | India Startup Funding" }
 
 export default async function DashboardPage() {
