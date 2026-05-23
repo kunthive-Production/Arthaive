@@ -1,7 +1,9 @@
-"""Supabase write helpers: sources, review_queue, pipeline_jobs."""
+"""Supabase write helpers: sources, review_queue, deals, pipeline_jobs."""
 from __future__ import annotations
 
+import hashlib
 import os
+import re
 from dataclasses import dataclass
 from typing import Any
 
@@ -75,7 +77,7 @@ def insert_review_item(
     extracted: dict[str, Any],
 ) -> str | None:
     client = get_client()
-    suggested_company = extracted.get("company")
+    suggested_company = extracted.get("suggested_company") or extracted.get("company")
     confidence = extracted.get("confidence")
     payload = {
         "source_id": source_id,
@@ -83,8 +85,63 @@ def insert_review_item(
         "suggested_company": suggested_company,
         "match_confidence": float(confidence) if isinstance(confidence, (int, float)) else None,
         "status": "pending",
+        "notes": extracted.get("notes"),
     }
     res = client.table("review_queue").insert(payload).execute()
+    if not res.data:
+        return None
+    return res.data[0]["id"]
+
+
+_SLUG_RE = re.compile(r"[^a-z0-9]+")
+
+
+def _slugify(value: str) -> str:
+    return _SLUG_RE.sub("-", value.lower()).strip("-") or "deal"
+
+
+def _deal_id(company: str, deal_date: str, source_url: str | None) -> str:
+    slug = _slugify(company)[:40]
+    date_part = (deal_date or "").replace("-", "")[:8] or "unknown"
+    h = hashlib.sha1((source_url or company).encode()).hexdigest()[:6]
+    return f"{slug}-{date_part}-{h}"
+
+
+def insert_deal(
+    *,
+    company: str,
+    amount_inr: float,
+    amount_usd: float,
+    stage: str,
+    sectors: list[str],
+    investors: list[str],
+    lead_investor: str | None,
+    deal_date: str,
+    location: str,
+    description: str | None,
+    source_url: str | None,
+    source_id: str | None,
+) -> str | None:
+    """Insert a verified deal row. Returns the deal id, or None on failure."""
+    client = get_client()
+    deal_id = _deal_id(company, deal_date, source_url)
+    payload = {
+        "id": deal_id,
+        "company": company,
+        "amount_inr": amount_inr,
+        "amount_usd": amount_usd,
+        "stage": stage or "Undisclosed",
+        "sectors": sectors or [],
+        "investors": investors or [],
+        "lead_investor": lead_investor,
+        "deal_date": deal_date,
+        "location": location or "India",
+        "description": description,
+        "source_url": source_url,
+        "source_id": source_id,
+        "record_status": "verified",
+    }
+    res = client.table("deals").upsert(payload, on_conflict="id").execute()
     if not res.data:
         return None
     return res.data[0]["id"]
