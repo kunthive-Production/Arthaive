@@ -1,5 +1,6 @@
 import { AnalyticsClient } from "@/components/analytics-client"
 import { getDeals } from "@/lib/db/deals"
+import { getCoverageRange } from "@/lib/db/analytics"
 
 export const metadata = {
   title: "Analytics | IndiaFundTrack",
@@ -7,7 +8,10 @@ export const metadata = {
 }
 
 export default async function AnalyticsPage() {
-  const { deals } = await getDeals({ limit: 9999, sortBy: "date" })
+  const [{ deals }, coverage] = await Promise.all([
+    getDeals({ limit: 9999, sortBy: "date" }),
+    getCoverageRange(),
+  ])
 
-  return <AnalyticsClient deals={deals} />
+  return <AnalyticsClient deals={deals} coverage={coverage} />
 }
