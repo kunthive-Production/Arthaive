@@ -13,8 +13,11 @@ A free, structured, source-backed intelligence platform tracking startup funding
 - **Analytics dashboard** — funding trends, sector breakdowns, stage funnels, investor leaderboards, India choropleth map
 - **Investor profiles** — deal history, sectors covered, co-investor network
 - **Sector deep-dives** — per-sector funding timeline and top deals
+- **Weekly & monthly reports** with AI-written trend summaries
+- **Natural-language search** — ask plain-English questions, get verified deal results
 - **Live feed** — real-time updates via Supabase Realtime
-- **Admin panel** — review queue, entity manager, source manager, pipeline logs, bulk CSV import, data export
+- **Admin panel** — review queue, entity manager, source manager, pipeline logs, bulk CSV import, AI usage monitoring
+- **Public REST API v1** — versioned endpoints, API keys, rate limits, full docs at `/api-docs`
 - **User features** — bookmarks, watchlist, saved searches, deal alerts (auth via Supabase)
 
 ---
@@ -23,20 +26,23 @@ A free, structured, source-backed intelligence platform tracking startup funding
 
 | Layer | Tech |
 |---|---|
-| Framework | Next.js 14 (App Router) |
+| Framework | Next.js 16 (App Router) |
 | Language | TypeScript |
 | Styling | Tailwind CSS + shadcn/ui |
 | Database | Supabase (PostgreSQL) |
 | Auth | Supabase Auth (SSR) |
 | Charts | Recharts |
+| AI | Anthropic Claude (Sonnet for prose, Haiku for parsing) |
+| Pipeline | Python (RSS discovery → rule-based + Claude extraction → entity resolution) |
+| Tests | Vitest |
 | Deployment | Vercel |
-| Error tracking | Sentry |
+| Error tracking | Sentry-compatible shim (`lib/sentry.ts`) |
 
 ---
 
 ## Local Development
 
-**Prerequisites:** Node.js 18+, a Supabase project
+**Prerequisites:** Node.js 18+, a Supabase project (optional — falls back to static data), an Anthropic API key (optional — AI features degrade gracefully when unset).
 
 ```bash
 # 1. Clone and install
@@ -44,12 +50,11 @@ git clone https://github.com/8harath/Ind-Startup-Funding.git
 cd Ind-Startup-Funding
 npm install
 
-# 2. Set environment variables
-cp .env.example .env.local
-# Fill in NEXT_PUBLIC_SUPABASE_URL, NEXT_PUBLIC_SUPABASE_ANON_KEY, SUPABASE_SERVICE_ROLE_KEY
+# 2. Set environment variables — see "Environment variables" below
+cp .env.example .env.local   # if you have one, otherwise create from scratch
 
 # 3. Run migrations in Supabase SQL editor (in order)
-# supabase/migrations/001_initial_schema.sql → 015_new_tables_rls.sql
+# supabase/migrations/001_initial_schema.sql … 018_performance_indexes.sql
 
 # 4. Start dev server
 npm run dev
@@ -57,15 +62,29 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+### Environment variables
+
+```env
+# Supabase (optional — if unset, the app uses the static fundingData fixture)
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+
+# Admin gate
+ADMIN_EMAILS=you@example.com,colleague@example.com
+
+# AI features (Phase 7)
+ANTHROPIC_API_KEY=
+
+# Public site URL — used in sitemap.xml
+NEXT_PUBLIC_BASE_URL=https://your-domain.com
+```
+
 ---
 
 ## Admin Panel
 
-The admin panel lives at `/admin`. Access is restricted to emails listed in the `ADMIN_EMAILS` environment variable.
-
-```env
-ADMIN_EMAILS=you@example.com,colleague@example.com
-```
+The admin panel lives at `/admin`. Access is restricted to emails listed in `ADMIN_EMAILS`.
 
 **Admin features:**
 - **Review queue** — approve, reject, or flag extracted funding records
@@ -74,16 +93,79 @@ ADMIN_EMAILS=you@example.com,colleague@example.com
 - **Pipeline logs** — view automated pipeline run history
 - **Bulk import** — upload a CSV to queue multiple records at once
 - **Export** — download all verified deals as CSV or JSON
+- **AI usage** — 30-day spend by use case, budget vs. actual
 
 ---
 
-## Data Pipeline (Phase 3+)
+## Data Pipeline
 
-The `pipeline/` directory (coming in Phase 3) contains a Python RSS poller that:
-1. Polls Entrackr, Inc42, and YourStory feeds twice daily
-2. Filters articles by funding keywords
-3. Extracts structured fields (rule-based + Claude AI fallback)
-4. Queues records for admin review with confidence scores
+The `pipeline/` directory contains a Python pipeline that:
+
+1. **Discovery** (`pipeline/discovery.py`, `fetcher.py`, `wayback.py`) — polls Entrackr, Inc42, and YourStory feeds twice daily, with Wayback Machine fallback for dead links.
+2. **Extraction** (`pipeline/extractor.py`) — rule-based first pass, Claude Haiku fallback for low-confidence cases.
+3. **Currency normalisation** (`pipeline/currency.py`) — USD/INR conversion → INR lakhs canonical.
+4. **Entity resolution** (`pipeline/entity_resolver.py`) — rapidfuzz-based fuzzy matching + alias system to dedup company/investor names.
+5. **Dedup** (`pipeline/dedup.py`) — same-company / same-week / similar-amount deal collapsing.
+6. **Queue + auto-approval** (`pipeline/queue.py`, `pipeline/run.py`) — auto-approves at confidence ≥ 0.8; lower-confidence rows go to the admin review queue.
+
+```bash
+cd pipeline
+pip install -r requirements.txt
+python run.py
+```
+
+---
+
+## Public API
+
+A read-only REST API for developers and researchers.
+
+- Docs: [`/api-docs`](https://ind-startup-funding.vercel.app/api-docs)
+- Get a free key: [`/api-keys`](https://ind-startup-funding.vercel.app/api-keys)
+- Rate limits: 30/min anonymous · 120/min with a key
+- Auth: `X-API-Key` header
+
+Quick example:
+
+```bash
+curl 'https://ind-startup-funding.vercel.app/api/v1/funding-rounds?sector=Fintech&stage=series_a&limit=5' \
+  -H 'X-API-Key: ifk_your_key_here'
+```
+
+### v1 endpoints
+
+| Method | Path | Description |
+|---|---|---|
+| GET | `/api/v1/startups` | List startups (one row per company, latest round) |
+| GET | `/api/v1/startups/:id` | Full funding history for a company or deal id |
+| GET | `/api/v1/funding-rounds` | Paginated funding rounds |
+| GET | `/api/v1/investors/:id` | Investor profile + deal history |
+| GET | `/api/v1/trends/monthly` | Monthly deal count + funding totals |
+| GET | `/api/v1/trends/sectors` | Sector-level aggregates |
+| GET | `/api/v1/search?q=...` | Keyword search |
+
+---
+
+## Testing
+
+```bash
+npm test           # one-shot vitest run
+npm run test:watch # watch mode
+```
+
+The API tests in `tests/api/v1.test.ts` call route handlers directly, without spinning up a server. Without Supabase env vars set, they run against the static `data/funding-data.ts` fixture — deterministic by design.
+
+---
+
+## Production checklist
+
+```bash
+npx tsc --noEmit   # zero TypeScript errors
+npm run build      # clean build
+npm test           # all green
+```
+
+Then deploy to Vercel and submit `/sitemap.xml` to Google Search Console.
 
 ---
 
@@ -94,13 +176,15 @@ The `pipeline/` directory (coming in Phase 3) contains a Python RSS poller that:
 | 0 | ✅ Done | Frontend, static data, auth |
 | 1 | ✅ Done | Supabase live DB |
 | 2 | ✅ Done | Admin interface |
-| 3 | 🔲 Next | Discovery pipeline (RSS poller) |
-| 4 | 🔲 | Extraction pipeline (rule-based + AI) |
-| 5 | 🔲 | Entity resolution + alias system |
-| 6 | 🔲 | Analytics & weekly reports |
-| 7 | 🔲 | AI layer (trend summaries, NL search) |
-| 8 | 🔲 | Public API v1 |
-| 9 | 🔲 | Polish & launch |
+| 3 | ✅ Done | Discovery pipeline (RSS poller) |
+| 4 | ✅ Done | Extraction pipeline (rule-based + AI) |
+| 5 | ✅ Done | Entity resolution + alias system |
+| 6 | ✅ Done | Analytics & weekly/monthly reports |
+| 7 | ✅ Done | AI layer (trend summaries, NL search, sector classifier) |
+| 8 | ✅ Done | Public API v1 |
+| 9 | ✅ Done | Polish, performance indexes, SEO, README |
+
+See `PHASES.md` for the full per-phase build log.
 
 ---
 

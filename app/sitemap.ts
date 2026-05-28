@@ -16,6 +16,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${BASE_URL}/reports`, changeFrequency: "daily" as const, priority: 0.8 },
     { url: `${BASE_URL}/investors`, changeFrequency: "weekly" as const, priority: 0.8 },
     { url: `${BASE_URL}/live`, changeFrequency: "always" as const, priority: 0.7 },
+    { url: `${BASE_URL}/search`, changeFrequency: "weekly" as const, priority: 0.6 },
+    { url: `${BASE_URL}/api-docs`, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${BASE_URL}/api-keys`, changeFrequency: "monthly" as const, priority: 0.4 },
   ]
 
   const reportPages = [...weeks, ...months].map((p) => ({
