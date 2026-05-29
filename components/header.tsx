@@ -12,7 +12,7 @@ export function Header() {
             <div className="neo-border-accent p-2 bg-white">
               <div className="w-6 h-6 bg-black"></div>
             </div>
-            <span className="text-xl font-bold tracking-tight hidden md:inline">FUNDING TRACKER</span>
+            <span className="text-xl font-bold tracking-tight hidden md:inline">ARTHAIVE</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">

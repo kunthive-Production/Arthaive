@@ -3,7 +3,7 @@ import { createClient } from "@/lib/supabase/server"
 import { getProfile } from "@/lib/supabase/user"
 
 export const dynamic = "force-dynamic"
-export const metadata = { title: "Edit Profile | India Startup Funding" }
+export const metadata = { title: "Edit Profile | Arthaive" }
 
 export default async function EditProfilePage() {
   const supabase = await createClient()

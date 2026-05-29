@@ -1,6 +1,6 @@
 # Documentation
 
-Welcome. If you are new to the India Startup Funding Intelligence Platform, read these in order. After all eleven, you will know what this product is, how it works, what the database looks like, how data gets in, how admins keep it clean, and what is still to be built.
+Welcome. If you are new to the Arthaive (India's open startup funding intelligence platform), read these in order. After all eleven, you will know what this product is, how it works, what the database looks like, how data gets in, how admins keep it clean, and what is still to be built.
 
 | # | File | What you will learn |
 |---|---|---|

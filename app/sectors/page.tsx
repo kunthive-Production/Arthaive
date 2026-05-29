@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import { SectionHeader } from "@/components/section-header"
 
-export const metadata: Metadata = { title: "Sectors | IndiaFundTrack" }
+export const metadata: Metadata = { title: "Sectors | Arthaive" }
 
 export default async function SectorsPage() {
   return (

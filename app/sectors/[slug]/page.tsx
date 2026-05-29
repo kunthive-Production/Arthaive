@@ -5,7 +5,7 @@ import { BackButton } from "@/components/back-button"
 interface Props { params: { slug: string } }
 
 export function generateMetadata({ params }: Props): Metadata {
-  return { title: `${params.slug} Funding | IndiaFundTrack` }
+  return { title: `${params.slug} Funding | Arthaive` }
 }
 
 export default function SectorDetailPage({ params }: Props) {

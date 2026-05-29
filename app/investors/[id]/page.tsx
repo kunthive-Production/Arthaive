@@ -8,7 +8,7 @@ import { BackButton } from "@/components/back-button"
 interface Props { params: { id: string } }
 
 export function generateMetadata({ params }: Props): Metadata {
-  return { title: `${decodeURIComponent(params.id)} | IndiaFundTrack` }
+  return { title: `${decodeURIComponent(params.id)} | Arthaive` }
 }
 
 export default function InvestorProfilePage({ params }: Props) {

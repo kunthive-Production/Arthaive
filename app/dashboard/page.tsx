@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Bookmark, Bell, Search, Star } from "lucide-react"
 
 export const dynamic = "force-dynamic"
-export const metadata = { title: "Dashboard | India Startup Funding" }
+export const metadata = { title: "Dashboard | Arthaive" }
 
 export default async function DashboardPage() {
   const supabase = await createClient()

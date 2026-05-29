@@ -25,9 +25,9 @@ export function HeroStats() {
     <div>
       <div className="mb-12 pb-8 border-b-4 border-black">
         <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-2 leading-tight">
-          INDIAN STARTUP FUNDING TRACKER
+          ARTHAIVE
         </h1>
-        <p className="text-gray-600 text-lg">Discover, analyze, and understand the funding landscape</p>
+        <p className="text-gray-600 text-lg">India's open startup funding intelligence — discover, analyze, and understand the funding landscape</p>
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">

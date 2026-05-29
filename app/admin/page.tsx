@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge"
 export const dynamic = "force-dynamic"
 
 export const metadata = {
-  title: "Admin Dashboard | IndiaFundTrack",
+  title: "Admin Dashboard | Arthaive",
 }
 
 function StatusBadge({ status }: { status: string }) {

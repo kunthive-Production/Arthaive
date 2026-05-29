@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import { SectionHeader } from "@/components/section-header"
 
-export const metadata: Metadata = { title: "Submit a Deal | IndiaFundTrack" }
+export const metadata: Metadata = { title: "Submit a Deal | Arthaive" }
 
 export default function SubmitPage() {
   return (

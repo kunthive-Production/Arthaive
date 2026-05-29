@@ -4,7 +4,7 @@ import { LiveDealFeed } from "@/components/live-deal-feed"
 export const dynamic = "force-dynamic"
 
 export const metadata = {
-  title: "Live Feed | India Startup Funding",
+  title: "Live Feed | Arthaive",
   description: "Real-time stream of Indian startup funding deals",
 }
 

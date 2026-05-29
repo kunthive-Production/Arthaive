@@ -3,7 +3,7 @@ import { InvestorCard } from "@/components/investor-card"
 import { getTopInvestors } from "@/lib/db/investors"
 
 export const metadata = {
-  title: "Investors | IndiaFundTrack",
+  title: "Investors | Arthaive",
   description: "Discover India's most active startup investors — VCs, angels, and corporate funds.",
 }
 

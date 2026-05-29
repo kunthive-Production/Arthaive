@@ -43,7 +43,7 @@ export default function DealPage() {
     },
     publisher: {
       "@type": "Organization",
-      name: "IndiaFundTrack",
+      name: "Arthaive",
     },
     isBasedOn: deal.sourceUrl || undefined,
   }

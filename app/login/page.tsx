@@ -2,7 +2,7 @@ import { SignInButton } from "@/components/auth/sign-in-button"
 import { TrendingUp } from "lucide-react"
 
 export const metadata = {
-  title: "Sign In | India Startup Funding",
+  title: "Sign In | Arthaive",
   description: "Sign in to track Indian startup funding deals",
 }
 
@@ -18,7 +18,7 @@ export default function LoginPage({
           <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary">
             <TrendingUp className="h-7 w-7 text-primary-foreground" />
           </div>
-          <h1 className="mt-6 text-2xl font-bold">India Startup Funding</h1>
+          <h1 className="mt-6 text-2xl font-bold">Arthaive</h1>
           <p className="mt-2 text-sm text-muted-foreground">
             Track every funding round across Indian startups
           </p>

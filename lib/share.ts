@@ -52,7 +52,7 @@ export function buildSectorUrl(sector: string): string {
 
 
 export function getShareTitle(company: string, stage: string): string {
-  return `${company} · ${stage} | India Startup Funding`
+  return `${company} · ${stage} | Arthaive`
 }
 
 

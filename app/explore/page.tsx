@@ -2,7 +2,7 @@ import { ExploreClient } from "@/components/explore-client"
 import { getAllSectors, getAllLocations, getAllStages } from "@/lib/db/deals"
 
 export const metadata = {
-  title: "Explore Deals | IndiaFundTrack",
+  title: "Explore Deals | Arthaive",
   description: "Browse and filter every verified Indian startup funding deal with sector, stage, city, and investor filters.",
 }
 

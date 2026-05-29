@@ -4,7 +4,7 @@ import { getProfile } from "@/lib/supabase/user"
 import { getWatchlist, getBookmarks, getSavedSearches, getAlerts } from "@/lib/supabase/profile"
 
 export const dynamic = "force-dynamic"
-export const metadata = { title: "Profile | India Startup Funding" }
+export const metadata = { title: "Profile | Arthaive" }
 
 export default async function ProfilePage() {
   const supabase = await createClient()

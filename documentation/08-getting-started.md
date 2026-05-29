@@ -12,8 +12,8 @@ Run the whole stack on your laptop in about 15 minutes. This guide assumes macOS
 ## 1. Clone and install
 
 ```bash
-git clone git@github.com:8harath/Ind-Startup-Funding.git
-cd Ind-Startup-Funding
+git clone git@github.com:kunthive-Labs/Arthaive.git
+cd Arthaive
 
 # Frontend deps
 npm install

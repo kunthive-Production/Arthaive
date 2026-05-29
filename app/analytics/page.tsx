@@ -3,7 +3,7 @@ import { getDeals } from "@/lib/db/deals"
 import { getCoverageRange } from "@/lib/db/analytics"
 
 export const metadata = {
-  title: "Analytics | IndiaFundTrack",
+  title: "Analytics | Arthaive",
   description: "Trends, sector breakdowns, city maps, and investor activity across Indian startup funding.",
 }
 

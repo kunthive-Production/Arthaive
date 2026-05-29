@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 export const dynamic = "force-dynamic"
 
 export const metadata = {
-  title: "AI Usage | Admin | IndiaFundTrack",
+  title: "AI Usage | Admin | Arthaive",
 }
 
 function fmtUsd(n: number): string {

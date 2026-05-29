@@ -18,9 +18,9 @@ export async function generateMetadata({
   params: { period: string }
 }): Promise<Metadata> {
   const report = await getReport(params.period)
-  if (!report) return { title: "Report not found | IndiaFundTrack" }
+  if (!report) return { title: "Report not found | Arthaive" }
   return {
-    title: `India Startup Funding — ${report.period.label} | IndiaFundTrack`,
+    title: `${report.period.label} Funding Report | Arthaive`,
     description: `${report.totalDeals} deals · ${formatCurrency(report.totalFunding)} raised during ${report.period.label}.`,
   }
 }

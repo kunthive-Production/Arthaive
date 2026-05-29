@@ -91,7 +91,7 @@ export const SITEMAP_PRIORITIES = {
 } as const
 
 
-export const SEO_SITE_NAME = "India Startup Funding"
+export const SEO_SITE_NAME = "Arthaive"
 export const SEO_DEFAULT_DESCRIPTION = "Track every Indian startup funding round in real time. Analytics, trends, and investor insights."
 export const SEO_KEYWORDS = ["India startup funding","Indian VC","startup investment","funding rounds","Indian unicorns"]
 

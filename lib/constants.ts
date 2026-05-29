@@ -65,7 +65,7 @@ export const LAKHS_PER_CRORE = 100
 
 export const MAX_DEALS_PER_PAGE = 20
 
-export const APP_NAME = "IndiaFundTrack"
+export const APP_NAME = "Arthaive"
 export const APP_DESCRIPTION = "India's open startup funding intelligence platform"
 export const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://ind-startup-funding.vercel.app"
 
@@ -108,7 +108,7 @@ export const NAV_ITEMS = [
 
 
 export const META_DEFAULTS = {
-  title: "IndiaFundTrack — Indian Startup Funding Intelligence",
+  title: "Arthaive — Indian Startup Funding Intelligence",
   description: "Discover, analyze and track startup funding across India. 1600+ deals, 200+ investors, real-time insights.",
   keywords: ["startup", "funding", "india", "vc", "angel", "seed", "series a"],
 } as const

@@ -1,8 +1,11 @@
-# India Startup Funding Intelligence Platform
+# Arthaive
 
-A free, structured, source-backed intelligence platform tracking startup funding across India. Built as an open alternative to paid platforms like Tracxn and Crunchbase — focused entirely on India, with every record verified and linked to its original source.
+**Arthaive** — India's open startup funding intelligence platform. A free, structured, source-backed platform tracking startup funding across India. Built as an open alternative to paid platforms like Tracxn and Crunchbase — focused entirely on India, with every record verified and linked to its original source.
+
+> *Artha* (अर्थ — wealth, capital) + *hive* (the collective intelligence). A living, source-backed hive of India's funding data.
 
 **Live:** [ind-startup-funding.vercel.app](https://ind-startup-funding.vercel.app)
+**Repo:** [github.com/kunthive-Labs/Arthaive](https://github.com/kunthive-Labs/Arthaive)
 
 ---
 
@@ -46,8 +49,8 @@ A free, structured, source-backed intelligence platform tracking startup funding
 
 ```bash
 # 1. Clone and install
-git clone https://github.com/8harath/Ind-Startup-Funding.git
-cd Ind-Startup-Funding
+git clone https://github.com/kunthive-Labs/Arthaive.git
+cd Arthaive
 npm install
 
 # 2. Set environment variables — see "Environment variables" below
@@ -188,12 +191,33 @@ See `PHASES.md` for the full per-phase build log.
 
 ---
 
+## Documentation
+
+The [`documentation/`](documentation/) folder is the full guide — read it in order:
+
+| # | File | Covers |
+|---|---|---|
+| 1 | [01-overview.md](documentation/01-overview.md) | Product, mission, design principles |
+| 2 | [02-architecture.md](documentation/02-architecture.md) | The four layers and request flow |
+| 3 | [03-data-model.md](documentation/03-data-model.md) | Every table, field by field |
+| 4 | [04-pipeline.md](documentation/04-pipeline.md) | The Python crawl → extract → write pipeline |
+| 5 | [05-admin.md](documentation/05-admin.md) | The admin console |
+| 6 | [06-entity-resolution.md](documentation/06-entity-resolution.md) | Canonical names + alias system |
+| 7 | [07-frontend.md](documentation/07-frontend.md) | Every page and its data source |
+| 8 | [08-getting-started.md](documentation/08-getting-started.md) | Running the full stack locally |
+| 9 | [09-roadmap.md](documentation/09-roadmap.md) | Built / partial / ahead |
+| 10 | [10-glossary.md](documentation/10-glossary.md) | Domain terms |
+
+Top-level references: [`PROJECT_REFERENCE.md`](PROJECT_REFERENCE.md) (product spec), [`PHASES.md`](PHASES.md) (build log), [`DEPLOYMENT.md`](DEPLOYMENT.md) (hosting), [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+---
+
 ## Contributing
 
-Data corrections, source suggestions, and pull requests are welcome. Open an issue to discuss before large changes.
+Data corrections, source suggestions, and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) and open an issue to discuss before large changes.
 
 ---
 
 ## License
 
-MIT
+[MIT](LICENSE)

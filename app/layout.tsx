@@ -16,22 +16,22 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "IndiaFundTrack — Indian Startup Funding Intelligence",
-    template: "%s | IndiaFundTrack",
+    default: "Arthaive — Indian Startup Funding Intelligence",
+    template: "%s | Arthaive",
   },
   description: "Discover, analyze, and track startup funding across India. 1600+ deals, 200+ investors, real-time insights.",
   keywords: ["startup funding", "india startups", "VC funding", "angel investors", "seed funding", "series A", "startup investment"],
-  authors: [{ name: "IndiaFundTrack" }],
+  authors: [{ name: "Arthaive" }],
   openGraph: {
     type: "website",
     locale: "en_IN",
-    siteName: "IndiaFundTrack",
-    title: "IndiaFundTrack — Indian Startup Funding Intelligence",
+    siteName: "Arthaive",
+    title: "Arthaive — Indian Startup Funding Intelligence",
     description: "Discover, analyze, and track startup funding across India. 1600+ deals, 200+ investors, real-time insights.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "IndiaFundTrack — Indian Startup Funding Intelligence",
+    title: "Arthaive — Indian Startup Funding Intelligence",
     description: "Discover, analyze, and track startup funding across India. 1600+ deals, 200+ investors.",
   },
   icons: {

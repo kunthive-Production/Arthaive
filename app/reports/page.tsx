@@ -6,7 +6,7 @@ import { getCoverageRange } from "@/lib/db/analytics"
 import { formatCurrency } from "@/lib/format"
 
 export const metadata = {
-  title: "Funding Reports | IndiaFundTrack",
+  title: "Funding Reports | Arthaive",
   description: "Weekly and monthly digests of Indian startup funding, generated from verified records.",
 }
 
