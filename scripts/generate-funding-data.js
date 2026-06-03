@@ -112,6 +112,14 @@ function transformDeal(deal, id, weekFolder) {
   const date = formatDate(deal.Date);
   const sourceUrl = deal.Source || deal.Company || '';
 
+  // Parse investors from optional semicolon-separated Investors column (lead listed first).
+  // Older CSVs omit this column and fall back to 'Not Disclosed' (unchanged behaviour).
+  const investorRaw = (deal.Investors || deal.Investor || '').trim();
+  const investors = investorRaw
+    ? investorRaw.split(';').map((s) => s.trim()).filter(Boolean)
+    : ['Not Disclosed'];
+  const leadInvestor = investors[0] || 'Not Disclosed';
+
   // Skip if amount is 0 or missing AND series is not provided
   if (amount === 0 && stage === 'Not Disclosed') {
     return null;
@@ -129,8 +137,8 @@ function transformDeal(deal, id, weekFolder) {
     amount: amountInLakhs, // Store in lakhs (divide by 100 to get crores)
     stage,
     sectors: [sector],
-    investors: ['Not Disclosed'], // CSV doesn't have investor data
-    leadInvestor: 'Not Disclosed',
+    investors,
+    leadInvestor,
     date,
     location,
     description: `${companyName} raised ${amount > 0 ? '₹' + amountInCrores.toFixed(1) + ' Cr' : 'funding'} in ${stage} ${stage !== 'Not Disclosed' ? 'round' : ''}.`,
