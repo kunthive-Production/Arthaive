@@ -77,14 +77,59 @@ def _daily_sitemaps(client: httpx.Client, source_key: str, since: date) -> list[
     return [h for _, h in out]
 
 
+def _paginated_sitemaps(client: httpx.Client, source_key: str, since: date) -> list[str]:
+    """Sub-sitemaps (newest first) whose articles may fall on/after `since`.
+
+    Yoast lists one <lastmod> per sub-sitemap = the date of its newest post.
+    A sub-sitemap whose newest post is < `since` contains only older articles,
+    so we drop it — except the single boundary sitemap immediately older than
+    `since`, which may straddle the cutoff. The per-article date filter in the
+    caller (dump_candidates / run) does the precise trimming.
+    """
+    cfg = SOURCES[source_key]
+    root = _fetch_xml(client, cfg["sitemap_index_url"])
+    if root is None:
+        return []
+    pat = re.compile(cfg["paginated_sitemap_pattern"])
+    entries: list[tuple[date, str]] = []
+    for sm in root.findall(".//sm:sitemap", SITEMAP_NS):
+        loc_el = sm.find("sm:loc", SITEMAP_NS)
+        if loc_el is None or not (loc_el.text or "").strip():
+            continue
+        href = loc_el.text.strip()
+        if not pat.search(href):
+            continue
+        lastmod_el = sm.find("sm:lastmod", SITEMAP_NS)
+        try:
+            d = date.fromisoformat((lastmod_el.text or "")[:10]) if lastmod_el is not None else date.min
+        except (ValueError, TypeError):
+            d = date.min
+        entries.append((d, href))
+
+    entries.sort(key=lambda x: x[0])  # oldest first
+    selected = [(d, h) for (d, h) in entries if d >= since]
+    # Include the boundary sub-sitemap just older than `since`, if any.
+    older = [(d, h) for (d, h) in entries if d < since]
+    if older:
+        selected.insert(0, older[-1])
+    selected.sort(key=lambda x: x[0], reverse=True)  # newest first
+    return [h for _, h in selected]
+
+
 def discover_urls(source_key: str, since: date, limit: int | None = None) -> Iterator[Candidate]:
     """Yield Candidate(url, lastmod) for articles published on/after `since`."""
     if source_key not in SOURCES:
         raise KeyError(f"unknown source: {source_key}")
 
+    mode = SOURCES[source_key].get("sitemap_mode", "daily")
+
     yielded = 0
     with _client() as client:
-        for sitemap_url in _daily_sitemaps(client, source_key, since):
+        if mode == "paginated":
+            sitemap_urls = _paginated_sitemaps(client, source_key, since)
+        else:
+            sitemap_urls = _daily_sitemaps(client, source_key, since)
+        for sitemap_url in sitemap_urls:
             root = _fetch_xml(client, sitemap_url)
             if root is None:
                 continue
@@ -97,6 +142,15 @@ def discover_urls(source_key: str, since: date, limit: int | None = None) -> Ite
                     continue
                 lastmod_el = url_el.find("sm:lastmod", SITEMAP_NS)
                 lastmod = lastmod_el.text.strip() if lastmod_el is not None and lastmod_el.text else None
+                # Paginated sitemaps (Inc42) mix dates within and across files,
+                # so pre-filter by per-URL lastmod to skip stale URLs before the
+                # (expensive) fetch. Daily sitemaps are already date-scoped per file.
+                if mode == "paginated" and lastmod:
+                    try:
+                        if date.fromisoformat(lastmod[:10]) < since:
+                            continue
+                    except ValueError:
+                        pass
                 yield Candidate(url=url, lastmod=lastmod)
                 yielded += 1
                 if limit is not None and yielded >= limit:

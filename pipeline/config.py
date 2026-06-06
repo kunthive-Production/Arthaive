@@ -37,13 +37,35 @@ SOURCES: dict[str, dict] = {
         "base_url": "https://entrackr.com",
         "publisher": "Entrackr",
         "reliability_tier": "tier_1",
-        # Daily sitemap names look like sitemap_YYYY-MM-DD.xml
+        # Entrackr publishes one dated sitemap per day: sitemap_YYYY-MM-DD.xml
+        "sitemap_mode": "daily",
         "daily_sitemap_pattern": r"sitemap_(\d{4}-\d{2}-\d{2})\.xml$",
         # CSS selectors tried in order to extract article body
         "article_body_selectors": [
             "article",
             "[itemprop='articleBody']",
             ".article-content",
+            ".post-content",
+            "main",
+        ],
+    },
+    "inc42": {
+        "name": "Inc42",
+        "sitemap_index_url": "https://inc42.com/sitemap_index.xml",
+        "base_url": "https://inc42.com",
+        "publisher": "Inc42",
+        "reliability_tier": "tier_1",
+        # Inc42 is WordPress/Yoast: the index lists paginated post sitemaps
+        # (post-sitemap.xml, post-sitemap2.xml ... post-sitemap55.xml) that
+        # collectively reach back to 2015. Each sub-sitemap's <lastmod> marks
+        # its newest article, so we can pick only the ones overlapping a window.
+        "sitemap_mode": "paginated",
+        "paginated_sitemap_pattern": r"post-sitemap\d*\.xml$",
+        "article_body_selectors": [
+            "article",
+            "[itemprop='articleBody']",
+            ".single-article-content",
+            ".entry-content",
             ".post-content",
             "main",
         ],
