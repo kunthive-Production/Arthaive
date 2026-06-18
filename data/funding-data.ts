@@ -1,6 +1,6 @@
 // Auto-generated from CSV files in funding_data/
-// Last updated: 2026-06-17T09:07:12.887Z
-// Total deals: 6490
+// Last updated: 2026-06-18T07:05:45.773Z
+// Total deals: 7184
 // Currency conversion: 1 USD = ₹83.5 INR (as of 2025-11-30)
 // To update exchange rate: Edit config/currency.js and run 'npm run generate-data'
 
@@ -39635,6 +39635,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q4 FY24"
   },
   {
+    "id": "W14 Q3 FY20-1",
+    "company": "Quicko",
+    "amount": 200.39999999999998,
+    "stage": "Seed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Rainmatter"
+    ],
+    "leadInvestor": "Rainmatter",
+    "date": "2019-12-31",
+    "location": "Ahmedabad",
+    "description": "Quicko raised ₹2.0 Cr in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-alert-zerodhas-rainmatter-tax-filing-quicko",
+    "weekFolder": "W14 Q3 FY20"
+  },
+  {
     "id": "W13 Q3 FY20-1",
     "company": "GoMechanic",
     "amount": 10495.95,
@@ -39725,6 +39743,65 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W13 Q3 FY20"
   },
   {
+    "id": "W13 Q3 FY20-8",
+    "company": "LeverageEdu",
+    "amount": 1252.5,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Blume Ventures"
+    ],
+    "leadInvestor": "Blume Ventures",
+    "date": "2019-12-28",
+    "location": "New Delhi",
+    "description": "LeverageEdu raised ₹12.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/leverageedu-raises-1-5mn-to-fuel-expansion-in-tier-2-3-cities/",
+    "weekFolder": "W13 Q3 FY20"
+  },
+  {
+    "id": "W13 Q3 FY20-12",
+    "company": "XpressBees",
+    "amount": 8350,
+    "stage": "Series D",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "Alibaba"
+    ],
+    "leadInvestor": "Alibaba",
+    "date": "2019-12-27",
+    "location": "Pune",
+    "description": "XpressBees raised ₹83.5 Cr in Series D round.",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-alert-alibaba-logistics-startup-xpressbees",
+    "weekFolder": "W13 Q3 FY20"
+  },
+  {
+    "id": "W13 Q3 FY20-14",
+    "company": "Vimobin Labs",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "FirstCheque.vc",
+      "Ranjit Radhakrishnan",
+      "Farooq Adam",
+      "Shubh Malhotra",
+      "Aprameya Radhakrishnan",
+      "Aaryaman Vir"
+    ],
+    "leadInvestor": "FirstCheque.vc",
+    "date": "2019-12-27",
+    "location": "Bengaluru",
+    "description": "Vimobin Labs raised funding in Seed round.",
+    "sourceUrl": "https://inc42.com/startups/exclusive-indias-vimobin-labs-raises-seed-funds-to-take-on-google-stadia-nvidia-in-cloud-gaming/",
+    "weekFolder": "W13 Q3 FY20"
+  },
+  {
     "id": "W13 Q3 FY20-4",
     "company": "Ruangguru",
     "amount": 125250,
@@ -39762,6 +39839,44 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W13 Q3 FY20"
   },
   {
+    "id": "W13 Q3 FY20-9",
+    "company": "MavenHive",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Navi Technologies"
+    ],
+    "leadInvestor": "Navi Technologies",
+    "date": "2019-12-26",
+    "location": "Bengaluru",
+    "description": "MavenHive raised funding in Acquisition round.",
+    "sourceUrl": "https://entrackr.com/2019/12/sachin-bansals-navi-acquires-tech-consulting-startup-mavenhive/",
+    "weekFolder": "W13 Q3 FY20"
+  },
+  {
+    "id": "W13 Q3 FY20-13",
+    "company": "Bombay Shaving Company",
+    "amount": 5260.5,
+    "stage": "Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Sixth Sense Ventures",
+      "Colgate Palmolive Asia Pacific",
+      "Fireside Ventures"
+    ],
+    "leadInvestor": "Sixth Sense Ventures",
+    "date": "2019-12-26",
+    "location": "Gurugram",
+    "description": "Bombay Shaving Company raised ₹52.6 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/bombay-shaving-company-bags-6-5-mn-to-expand-presence/",
+    "weekFolder": "W13 Q3 FY20"
+  },
+  {
     "id": "W13 Q3 FY20-3",
     "company": "Eduisfun",
     "amount": 19998.25,
@@ -39778,6 +39893,42 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "Eduisfun raised ₹200.0 Cr in Not Disclosed .",
     "sourceUrl": "https://entrackr.com/2019/12/eduisfun-secures-rs-200-cr-deepak-parekh-amitabh-bachchan/",
+    "weekFolder": "W13 Q3 FY20"
+  },
+  {
+    "id": "W13 Q3 FY20-10",
+    "company": "Grofers",
+    "amount": 4175,
+    "stage": "Series F",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "SoftBank Vision Fund Growth"
+    ],
+    "leadInvestor": "SoftBank Vision Fund Growth",
+    "date": "2019-12-24",
+    "location": "Gurugram",
+    "description": "Grofers raised ₹41.8 Cr in Series F round.",
+    "sourceUrl": "https://entrackr.com/2019/12/exclusive-softbank-valued-grofers-644-mn/",
+    "weekFolder": "W13 Q3 FY20"
+  },
+  {
+    "id": "W13 Q3 FY20-11",
+    "company": "FlytBase",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-12-24",
+    "location": "Pune",
+    "description": "FlytBase raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-alert-indo-us-aerial-robotics-startup-flytbase",
     "weekFolder": "W13 Q3 FY20"
   },
   {
@@ -39800,6 +39951,124 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "HomeLane raised ₹250.5 Cr in Series C round.",
     "sourceUrl": "https://entrackr.com/2019/12/homelane-raises-30-mn-in-series-d-round/",
+    "weekFolder": "W12 Q3 FY20"
+  },
+  {
+    "id": "W12 Q3 FY20-23",
+    "company": "Nu Genes",
+    "amount": 5010,
+    "stage": "Seed",
+    "sectors": [
+      "Agritech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-12-23",
+    "location": "India",
+    "description": "Nu Genes raised ₹50.1 Cr in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/agritech-startup-nu-genes-raises-6-mn-to-take-seed-biz-global/",
+    "weekFolder": "W12 Q3 FY20"
+  },
+  {
+    "id": "W12 Q3 FY20-24",
+    "company": "GramFactory",
+    "amount": 2922.5,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Omidyar Network"
+    ],
+    "leadInvestor": "Omidyar Network",
+    "date": "2019-12-23",
+    "location": "Gurugram",
+    "description": "GramFactory raised ₹29.2 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/12/exclusive-gramfactory-set-to-raise-3-5-mn-led-by-omidyar/",
+    "weekFolder": "W12 Q3 FY20"
+  },
+  {
+    "id": "W12 Q3 FY20-29",
+    "company": "Finly",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Social Capital",
+      "AngelList India",
+      "Gemba Capital",
+      "Omphalos Ventures",
+      "91springboard"
+    ],
+    "leadInvestor": "Social Capital",
+    "date": "2019-12-23",
+    "location": "Bengaluru",
+    "description": "Finly raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-alert-finly-raises-money-gemba-capital-angellist",
+    "weekFolder": "W12 Q3 FY20"
+  },
+  {
+    "id": "W12 Q3 FY20-30",
+    "company": "Qilo",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "PeopleStrong"
+    ],
+    "leadInvestor": "PeopleStrong",
+    "date": "2019-12-23",
+    "location": "Gurugram",
+    "description": "Qilo raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/12/hrtech-company-peoplestrong-acquires-qilo-saas-startup",
+    "weekFolder": "W12 Q3 FY20"
+  },
+  {
+    "id": "W12 Q3 FY20-22",
+    "company": "Ripple",
+    "amount": 27555,
+    "stage": "Series C",
+    "sectors": [
+      "Web3 & Crypto"
+    ],
+    "investors": [
+      "Tetragon",
+      "SBI Holdings",
+      "Route 66 Ventures"
+    ],
+    "leadInvestor": "Tetragon",
+    "date": "2019-12-22",
+    "location": "India",
+    "description": "Ripple raised ₹275.6 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/cryptocurrency-this-week-ripple-closes-series-c-funding-iran-proposes-muslim-cryptocurrency-and-more/",
+    "weekFolder": "W12 Q3 FY20"
+  },
+  {
+    "id": "W12 Q3 FY20-34",
+    "company": "Finly",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Gemba Capital",
+      "Social Capital",
+      "AngelList India",
+      "91Springboard",
+      "Omphalos Ventures"
+    ],
+    "leadInvestor": "Gemba Capital",
+    "date": "2019-12-22",
+    "location": "Bengaluru",
+    "description": "Finly raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/finly-bags-funds-from-gemba-capital-others-to-expand-saas-biz/",
     "weekFolder": "W12 Q3 FY20"
   },
   {
@@ -39893,6 +40162,46 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "Lenskart raised ₹2296.3 Cr in Series F round.",
     "sourceUrl": "https://yourstory.com/2019/12/funding-eyewear-startup-lenskart-softbank-vision-fund",
+    "weekFolder": "W12 Q3 FY20"
+  },
+  {
+    "id": "W12 Q3 FY20-21",
+    "company": "Open Secret",
+    "amount": 6997.3,
+    "stage": "Seed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Matrix Partners",
+      "Matrix Partners India",
+      "Rohit Bansal",
+      "CEO of Godrej Consumer Products",
+      "Vivek Gambhir"
+    ],
+    "leadInvestor": "Matrix Partners",
+    "date": "2019-12-20",
+    "location": "Mumbai",
+    "description": "Open Secret raised ₹70.0 Cr in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/matrix-partners-invests-in-open-secret-to-expand-fb-portfolio/",
+    "weekFolder": "W12 Q3 FY20"
+  },
+  {
+    "id": "W12 Q3 FY20-33",
+    "company": "FlytBase",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "US-based early-stage VCs and angel investors"
+    ],
+    "leadInvestor": "US-based early-stage VCs and angel investors",
+    "date": "2019-12-20",
+    "location": "Pune",
+    "description": "FlytBase raised funding in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/drone-startup-flytbase-raises-seed-round-for-commercial-applications/",
     "weekFolder": "W12 Q3 FY20"
   },
   {
@@ -39991,6 +40300,108 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "Cub McPaws raised ₹100.0 Cr in Pre-Seed round.",
     "sourceUrl": "https://yourstory.com/2019/12/funding-augmented-reality-b2c-startup-cub-mcpaws-kids-retail",
+    "weekFolder": "W12 Q3 FY20"
+  },
+  {
+    "id": "W12 Q3 FY20-19",
+    "company": "Kaleidofin",
+    "amount": 4258.5,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Netherlands-based cooperative",
+      "Oikocredit",
+      "Flourish Ventures",
+      "Omidyar Network India",
+      "Blume Ventures",
+      "Bharat Inclusion Seed Fund",
+      "Israel-based medical professor Shlomo Ben-Haim"
+    ],
+    "leadInvestor": "Netherlands-based cooperative",
+    "date": "2019-12-19",
+    "location": "Chennai",
+    "description": "Kaleidofin raised ₹42.6 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/kaleidofin-raises-inr-36-cr-to-strengthen-fintech-capabilities/",
+    "weekFolder": "W12 Q3 FY20"
+  },
+  {
+    "id": "W12 Q3 FY20-20",
+    "company": "LivFin",
+    "amount": 4175,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-12-19",
+    "location": "Delhi",
+    "description": "LivFin raised ₹41.8 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/fintech-startup-livfin-raises-5-mn-to-expand-operations/",
+    "weekFolder": "W12 Q3 FY20"
+  },
+  {
+    "id": "W12 Q3 FY20-27",
+    "company": "DROR",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "IP Ventures"
+    ],
+    "leadInvestor": "IP Ventures",
+    "date": "2019-12-19",
+    "location": "Gurugram",
+    "description": "DROR raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-alert-safety-tech-startup-dror-ip-ventures",
+    "weekFolder": "W12 Q3 FY20"
+  },
+  {
+    "id": "W12 Q3 FY20-28",
+    "company": "Open Secret",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Matrix Partners India",
+      "Vijay Shekhar Sharma",
+      "Kunal Bahl",
+      "Rohit Bansal",
+      "Vivek Gambhir"
+    ],
+    "leadInvestor": "Matrix Partners India",
+    "date": "2019-12-19",
+    "location": "Mumbai",
+    "description": "Open Secret raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-alert-fb-brand-open-secret-seed-capital-matrix-partners-india",
+    "weekFolder": "W12 Q3 FY20"
+  },
+  {
+    "id": "W12 Q3 FY20-31",
+    "company": "Waterfield Advisors",
+    "amount": 5010,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Zephyr Management",
+      "TVS Capital",
+      "Gaurav Dalmia"
+    ],
+    "leadInvestor": "Zephyr Management",
+    "date": "2019-12-19",
+    "location": "Mumbai",
+    "description": "Waterfield Advisors raised ₹50.1 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-alert-mumbai-multi-family-office-waterfield-advisors",
     "weekFolder": "W12 Q3 FY20"
   },
   {
@@ -40102,6 +40513,45 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W12 Q3 FY20"
   },
   {
+    "id": "W12 Q3 FY20-26",
+    "company": "Azah",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Titan Capital",
+      "Kunal Bahl",
+      "Rohit Bansal",
+      "AngelList India"
+    ],
+    "leadInvestor": "Titan Capital",
+    "date": "2019-12-18",
+    "location": "Gurugram",
+    "description": "Azah raised funding in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-snapdeal-kunal-bahl-rohit-bansal-female-wellness-startup-azah",
+    "weekFolder": "W12 Q3 FY20"
+  },
+  {
+    "id": "W12 Q3 FY20-32",
+    "company": "DROR",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Consumer Services"
+    ],
+    "investors": [
+      "IP Ventures"
+    ],
+    "leadInvestor": "IP Ventures",
+    "date": "2019-12-18",
+    "location": "Gurugram",
+    "description": "DROR raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/dror-raises-funding-from-ip-ventures-to-make-safe-spaces-for-women-tourists/",
+    "weekFolder": "W12 Q3 FY20"
+  },
+  {
     "id": "W12 Q3 FY20-6",
     "company": "HungerBox",
     "amount": 10020,
@@ -40153,6 +40603,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Gurugram",
     "description": "Bijak raised ₹20.9 Cr in Not Disclosed .",
     "sourceUrl": "https://yourstory.com/2019/12/funding-alert-b2b-agritech-startup-bijak-sequoia-capital",
+    "weekFolder": "W12 Q3 FY20"
+  },
+  {
+    "id": "W12 Q3 FY20-25",
+    "company": "Funtoot",
+    "amount": 7164.299999999999,
+    "stage": "Acquisition",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Embibe"
+    ],
+    "leadInvestor": "Embibe",
+    "date": "2019-12-17",
+    "location": "Bengaluru",
+    "description": "Funtoot raised ₹71.6 Cr in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/12/embibe-acquistion-stake-funtoot-reliance-industries",
     "weekFolder": "W12 Q3 FY20"
   },
   {
@@ -40226,6 +40694,42 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W11 Q3 FY20"
   },
   {
+    "id": "W11 Q3 FY20-46",
+    "company": "Fourth Partner Energy",
+    "amount": 35646.149999999994,
+    "stage": "Debt",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Bank of America"
+    ],
+    "leadInvestor": "Bank of America",
+    "date": "2019-12-16",
+    "location": "Hyderabad",
+    "description": "Fourth Partner Energy raised ₹356.5 Cr in Debt round.",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-bank-of-america-solar-power-startup-fourth-partner-energy",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-47",
+    "company": "Northern Arc Capital",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Sumitomo Mitsui Banking Corporation"
+    ],
+    "leadInvestor": "Sumitomo Mitsui Banking Corporation",
+    "date": "2019-12-16",
+    "location": "Chennai",
+    "description": "Northern Arc Capital raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-alert-japanese-multinational-bank-smbc-northern-arc-capital",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
     "id": "W11 Q3 FY20-3",
     "company": "HappyEasyGo",
     "amount": 208750,
@@ -40251,6 +40755,221 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "HappyEasyGo raised ₹2087.5 Cr in Series A round.",
     "sourceUrl": "https://entrackr.com/2019/12/funding-in-indian-startups-this-week-09-dec-14-dec/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-30",
+    "company": "Pumpkart",
+    "amount": 0,
+    "stage": "Series D",
+    "sectors": [
+      "General"
+    ],
+    "investors": [
+      "Dr",
+      "Lightspeed Venture Partners",
+      "DST Global had"
+    ],
+    "leadInvestor": "Dr",
+    "date": "2019-12-14",
+    "location": "Chandigarh",
+    "description": "Pumpkart raised funding in Series D round.",
+    "sourceUrl": "https://inc42.com/buzz/b2b-marketplace-pumpkart-bags-funding-from-cii-chairman/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-55",
+    "company": "Playtoome",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Media & Entertainment"
+    ],
+    "investors": [
+      "SOSV"
+    ],
+    "leadInvestor": "SOSV",
+    "date": "2019-12-14",
+    "location": "Bengaluru",
+    "description": "Playtoome raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/playtoome-raises-funds-from-sosv-to-connect-audience-artists/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-56",
+    "company": "Trell",
+    "amount": 1670,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Ruizheng Investment",
+      "KTBN Venture",
+      "Sprout Venture Partners",
+      "AH Projects",
+      "Beenext2",
+      "WEH Ventures"
+    ],
+    "leadInvestor": "Ruizheng Investment",
+    "date": "2019-12-14",
+    "location": "Bengaluru",
+    "description": "Trell raised ₹16.7 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/sequoia-surge-startup-trell-raises-2-mn-pre-series-a/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-29",
+    "company": "GSF-Graduate Slintel",
+    "amount": 1252.5,
+    "stage": "Seed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Stellaris Ventures",
+      "Accel Partners",
+      "Engage"
+    ],
+    "leadInvestor": "Stellaris Ventures",
+    "date": "2019-12-13",
+    "location": "Bengaluru",
+    "description": "GSF-Graduate Slintel raised ₹12.5 Cr in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/gsf-graduate-saas-startup-slintel-raises-1-5-mn-seed-funding/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-31",
+    "company": "Trell",
+    "amount": 3340,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Social"
+    ],
+    "investors": [
+      "Sequoia Capital",
+      "Fosun RZ Capital",
+      "BEENEXT",
+      "WEH Ventures"
+    ],
+    "leadInvestor": "Sequoia Capital",
+    "date": "2019-12-13",
+    "location": "Bengaluru",
+    "description": "Trell raised ₹33.4 Cr in Pre-Series A round.",
+    "sourceUrl": "https://entrackr.com/2019/12/trell-raises-2-mn-in-pre-series-a-round-at-19-mn-valuation/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-32",
+    "company": "Yulu",
+    "amount": 5502.65,
+    "stage": "Series A",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Bajaj Auto"
+    ],
+    "leadInvestor": "Bajaj Auto",
+    "date": "2019-12-13",
+    "location": "Bengaluru",
+    "description": "Yulu raised ₹55.0 Cr in Series A round.",
+    "sourceUrl": "https://entrackr.com/2019/12/yulus-valuation-surges-rs-276-cr/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-43",
+    "company": "truMe",
+    "amount": 116.9,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Rajan Kaistha"
+    ],
+    "leadInvestor": "Rajan Kaistha",
+    "date": "2019-12-13",
+    "location": "Delhi",
+    "description": "truMe raised ₹1.2 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-startup-identity-and-access-management-trume",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-44",
+    "company": "Rivigo",
+    "amount": 16700,
+    "stage": "Series F",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "SAIF Partners",
+      "Spring Canter Investment Ltd"
+    ],
+    "leadInvestor": "SAIF Partners",
+    "date": "2019-12-13",
+    "location": "Gurugram",
+    "description": "Rivigo raised ₹167.0 Cr in Series F round.",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-logistics-startup-rivigo-series-f-saif-spring-canter-investment",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-45",
+    "company": "Asteria Aerospace",
+    "amount": 2312.95,
+    "stage": "Acquisition",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Reliance Strategic Business Ventures"
+    ],
+    "leadInvestor": "Reliance Strategic Business Ventures",
+    "date": "2019-12-13",
+    "location": "Bengaluru",
+    "description": "Asteria Aerospace raised ₹23.1 Cr in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/12/reliance-industries-acquires-asteria-aerospace-drone",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-52",
+    "company": "Paytm",
+    "amount": 559032.5,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "T Rowe Price",
+      "Alipay",
+      "SoftBank",
+      "Hana Financial Investment",
+      "Samba Financial Group"
+    ],
+    "leadInvestor": "T Rowe Price",
+    "date": "2019-12-13",
+    "location": "Noida",
+    "description": "Paytm raised ₹5590.3 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/paytm-parent-one97-secures-funding-from-softbank-alipay-others/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-54",
+    "company": "Bombay Shirt Company",
+    "amount": 6680,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Lightbox Ventures"
+    ],
+    "leadInvestor": "Lightbox Ventures",
+    "date": "2019-12-13",
+    "location": "Mumbai",
+    "description": "Bombay Shirt Company raised ₹66.8 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/bombay-shirt-company-to-go-after-pants-with-funding-from-lightbox/",
     "weekFolder": "W11 Q3 FY20"
   },
   {
@@ -40365,6 +41084,121 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Slintel raised ₹12.5 Cr in Seed round.",
     "sourceUrl": "https://yourstory.com/2019/12/funding-slintel-stellaris-accel-saas-startup-big-data",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-27",
+    "company": "News Box8",
+    "amount": 1411.15,
+    "stage": "Series C",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-12-12",
+    "location": "Mumbai",
+    "description": "News Box8 raised ₹14.1 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/box8-gets-1-69-mn-debt-funding-from-trifecta-capital/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-28",
+    "company": "Cubical Laboratories",
+    "amount": 9185,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Breakthrough Energy Ventures",
+      "Climate Initiative"
+    ],
+    "leadInvestor": "Breakthrough Energy Ventures",
+    "date": "2019-12-12",
+    "location": "New Delhi",
+    "description": "Cubical Laboratories raised ₹91.8 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/cubical-laboratories-raises-funding-from-rockstud-capital-to-expand-operations/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-33",
+    "company": "NowFloats",
+    "amount": 16700,
+    "stage": "Acquisition",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Reliance Strategic Business Ventures (RIL)"
+    ],
+    "leadInvestor": "Reliance Strategic Business Ventures (RIL)",
+    "date": "2019-12-12",
+    "location": "Hyderabad",
+    "description": "NowFloats raised ₹167.0 Cr in Acquisition round.",
+    "sourceUrl": "https://entrackr.com/2019/12/ril-acquires-85-stake-in-nowfloats-for-20-mn/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-41",
+    "company": "Ecozen",
+    "amount": 5010,
+    "stage": "Series A",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Sathguru Catalyser (IFA Fund)",
+      "Caspian",
+      "Hivos-Triodos Fund",
+      "Omnivore"
+    ],
+    "leadInvestor": "Sathguru Catalyser (IFA Fund)",
+    "date": "2019-12-12",
+    "location": "Pune",
+    "description": "Ecozen raised ₹50.1 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-alert-agritech-startup-ecozen-ifa-fund",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-42",
+    "company": "NowFloats Technologies",
+    "amount": 14103.150000000001,
+    "stage": "Acquisition",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Reliance Strategic Business Ventures"
+    ],
+    "leadInvestor": "Reliance Strategic Business Ventures",
+    "date": "2019-12-12",
+    "location": "Hyderabad",
+    "description": "NowFloats Technologies raised ₹141.0 Cr in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/12/realiance-acquires-saas-platform-nowfloats-technologies",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-53",
+    "company": "Awign",
+    "amount": 3340,
+    "stage": "Series A",
+    "sectors": [
+      "Consumer Services"
+    ],
+    "investors": [
+      "Work10M",
+      "Michael and Susan Dell Foundation",
+      "Eagle10",
+      "Unitus Ventures"
+    ],
+    "leadInvestor": "Work10M",
+    "date": "2019-12-12",
+    "location": "Bengaluru",
+    "description": "Awign raised ₹33.4 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/work-fulfillment-platform-awign-raises-4-mn-series-a-funding-for-expansion/",
     "weekFolder": "W11 Q3 FY20"
   },
   {
@@ -40508,6 +41342,106 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W11 Q3 FY20"
   },
   {
+    "id": "W11 Q3 FY20-38",
+    "company": "Ninjacart",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Walmart",
+      "Flipkart"
+    ],
+    "leadInvestor": "Walmart",
+    "date": "2019-12-11",
+    "location": "Bengaluru",
+    "description": "Ninjacart raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-alert-flipkart-walmart-invest-ninjacart",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-39",
+    "company": "Binca Games",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Gaming"
+    ],
+    "investors": [
+      "Sunil Gavaskar"
+    ],
+    "leadInvestor": "Sunil Gavaskar",
+    "date": "2019-12-11",
+    "location": "Mumbai",
+    "description": "Binca Games raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-alert-sunil-gavaskar-binca-games-cricket",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-40",
+    "company": "QDs",
+    "amount": 417.5,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-12-11",
+    "location": "Delhi",
+    "description": "QDs raised ₹4.2 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-alert-delhi-casual-dining-brand-qds",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-50",
+    "company": "HappyEasyGo",
+    "amount": 41249,
+    "stage": "Series B",
+    "sectors": [
+      "Travel Tech"
+    ],
+    "investors": [
+      "Korea Investment Partners",
+      "Samsung Venture Investment Corporation",
+      "UOB Venture",
+      "10 Fund",
+      "CVCapital",
+      "Zero2IPO Ventures",
+      "M&S Partners"
+    ],
+    "leadInvestor": "Korea Investment Partners",
+    "date": "2019-12-11",
+    "location": "Gurugram",
+    "description": "HappyEasyGo raised ₹412.5 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/happyeasygo-gets-new-series-b-investors-aboard-for-expansion-plans/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-51",
+    "company": "Purplle",
+    "amount": 25050,
+    "stage": "Series C",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Goldman Sachs",
+      "IvyCap Ventures",
+      "Blume Ventures",
+      "JSW Ventures"
+    ],
+    "leadInvestor": "Goldman Sachs",
+    "date": "2019-12-11",
+    "location": "Mumbai",
+    "description": "Purplle raised ₹250.5 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/after-narrowing-down-losses-70-purplle-gets-27-3-mn-series-c-funding/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
     "id": "W11 Q3 FY20-6",
     "company": "PiBeam",
     "amount": 501,
@@ -40619,6 +41553,168 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W11 Q3 FY20"
   },
   {
+    "id": "W11 Q3 FY20-24",
+    "company": "Freshokartz",
+    "amount": 100.19999999999999,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Agritech"
+    ],
+    "investors": [
+      "HNIs"
+    ],
+    "leadInvestor": "HNIs",
+    "date": "2019-12-10",
+    "location": "Jaipur",
+    "description": "Freshokartz raised ₹1.0 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-with-an-eye-on-expansion-freshokartz-raises-pre-series-a-funding/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-25",
+    "company": "Observe.AI",
+    "amount": 21710,
+    "stage": "Series A",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Scale Venture Partners"
+    ],
+    "leadInvestor": "Scale Venture Partners",
+    "date": "2019-12-10",
+    "location": "India",
+    "description": "Observe.AI raised ₹217.1 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/voice-ai-platform-observe-ai-raises-26-mn-series-a-to-expand-operations/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-26",
+    "company": "JOHRI",
+    "amount": 835,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "London-based investor Rajesh Ranavat"
+    ],
+    "leadInvestor": "London-based investor Rajesh Ranavat",
+    "date": "2019-12-10",
+    "location": "Mumbai",
+    "description": "JOHRI raised ₹8.3 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/ejohri-raises-1-mn-from-hong-kong-investors-for-service-expansion/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-34",
+    "company": "Ecom Express",
+    "amount": 30060,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "CDC Group"
+    ],
+    "leadInvestor": "CDC Group",
+    "date": "2019-12-10",
+    "location": "Gurugram",
+    "description": "Ecom Express raised ₹300.6 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/12/after-controlling-losses-in-fy19-ecom-express-rakes-in-36-mn-from-cdc/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-35",
+    "company": "Cubical Labs",
+    "amount": 0,
+    "stage": "Bridge",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Rockstud Capital"
+    ],
+    "leadInvestor": "Rockstud Capital",
+    "date": "2019-12-10",
+    "location": "Gurugram",
+    "description": "Cubical Labs raised funding in Bridge round.",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-rockstud-capital-cubical-labs-iot-automation",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-36",
+    "company": "StompMarket",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Mall91"
+    ],
+    "leadInvestor": "Mall91",
+    "date": "2019-12-10",
+    "location": "Noida",
+    "description": "StompMarket raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/12/mall91-stompmarket-acquisition-erp-solutions",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-37",
+    "company": "PhonePe",
+    "amount": 68887.5,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "PhonePe Private Ltd"
+    ],
+    "leadInvestor": "PhonePe Private Ltd",
+    "date": "2019-12-10",
+    "location": "Bengaluru",
+    "description": "PhonePe raised ₹688.9 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/12/digital-payments-phonepe-funding-singapore-parent",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-48",
+    "company": "Stellapps",
+    "amount": 0,
+    "stage": "Venture Debt",
+    "sectors": [
+      "Agritech"
+    ],
+    "investors": [
+      "Stride Ventures"
+    ],
+    "leadInvestor": "Stride Ventures",
+    "date": "2019-12-10",
+    "location": "Bengaluru",
+    "description": "Stellapps raised funding in Venture Debt round.",
+    "sourceUrl": "https://inc42.com/buzz/stride-ventures-invests-in-stellapps-marks-first-close-of-fund-i/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
+    "id": "W11 Q3 FY20-49",
+    "company": "Fitato",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Squats Fitness"
+    ],
+    "leadInvestor": "Squats Fitness",
+    "date": "2019-12-10",
+    "location": "Pune",
+    "description": "Fitato raised funding in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/squats-acquires-minority-stake-in-gym-aggregator-platform-fitato/",
+    "weekFolder": "W11 Q3 FY20"
+  },
+  {
     "id": "W10 Q3 FY20-15",
     "company": "FableStreet",
     "amount": 2095.85,
@@ -40637,21 +41733,102 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q3 FY20"
   },
   {
-    "id": "W10 Q3 FY20-14",
-    "company": "Nivesh.com",
-    "amount": 999995.9999999999,
-    "stage": "Not Disclosed",
+    "id": "W10 Q3 FY20-17",
+    "company": "Mn Licious",
+    "amount": 25050,
+    "stage": "Series C",
     "sectors": [
       "E-commerce"
     ],
     "investors": [
-      "Windrose Capital's"
+      "Japan-based Nichirei Corp",
+      "Bertelsmann India Investments",
+      "Vertex Ventures Southeast Asia",
+      "India",
+      "UCLA"
     ],
-    "leadInvestor": "Windrose Capital's",
+    "leadInvestor": "Japan-based Nichirei Corp",
+    "date": "2019-12-09",
+    "location": "Bengaluru",
+    "description": "Mn Licious raised ₹250.5 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/licious-likely-to-raise-30-mn-funding-from-delight-gourmet-vertex-ventures/",
+    "weekFolder": "W10 Q3 FY20"
+  },
+  {
+    "id": "W10 Q3 FY20-18",
+    "company": "WayCool",
+    "amount": 8350,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Agritech"
+    ],
+    "investors": [
+      "LightBox Ventures"
+    ],
+    "leadInvestor": "LightBox Ventures",
+    "date": "2019-12-09",
+    "location": "Chennai",
+    "description": "WayCool raised ₹83.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/12/exclusive-waycool-raise-10-mn-lightbox/",
+    "weekFolder": "W10 Q3 FY20"
+  },
+  {
+    "id": "W10 Q3 FY20-19",
+    "company": "Cuemath",
+    "amount": 3899.45,
+    "stage": "Series B",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Manta Ray Ventures",
+      "Capital G",
+      "Sequoia Capital India"
+    ],
+    "leadInvestor": "Manta Ray Ventures",
+    "date": "2019-12-09",
+    "location": "Bengaluru",
+    "description": "Cuemath raised ₹39.0 Cr in Series B round.",
+    "sourceUrl": "https://entrackr.com/2019/12/exclusive-cuemath-raising-rs-39-cr-from-manta-ray-capital-google-and-sequoia/",
+    "weekFolder": "W10 Q3 FY20"
+  },
+  {
+    "id": "W10 Q3 FY20-32",
+    "company": "OYO",
+    "amount": 578655,
+    "stage": "Series F",
+    "sectors": [
+      "Travel Tech"
+    ],
+    "investors": [
+      "RA Hospitality Holdings"
+    ],
+    "leadInvestor": "RA Hospitality Holdings",
+    "date": "2019-12-09",
+    "location": "Gurugram",
+    "description": "OYO raised ₹5786.6 Cr in Series F round.",
+    "sourceUrl": "https://inc42.com/buzz/oyo-gets-693-mn-infusion-from-founder-ritesh-agarwal/",
+    "weekFolder": "W10 Q3 FY20"
+  },
+  {
+    "id": "W10 Q3 FY20-31",
+    "company": "CarDekho",
+    "amount": 58450,
+    "stage": "Series D",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Ping An Global Voyager Fund",
+      "Sunley House Capital Management",
+      "Sequoia India",
+      "Hillhouse"
+    ],
+    "leadInvestor": "Ping An Global Voyager Fund",
     "date": "2019-12-06",
-    "location": "Noida",
-    "description": "Nivesh.com raised ₹10000.0 Cr in Not Disclosed .",
-    "sourceUrl": "https://yourstory.com/2019/12/funding-alert-mutual-fund-marketplace-nivesh-com-windrose-capital",
+    "location": "Jaipur",
+    "description": "CarDekho raised ₹584.5 Cr in Series D round.",
+    "sourceUrl": "https://inc42.com/buzz/cardekho-parent-girnarsoft-raises-40-mn-in-ongoing-series-d-funding-round/",
     "weekFolder": "W10 Q3 FY20"
   },
   {
@@ -40789,6 +41966,107 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q3 FY20"
   },
   {
+    "id": "W10 Q3 FY20-16",
+    "company": "Smart Institute",
+    "amount": 1252.5,
+    "stage": "Series A",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-12-05",
+    "location": "New Delhi",
+    "description": "Smart Institute raised ₹12.5 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/smart-institute-bags-1-5-mn-from-ah-ventures-to-enhance-edtech-capabilities/",
+    "weekFolder": "W10 Q3 FY20"
+  },
+  {
+    "id": "W10 Q3 FY20-20",
+    "company": "Shadowfax",
+    "amount": 50100,
+    "stage": "Series D",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "Flipkart",
+      "Eight Roads Ventures",
+      "Nokia Growth Partners",
+      "Qualcomm Ventures",
+      "Mirae Asset Naver Fund",
+      "IFC"
+    ],
+    "leadInvestor": "Flipkart",
+    "date": "2019-12-05",
+    "location": "Bengaluru",
+    "description": "Shadowfax raised ₹501.0 Cr in Series D round.",
+    "sourceUrl": "https://entrackr.com/2019/12/shadowfax-60-mn-series-d-round-led-by-flipkart/",
+    "weekFolder": "W10 Q3 FY20"
+  },
+  {
+    "id": "W10 Q3 FY20-21",
+    "company": "Swiggy",
+    "amount": 250500,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Naspers (Prosus Ventures)",
+      "STIC Investments",
+      "Mirae Asset"
+    ],
+    "leadInvestor": "Naspers (Prosus Ventures)",
+    "date": "2019-12-05",
+    "location": "Bengaluru",
+    "description": "Swiggy raised ₹2505.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/12/exclusive-swiggy-raise-300-mn-naspers/",
+    "weekFolder": "W10 Q3 FY20"
+  },
+  {
+    "id": "W10 Q3 FY20-29",
+    "company": "Sportido",
+    "amount": 0,
+    "stage": "Series B",
+    "sectors": [
+      "Media & Entertainment"
+    ],
+    "investors": [
+      "Inflection Point Ventures",
+      "IP Ventures",
+      "SucSEED Venture Partners"
+    ],
+    "leadInvestor": "Inflection Point Ventures",
+    "date": "2019-12-05",
+    "location": "Noida",
+    "description": "Sportido raised funding in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/sports-discovery-startup-sportido-raises-series-b-from-ip-ventures/",
+    "weekFolder": "W10 Q3 FY20"
+  },
+  {
+    "id": "W10 Q3 FY20-30",
+    "company": "Indyfint",
+    "amount": 1753.5,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Saravanan Adiseshan",
+      "Paddy Padmanabhan",
+      "Rajiv Kuchha"
+    ],
+    "leadInvestor": "Saravanan Adiseshan",
+    "date": "2019-12-05",
+    "location": "Bengaluru",
+    "description": "Indyfint raised ₹17.5 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/digital-banking-startup-indyfint-raises-2-1-mn-within-two-months-of-launch/",
+    "weekFolder": "W10 Q3 FY20"
+  },
+  {
     "id": "W10 Q3 FY20-1",
     "company": "CarDekho",
     "amount": 34235,
@@ -40840,6 +42118,61 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "Smart Institute raised ₹12.5 Cr in Pre-Series A round.",
     "sourceUrl": "https://yourstory.com/2019/12/funding-education-edtech-smart-institute-ah-ventures",
+    "weekFolder": "W10 Q3 FY20"
+  },
+  {
+    "id": "W10 Q3 FY20-27",
+    "company": "ZoloStays",
+    "amount": 5845,
+    "stage": "Series C",
+    "sectors": [
+      "Real Estate Tech"
+    ],
+    "investors": [
+      "Trifecta Capital"
+    ],
+    "leadInvestor": "Trifecta Capital",
+    "date": "2019-12-04",
+    "location": "Bengaluru",
+    "description": "ZoloStays raised ₹58.5 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/zolostays-plans-entry-into-new-cities-with-7mn-trifecta-funding/",
+    "weekFolder": "W10 Q3 FY20"
+  },
+  {
+    "id": "W10 Q3 FY20-28",
+    "company": "Zoomcar",
+    "amount": 4008,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Zoomcar Inc"
+    ],
+    "leadInvestor": "Zoomcar Inc",
+    "date": "2019-12-04",
+    "location": "Bengaluru",
+    "description": "Zoomcar raised ₹40.1 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/zoomcar-infuses-5-mn-in-its-business-looks-to-raise-more/",
+    "weekFolder": "W10 Q3 FY20"
+  },
+  {
+    "id": "W10 Q3 FY20-33",
+    "company": "Ola",
+    "amount": 259685,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Hyundai",
+      "Kia Motors"
+    ],
+    "leadInvestor": "Hyundai",
+    "date": "2019-12-04",
+    "location": "Bengaluru",
+    "description": "Ola raised ₹2596.8 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/ola-finally-gets-311-cr-from-hyundai-kia-to-intensify-electrification-drive/",
     "weekFolder": "W10 Q3 FY20"
   },
   {
@@ -40899,6 +42232,100 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q3 FY20"
   },
   {
+    "id": "W10 Q3 FY20-22",
+    "company": "Ola",
+    "amount": 213776.69999999998,
+    "stage": "Series J",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Hyundai",
+      "Kia"
+    ],
+    "leadInvestor": "Hyundai",
+    "date": "2019-12-03",
+    "location": "Bengaluru",
+    "description": "Ola raised ₹2137.8 Cr in Series J round.",
+    "sourceUrl": "https://entrackr.com/2019/12/hyundai-kia-invest-rs-2244-cr-ola/",
+    "weekFolder": "W10 Q3 FY20"
+  },
+  {
+    "id": "W10 Q3 FY20-23",
+    "company": "Infra.Market",
+    "amount": 16700,
+    "stage": "Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Tiger Global Management",
+      "Nexus Venture Partners",
+      "Accel Partners"
+    ],
+    "leadInvestor": "Tiger Global Management",
+    "date": "2019-12-03",
+    "location": "Mumbai",
+    "description": "Infra.Market raised ₹167.0 Cr in Series A round.",
+    "sourceUrl": "https://entrackr.com/2019/12/infra-market-raises-20-mn-led-by-tiger-global/",
+    "weekFolder": "W10 Q3 FY20"
+  },
+  {
+    "id": "W10 Q3 FY20-24",
+    "company": "Dhruva Space",
+    "amount": 501,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Ravikanth Reddy",
+      "Mumbai Angels Network"
+    ],
+    "leadInvestor": "Ravikanth Reddy",
+    "date": "2019-12-03",
+    "location": "Bengaluru",
+    "description": "Dhruva Space raised ₹5.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/12/funding-alert-space-tech-startup-dhruva-space-angel-funds",
+    "weekFolder": "W10 Q3 FY20"
+  },
+  {
+    "id": "W10 Q3 FY20-25",
+    "company": "Flipkart India",
+    "amount": 283883.30000000005,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Flipkart (Singapore parent)"
+    ],
+    "leadInvestor": "Flipkart (Singapore parent)",
+    "date": "2019-12-03",
+    "location": "Bengaluru",
+    "description": "Flipkart India raised ₹2838.8 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/12/flipkart-india-funding-startup-kalyan-krishnamurthy-walmart",
+    "weekFolder": "W10 Q3 FY20"
+  },
+  {
+    "id": "W10 Q3 FY20-26",
+    "company": "Infinity Transoft Solutions",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Travel Tech"
+    ],
+    "investors": [
+      "Paytm"
+    ],
+    "leadInvestor": "Paytm",
+    "date": "2019-12-03",
+    "location": "Rajkot",
+    "description": "Infinity Transoft Solutions raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/paytm-eyes-growth-in-bus-ticketing-with-investment-in-rajkot-startup-infinity/",
+    "weekFolder": "W10 Q3 FY20"
+  },
+  {
     "id": "W9 Q3 FY20-4",
     "company": "Infra.Market",
     "amount": 16700,
@@ -40918,25 +42345,61 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q3 FY20"
   },
   {
-    "id": "W9 Q3 FY20-5",
-    "company": "November",
-    "amount": 985300,
-    "stage": "Not Disclosed",
+    "id": "W9 Q3 FY20-17",
+    "company": "OYO",
+    "amount": 5010,
+    "stage": "Debt",
     "sectors": [
-      "Insurtech"
+      "General"
     ],
     "investors": [
-      "T Rowe Price Associates Inc"
+      "Not Disclosed"
     ],
-    "leadInvestor": "T Rowe Price Associates Inc",
+    "leadInvestor": "Not Disclosed",
     "date": "2019-11-30",
-    "location": "Mumbai",
-    "description": "November raised ₹9853.0 Cr in Not Disclosed .",
-    "sourceUrl": "https://yourstory.com/2019/11/weekly-funding-roundup-startups-paytm-acko-cardekho",
+    "location": "India",
+    "description": "OYO raised ₹50.1 Cr in Debt round.",
+    "sourceUrl": "https://inc42.com/buzz/oyo-raises-6-mn-debt-from-jv-with-softbank-avendus-to-upgrade-indian-hotels/",
     "weekFolder": "W9 Q3 FY20"
   },
   {
-    "id": "W9 Q3 FY20-6",
+    "id": "W9 Q3 FY20-18",
+    "company": "GoMechanic",
+    "amount": 4175,
+    "stage": "Series B",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Sequoia Capital"
+    ],
+    "leadInvestor": "Sequoia Capital",
+    "date": "2019-11-30",
+    "location": "Gurugram",
+    "description": "GoMechanic raised ₹41.8 Cr in Series B round.",
+    "sourceUrl": "https://entrackr.com/2019/11/sequoia-pumps-5-mn-into-gomechanics-fresh-round/",
+    "weekFolder": "W9 Q3 FY20"
+  },
+  {
+    "id": "W9 Q3 FY20-19",
+    "company": "MyPreferred Transformation",
+    "amount": 5001.650000000001,
+    "stage": "Debt",
+    "sectors": [
+      "Hospitality"
+    ],
+    "investors": [
+      "Avendus Finance"
+    ],
+    "leadInvestor": "Avendus Finance",
+    "date": "2019-11-30",
+    "location": "Gurugram",
+    "description": "MyPreferred Transformation raised ₹50.0 Cr in Debt round.",
+    "sourceUrl": "https://entrackr.com/2019/11/oyos-jv-mypreferred-transformation-secures-rs-50-cr-in-debt-financing/",
+    "weekFolder": "W9 Q3 FY20"
+  },
+  {
+    "id": "W9 Q3 FY20-5",
     "company": "Acko",
     "amount": 13360,
     "stage": "Series A",
@@ -40954,7 +42417,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q3 FY20"
   },
   {
-    "id": "W9 Q3 FY20-7",
+    "id": "W9 Q3 FY20-6",
     "company": "GreyAtom",
     "amount": 1002,
     "stage": "Pre-Series A",
@@ -40969,6 +42432,47 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "GreyAtom raised ₹10.0 Cr in Pre-Series A round.",
     "sourceUrl": "https://yourstory.com/2019/11/funding-startup-edtech-greyatom-montane-ventures",
+    "weekFolder": "W9 Q3 FY20"
+  },
+  {
+    "id": "W9 Q3 FY20-16",
+    "company": "Kamatan",
+    "amount": 2997.6499999999996,
+    "stage": "Seed",
+    "sectors": [
+      "Agritech"
+    ],
+    "investors": [
+      "Omnivore",
+      "Wavemaker Partners",
+      "Dehaat",
+      "Farmart",
+      "Ninjakart",
+      "Elevar Equity"
+    ],
+    "leadInvestor": "Omnivore",
+    "date": "2019-11-29",
+    "location": "New Delhi",
+    "description": "Kamatan raised ₹30.0 Cr in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/agritech-startup-kamatan-raises-inr-30-cr-from-samunnati-agro/",
+    "weekFolder": "W9 Q3 FY20"
+  },
+  {
+    "id": "W9 Q3 FY20-21",
+    "company": "Vested",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Inflection Point Ventures"
+    ],
+    "leadInvestor": "Inflection Point Ventures",
+    "date": "2019-11-29",
+    "location": "Bengaluru",
+    "description": "Vested raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/11/funding-alert-fintech-startup-vested-investment-ip-ventures",
     "weekFolder": "W9 Q3 FY20"
   },
   {
@@ -41021,7 +42525,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q3 FY20"
   },
   {
-    "id": "W9 Q3 FY20-8",
+    "id": "W9 Q3 FY20-7",
     "company": "Zumutor Biologics",
     "amount": 3340,
     "stage": "Not Disclosed",
@@ -41039,7 +42543,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q3 FY20"
   },
   {
-    "id": "W9 Q3 FY20-9",
+    "id": "W9 Q3 FY20-8",
     "company": "Blackbuck",
     "amount": 5602.849999999999,
     "stage": "Debt",
@@ -41057,7 +42561,61 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q3 FY20"
   },
   {
-    "id": "W9 Q3 FY20-10",
+    "id": "W9 Q3 FY20-15",
+    "company": "CarDekho",
+    "amount": 91850,
+    "stage": "Series C",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-11-28",
+    "location": "Jaipur",
+    "description": "CarDekho raised ₹918.5 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/cardekho-acquires-carmudi-philippines-to-expand-to-southeast-asia/",
+    "weekFolder": "W9 Q3 FY20"
+  },
+  {
+    "id": "W9 Q3 FY20-20",
+    "company": "Oi Playschool",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "FirstCry"
+    ],
+    "leadInvestor": "FirstCry",
+    "date": "2019-11-28",
+    "location": "Hyderabad",
+    "description": "Oi Playschool raised funding in Acquisition round.",
+    "sourceUrl": "https://entrackr.com/2019/11/firstcry-forays-education-acquires-qi-playschool/",
+    "weekFolder": "W9 Q3 FY20"
+  },
+  {
+    "id": "W9 Q3 FY20-22",
+    "company": "WonDRx",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Venture Catalysts"
+    ],
+    "leadInvestor": "Venture Catalysts",
+    "date": "2019-11-28",
+    "location": "Mumbai",
+    "description": "WonDRx raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/11/startup-funding-wondrx-venture-catalysts-healthtech",
+    "weekFolder": "W9 Q3 FY20"
+  },
+  {
+    "id": "W9 Q3 FY20-9",
     "company": "Blackbuck",
     "amount": 5602.849999999999,
     "stage": "Series D",
@@ -41079,7 +42637,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q3 FY20"
   },
   {
-    "id": "W9 Q3 FY20-11",
+    "id": "W9 Q3 FY20-10",
     "company": "Holisol",
     "amount": 2004,
     "stage": "Venture Debt",
@@ -41094,6 +42652,44 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "Holisol raised ₹20.0 Cr in Venture Debt round.",
     "sourceUrl": "https://yourstory.com/2019/11/funding-supply-chain-solutions-provider-holisol-logistics-blacksoil-capital",
+    "weekFolder": "W9 Q3 FY20"
+  },
+  {
+    "id": "W9 Q3 FY20-23",
+    "company": "Flyrobe",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Rent It Bae (AARK World)"
+    ],
+    "leadInvestor": "Rent It Bae (AARK World)",
+    "date": "2019-11-27",
+    "location": "Mumbai",
+    "description": "Flyrobe raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/11/rent-it-bae-acquires-fashion-startup-flyrobe",
+    "weekFolder": "W9 Q3 FY20"
+  },
+  {
+    "id": "W9 Q3 FY20-24",
+    "company": "Ess Kay Fincorp",
+    "amount": 27555,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "TPG",
+      "Norwest Venture Partners",
+      "Evolvence India"
+    ],
+    "leadInvestor": "TPG",
+    "date": "2019-11-27",
+    "location": "Jaipur",
+    "description": "Ess Kay Fincorp raised ₹275.6 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/11/funding-alert-ess-kay-fincorp-raises-33m-tpg-capital",
     "weekFolder": "W9 Q3 FY20"
   },
   {
@@ -41118,7 +42714,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q3 FY20"
   },
   {
-    "id": "W9 Q3 FY20-12",
+    "id": "W9 Q3 FY20-11",
     "company": "Gully Network",
     "amount": 501,
     "stage": "Seed",
@@ -41136,7 +42732,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q3 FY20"
   },
   {
-    "id": "W9 Q3 FY20-13",
+    "id": "W9 Q3 FY20-12",
     "company": "Just Herbs",
     "amount": 1252.5,
     "stage": "Pre-Series A",
@@ -41154,7 +42750,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q3 FY20"
   },
   {
-    "id": "W9 Q3 FY20-14",
+    "id": "W9 Q3 FY20-13",
     "company": "Yulu",
     "amount": 6680,
     "stage": "Series A",
@@ -41169,6 +42765,51 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Yulu raised ₹66.8 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/11/funding-startup-yulu-series-a-bajaj-auto-electric-vehicle-ev",
+    "weekFolder": "W9 Q3 FY20"
+  },
+  {
+    "id": "W9 Q3 FY20-14",
+    "company": "Mosaic Wellness",
+    "amount": 8350,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "SAIF Partners",
+      "Sequoia Capital",
+      "Matrix Partners",
+      "Cred founder Kunal Shah",
+      "Citrus Pay founder Jitendra Gupta",
+      "Rebel Foods cofounder Jaydeep Barman",
+      "Eight Roads Ventures’ Raj Dugar",
+      "Delhivery cofounder Sahil Barua"
+    ],
+    "leadInvestor": "SAIF Partners",
+    "date": "2019-11-26",
+    "location": "India",
+    "description": "Mosaic Wellness raised ₹83.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/mosaic-wellness-bags-10-mn-funding-ahead-of-2020-launch/",
+    "weekFolder": "W9 Q3 FY20"
+  },
+  {
+    "id": "W9 Q3 FY20-25",
+    "company": "FirstU",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "India Quotient",
+      "FirstCheque",
+      "Farooq Adam"
+    ],
+    "leadInvestor": "India Quotient",
+    "date": "2019-11-26",
+    "location": "Bengaluru",
+    "description": "FirstU raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/11/funding-vehicle-maintenance-startup-firstu-seed-india-quotient",
     "weekFolder": "W9 Q3 FY20"
   },
   {
@@ -41233,6 +42874,101 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q3 FY20"
   },
   {
+    "id": "W8 Q3 FY20-20",
+    "company": "Just Herbs",
+    "amount": 1252.5,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Ravinder Vashist",
+      "Vijay Shekhar Sharma (founder of Paytm)"
+    ],
+    "leadInvestor": "Ravinder Vashist",
+    "date": "2019-11-25",
+    "location": "Chandigarh",
+    "description": "Just Herbs raised ₹12.5 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/just-herbs-raises-1-5-mn-from-roots-venture-to-expand-product-offerings/",
+    "weekFolder": "W8 Q3 FY20"
+  },
+  {
+    "id": "W8 Q3 FY20-21",
+    "company": "Tookitaki",
+    "amount": 16032,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Viola Fintech",
+      "SIG Asia Investment"
+    ],
+    "leadInvestor": "Viola Fintech",
+    "date": "2019-11-25",
+    "location": "Bengaluru",
+    "description": "Tookitaki raised ₹160.3 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/tookitaki-raises-19-2-mn-series-a-to-expand-in-us-and-europe/",
+    "weekFolder": "W8 Q3 FY20"
+  },
+  {
+    "id": "W8 Q3 FY20-23",
+    "company": "Roposo",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Glance (InMobi Group)"
+    ],
+    "leadInvestor": "Glance (InMobi Group)",
+    "date": "2019-11-25",
+    "location": "Delhi",
+    "description": "Roposo raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/11/inmobi-glance-acquires-short-video-platform-roposo",
+    "weekFolder": "W8 Q3 FY20"
+  },
+  {
+    "id": "W8 Q3 FY20-24",
+    "company": "NephroPlus",
+    "amount": 31596.4,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Investcorp",
+      "Bessemer Venture Partners",
+      "IFC"
+    ],
+    "leadInvestor": "Investcorp",
+    "date": "2019-11-25",
+    "location": "Hyderabad",
+    "description": "NephroPlus raised ₹316.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/11/funding-alert-investcorp-dialysis-service-provider-nephroplus",
+    "weekFolder": "W8 Q3 FY20"
+  },
+  {
+    "id": "W8 Q3 FY20-34",
+    "company": "Shuttl",
+    "amount": 15030,
+    "stage": "Series C",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "SPARX Group",
+      "Toyota Tsusho"
+    ],
+    "leadInvestor": "SPARX Group",
+    "date": "2019-11-25",
+    "location": "Gurugram",
+    "description": "Shuttl raised ₹150.3 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/breaking-shuttl-gets-18-mn-series-c-boost-from-sparx-toyota-tsusho/",
+    "weekFolder": "W8 Q3 FY20"
+  },
+  {
     "id": "W8 Q3 FY20-2",
     "company": "Perfios",
     "amount": 25050,
@@ -41281,27 +43017,49 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q3 FY20"
   },
   {
-    "id": "W8 Q3 FY20-7",
-    "company": "Automation Anywhere",
-    "amount": 242150,
-    "stage": "Series A",
+    "id": "W8 Q3 FY20-22",
+    "company": "CasaOne",
+    "amount": 13360,
+    "stage": "Series B",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Accel Partners",
+      "Quiet Capital",
+      "WeWork",
+      "JLL Spark",
+      "Freestyle Capital",
+      "NextWorld",
+      "Array Ventures"
+    ],
+    "leadInvestor": "Accel Partners",
+    "date": "2019-11-22",
+    "location": "Bengaluru",
+    "description": "CasaOne raised ₹133.6 Cr in Series B round.",
+    "sourceUrl": "https://entrackr.com/2019/11/casaone-raises-16-mn-led-by-accel/",
+    "weekFolder": "W8 Q3 FY20"
+  },
+  {
+    "id": "W8 Q3 FY20-25",
+    "company": "Telluris Biotech India",
+    "amount": 3340,
+    "stage": "Not Disclosed",
     "sectors": [
       "Deeptech & AI"
     ],
     "investors": [
-      "Salesforce Ventures",
-      "Goldman Sachs",
-      "Softbank Investment Advisers"
+      "Sathguru Catalyser Advisors (IFA Fund)"
     ],
-    "leadInvestor": "Salesforce Ventures",
+    "leadInvestor": "Sathguru Catalyser Advisors (IFA Fund)",
     "date": "2019-11-22",
-    "location": "Bengaluru",
-    "description": "Automation Anywhere raised ₹2421.5 Cr in Series A round.",
-    "sourceUrl": "https://yourstory.com/2019/11/funding-automation-anywhere-salesforce-ventures",
+    "location": "India",
+    "description": "Telluris Biotech India raised ₹33.4 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/11/funding-alert-sathguru-catalyser-advisors-telluris-biotech",
     "weekFolder": "W8 Q3 FY20"
   },
   {
-    "id": "W8 Q3 FY20-8",
+    "id": "W8 Q3 FY20-7",
     "company": "Flipspaces",
     "amount": 960.2499999999999,
     "stage": "Venture Debt",
@@ -41319,7 +43077,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q3 FY20"
   },
   {
-    "id": "W8 Q3 FY20-9",
+    "id": "W8 Q3 FY20-8",
     "company": "Aye Finance",
     "amount": 12499.95,
     "stage": "Debt",
@@ -41337,7 +43095,66 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q3 FY20"
   },
   {
-    "id": "W8 Q3 FY20-10",
+    "id": "W8 Q3 FY20-31",
+    "company": "And Nothing Else",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Matrix Partners",
+      "Sauce.vc",
+      "Shashwat Sharma",
+      "Jaydeep Barman",
+      "Ankush Gera"
+    ],
+    "leadInvestor": "Matrix Partners",
+    "date": "2019-11-21",
+    "location": "Mumbai",
+    "description": "And Nothing Else raised funding in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/protein-bar-brand-and-nothing-else-gets-funding-from-matrix-partners-sauce-vc/",
+    "weekFolder": "W8 Q3 FY20"
+  },
+  {
+    "id": "W8 Q3 FY20-32",
+    "company": "WazirX",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Binance"
+    ],
+    "leadInvestor": "Binance",
+    "date": "2019-11-21",
+    "location": "India",
+    "description": "WazirX raised funding in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/binance-acquires-indian-crypto-startup-wazirx/",
+    "weekFolder": "W8 Q3 FY20"
+  },
+  {
+    "id": "W8 Q3 FY20-33",
+    "company": "Stanza Living",
+    "amount": 41750,
+    "stage": "Series C",
+    "sectors": [
+      "Real Estate Tech"
+    ],
+    "investors": [
+      "Falcon Edge Capital",
+      "Equity International"
+    ],
+    "leadInvestor": "Falcon Edge Capital",
+    "date": "2019-11-21",
+    "location": "Delhi",
+    "description": "Stanza Living raised ₹417.5 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/student-housing-startup-stanza-living-raises-funds-from-billionaire-sam-zell/",
+    "weekFolder": "W8 Q3 FY20"
+  },
+  {
+    "id": "W8 Q3 FY20-9",
     "company": "Svami",
     "amount": 835,
     "stage": "Pre-Series A",
@@ -41358,7 +43175,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q3 FY20"
   },
   {
-    "id": "W8 Q3 FY20-11",
+    "id": "W8 Q3 FY20-10",
     "company": "TravelTriangle",
     "amount": 10855,
     "stage": "Pre-Series A",
@@ -41377,7 +43194,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q3 FY20"
   },
   {
-    "id": "W8 Q3 FY20-12",
+    "id": "W8 Q3 FY20-11",
     "company": "HQ",
     "amount": 1252.5,
     "stage": "Pre-Series A",
@@ -41393,6 +43210,66 @@ export const fundingData: FundingDeal[] = [
     "location": "Delhi",
     "description": "HQ raised ₹12.5 Cr in Pre-Series A round.",
     "sourceUrl": "https://yourstory.com/2019/11/funding-alert-workspace-provider-myhq-raises-1-5-million",
+    "weekFolder": "W8 Q3 FY20"
+  },
+  {
+    "id": "W8 Q3 FY20-26",
+    "company": "And Nothing Else",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Matrix Partners India",
+      "Sauce.vc"
+    ],
+    "leadInvestor": "Matrix Partners India",
+    "date": "2019-11-20",
+    "location": "Mumbai",
+    "description": "And Nothing Else raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/11/funding-alert-health-food-brand-and-nothing-else-raises-seed-funding",
+    "weekFolder": "W8 Q3 FY20"
+  },
+  {
+    "id": "W8 Q3 FY20-29",
+    "company": "myHQ",
+    "amount": 1252.5,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Real Estate Tech"
+    ],
+    "investors": [
+      "India Quotient",
+      "RB Investments",
+      "Ashish Goenka",
+      "Anupam Mittal",
+      "Nitish Mittersian"
+    ],
+    "leadInvestor": "India Quotient",
+    "date": "2019-11-20",
+    "location": "Delhi-NCR",
+    "description": "myHQ raised ₹12.5 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/india-quotient-leads-1-5-mn-pre-series-a-funding-for-myhq/",
+    "weekFolder": "W8 Q3 FY20"
+  },
+  {
+    "id": "W8 Q3 FY20-30",
+    "company": "Telluris",
+    "amount": 3340,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Agritech"
+    ],
+    "investors": [
+      "Innovation in Food and Agriculture Fund",
+      "Sathguru Catalyzer Advisors"
+    ],
+    "leadInvestor": "Innovation in Food and Agriculture Fund",
+    "date": "2019-11-20",
+    "location": "Telangana",
+    "description": "Telluris raised ₹33.4 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/life-science-startup-telluris-raises-4-mn-from-sathguru-catalyzer-to-expand-markets/",
     "weekFolder": "W8 Q3 FY20"
   },
   {
@@ -41417,7 +43294,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q3 FY20"
   },
   {
-    "id": "W8 Q3 FY20-13",
+    "id": "W8 Q3 FY20-12",
     "company": "SimSim",
     "amount": 7515,
     "stage": "Series A",
@@ -41438,7 +43315,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q3 FY20"
   },
   {
-    "id": "W8 Q3 FY20-14",
+    "id": "W8 Q3 FY20-13",
     "company": "EasyRewardz",
     "amount": 1670,
     "stage": "Series A",
@@ -41456,7 +43333,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q3 FY20"
   },
   {
-    "id": "W8 Q3 FY20-15",
+    "id": "W8 Q3 FY20-14",
     "company": "Music",
     "amount": 2004,
     "stage": "Not Disclosed",
@@ -41474,7 +43351,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q3 FY20"
   },
   {
-    "id": "W8 Q3 FY20-16",
+    "id": "W8 Q3 FY20-15",
     "company": "Perfios",
     "amount": 41750,
     "stage": "Pre-Series A",
@@ -41493,7 +43370,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q3 FY20"
   },
   {
-    "id": "W8 Q3 FY20-17",
+    "id": "W8 Q3 FY20-16",
     "company": "Asia",
     "amount": 2196.0499999999997,
     "stage": "Not Disclosed",
@@ -41511,7 +43388,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q3 FY20"
   },
   {
-    "id": "W8 Q3 FY20-18",
+    "id": "W8 Q3 FY20-17",
     "company": "Wingreens Farms",
     "amount": 12499.95,
     "stage": "Series B",
@@ -41527,6 +43404,79 @@ export const fundingData: FundingDeal[] = [
     "location": "Gurugram",
     "description": "Wingreens Farms raised ₹125.0 Cr in Series B round.",
     "sourceUrl": "https://yourstory.com/2019/11/funding-wingreens-farms-responsability-investments-sequoia-india",
+    "weekFolder": "W8 Q3 FY20"
+  },
+  {
+    "id": "W8 Q3 FY20-18",
+    "company": "Fireside",
+    "amount": 83500,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-11-19",
+    "location": "India",
+    "description": "Fireside raised ₹835.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/fireside-announces-first-close-of-fund-ii-with-new-investment-in-gynoveda/",
+    "weekFolder": "W8 Q3 FY20"
+  },
+  {
+    "id": "W8 Q3 FY20-19",
+    "company": "GiveIndia",
+    "amount": 2338,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-11-19",
+    "location": "Bengaluru",
+    "description": "GiveIndia raised ₹23.4 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/giveindia-receives-inr-23-4-cr-grant-from-bill-and-melinda-gates-foundation-others/",
+    "weekFolder": "W8 Q3 FY20"
+  },
+  {
+    "id": "W8 Q3 FY20-27",
+    "company": "OneLife",
+    "amount": 501,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-11-19",
+    "location": "Mumbai",
+    "description": "OneLife raised ₹5.0 Cr in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/11/startup-funding-healthcare-brand-onelife-live-it-right-hnis",
+    "weekFolder": "W8 Q3 FY20"
+  },
+  {
+    "id": "W8 Q3 FY20-28",
+    "company": "Wingreens",
+    "amount": 14195,
+    "stage": "Series B",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Sequoia Capital",
+      "responsAbility"
+    ],
+    "leadInvestor": "Sequoia Capital",
+    "date": "2019-11-19",
+    "location": "Gurugram",
+    "description": "Wingreens raised ₹141.9 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/fresh-food-maker-wingreens-raises-17-mn-from-sequoia-responsability/",
     "weekFolder": "W8 Q3 FY20"
   },
   {
@@ -41616,6 +43566,87 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W7 Q3 FY20"
   },
   {
+    "id": "W7 Q3 FY20-19",
+    "company": "TravelTriangle",
+    "amount": 10855,
+    "stage": "Series C",
+    "sectors": [
+      "General"
+    ],
+    "investors": [
+      "Fundamentum",
+      "SAIF Partners",
+      "Bessemer Venture Partners",
+      "RB investments",
+      "RB Investments had"
+    ],
+    "leadInvestor": "Fundamentum",
+    "date": "2019-11-18",
+    "location": "India",
+    "description": "TravelTriangle raised ₹108.5 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/traveltriangle-bags-8-6-mn-in-series-d-from-kb-global/",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
+    "id": "W7 Q3 FY20-26",
+    "company": "Multibhashi",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Rarejob Inc"
+    ],
+    "leadInvestor": "Rarejob Inc",
+    "date": "2019-11-18",
+    "location": "Jaipur",
+    "description": "Multibhashi raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/11/startup-funding-language-learning-startup-multibhashi-rarejob",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
+    "id": "W7 Q3 FY20-34",
+    "company": "Kaarva",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Naveen Tewari",
+      "Amit Gupta"
+    ],
+    "leadInvestor": "Naveen Tewari",
+    "date": "2019-11-18",
+    "location": "India",
+    "description": "Kaarva raised funding in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-kaarva-announces-seed-funding-to-bring-on-demand-micro-loans-to-salaried-indians/",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
+    "id": "W7 Q3 FY20-33",
+    "company": "SimSim",
+    "amount": 5010,
+    "stage": "Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Accel India",
+      "Shunwei Capital",
+      "Good Capital",
+      "Sunil Kalra",
+      "Samarth Bedi"
+    ],
+    "leadInvestor": "Accel India",
+    "date": "2019-11-17",
+    "location": "Delhi",
+    "description": "SimSim raised ₹50.1 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/video-ecommerce-simsim-raises-6-mn-from-accel-india-good-capital-more/",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
     "id": "W7 Q3 FY20-4",
     "company": "SimSim",
     "amount": 25050,
@@ -41702,9 +43733,88 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W7 Q3 FY20"
   },
   {
+    "id": "W7 Q3 FY20-18",
+    "company": "Jumbotail",
+    "amount": 1402.8,
+    "stage": "Series B",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "San Franscisco-based omni-stage venture fund Heron Rock",
+      "Jumbotail had raised INR 90 Cr ($12",
+      "Capria Fund",
+      "BNK Ventures",
+      "William Jarvis",
+      "Nexus Venture Partners",
+      "Kalaari Capital"
+    ],
+    "leadInvestor": "San Franscisco-based omni-stage venture fund Heron Rock",
+    "date": "2019-11-15",
+    "location": "Bengaluru",
+    "description": "Jumbotail raised ₹14.0 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/b2b-marketplace-jumbotail-raises-inr-14-cr-from-nexus-venture-partners/",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
+    "id": "W7 Q3 FY20-25",
+    "company": "StyleCracker",
+    "amount": 1670,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "AMJ Ventures"
+    ],
+    "leadInvestor": "AMJ Ventures",
+    "date": "2019-11-15",
+    "location": "Mumbai",
+    "description": "StyleCracker raised ₹16.7 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/11/funding-alert-amj-ventures-alia-bhatt-fashion-tech-stylecracker",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
+    "id": "W7 Q3 FY20-31",
+    "company": "WayCool",
+    "amount": 4342,
+    "stage": "Debt",
+    "sectors": [
+      "Agritech"
+    ],
+    "investors": [
+      "FMO"
+    ],
+    "leadInvestor": "FMO",
+    "date": "2019-11-15",
+    "location": "Chennai",
+    "description": "WayCool raised ₹43.4 Cr in Debt round.",
+    "sourceUrl": "https://inc42.com/buzz/fmo-to-provide-5-mn-infrastructure-development-fund-to-agritech-waycool/",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
+    "id": "W7 Q3 FY20-32",
+    "company": "misters.in",
+    "amount": 835,
+    "stage": "Seed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Sauce.vc",
+      "Rainforest Ventures"
+    ],
+    "leadInvestor": "Sauce.vc",
+    "date": "2019-11-15",
+    "location": "Gurugram",
+    "description": "misters.in raised ₹8.3 Cr in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/mens-health-wellness-startup-misters-in-raises-1-mn-in-seed-funding/",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
     "id": "W7 Q3 FY20-11",
     "company": "Niki.ai",
-    "amount": 835000,
+    "amount": 0,
     "stage": "Series A",
     "sectors": [
       "Deeptech & AI"
@@ -41719,8 +43829,99 @@ export const fundingData: FundingDeal[] = [
     "leadInvestor": "EMVC",
     "date": "2019-11-14",
     "location": "Bengaluru",
-    "description": "Niki.ai raised ₹8350.0 Cr in Series A round.",
+    "description": "Niki.ai raised funding in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/11/funding-alert-bengaluru-commerce-startup-niki-emvc",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
+    "id": "W7 Q3 FY20-20",
+    "company": "Navi Technologies",
+    "amount": 88852.35,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Sachin Bansal"
+    ],
+    "leadInvestor": "Sachin Bansal",
+    "date": "2019-11-14",
+    "location": "Bengaluru",
+    "description": "Navi Technologies raised ₹888.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/11/sachin-bansal-invest-rs-888-crore-navi-tech/",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
+    "id": "W7 Q3 FY20-23",
+    "company": "Zypp",
+    "amount": 1503,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "IAN Fund"
+    ],
+    "leadInvestor": "IAN Fund",
+    "date": "2019-11-14",
+    "location": "Gurugram",
+    "description": "Zypp raised ₹15.0 Cr in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/11/funding-alert-micro-mobility-startup-zypp-e-scooter-ian-fund",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
+    "id": "W7 Q3 FY20-24",
+    "company": "misters.in",
+    "amount": 835,
+    "stage": "Seed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Sauce.vc",
+      "Rainforest Ventures"
+    ],
+    "leadInvestor": "Sauce.vc",
+    "date": "2019-11-14",
+    "location": "Gurugram",
+    "description": "misters.in raised ₹8.3 Cr in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/11/funding-alert-d2c-mens-health-wellness-brand-mistersin",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
+    "id": "W7 Q3 FY20-29",
+    "company": "Delectable",
+    "amount": 751.5,
+    "stage": "Acquisition",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "ITC"
+    ],
+    "leadInvestor": "ITC",
+    "date": "2019-11-14",
+    "location": "Bengaluru",
+    "description": "Delectable raised ₹7.5 Cr in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/itc-to-acquire-stake-in-vending-machine-startup-delectable-to-expand-retail-distribution-network/",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
+    "id": "W7 Q3 FY20-30",
+    "company": "StyleCracker",
+    "amount": 1670,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "AMJ Ventures"
+    ],
+    "leadInvestor": "AMJ Ventures",
+    "date": "2019-11-14",
+    "location": "Mumbai",
+    "description": "StyleCracker raised ₹16.7 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/alia-bhatt-backed-fashion-startup-stylecracker-raises-2-mn-to-expand-its-footprint/",
     "weekFolder": "W7 Q3 FY20"
   },
   {
@@ -41821,6 +44022,103 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W7 Q3 FY20"
   },
   {
+    "id": "W7 Q3 FY20-17",
+    "company": "Sunstone",
+    "amount": 1252.5,
+    "stage": "Seed",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Prime Venture Partners",
+      "LetsVenture",
+      "PS1 Ventures",
+      "Rajul Garg"
+    ],
+    "leadInvestor": "Prime Venture Partners",
+    "date": "2019-11-13",
+    "location": "Gurugram",
+    "description": "Sunstone raised ₹12.5 Cr in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/edtech-startup-sunstone-eduversity-raises-1-5-mn-seed-funding-led-by-prime-venture-partners/",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
+    "id": "W7 Q3 FY20-21",
+    "company": "DailyNinja",
+    "amount": 18787.5,
+    "stage": "Acquisition",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "BigBasket"
+    ],
+    "leadInvestor": "BigBasket",
+    "date": "2019-11-13",
+    "location": "Bengaluru",
+    "description": "DailyNinja raised ₹187.9 Cr in Acquisition round.",
+    "sourceUrl": "https://entrackr.com/2019/11/bigbasket-set-to-acquire-dailiyninja-in-20-25-mn-cash-and-equity-deal/",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
+    "id": "W7 Q3 FY20-22",
+    "company": "ekincare",
+    "amount": 3006,
+    "stage": "Series A",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Venture East",
+      "Eight Roads",
+      "Touchstone Equities"
+    ],
+    "leadInvestor": "Venture East",
+    "date": "2019-11-13",
+    "location": "Hyderabad",
+    "description": "ekincare raised ₹30.1 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/11/startup-funding-ai-driven-health-benefits-platform-ekincare",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
+    "id": "W7 Q3 FY20-27",
+    "company": "Niki",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "EMVC"
+    ],
+    "leadInvestor": "EMVC",
+    "date": "2019-11-13",
+    "location": "Bengaluru",
+    "description": "Niki raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/commerce-platform-niki-looks-to-raise-nearly-30-mn-growth-funding/",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
+    "id": "W7 Q3 FY20-28",
+    "company": "AutoNxt Automation",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Virya Mobility 5.0",
+      "Chetan Maini",
+      "Sandeep Maini"
+    ],
+    "leadInvestor": "Virya Mobility 5.0",
+    "date": "2019-11-13",
+    "location": "India",
+    "description": "AutoNxt Automation raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/sun-mobilitys-chetan-maini-invests-in-ev-tractor-startup-autonxt-automation/",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
     "id": "W7 Q3 FY20-5",
     "company": "SuperGaming",
     "amount": 1085.5,
@@ -41836,6 +44134,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Pune",
     "description": "SuperGaming raised ₹10.9 Cr in Seed round.",
     "sourceUrl": "https://yourstory.com/2019/11/funding-alert-gaming-platform-supergaming-dream-incubator",
+    "weekFolder": "W7 Q3 FY20"
+  },
+  {
+    "id": "W7 Q3 FY20-16",
+    "company": "Lido Learning",
+    "amount": 2505,
+    "stage": "Series A",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Ronnie Screwvala"
+    ],
+    "leadInvestor": "Ronnie Screwvala",
+    "date": "2019-11-12",
+    "location": "Mumbai",
+    "description": "Lido Learning raised ₹25.1 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/edtech-startup-lido-learning-raises-3-mn-for-expansion/",
     "weekFolder": "W7 Q3 FY20"
   },
   {
@@ -41893,6 +44209,25 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q3 FY20"
   },
   {
+    "id": "W6 Q3 FY20-21",
+    "company": "Shuttl",
+    "amount": 12867.349999999999,
+    "stage": "Series C",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Toyota Tsusho Corporation",
+      "Mirai Creation Fund-II"
+    ],
+    "leadInvestor": "Toyota Tsusho Corporation",
+    "date": "2019-11-11",
+    "location": "India",
+    "description": "Shuttl raised ₹128.7 Cr in Series C round.",
+    "sourceUrl": "https://entrackr.com/2019/11/shuttl-valuation-crosses-rs-1328-cr-in-series-c-round/",
+    "weekFolder": "W6 Q3 FY20"
+  },
+  {
     "id": "W6 Q3 FY20-1",
     "company": "Freshworks",
     "amount": 171175,
@@ -41913,6 +44248,44 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Freshworks raised ₹1711.8 Cr in Series A round.",
     "sourceUrl": "https://entrackr.com/2019/11/funding-indian-startups-week-nov-4/",
+    "weekFolder": "W6 Q3 FY20"
+  },
+  {
+    "id": "W6 Q3 FY20-19",
+    "company": "Vogo",
+    "amount": 2421.5,
+    "stage": "Series C",
+    "sectors": [
+      "General"
+    ],
+    "investors": [
+      "Stellaris Ventures",
+      "Ola",
+      "Vogo has raised"
+    ],
+    "leadInvestor": "Stellaris Ventures",
+    "date": "2019-11-09",
+    "location": "Bengaluru",
+    "description": "Vogo raised ₹24.2 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/vogos-existing-investors-invest-2-9-mn-in-bridge-funding-round/",
+    "weekFolder": "W6 Q3 FY20"
+  },
+  {
+    "id": "W6 Q3 FY20-29",
+    "company": "PolicyBazaar",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Tencent Holdings"
+    ],
+    "leadInvestor": "Tencent Holdings",
+    "date": "2019-11-09",
+    "location": "Gurugram",
+    "description": "PolicyBazaar raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/tencent-holdings-bags-10-stake-in-policybazaar-for-1-5-bn/",
     "weekFolder": "W6 Q3 FY20"
   },
   {
@@ -41950,6 +44323,44 @@ export const fundingData: FundingDeal[] = [
     "location": "Pune",
     "description": "Wiggles raised ₹8.3 Cr in Not Disclosed .",
     "sourceUrl": "https://yourstory.com/2019/11/funding-pet-care-wiggles-angel",
+    "weekFolder": "W6 Q3 FY20"
+  },
+  {
+    "id": "W6 Q3 FY20-22",
+    "company": "VOGO",
+    "amount": 2120.9,
+    "stage": "Series C",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Matrix Partners",
+      "Stellaris Venture Partners"
+    ],
+    "leadInvestor": "Matrix Partners",
+    "date": "2019-11-08",
+    "location": "Bengaluru",
+    "description": "VOGO raised ₹21.2 Cr in Series C round.",
+    "sourceUrl": "https://entrackr.com/2019/11/exclusive-vogo-kicks-off-series-c-round-goldman-sachs-talks-fizzles-out/",
+    "weekFolder": "W6 Q3 FY20"
+  },
+  {
+    "id": "W6 Q3 FY20-28",
+    "company": "PGO",
+    "amount": 1670,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Real Estate Tech"
+    ],
+    "investors": [
+      "Sreeni Musani",
+      "Narsi Reddy Posham"
+    ],
+    "leadInvestor": "Sreeni Musani",
+    "date": "2019-11-08",
+    "location": "Hyderabad",
+    "description": "PGO raised ₹16.7 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/hospitality-startup-pgo-raises-2mn-funding-to-expand-to-14-cities/",
     "weekFolder": "W6 Q3 FY20"
   },
   {
@@ -42009,6 +44420,62 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q3 FY20"
   },
   {
+    "id": "W6 Q3 FY20-20",
+    "company": "YourOwnROOM",
+    "amount": 1085.5,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-11-07",
+    "location": "Bengaluru",
+    "description": "YourOwnROOM raised ₹10.9 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/proptech-yourownroom-raises-1-3-mn-seed-funding-to-scale-up-assets/",
+    "weekFolder": "W6 Q3 FY20"
+  },
+  {
+    "id": "W6 Q3 FY20-24",
+    "company": "goStops",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Travel"
+    ],
+    "investors": [
+      "Nitish Mittersain",
+      "Sorabh Agarwal",
+      "Sameer Walia"
+    ],
+    "leadInvestor": "Nitish Mittersain",
+    "date": "2019-11-07",
+    "location": "Delhi",
+    "description": "goStops raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/11/funding-nazara-youth-travel-hostel-startup-gostops",
+    "weekFolder": "W6 Q3 FY20"
+  },
+  {
+    "id": "W6 Q3 FY20-25",
+    "company": "Boxx.ai",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Netcore Solutions"
+    ],
+    "leadInvestor": "Netcore Solutions",
+    "date": "2019-11-07",
+    "location": "Bengaluru",
+    "description": "Boxx.ai raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/11/netcore-solutions-acquires-ai-startup-boxxai",
+    "weekFolder": "W6 Q3 FY20"
+  },
+  {
     "id": "W6 Q3 FY20-3",
     "company": "InCred",
     "amount": 3139.6,
@@ -42060,6 +44527,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "YourOwnRoom raised ₹10.9 Cr in Seed round.",
     "sourceUrl": "https://yourstory.com/2019/11/funding-startup-proptech-yourownroom-coliving-seed",
+    "weekFolder": "W6 Q3 FY20"
+  },
+  {
+    "id": "W6 Q3 FY20-23",
+    "company": "Cars24",
+    "amount": 31170.55,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Global Car Group"
+    ],
+    "leadInvestor": "Global Car Group",
+    "date": "2019-11-06",
+    "location": "Gurugram",
+    "description": "Cars24 raised ₹311.7 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/11/cars24-receives-rs-312-cr-from-parent-entity/",
     "weekFolder": "W6 Q3 FY20"
   },
   {
@@ -42155,6 +44640,64 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q3 FY20"
   },
   {
+    "id": "W6 Q3 FY20-18",
+    "company": "NoBroker",
+    "amount": 8350,
+    "stage": "Series C",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Tiger Global",
+      "General Atlantic",
+      "BEENEXT",
+      "SAIF partners"
+    ],
+    "leadInvestor": "Tiger Global",
+    "date": "2019-11-05",
+    "location": "Hyderabad",
+    "description": "NoBroker raised ₹83.5 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/nobroker-bags-10-mn-funding-from-general-atlantic/",
+    "weekFolder": "W6 Q3 FY20"
+  },
+  {
+    "id": "W6 Q3 FY20-26",
+    "company": "Hoopy",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Lead Angels",
+      "Venture Farmer"
+    ],
+    "leadInvestor": "Lead Angels",
+    "date": "2019-11-05",
+    "location": "Bengaluru",
+    "description": "Hoopy raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/11/funding-alert-vehicle-maintenance-startup-hoopy-lead-angels",
+    "weekFolder": "W6 Q3 FY20"
+  },
+  {
+    "id": "W6 Q3 FY20-27",
+    "company": "Vserv",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Experian"
+    ],
+    "leadInvestor": "Experian",
+    "date": "2019-11-05",
+    "location": "Mumbai",
+    "description": "Vserv raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/11/experian-vserv-mobile-digital-platform-startup-funding",
+    "weekFolder": "W6 Q3 FY20"
+  },
+  {
     "id": "W5 Q3 FY20-1",
     "company": "Jupiter",
     "amount": 20040,
@@ -42207,6 +44750,126 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Lokal raised ₹25.1 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/11/funding-alert-startup-lokal-y-combinator",
+    "weekFolder": "W5 Q3 FY20"
+  },
+  {
+    "id": "W5 Q3 FY20-15",
+    "company": "Freshworks",
+    "amount": 125250,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Google",
+      "Sequoia Capital",
+      "Accel Partners"
+    ],
+    "leadInvestor": "Google",
+    "date": "2019-11-04",
+    "location": "Chennai",
+    "description": "Freshworks raised ₹1252.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/11/freshworks-150-mn-fresh-round-valuation/",
+    "weekFolder": "W5 Q3 FY20"
+  },
+  {
+    "id": "W5 Q3 FY20-21",
+    "company": "Amica Financial Technologies",
+    "amount": 20040,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Sequoia Capital",
+      "Matrix Partners",
+      "Greyhound Capital",
+      "3One4 Capital",
+      "Rocket Internet"
+    ],
+    "leadInvestor": "Sequoia Capital",
+    "date": "2019-11-04",
+    "location": "Mumbai",
+    "description": "Amica Financial Technologies raised ₹200.4 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/jitendra-guptas-amica-secures-24-mn-from-sequoia-matrix-others/",
+    "weekFolder": "W5 Q3 FY20"
+  },
+  {
+    "id": "W5 Q3 FY20-23",
+    "company": "peAR Technologies",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Venture Catalysts"
+    ],
+    "leadInvestor": "Venture Catalysts",
+    "date": "2019-11-04",
+    "location": "Mumbai",
+    "description": "peAR Technologies raised funding in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/deeptech-startup-pear-raises-funds-from-venture-catalysts-to-scale-its-3d-restaurant-menus/",
+    "weekFolder": "W5 Q3 FY20"
+  },
+  {
+    "id": "W5 Q3 FY20-20",
+    "company": "Xeraphin",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Droom"
+    ],
+    "leadInvestor": "Droom",
+    "date": "2019-11-03",
+    "location": "Delhi",
+    "description": "Xeraphin raised funding in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/droom-acquires-nbfc-xeraphin-to-boost-droom-credit-business/",
+    "weekFolder": "W5 Q3 FY20"
+  },
+  {
+    "id": "W5 Q3 FY20-14",
+    "company": "MX Player",
+    "amount": 212941.7,
+    "stage": "Series C",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Tencent",
+      "Times Internet",
+      "Prosus Ventures (formerly Naspers Ventures)",
+      "Avataar Ventures",
+      "Kalaari Capital"
+    ],
+    "leadInvestor": "Tencent",
+    "date": "2019-11-02",
+    "location": "Gurugram",
+    "description": "MX Player raised ₹2129.4 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/top-indian-startup-funding-galore-128-october/",
+    "weekFolder": "W5 Q3 FY20"
+  },
+  {
+    "id": "W5 Q3 FY20-22",
+    "company": "Woovly",
+    "amount": 2087.5,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Duane Park",
+      "SOSV",
+      "Xelpmoc Design & Tech"
+    ],
+    "leadInvestor": "Duane Park",
+    "date": "2019-11-01",
+    "location": "Bengaluru",
+    "description": "Woovly raised ₹20.9 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/social-discovery-platform-woovly-bags-2-5-mn-funding-in-pre-series-a-round/",
     "weekFolder": "W5 Q3 FY20"
   },
   {
@@ -42270,6 +44933,63 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q3 FY20"
   },
   {
+    "id": "W5 Q3 FY20-17",
+    "company": "Airim",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Whatfix"
+    ],
+    "leadInvestor": "Whatfix",
+    "date": "2019-10-31",
+    "location": "Bengaluru",
+    "description": "Airim raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/10/saas-startup-whatfix-acquires-airim",
+    "weekFolder": "W5 Q3 FY20"
+  },
+  {
+    "id": "W5 Q3 FY20-18",
+    "company": "Lawyered",
+    "amount": 83.5,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Pramendra Tomar",
+      "Ratish Pandey",
+      "Munish Bhatia",
+      "Sumit Aggarwal"
+    ],
+    "leadInvestor": "Pramendra Tomar",
+    "date": "2019-10-31",
+    "location": "Delhi",
+    "description": "Lawyered raised ₹0.8 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-legal-tech-startup-lawyered-angel-investors",
+    "weekFolder": "W5 Q3 FY20"
+  },
+  {
+    "id": "W5 Q3 FY20-19",
+    "company": "Intergrow",
+    "amount": 9435.5,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Investcorp"
+    ],
+    "leadInvestor": "Investcorp",
+    "date": "2019-10-31",
+    "location": "Kerala",
+    "description": "Intergrow raised ₹94.4 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-alert-investcorp-intergrow-kerala",
+    "weekFolder": "W5 Q3 FY20"
+  },
+  {
     "id": "W5 Q3 FY20-3",
     "company": "MX Player",
     "amount": 91850,
@@ -42326,6 +45046,45 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q3 FY20"
   },
   {
+    "id": "W5 Q3 FY20-13",
+    "company": "Fasal",
+    "amount": 1336,
+    "stage": "Seed",
+    "sectors": [
+      "Agritech"
+    ],
+    "investors": [
+      "Omnivore",
+      "Wavemaker Partners",
+      "Zeroth",
+      "Artesian Ventures from Australia"
+    ],
+    "leadInvestor": "Omnivore",
+    "date": "2019-10-30",
+    "location": "Bengaluru",
+    "description": "Fasal raised ₹13.4 Cr in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/funding-agritech-startup-fasal-rakes-in-1-6-mn-investment-to-scale-up-ai/",
+    "weekFolder": "W5 Q3 FY20"
+  },
+  {
+    "id": "W5 Q3 FY20-16",
+    "company": "Livspace",
+    "amount": 25050,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-10-30",
+    "location": "Bengaluru",
+    "description": "Livspace raised ₹250.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/10/livspace-invests-singapore-apac-expansion",
+    "weekFolder": "W5 Q3 FY20"
+  },
+  {
     "id": "W5 Q3 FY20-2",
     "company": "Fireflies",
     "amount": 3498.65,
@@ -42342,6 +45101,66 @@ export const fundingData: FundingDeal[] = [
     "description": "Fireflies raised ₹35.0 Cr in Not Disclosed .",
     "sourceUrl": "https://yourstory.com/2019/10/funding-startup-fireflies-enterprise-assistant-canaan-partners",
     "weekFolder": "W5 Q3 FY20"
+  },
+  {
+    "id": "W5 Q3 FY20-11",
+    "company": "Times Group",
+    "amount": 16700,
+    "stage": "Series F",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "SoftBank"
+    ],
+    "leadInvestor": "SoftBank",
+    "date": "2019-10-29",
+    "location": "Delhi",
+    "description": "Times Group raised ₹167.0 Cr in Series F round.",
+    "sourceUrl": "https://inc42.com/buzz/times-group-picks-up-20-mn-warrant-in-grocery-unicorn-grofers/",
+    "weekFolder": "W5 Q3 FY20"
+  },
+  {
+    "id": "W5 Q3 FY20-12",
+    "company": "Shuttl",
+    "amount": 35070,
+    "stage": "Series A",
+    "sectors": [
+      "General"
+    ],
+    "investors": [
+      "Lightspeed Ventures",
+      "Sequoia Capital"
+    ],
+    "leadInvestor": "Lightspeed Ventures",
+    "date": "2019-10-29",
+    "location": "Bengaluru",
+    "description": "Shuttl raised ₹350.7 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/shuttl-raises-42-mn-from-toyota-group-smbc-trust-bank/",
+    "weekFolder": "W5 Q3 FY20"
+  },
+  {
+    "id": "W4 Q3 FY20-28",
+    "company": "Fireflies",
+    "amount": 4175,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Canaan Partners",
+      "Sandhya Venkatachalam",
+      "April Underwood",
+      "Armando Mann",
+      "Susan Kimberlin",
+      "Bill Macaitis"
+    ],
+    "leadInvestor": "Canaan Partners",
+    "date": "2019-10-28",
+    "location": "Hyderabad",
+    "description": "Fireflies raised ₹41.8 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/enterprise-ai-assistant-fireflies-raises-5-mn-to-make-office-meetings-more-effective/",
+    "weekFolder": "W4 Q3 FY20"
   },
   {
     "id": "W4 Q3 FY20-1",
@@ -42446,6 +45265,25 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W4 Q3 FY20"
   },
   {
+    "id": "W4 Q3 FY20-16",
+    "company": "MiStay",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Travel"
+    ],
+    "investors": [
+      "ah! Ventures",
+      "Sumit Nagpal"
+    ],
+    "leadInvestor": "ah! Ventures",
+    "date": "2019-10-25",
+    "location": "Bengaluru",
+    "description": "MiStay raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-alert-hourly-hotel-booking-startup-mistay-ah-ventures",
+    "weekFolder": "W4 Q3 FY20"
+  },
+  {
     "id": "W4 Q3 FY20-6",
     "company": "MetroMedi",
     "amount": 1252.5,
@@ -42461,6 +45299,65 @@ export const fundingData: FundingDeal[] = [
     "location": "Hyderabad",
     "description": "MetroMedi raised ₹12.5 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/10/funding-alert-online-pharmacy-e-health-store-metromedi-seed-round",
+    "weekFolder": "W4 Q3 FY20"
+  },
+  {
+    "id": "W4 Q3 FY20-17",
+    "company": "Great Manager Institute",
+    "amount": 233.8,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Bala Malladi",
+      "Srikanth Karra",
+      "Ramesh Shankar"
+    ],
+    "leadInvestor": "Bala Malladi",
+    "date": "2019-10-24",
+    "location": "Mumbai",
+    "description": "Great Manager Institute raised ₹2.3 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-alert-people-management-startup-great-manager-institute-angel-round",
+    "weekFolder": "W4 Q3 FY20"
+  },
+  {
+    "id": "W4 Q3 FY20-18",
+    "company": "Loca",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Stellaris Venture Partners",
+      "Fosun RZ Capital"
+    ],
+    "leadInvestor": "Stellaris Venture Partners",
+    "date": "2019-10-24",
+    "location": "Bengaluru",
+    "description": "Loca raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-startup-loca-stellaris-fosun",
+    "weekFolder": "W4 Q3 FY20"
+  },
+  {
+    "id": "W4 Q3 FY20-27",
+    "company": "Talent Litmus",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "HRTech"
+    ],
+    "investors": [
+      "Inflection Point Ventures",
+      "LetsVenture",
+      "Aakrit Vaish"
+    ],
+    "leadInvestor": "Inflection Point Ventures",
+    "date": "2019-10-24",
+    "location": "India",
+    "description": "Talent Litmus raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/hrtech-startup-talent-litmus-uses-video-games-for-job-screening-gets-funding/",
     "weekFolder": "W4 Q3 FY20"
   },
   {
@@ -42542,6 +45439,155 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W4 Q3 FY20"
   },
   {
+    "id": "W4 Q3 FY20-12",
+    "company": "Wealthy",
+    "amount": 1085.5,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Venture Highway",
+      "Tracxn Labs",
+      "V1 Capital",
+      "Globevestor",
+      "Abhishek Goyal of Tracxn Labs",
+      "Zishaan Hayath of Toppr",
+      "Arjun",
+      "Rohan Malhotra of Investopad",
+      "Harpreet Singh Grover of CoCubes",
+      "Gagan Dugal of Matrix Cellular"
+    ],
+    "leadInvestor": "Venture Highway",
+    "date": "2019-10-23",
+    "location": "India",
+    "description": "Wealthy raised ₹10.9 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/fintech-startup-wealthy-bags-1-3-mn-from-good-capital-emphasis-ventures/",
+    "weekFolder": "W4 Q3 FY20"
+  },
+  {
+    "id": "W4 Q3 FY20-13",
+    "company": "Crediwatch",
+    "amount": 2672,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "ARTIS Labs",
+      "Arali Ventures",
+      "Abstract Ventures"
+    ],
+    "leadInvestor": "ARTIS Labs",
+    "date": "2019-10-23",
+    "location": "Bengaluru",
+    "description": "Crediwatch raised ₹26.7 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/crediwatch-raises-3-2-mn-in-series-a-funding-round-led-by-artis-labs/",
+    "weekFolder": "W4 Q3 FY20"
+  },
+  {
+    "id": "W4 Q3 FY20-19",
+    "company": "Pumpkart",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Dinesh Dua"
+    ],
+    "leadInvestor": "Dinesh Dua",
+    "date": "2019-10-23",
+    "location": "Punjab",
+    "description": "Pumpkart raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-alert-cii-chairman-startups-entrepreneurship-b2b-market-pumpkart",
+    "weekFolder": "W4 Q3 FY20"
+  },
+  {
+    "id": "W4 Q3 FY20-20",
+    "company": "Shiksha Financial Services",
+    "amount": 2997.6499999999996,
+    "stage": "Debt",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Northern Arc Capital",
+      "Triodos Investment Management"
+    ],
+    "leadInvestor": "Northern Arc Capital",
+    "date": "2019-10-23",
+    "location": "Chennai",
+    "description": "Shiksha Financial Services raised ₹30.0 Cr in Debt round.",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-startup-shiksha-northern-arc-capital-tridos",
+    "weekFolder": "W4 Q3 FY20"
+  },
+  {
+    "id": "W4 Q3 FY20-21",
+    "company": "Aspiring Minds",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "SHL"
+    ],
+    "leadInvestor": "SHL",
+    "date": "2019-10-23",
+    "location": "Gurugram",
+    "description": "Aspiring Minds raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/10/us-based-shl-acquires-aspiring-minds-hr-talent-acquisition",
+    "weekFolder": "W4 Q3 FY20"
+  },
+  {
+    "id": "W4 Q3 FY20-24",
+    "company": "Furlenco",
+    "amount": 1052.1,
+    "stage": "Debt",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Chowdry Associates",
+      "United Oxygen Company",
+      "Gautam Radhakrishnan",
+      "Prabhakar Kanade",
+      "Rajnesh N. Shah",
+      "Kunal R. Shah",
+      "Nikita Mandot",
+      "Musaed Noorani"
+    ],
+    "leadInvestor": "Chowdry Associates",
+    "date": "2019-10-23",
+    "location": "Bengaluru",
+    "description": "Furlenco raised ₹10.5 Cr in Debt round.",
+    "sourceUrl": "https://inc42.com/buzz/furniture-rental-startup-furlenco-raises-inr-9-cr-in-debt-funding/",
+    "weekFolder": "W4 Q3 FY20"
+  },
+  {
+    "id": "W4 Q3 FY20-26",
+    "company": "Loca",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Stellaris Venture Partners",
+      "Fosun RZ Capital",
+      "Aprameya Radhakrishna",
+      "Mayank Bidawatka",
+      "Rohit MA"
+    ],
+    "leadInvestor": "Stellaris Venture Partners",
+    "date": "2019-10-23",
+    "location": "Bengaluru",
+    "description": "Loca raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/shared-mobility-startup-loca-bags-its-first-round-of-funding-from-stellaris-fosun-others/",
+    "weekFolder": "W4 Q3 FY20"
+  },
+  {
     "id": "W4 Q3 FY20-11",
     "company": "Crediwatch",
     "amount": 2672,
@@ -42558,6 +45604,100 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Crediwatch raised ₹26.7 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/10/funding-data-intelligence-startup-ai-crediwatch",
+    "weekFolder": "W4 Q3 FY20"
+  },
+  {
+    "id": "W4 Q3 FY20-14",
+    "company": "PhonePe",
+    "amount": 40497.5,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "PhonePe Singapore holding entity"
+    ],
+    "leadInvestor": "PhonePe Singapore holding entity",
+    "date": "2019-10-22",
+    "location": "Bengaluru",
+    "description": "PhonePe raised ₹405.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/10/exclusive-phonepe-rakes-in-rs-405-cr-from-singapores-holding-entity/",
+    "weekFolder": "W4 Q3 FY20"
+  },
+  {
+    "id": "W4 Q3 FY20-15",
+    "company": "Belong",
+    "amount": 9185,
+    "stage": "Series C",
+    "sectors": [
+      "HRtech"
+    ],
+    "investors": [
+      "Unbound",
+      "Matrix Venture Partners"
+    ],
+    "leadInvestor": "Unbound",
+    "date": "2019-10-22",
+    "location": "Bengaluru",
+    "description": "Belong raised ₹91.8 Cr in Series C round.",
+    "sourceUrl": "https://entrackr.com/2019/10/exclusive-shravin-bharti-mittals-unbound-and-matrix-investing-10-12-mn-in-belong/",
+    "weekFolder": "W4 Q3 FY20"
+  },
+  {
+    "id": "W4 Q3 FY20-22",
+    "company": "The Man Company",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Ayushmann Khurrana"
+    ],
+    "leadInvestor": "Ayushmann Khurrana",
+    "date": "2019-10-22",
+    "location": "Gurugram",
+    "description": "The Man Company raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-alert-ayushmann-khurrana-invests-men-grooming-brand-the-man-company",
+    "weekFolder": "W4 Q3 FY20"
+  },
+  {
+    "id": "W4 Q3 FY20-23",
+    "company": "Healofy",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "M&S Partners"
+    ],
+    "leadInvestor": "M&S Partners",
+    "date": "2019-10-22",
+    "location": "Bengaluru",
+    "description": "Healofy raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/healofy-back-on-track-with-funding-from-japan-based-ms-partners/",
+    "weekFolder": "W4 Q3 FY20"
+  },
+  {
+    "id": "W4 Q3 FY20-25",
+    "company": "Credenc",
+    "amount": 2087.5,
+    "stage": "Seed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Omidyar Network India",
+      "EMVC",
+      "Better Capital",
+      "IIMK Alumni Fund"
+    ],
+    "leadInvestor": "Omidyar Network India",
+    "date": "2019-10-22",
+    "location": "Delhi",
+    "description": "Credenc raised ₹20.9 Cr in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/omidyar-network-india-invests-2-5-mn-seed-fund-in-lending-startup-credenc/",
     "weekFolder": "W4 Q3 FY20"
   },
   {
@@ -42594,6 +45734,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Materials raised ₹29.2 Cr in Pre-Series A round.",
     "sourceUrl": "https://yourstory.com/2019/10/funding-cleantech-startup-log-9-materials-sequoia-capital-exfinity",
+    "weekFolder": "W3 Q3 FY20"
+  },
+  {
+    "id": "W3 Q3 FY20-27",
+    "company": "InstaCar",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Travel Tech"
+    ],
+    "investors": [
+      "David Cohen"
+    ],
+    "leadInvestor": "David Cohen",
+    "date": "2019-10-21",
+    "location": "Indore",
+    "description": "InstaCar raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/cab-aggregator-instacar-bags-funding-from-uber-investor/",
     "weekFolder": "W3 Q3 FY20"
   },
   {
@@ -42644,6 +45802,81 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Cars24 raised ₹2321.3 Cr in Series A round.",
     "sourceUrl": "https://entrackr.com/2019/10/funding-indian-startups-week-oct-6/",
+    "weekFolder": "W3 Q3 FY20"
+  },
+  {
+    "id": "W3 Q3 FY20-16",
+    "company": "Push",
+    "amount": 12499.95,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-10-19",
+    "location": "India",
+    "description": "Push raised ₹125.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/ev-push-picks-up-pace-in-west-bengal-incentives-under-consideration/",
+    "weekFolder": "W3 Q3 FY20"
+  },
+  {
+    "id": "W3 Q3 FY20-26",
+    "company": "BulBul",
+    "amount": 12274.5,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Leo Capital",
+      "Surge",
+      "Sequoia India",
+      "CDH"
+    ],
+    "leadInvestor": "Leo Capital",
+    "date": "2019-10-19",
+    "location": "Gurugram",
+    "description": "BulBul raised ₹122.7 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/sequoias-surge-backed-bulbul-is-raising-14-7-mn-funding-round/",
+    "weekFolder": "W3 Q3 FY20"
+  },
+  {
+    "id": "W3 Q3 FY20-22",
+    "company": "Tork Motors",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Ratan Tata"
+    ],
+    "leadInvestor": "Ratan Tata",
+    "date": "2019-10-18",
+    "location": "Pune",
+    "description": "Tork Motors raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/10/ratan-tata-investment-electric-vehicle-startup-tork-motors",
+    "weekFolder": "W3 Q3 FY20"
+  },
+  {
+    "id": "W3 Q3 FY20-24",
+    "company": "Dose FM",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Media"
+    ],
+    "investors": [
+      "ClearTax"
+    ],
+    "leadInvestor": "ClearTax",
+    "date": "2019-10-18",
+    "location": "Bengaluru",
+    "description": "Dose FM raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/10/cleartax-acquires-dose-fm-mobile-tax-filing-gst",
     "weekFolder": "W3 Q3 FY20"
   },
   {
@@ -42759,6 +45992,65 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W3 Q3 FY20"
   },
   {
+    "id": "W3 Q3 FY20-17",
+    "company": "Bijak",
+    "amount": 2087.5,
+    "stage": "Seed",
+    "sectors": [
+      "Agritech"
+    ],
+    "investors": [
+      "Sequoia Capital (Surge)",
+      "Omidyar Network",
+      "Better Capital",
+      "Nipun Mehra"
+    ],
+    "leadInvestor": "Sequoia Capital (Surge)",
+    "date": "2019-10-17",
+    "location": "Gurugram",
+    "description": "Bijak raised ₹20.9 Cr in Seed round.",
+    "sourceUrl": "https://entrackr.com/2019/10/surge-2-0-portfolio-bijak-scores-2-mn-from-sequoia-omidyar/",
+    "weekFolder": "W3 Q3 FY20"
+  },
+  {
+    "id": "W3 Q3 FY20-23",
+    "company": "Remedico",
+    "amount": 417.5,
+    "stage": "Seed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Venture Catalysts",
+      "Parkview Investment Advisors",
+      "Vida Ventures"
+    ],
+    "leadInvestor": "Venture Catalysts",
+    "date": "2019-10-17",
+    "location": "Bengaluru",
+    "description": "Remedico raised ₹4.2 Cr in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-startup-mobile-dermatology-solutions-remedico-venture-catalysts",
+    "weekFolder": "W3 Q3 FY20"
+  },
+  {
+    "id": "W3 Q3 FY20-25",
+    "company": "White Owl Brewery",
+    "amount": 3999.6499999999996,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "IIFL India Private Equity Fund"
+    ],
+    "leadInvestor": "IIFL India Private Equity Fund",
+    "date": "2019-10-17",
+    "location": "Mumbai",
+    "description": "White Owl Brewery raised ₹40.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/indian-beer-brand-white-owl-bags-inr-40-cr-from-iifl/",
+    "weekFolder": "W3 Q3 FY20"
+  },
+  {
     "id": "W3 Q3 FY20-3",
     "company": "UrbanPiper",
     "amount": 6262.5,
@@ -42815,6 +46107,62 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W3 Q3 FY20"
   },
   {
+    "id": "W3 Q3 FY20-18",
+    "company": "MyGate",
+    "amount": 46760,
+    "stage": "Series B",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Tiger Global Management",
+      "Tencent",
+      "Prime Venture Partners"
+    ],
+    "leadInvestor": "Tiger Global Management",
+    "date": "2019-10-16",
+    "location": "Bengaluru",
+    "description": "MyGate raised ₹467.6 Cr in Series B round.",
+    "sourceUrl": "https://entrackr.com/2019/10/tencent-and-tiger-global-pour-56-mn-into-mygate/",
+    "weekFolder": "W3 Q3 FY20"
+  },
+  {
+    "id": "W3 Q3 FY20-19",
+    "company": "Paper Boat Apps",
+    "amount": 8350,
+    "stage": "Acquisition",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Nazara Technologies"
+    ],
+    "leadInvestor": "Nazara Technologies",
+    "date": "2019-10-16",
+    "location": "Mumbai",
+    "description": "Paper Boat Apps raised ₹83.5 Cr in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-nazara-invests-paper-boat-apps-bootstrapped-startup-kids",
+    "weekFolder": "W3 Q3 FY20"
+  },
+  {
+    "id": "W3 Q3 FY20-21",
+    "company": "Bare Anatomy",
+    "amount": 417.5,
+    "stage": "Seed",
+    "sectors": [
+      "D2C"
+    ],
+    "investors": [
+      "Sauce.vc"
+    ],
+    "leadInvestor": "Sauce.vc",
+    "date": "2019-10-16",
+    "location": "Gurugram",
+    "description": "Bare Anatomy raised ₹4.2 Cr in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/10/haircare-startup-funding-bare-anatomy-sauce-vc",
+    "weekFolder": "W3 Q3 FY20"
+  },
+  {
     "id": "W3 Q3 FY20-4",
     "company": "CleverTap",
     "amount": 29225,
@@ -42832,6 +46180,42 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "CleverTap raised ₹292.3 Cr in Series B round.",
     "sourceUrl": "https://yourstory.com/2019/10/startup-funding-clevertap-raises-35m-series-c-tiger-management-sequoia",
+    "weekFolder": "W3 Q3 FY20"
+  },
+  {
+    "id": "W3 Q3 FY20-15",
+    "company": "True Balance",
+    "amount": 19205,
+    "stage": "Series C",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-10-15",
+    "location": "Mumbai",
+    "description": "True Balance raised ₹192.1 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/true-balance-raises-23-mn-in-series-c-for-expansion-and-growth/",
+    "weekFolder": "W3 Q3 FY20"
+  },
+  {
+    "id": "W3 Q3 FY20-20",
+    "company": "Muse Dot Media",
+    "amount": 835,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Marketing"
+    ],
+    "investors": [
+      "existing angel investors"
+    ],
+    "leadInvestor": "existing angel investors",
+    "date": "2019-10-15",
+    "location": "New Delhi",
+    "description": "Muse Dot Media raised ₹8.3 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/10/startup-funding-alert-muse-dot-media-angel-investors",
     "weekFolder": "W3 Q3 FY20"
   },
   {
@@ -42892,6 +46276,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Noida",
     "description": "Mall91 raised ₹62.6 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/10/funding-mall91-go-ventures-gojek-vernacular-language-startup-commerce",
+    "weekFolder": "W2 Q3 FY20"
+  },
+  {
+    "id": "W2 Q3 FY20-25",
+    "company": "boodmo",
+    "amount": 1002,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "existing investor"
+    ],
+    "leadInvestor": "existing investor",
+    "date": "2019-10-14",
+    "location": "Gurugram",
+    "description": "boodmo raised ₹10.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-alert-auto-spare-parts-startup-boodmo",
     "weekFolder": "W2 Q3 FY20"
   },
   {
@@ -42971,6 +46373,30 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W2 Q3 FY20"
   },
   {
+    "id": "W2 Q3 FY20-15",
+    "company": "Rapido",
+    "amount": 45925,
+    "stage": "Series A",
+    "sectors": [
+      "General"
+    ],
+    "investors": [
+      "WestBridge Capital",
+      "ShunWei Capital",
+      "WestBridge Capital as it picked up 8 Series B equity shares",
+      "16",
+      "159 Series B CCPS at a value of INR 222",
+      "Hong Kong’s multi-strategy private investment office Integrated Capital",
+      "Nexus"
+    ],
+    "leadInvestor": "WestBridge Capital",
+    "date": "2019-10-11",
+    "location": "Mumbai",
+    "description": "Rapido raised ₹459.3 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-rapido-closes-series-b-funding-round-at-55-mn/",
+    "weekFolder": "W2 Q3 FY20"
+  },
+  {
     "id": "W2 Q3 FY20-4",
     "company": "Sub-k",
     "amount": 7498.3,
@@ -43024,6 +46450,81 @@ export const fundingData: FundingDeal[] = [
     "location": "Delhi",
     "description": "Vahdam Teas raised ₹75.0 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/10/funding-tea-brand-vahdam-teas-sixth-sense-ventures-startups",
+    "weekFolder": "W2 Q3 FY20"
+  },
+  {
+    "id": "W2 Q3 FY20-22",
+    "company": "Priority Vendor",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "C2FO"
+    ],
+    "leadInvestor": "C2FO",
+    "date": "2019-10-10",
+    "location": "Noida",
+    "description": "Priority Vendor raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/10/fintech-firm-c2fo-acquires-early-payment-platform-priority-vendor",
+    "weekFolder": "W2 Q3 FY20"
+  },
+  {
+    "id": "W2 Q3 FY20-23",
+    "company": "Sattuz",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Indian Angel Network",
+      "Hari Balasubramanian",
+      "Vikas Kuthiala"
+    ],
+    "leadInvestor": "Indian Angel Network",
+    "date": "2019-10-10",
+    "location": "Bihar",
+    "description": "Sattuz raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-startup-sattuz-indian-angel-network",
+    "weekFolder": "W2 Q3 FY20"
+  },
+  {
+    "id": "W2 Q3 FY20-24",
+    "company": "Hevo Data",
+    "amount": 3340,
+    "stage": "Seed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Sequoia Capital",
+      "Chiratae Ventures"
+    ],
+    "leadInvestor": "Sequoia Capital",
+    "date": "2019-10-10",
+    "location": "Bengaluru",
+    "description": "Hevo Data raised ₹33.4 Cr in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-hevo-data-sequoia-capital-chiratae-ventures-startup",
+    "weekFolder": "W2 Q3 FY20"
+  },
+  {
+    "id": "W2 Q3 FY20-26",
+    "company": "Smytten",
+    "amount": 1252.5,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Roots Ventures"
+    ],
+    "leadInvestor": "Roots Ventures",
+    "date": "2019-10-10",
+    "location": "Gurugram",
+    "description": "Smytten raised ₹12.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/roots-ventures-invests-1-5-mn-in-smytten-to-support-expansion/",
     "weekFolder": "W2 Q3 FY20"
   },
   {
@@ -43105,6 +46606,175 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W2 Q3 FY20"
   },
   {
+    "id": "W2 Q3 FY20-16",
+    "company": "Repair CleanseCar",
+    "amount": 1670,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "General"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-10-09",
+    "location": "Bengaluru",
+    "description": "Repair CleanseCar raised ₹16.7 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/car-cleaning-repair-cleansecar-raises-2-mn-from-haldirams-dhianu-das-others-2/",
+    "weekFolder": "W2 Q3 FY20"
+  },
+  {
+    "id": "W2 Q3 FY20-17",
+    "company": "Netmeds",
+    "amount": 24999.9,
+    "stage": "Debt",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Tresara Health"
+    ],
+    "leadInvestor": "Tresara Health",
+    "date": "2019-10-09",
+    "location": "Chennai",
+    "description": "Netmeds raised ₹250.0 Cr in Debt round.",
+    "sourceUrl": "https://entrackr.com/2019/10/netmeds-raises-250-cr-debt-tresara/",
+    "weekFolder": "W2 Q3 FY20"
+  },
+  {
+    "id": "W2 Q3 FY20-19",
+    "company": "Nukleus",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Coworking"
+    ],
+    "investors": [
+      "Sukhbir Singh"
+    ],
+    "leadInvestor": "Sukhbir Singh",
+    "date": "2019-10-09",
+    "location": "Noida",
+    "description": "Nukleus raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-alert-singer-sukhbir-singh-backs-coworking-startup-nukleus",
+    "weekFolder": "W2 Q3 FY20"
+  },
+  {
+    "id": "W2 Q3 FY20-20",
+    "company": "Kosha",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "D2C"
+    ],
+    "investors": [
+      "Tres Monos Capital",
+      "Narendra Hiranandani"
+    ],
+    "leadInvestor": "Tres Monos Capital",
+    "date": "2019-10-09",
+    "location": "India",
+    "description": "Kosha raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/10/tres-monos-capital-hiranandani-clothing-brand-investment-kosha-startup",
+    "weekFolder": "W2 Q3 FY20"
+  },
+  {
+    "id": "W2 Q3 FY20-21",
+    "company": "GeoIQ",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "IP Ventures"
+    ],
+    "leadInvestor": "IP Ventures",
+    "date": "2019-10-09",
+    "location": "Bengaluru",
+    "description": "GeoIQ raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-location-intelligence-startup-geoiq-ip-ventures",
+    "weekFolder": "W2 Q3 FY20"
+  },
+  {
+    "id": "W2 Q3 FY20-18",
+    "company": "Vahan",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Khosla Ventures",
+      "Founders Fund",
+      "Pioneer Fund"
+    ],
+    "leadInvestor": "Khosla Ventures",
+    "date": "2019-10-08",
+    "location": "Bengaluru",
+    "description": "Vahan raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/10/yc-vahan-funding-khosla-ventures-founders-fund-startup",
+    "weekFolder": "W2 Q3 FY20"
+  },
+  {
+    "id": "W1 Q3 FY20-17",
+    "company": "U Gro Capital",
+    "amount": 10003.300000000001,
+    "stage": "Debt",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Sachin Bansal",
+      "Poonawalla Family"
+    ],
+    "leadInvestor": "Sachin Bansal",
+    "date": "2019-10-07",
+    "location": "Mumbai",
+    "description": "U Gro Capital raised ₹100.0 Cr in Debt round.",
+    "sourceUrl": "https://entrackr.com/2019/10/sachin-bansal-poonawalla-familiy-investing-rs-cr-u-gro-capital/",
+    "weekFolder": "W1 Q3 FY20"
+  },
+  {
+    "id": "W1 Q3 FY20-20",
+    "company": "OYO",
+    "amount": 1252500,
+    "stage": "Series F",
+    "sectors": [
+      "Hospitality"
+    ],
+    "investors": [
+      "RA Hospitality Holdings",
+      "existing investors"
+    ],
+    "leadInvestor": "RA Hospitality Holdings",
+    "date": "2019-10-07",
+    "location": "Gurugram",
+    "description": "OYO raised ₹12525.0 Cr in Series F round.",
+    "sourceUrl": "https://yourstory.com/2019/10/oyo-15-billion-series-f-funding-ritesh-agarwal-softbank",
+    "weekFolder": "W1 Q3 FY20"
+  },
+  {
+    "id": "W1 Q3 FY20-29",
+    "company": "Vahan.ai",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Khosla Ventures",
+      "Founders Fund",
+      "Pioneer Fund"
+    ],
+    "leadInvestor": "Khosla Ventures",
+    "date": "2019-10-07",
+    "location": "Bengaluru",
+    "description": "Vahan.ai raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/y-combinator-backed-vahan-ai-raises-funds-from-khosla-ventures-others/",
+    "weekFolder": "W1 Q3 FY20"
+  },
+  {
     "id": "W1 Q3 FY20-1",
     "company": "Udaan",
     "amount": 417500,
@@ -43125,6 +46795,61 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "Udaan raised ₹4175.0 Cr in Series A round.",
     "sourceUrl": "https://entrackr.com/2019/10/funding-indian-startups-week-sep-oct/",
+    "weekFolder": "W1 Q3 FY20"
+  },
+  {
+    "id": "W1 Q3 FY20-16",
+    "company": "Greytip",
+    "amount": 4066.45,
+    "stage": "Series C",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-10-05",
+    "location": "Bengaluru",
+    "description": "Greytip raised ₹40.7 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/greytip-raises-4-87-mn-series-c-funding-from-info-edge-megadelta-capital/",
+    "weekFolder": "W1 Q3 FY20"
+  },
+  {
+    "id": "W1 Q3 FY20-18",
+    "company": "Razorpay",
+    "amount": 13017.650000000001,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Razorpay Inc"
+    ],
+    "leadInvestor": "Razorpay Inc",
+    "date": "2019-10-05",
+    "location": "India",
+    "description": "Razorpay raised ₹130.2 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/10/razorpay-inc-infuses-rs-130-cr-into-payment-gateway-business/",
+    "weekFolder": "W1 Q3 FY20"
+  },
+  {
+    "id": "W1 Q3 FY20-28",
+    "company": "ContractPodAi",
+    "amount": 45925,
+    "stage": "Series B",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Insight Partners",
+      "Eagle Proprietary Investments"
+    ],
+    "leadInvestor": "Insight Partners",
+    "date": "2019-10-05",
+    "location": "Mumbai",
+    "description": "ContractPodAi raised ₹459.3 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/with-55-mn-series-b-contractpodai-expands-technology-hub-in-india/",
     "weekFolder": "W1 Q3 FY20"
   },
   {
@@ -43181,6 +46906,45 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "Fyle raised ₹37.6 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/10/funding-expense-management-platform-fyle-steadview-capital-tiger-global",
+    "weekFolder": "W1 Q3 FY20"
+  },
+  {
+    "id": "W1 Q3 FY20-19",
+    "company": "Zomato",
+    "amount": 501000,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Ant Financial",
+      "Temasek"
+    ],
+    "leadInvestor": "Ant Financial",
+    "date": "2019-10-04",
+    "location": "Gurugram",
+    "description": "Zomato raised ₹5010.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/10/zomato-to-raise-600-mn-ant-financial/",
+    "weekFolder": "W1 Q3 FY20"
+  },
+  {
+    "id": "W1 Q3 FY20-27",
+    "company": "Bounce",
+    "amount": 104375,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "B Capital",
+      "Accel India",
+      "Goldman Sachs"
+    ],
+    "leadInvestor": "B Capital",
+    "date": "2019-10-04",
+    "location": "Bengaluru",
+    "description": "Bounce raised ₹1043.8 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-bounce-funding-from-accel-bcapital/",
     "weekFolder": "W1 Q3 FY20"
   },
   {
@@ -43304,6 +47068,85 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q3 FY20"
   },
   {
+    "id": "W1 Q3 FY20-21",
+    "company": "CityMall",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "M&S Partners",
+      "Jitendra Gupta",
+      "Alvin Tse",
+      "Manish Vij",
+      "Harish Bahl",
+      "Rishab Malik",
+      "Rajesh Sawhney"
+    ],
+    "leadInvestor": "M&S Partners",
+    "date": "2019-10-03",
+    "location": "India",
+    "description": "CityMall raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-social-ecommerce-platform-citymall-angel-investors",
+    "weekFolder": "W1 Q3 FY20"
+  },
+  {
+    "id": "W1 Q3 FY20-22",
+    "company": "Paytm First Games",
+    "amount": 16700,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Gaming"
+    ],
+    "investors": [
+      "AGTech Holdings",
+      "One97 Communications"
+    ],
+    "leadInvestor": "AGTech Holdings",
+    "date": "2019-10-03",
+    "location": "India",
+    "description": "Paytm First Games raised ₹167.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-paytm-first-games-raises-funds-one-97-communications-agtech",
+    "weekFolder": "W1 Q3 FY20"
+  },
+  {
+    "id": "W1 Q3 FY20-23",
+    "company": "Orb Energy",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Cleantech"
+    ],
+    "investors": [
+      "Shell"
+    ],
+    "leadInvestor": "Shell",
+    "date": "2019-10-03",
+    "location": "Bengaluru",
+    "description": "Orb Energy raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-alert-shell-acquires-stake-solar-company-orb-energy",
+    "weekFolder": "W1 Q3 FY20"
+  },
+  {
+    "id": "W1 Q3 FY20-26",
+    "company": "Fyle",
+    "amount": 3757.5,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Steadview Capital"
+    ],
+    "leadInvestor": "Steadview Capital",
+    "date": "2019-10-03",
+    "location": "Bengaluru",
+    "description": "Fyle raised ₹37.6 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/bengaluru-startup-fyle-raises-4-5-mn-from-steadview-capital/",
+    "weekFolder": "W1 Q3 FY20"
+  },
+  {
     "id": "W1 Q3 FY20-4",
     "company": "CareStack",
     "amount": 23380,
@@ -43414,6 +47257,47 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q3 FY20"
   },
   {
+    "id": "W1 Q3 FY20-24",
+    "company": "MEngage",
+    "amount": 83.5,
+    "stage": "Seed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Sukhbir Singh",
+      "Keshav Sharma",
+      "Nikhil Chaudhary",
+      "Dipesh Singhal"
+    ],
+    "leadInvestor": "Sukhbir Singh",
+    "date": "2019-10-01",
+    "location": "Jaipur",
+    "description": "MEngage raised ₹0.8 Cr in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/10/funding-alert-singer-sukhbir-backs-mengage",
+    "weekFolder": "W1 Q3 FY20"
+  },
+  {
+    "id": "W1 Q3 FY20-25",
+    "company": "Sleepycat",
+    "amount": 1102.2,
+    "stage": "Series A",
+    "sectors": [
+      "D2C"
+    ],
+    "investors": [
+      "DSG Consumer Partners",
+      "Sharrp Ventures",
+      "Gemba Capital"
+    ],
+    "leadInvestor": "DSG Consumer Partners",
+    "date": "2019-10-01",
+    "location": "Mumbai",
+    "description": "Sleepycat raised ₹11.0 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/09/startup-funding-sleepycat-dsg-consumer-partners-sharrp-ventures",
+    "weekFolder": "W1 Q3 FY20"
+  },
+  {
     "id": "W14 Q2 FY20-1",
     "company": "Tala",
     "amount": 3999.6499999999996,
@@ -43451,6 +47335,84 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W14 Q2 FY20"
   },
   {
+    "id": "W14 Q2 FY20-3",
+    "company": "Clix Capital",
+    "amount": 33400,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "AION Capital"
+    ],
+    "leadInvestor": "AION Capital",
+    "date": "2019-09-30",
+    "location": "Gurugram",
+    "description": "Clix Capital raised ₹334.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/09/clix-capital-raise-40-mn-aion-capital/",
+    "weekFolder": "W14 Q2 FY20"
+  },
+  {
+    "id": "W14 Q2 FY20-4",
+    "company": "Oivi",
+    "amount": 417.5,
+    "stage": "Pre-Seed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Arali Ventures"
+    ],
+    "leadInvestor": "Arali Ventures",
+    "date": "2019-09-30",
+    "location": "Bengaluru",
+    "description": "Oivi raised ₹4.2 Cr in Pre-Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/09/funding-alert-deeptech-healthcare-startup-oivi-arali-ventures",
+    "weekFolder": "W14 Q2 FY20"
+  },
+  {
+    "id": "W14 Q2 FY20-5",
+    "company": "LoanTap",
+    "amount": 10020,
+    "stage": "Series B",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Avana Capital",
+      "3one4 Capital",
+      "India Quotient",
+      "Shunwei Capital",
+      "Kae Capital"
+    ],
+    "leadInvestor": "Avana Capital",
+    "date": "2019-09-30",
+    "location": "Pune",
+    "description": "LoanTap raised ₹100.2 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/loantap-begins-series-b-funding-from-avaana-exiting-investors/",
+    "weekFolder": "W14 Q2 FY20"
+  },
+  {
+    "id": "W13 Q2 FY20-23",
+    "company": "OfBusiness",
+    "amount": 24231.7,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Flipkart cofounder Binny Bansal",
+      "Udaan cofounder Sujeet Kumar",
+      "Flipkart Group CEO Kalyan Krishnamurthy"
+    ],
+    "leadInvestor": "Flipkart cofounder Binny Bansal",
+    "date": "2019-09-28",
+    "location": "Gurugram",
+    "description": "OfBusiness raised ₹242.3 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/top-indian-startup-funding-galore-123-september/",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
     "id": "W13 Q2 FY20-1",
     "company": "Spinny",
     "amount": 41750,
@@ -43485,6 +47447,81 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "DIPL raised ₹5.8 Cr in Acquisition round.",
     "sourceUrl": "https://yourstory.com/2019/09/startup-funding-digital-payment-solutions-firm-dipl-ic1101",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
+    "id": "W13 Q2 FY20-24",
+    "company": "Terraview",
+    "amount": 576.15,
+    "stage": "Series A",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Binny Bansal",
+      "Kalyan Krishnamurthy",
+      "Sujeet Kumar",
+      "Tanglin Venture Partners"
+    ],
+    "leadInvestor": "Binny Bansal",
+    "date": "2019-09-27",
+    "location": "India",
+    "description": "Terraview raised ₹5.8 Cr in Series A round.",
+    "sourceUrl": "https://entrackr.com/2019/09/terraview-rs-5-8-cr-binny-bansal-kalyan-krishnamurthy/",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
+    "id": "W13 Q2 FY20-26",
+    "company": "ScaleneWorks",
+    "amount": 835,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Hallmark Group"
+    ],
+    "leadInvestor": "Hallmark Group",
+    "date": "2019-09-27",
+    "location": "Bengaluru",
+    "description": "ScaleneWorks raised ₹8.3 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/09/funding-hallmark-group-scaleneworks-talent-acquisition",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
+    "id": "W13 Q2 FY20-27",
+    "company": "Sieve",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Biz Stone"
+    ],
+    "leadInvestor": "Biz Stone",
+    "date": "2019-09-27",
+    "location": "Kochi",
+    "description": "Sieve raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/09/twitter-biz-stone-sieve-kerala-startup-co-founder-funding",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
+    "id": "W13 Q2 FY20-35",
+    "company": "Ola",
+    "amount": 4216.75,
+    "stage": "Pre-IPO",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "ARK Ola Pre IPO Fund"
+    ],
+    "leadInvestor": "ARK Ola Pre IPO Fund",
+    "date": "2019-09-27",
+    "location": "Bengaluru",
+    "description": "Ola raised ₹42.2 Cr in Pre-IPO round.",
+    "sourceUrl": "https://inc42.com/buzz/ola-gets-5-05-mn-fresh-infusion-from-ark-ola-pre-ipo-fund/",
     "weekFolder": "W13 Q2 FY20"
   },
   {
@@ -43583,6 +47620,78 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W13 Q2 FY20"
   },
   {
+    "id": "W13 Q2 FY20-25",
+    "company": "Medlife",
+    "amount": 39996.5,
+    "stage": "Debt",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Prasid Uno Family Trust"
+    ],
+    "leadInvestor": "Prasid Uno Family Trust",
+    "date": "2019-09-26",
+    "location": "Bengaluru",
+    "description": "Medlife raised ₹400.0 Cr in Debt round.",
+    "sourceUrl": "https://entrackr.com/2019/09/medlife-raise-rs-400-cr-prasid-uno-family-trust/",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
+    "id": "W13 Q2 FY20-28",
+    "company": "Rivigo",
+    "amount": 4149.95,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "KB Global"
+    ],
+    "leadInvestor": "KB Global",
+    "date": "2019-09-26",
+    "location": "Gurugram",
+    "description": "Rivigo raised ₹41.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/09/rivigo-unicorn-funding-south-korea-kb-global-logistics-technology",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
+    "id": "W13 Q2 FY20-38",
+    "company": "KredX",
+    "amount": 16700,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Tiger Global"
+    ],
+    "leadInvestor": "Tiger Global",
+    "date": "2019-09-26",
+    "location": "Bengaluru",
+    "description": "KredX raised ₹167.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/tiger-global-may-invest-20-mn-in-invoice-discounting-fintech-kredx/",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
+    "id": "W13 Q2 FY20-39",
+    "company": "Karvy Fintech",
+    "amount": 83500,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "General Atlantic"
+    ],
+    "leadInvestor": "General Atlantic",
+    "date": "2019-09-26",
+    "location": "Hyderabad",
+    "description": "Karvy Fintech raised ₹835.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/general-atlantic-commits-100-mn-to-digital-asset-management-startup-karvy-fintech/",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
     "id": "W13 Q2 FY20-10",
     "company": "Sachin Bansal",
     "amount": 73897.5,
@@ -43657,6 +47766,99 @@ export const fundingData: FundingDeal[] = [
     "location": "Chennai",
     "description": "Aquaconnect raised ₹9.2 Cr in Seed round.",
     "sourceUrl": "https://yourstory.com/2019/09/startup-funding-alert-aquaconnect-omnivore-hatch",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
+    "id": "W13 Q2 FY20-21",
+    "company": "Rivigo",
+    "amount": 4091.5000000000005,
+    "stage": "Series D",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Goldman Sachs Investment Partners",
+      "Silicon Valley-based Accel"
+    ],
+    "leadInvestor": "Goldman Sachs Investment Partners",
+    "date": "2019-09-25",
+    "location": "Delhi",
+    "description": "Rivigo raised ₹40.9 Cr in Series D round.",
+    "sourceUrl": "https://inc42.com/buzz/rivigo-raises-4-9-mn-funding-from-south-koreas-kb-global-platform-fund/",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
+    "id": "W13 Q2 FY20-22",
+    "company": "Aavishkaar Group",
+    "amount": 30895,
+    "stage": "Debt",
+    "sectors": [
+      "Agritech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-09-25",
+    "location": "Bengaluru",
+    "description": "Aavishkaar Group raised ₹308.9 Cr in Debt round.",
+    "sourceUrl": "https://inc42.com/buzz/aavishkaar-group-raises-37-mn-to-fund-international-expansion/",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
+    "id": "W13 Q2 FY20-29",
+    "company": "Finception",
+    "amount": 400.79999999999995,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Rainmatter"
+    ],
+    "leadInvestor": "Rainmatter",
+    "date": "2019-09-25",
+    "location": "India",
+    "description": "Finception raised ₹4.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/09/funding-alert-zerodha-rainmatter-fintech-startup-finception",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
+    "id": "W13 Q2 FY20-30",
+    "company": "Ketofy",
+    "amount": 208.75,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Alok Mittal",
+      "Rohit Chanana",
+      "Tejinderpal Miglani"
+    ],
+    "leadInvestor": "Alok Mittal",
+    "date": "2019-09-25",
+    "location": "Gurugram",
+    "description": "Ketofy raised ₹2.1 Cr in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/09/funding-ketofy-foodtech-startup-gurugram-huddle",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
+    "id": "W13 Q2 FY20-37",
+    "company": "CRIDS",
+    "amount": 73897.5,
+    "stage": "Acquisition",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Sachin Bansal"
+    ],
+    "leadInvestor": "Sachin Bansal",
+    "date": "2019-09-25",
+    "location": "Karnataka",
+    "description": "CRIDS raised ₹739.0 Cr in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/sachin-bansal-announces-acquisition-of-nbfc-to-take-over-as-ceo/",
     "weekFolder": "W13 Q2 FY20"
   },
   {
@@ -43742,6 +47944,42 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W13 Q2 FY20"
   },
   {
+    "id": "W13 Q2 FY20-31",
+    "company": "Rebel Foods",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Travis Kalanick"
+    ],
+    "leadInvestor": "Travis Kalanick",
+    "date": "2019-09-24",
+    "location": "Pune",
+    "description": "Rebel Foods raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/09/startup-funding-uber-travis-kalanick-rebel-foods-faasos",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
+    "id": "W13 Q2 FY20-32",
+    "company": "Buzzo.ai",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Haptik"
+    ],
+    "leadInvestor": "Haptik",
+    "date": "2019-09-24",
+    "location": "Mumbai",
+    "description": "Buzzo.ai raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/09/reliance-jio-backed-haptik-acquires-conversational-commerce-platform-buzzo-ai",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
     "id": "W13 Q2 FY20-16",
     "company": "ShopClues",
     "amount": 784.9,
@@ -43814,6 +48052,175 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W13 Q2 FY20"
   },
   {
+    "id": "W13 Q2 FY20-20",
+    "company": "Spill",
+    "amount": 400.79999999999995,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Cleantech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-09-23",
+    "location": "Bengaluru",
+    "description": "Spill raised ₹4.0 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/nanotechnology-startup-log-9-spill-funding-raises-inr-4-cr-pre-series-a/",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
+    "id": "W13 Q2 FY20-33",
+    "company": "AdvaRisk",
+    "amount": 584.5,
+    "stage": "Seed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Sprout Venture Partners",
+      "SEA Fund"
+    ],
+    "leadInvestor": "Sprout Venture Partners",
+    "date": "2019-09-23",
+    "location": "Mumbai",
+    "description": "AdvaRisk raised ₹5.8 Cr in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/09/funding-fraud-investigation-platform-advarisk-sprout-venture-partners",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
+    "id": "W13 Q2 FY20-34",
+    "company": "SpeakIn",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Homage Ventures"
+    ],
+    "leadInvestor": "Homage Ventures",
+    "date": "2019-09-23",
+    "location": "Delhi",
+    "description": "SpeakIn raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/09/funding-oyo-south-asia-ceo-aditya-ghosh-experts-network-platform-speakin",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
+    "id": "W13 Q2 FY20-36",
+    "company": "NoBroker",
+    "amount": 41750,
+    "stage": "Series D",
+    "sectors": [
+      "Real Estate Tech"
+    ],
+    "investors": [
+      "Tiger Global",
+      "General Atlantic"
+    ],
+    "leadInvestor": "Tiger Global",
+    "date": "2019-09-23",
+    "location": "Bengaluru",
+    "description": "NoBroker raised ₹417.5 Cr in Series D round.",
+    "sourceUrl": "https://inc42.com/buzz/nobroker-might-raise-130-mn-funding-round-from-tiger-global-general-atlantic/",
+    "weekFolder": "W13 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-19",
+    "company": "Upstox",
+    "amount": 20875,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "India Accelerator raise around INR 30 Mn from Angel Investors"
+    ],
+    "leadInvestor": "India Accelerator raise around INR 30 Mn from Angel Investors",
+    "date": "2019-09-21",
+    "location": "Bengaluru",
+    "description": "Upstox raised ₹208.8 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/top-indian-startup-funding-galore-122-september/",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-20",
+    "company": "Rebel Foods",
+    "amount": 20875,
+    "stage": "Series D",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Sequoia",
+      "Evolvence"
+    ],
+    "leadInvestor": "Sequoia",
+    "date": "2019-09-21",
+    "location": "Pune",
+    "description": "Rebel Foods raised ₹208.8 Cr in Series D round.",
+    "sourceUrl": "https://inc42.com/buzz/rebel-foods-raises-25-mn-series-d-funding-from-goldman-sachs-others/",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-21",
+    "company": "ShopClues",
+    "amount": 784.9,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Clues Network Inc"
+    ],
+    "leadInvestor": "Clues Network Inc",
+    "date": "2019-09-21",
+    "location": "Gurugram",
+    "description": "ShopClues raised ₹7.8 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/09/shopclues-receives-rs-8-cr-clues-network-inc/",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-22",
+    "company": "PolicyBazaar",
+    "amount": 125250,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Tencent"
+    ],
+    "leadInvestor": "Tencent",
+    "date": "2019-09-21",
+    "location": "Gurugram",
+    "description": "PolicyBazaar raised ₹1252.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/09/tencent-invests-up-to-150-mn-policybazaar/",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-44",
+    "company": "Digi-Prex",
+    "amount": 4592.5,
+    "stage": "Seed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Khosla Ventures",
+      "Y Combinator",
+      "Quiet Capital",
+      "SV Angel",
+      "Justin Mateen"
+    ],
+    "leadInvestor": "Khosla Ventures",
+    "date": "2019-09-21",
+    "location": "Hyderabad",
+    "description": "Digi-Prex raised ₹45.9 Cr in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/y-combinator-graduate-digi-prex-raises-5-5-mn-seed-funding/",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
     "id": "W12 Q2 FY20-11",
     "company": "Spacejoy",
     "amount": 835,
@@ -43883,6 +48290,26 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "LectureNotes raised ₹2.5 Cr in Not Disclosed .",
     "sourceUrl": "https://yourstory.com/2019/09/funding-bhubaneshwar-edutech-startup-lecturenotes",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-23",
+    "company": "Rebel Foods",
+    "amount": 19998.25,
+    "stage": "Series D",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Goldman Sachs",
+      "Sistema Asia Fund",
+      "Irving Investors"
+    ],
+    "leadInvestor": "Goldman Sachs",
+    "date": "2019-09-20",
+    "location": "Mumbai",
+    "description": "Rebel Foods raised ₹200.0 Cr in Series D round.",
+    "sourceUrl": "https://entrackr.com/2019/09/goldman-sachs-rs-200-cr-rebel-foods-series-d-round/",
     "weekFolder": "W12 Q2 FY20"
   },
   {
@@ -43989,6 +48416,78 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W12 Q2 FY20"
   },
   {
+    "id": "W12 Q2 FY20-24",
+    "company": "Upstox",
+    "amount": 20875,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Tiger Global Management"
+    ],
+    "leadInvestor": "Tiger Global Management",
+    "date": "2019-09-19",
+    "location": "India",
+    "description": "Upstox raised ₹208.8 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/09/tiger-global-25-mn-upstox/",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-34",
+    "company": "Eunimart",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "SucSEED Venture Partners"
+    ],
+    "leadInvestor": "SucSEED Venture Partners",
+    "date": "2019-09-19",
+    "location": "Hyderabad",
+    "description": "Eunimart raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/09/startup-funding-sucseed-cross-border-ecommerce-eunimart",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-42",
+    "company": "Wow! Momo Foods",
+    "amount": 19205,
+    "stage": "Series B",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Tiger Global"
+    ],
+    "leadInvestor": "Tiger Global",
+    "date": "2019-09-19",
+    "location": "Kolkata",
+    "description": "Wow! Momo Foods raised ₹192.1 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/tiger-global-invests-23-mn-in-a-qsr-chain-wow-momo-foods-ian-gets-partial-exit/",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-43",
+    "company": "Generico",
+    "amount": 9185,
+    "stage": "Series A",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Lightbox Ventures"
+    ],
+    "leadInvestor": "Lightbox Ventures",
+    "date": "2019-09-19",
+    "location": "Mumbai",
+    "description": "Generico raised ₹91.8 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/generico-to-enter-disease-management-space-with-11-mn-funding-from-lightbox/",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
     "id": "W12 Q2 FY20-5",
     "company": "Volkswagen Finance",
     "amount": 16700,
@@ -44023,6 +48522,137 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Zoomcar raised ₹16.5 Cr in Debt round.",
     "sourceUrl": "https://yourstory.com/2019/09/self-drive-startup-funding-zoomcar-drivezy-ola",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-25",
+    "company": "Wow! Momo",
+    "amount": 19205,
+    "stage": "Series B",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Tiger Global Management"
+    ],
+    "leadInvestor": "Tiger Global Management",
+    "date": "2019-09-18",
+    "location": "Kolkata",
+    "description": "Wow! Momo raised ₹192.1 Cr in Series B round.",
+    "sourceUrl": "https://entrackr.com/2019/09/tiger-global-23-mn-series-b-wow-momo/",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-30",
+    "company": "Zivame",
+    "amount": 2496.65,
+    "stage": "Series C",
+    "sectors": [
+      "D2C"
+    ],
+    "investors": [
+      "Indiblu Investment Advisors",
+      "Avendus Capital",
+      "Avezo Advisors"
+    ],
+    "leadInvestor": "Indiblu Investment Advisors",
+    "date": "2019-09-18",
+    "location": "Bengaluru",
+    "description": "Zivame raised ₹25.0 Cr in Series C round.",
+    "sourceUrl": "https://yourstory.com/2019/09/funding-zivame-lingerie-indiblu-avendus-capital",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-31",
+    "company": "BetterButter",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Media"
+    ],
+    "investors": [
+      "Silverpush"
+    ],
+    "leadInvestor": "Silverpush",
+    "date": "2019-09-18",
+    "location": "India",
+    "description": "BetterButter raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/09/singapore-silverpush-forays-media-content-acquisition-betterbutter",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-32",
+    "company": "iKure",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Inflection Point Ventures"
+    ],
+    "leadInvestor": "Inflection Point Ventures",
+    "date": "2019-09-18",
+    "location": "Kolkata",
+    "description": "iKure raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/09/funding-healthcare-startup-ikure-ip-ventures",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-33",
+    "company": "Entco",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Media"
+    ],
+    "investors": [
+      "Believe"
+    ],
+    "leadInvestor": "Believe",
+    "date": "2019-09-18",
+    "location": "Mumbai",
+    "description": "Entco raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/09/startup-believe-deal-entco-music-mergers-and-acquisition",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-39",
+    "company": "Aye Finance",
+    "amount": 7999.299999999999,
+    "stage": "Debt",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "undisclosed"
+    ],
+    "leadInvestor": "undisclosed",
+    "date": "2019-09-18",
+    "location": "Gurugram",
+    "description": "Aye Finance raised ₹80.0 Cr in Debt round.",
+    "sourceUrl": "https://inc42.com/buzz/lending-tech-startup-aye-finance-raises-inr-80-cr-debt-funding/",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-41",
+    "company": "GigIndia",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "S Ramadorai",
+      "Kiran Deshpande",
+      "Ravi Nigam",
+      "Shashank Deshpande"
+    ],
+    "leadInvestor": "S Ramadorai",
+    "date": "2019-09-18",
+    "location": "Pune",
+    "description": "GigIndia raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/freelance-marketplace-gigindia-raises-fresh-funding-from-tech-veterans/",
     "weekFolder": "W12 Q2 FY20"
   },
   {
@@ -44082,6 +48712,102 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W12 Q2 FY20"
   },
   {
+    "id": "W12 Q2 FY20-18",
+    "company": "Blowhorn",
+    "amount": 3173,
+    "stage": "Series A",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "Venture Catalysts",
+      "James Lee Sorenson",
+      "Dream Incubator",
+      "Japanese VC firm"
+    ],
+    "leadInvestor": "Venture Catalysts",
+    "date": "2019-09-17",
+    "location": "Bengaluru",
+    "description": "Blowhorn raised ₹31.7 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/blowhorn-raises-fresh-funding-as-it-eyes-international-expansion/",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-27",
+    "company": "Syntizen",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Mastercard",
+      "ACPL"
+    ],
+    "leadInvestor": "Mastercard",
+    "date": "2019-09-17",
+    "location": "India",
+    "description": "Syntizen raised funding in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/09/funding-syntizen-digital-identity-startup-mastercard-acpl",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-28",
+    "company": "CanvasFlip",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "FreshWorks"
+    ],
+    "leadInvestor": "FreshWorks",
+    "date": "2019-09-17",
+    "location": "Bengaluru",
+    "description": "CanvasFlip raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/09/bengaluru-startup-canvasflip-freshworks-acquisition",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-29",
+    "company": "Sports Unity",
+    "amount": 751.5,
+    "stage": "Acquisition",
+    "sectors": [
+      "Gaming"
+    ],
+    "investors": [
+      "Nazara Technologies",
+      "Vaibhav Gaggar"
+    ],
+    "leadInvestor": "Nazara Technologies",
+    "date": "2019-09-17",
+    "location": "Delhi",
+    "description": "Sports Unity raised ₹7.5 Cr in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/09/nazara-technologies-acquisition-sports-unity-online-gaming",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-40",
+    "company": "Zivame",
+    "amount": 2254.5,
+    "stage": "Series C",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Zodius Capital",
+      "Avendus Capital"
+    ],
+    "leadInvestor": "Zodius Capital",
+    "date": "2019-09-17",
+    "location": "Bengaluru",
+    "description": "Zivame raised ₹22.5 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-zodius-avendus-invest-2-7-mn-in-lingerie-startup-zivame/",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
     "id": "W12 Q2 FY20-15",
     "company": "AttainU",
     "amount": 217.10000000000002,
@@ -44116,6 +48842,154 @@ export const fundingData: FundingDeal[] = [
     "description": "ShoeKonnect raised ₹11.0 Cr in Pre-Series A round.",
     "sourceUrl": "https://yourstory.com/2019/09/startup-funding-b2b-footwear-marketplace-shoekonnect-waterbridge-infoedge",
     "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-17",
+    "company": "NestAway",
+    "amount": 4175,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-09-16",
+    "location": "Bengaluru",
+    "description": "NestAway raised ₹41.8 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/amid-cofounders-exit-goldman-sachs-invests-5-mn-in-nestaway/",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-26",
+    "company": "KhataBook",
+    "amount": 62625,
+    "stage": "Series B",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Tencent",
+      "GGV Capital"
+    ],
+    "leadInvestor": "Tencent",
+    "date": "2019-09-16",
+    "location": "Bengaluru",
+    "description": "KhataBook raised ₹626.3 Cr in Series B round.",
+    "sourceUrl": "https://entrackr.com/2019/09/exclusive-tencent-investing-75-mn-in-khatabook/",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-35",
+    "company": "Kaarya Naturals",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Roots Ventures"
+    ],
+    "leadInvestor": "Roots Ventures",
+    "date": "2019-09-16",
+    "location": "Mumbai",
+    "description": "Kaarya Naturals raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/09/startup-funding-roots-ventures-healthy-snacks-kaarya-naturals",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-36",
+    "company": "Lenskart",
+    "amount": 39203.25,
+    "stage": "Series F",
+    "sectors": [
+      "D2C"
+    ],
+    "investors": [
+      "Kedaara Capital"
+    ],
+    "leadInvestor": "Kedaara Capital",
+    "date": "2019-09-16",
+    "location": "Delhi",
+    "description": "Lenskart raised ₹392.0 Cr in Series F round.",
+    "sourceUrl": "https://yourstory.com/2019/09/startup-funding-kedaara-capital-backs-eyewear-solutions-company-lenskart",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-37",
+    "company": "PlusPin Healthcare",
+    "amount": 526.05,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Indian Angel Network",
+      "Munjal Group",
+      "Axilor Ventures"
+    ],
+    "leadInvestor": "Indian Angel Network",
+    "date": "2019-09-16",
+    "location": "India",
+    "description": "PlusPin Healthcare raised ₹5.3 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/09/funding-pluspin-healthcare-startup-ian-ranjan-anandan",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W12 Q2 FY20-38",
+    "company": "Ola Electric Mobility",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Hyundai",
+      "Kia Motors"
+    ],
+    "leadInvestor": "Hyundai",
+    "date": "2019-09-16",
+    "location": "India",
+    "description": "Ola Electric Mobility raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/09/hyundai-kia-ola-electric-mobility-uber-startup-funding",
+    "weekFolder": "W12 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-10",
+    "company": "Lenskart",
+    "amount": 39203.25,
+    "stage": "Series F",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Kedaara Capital"
+    ],
+    "leadInvestor": "Kedaara Capital",
+    "date": "2019-09-14",
+    "location": "Faridabad",
+    "description": "Lenskart raised ₹392.0 Cr in Series F round.",
+    "sourceUrl": "https://entrackr.com/2019/09/lenskart-raising-rs-392-cr-from-kedaara-capital/",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-30",
+    "company": "ShoeKonnect",
+    "amount": 1102.2,
+    "stage": "Series C",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Info Edge"
+    ],
+    "leadInvestor": "Info Edge",
+    "date": "2019-09-14",
+    "location": "Agra",
+    "description": "ShoeKonnect raised ₹11.0 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/shoekonnect-is-raising-1-5-mn-from-info-edge-and-new-investor/",
+    "weekFolder": "W11 Q2 FY20"
   },
   {
     "id": "W11 Q2 FY20-6",
@@ -44172,6 +49046,84 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W11 Q2 FY20"
   },
   {
+    "id": "W11 Q2 FY20-11",
+    "company": "FamPay",
+    "amount": 6680,
+    "stage": "Seed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Sequoia Capital India",
+      "Neeraj Arora (Venture Highway)"
+    ],
+    "leadInvestor": "Sequoia Capital India",
+    "date": "2019-09-12",
+    "location": "India",
+    "description": "FamPay raised ₹66.8 Cr in Seed round.",
+    "sourceUrl": "https://entrackr.com/2019/09/fampay-funding-sequoia-neeraj-arora/",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-21",
+    "company": "Hungry Foal",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Madison Capital",
+      "Das42 Ventures",
+      "Rajesh Sawhney",
+      "Amit Singhal"
+    ],
+    "leadInvestor": "Madison Capital",
+    "date": "2019-09-12",
+    "location": "Gurugram",
+    "description": "Hungry Foal raised funding in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/09/startup-funding-healthy-snacks-brand-hungry-foal-madison-capital",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-22",
+    "company": "Acculi Labs",
+    "amount": 0,
+    "stage": "Pre-Seed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Startup Basket"
+    ],
+    "leadInvestor": "Startup Basket",
+    "date": "2019-09-12",
+    "location": "Bengaluru",
+    "description": "Acculi Labs raised funding in Pre-Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/09/funding-healthcare-startup-acculi-labs",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-28",
+    "company": "Heads Up For Tails",
+    "amount": 8350,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "family offices",
+      "HNIs",
+      "existing promoters"
+    ],
+    "leadInvestor": "family offices",
+    "date": "2019-09-12",
+    "location": "Delhi",
+    "description": "Heads Up For Tails raised ₹83.5 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/pet-care-brand-heads-up-for-tails-raises-10-mn-in-pre-series-a-funding/",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
     "id": "W11 Q2 FY20-4",
     "company": "Marsplay",
     "amount": 4175,
@@ -44210,6 +49162,101 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "Truebil raised ₹8.3 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/09/startup-funding-used-car-marketplace-truebil-spiral-ventures",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-12",
+    "company": "JioSaavn",
+    "amount": 14036.35,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Media & Entertainment"
+    ],
+    "investors": [
+      "Reliance Industries"
+    ],
+    "leadInvestor": "Reliance Industries",
+    "date": "2019-09-11",
+    "location": "India",
+    "description": "JioSaavn raised ₹140.4 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/09/jio-saavn-secures-rs-240-35-cr-reliance-industries/",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-18",
+    "company": "Qdesq",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Coworking"
+    ],
+    "investors": [
+      "JLL Spark"
+    ],
+    "leadInvestor": "JLL Spark",
+    "date": "2019-09-11",
+    "location": "Gurugram",
+    "description": "Qdesq raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/09/startup-funding-jll-spark-indian-coworking-qdesq",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-19",
+    "company": "Nocca Robotics",
+    "amount": 1244.15,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "IAN Fund",
+      "Indian Angel Network"
+    ],
+    "leadInvestor": "IAN Fund",
+    "date": "2019-09-11",
+    "location": "Pune",
+    "description": "Nocca Robotics raised ₹12.4 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/09/startup-funding-ian-fund-nocca-robotics",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-20",
+    "company": "Heads Up For Tails",
+    "amount": 8350,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "D2C"
+    ],
+    "investors": [
+      "family offices",
+      "HNIs",
+      "existing promoters"
+    ],
+    "leadInvestor": "family offices",
+    "date": "2019-09-11",
+    "location": "Delhi",
+    "description": "Heads Up For Tails raised ₹83.5 Cr in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/09/pet-couture-heads-up-for-tails-startup-funding",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-27",
+    "company": "Hungry Foal",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Madison Capital",
+      "Rajesh Sawhney",
+      "Amit Singhal"
+    ],
+    "leadInvestor": "Madison Capital",
+    "date": "2019-09-11",
+    "location": "Gurugram",
+    "description": "Hungry Foal raised funding in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/madison-capital-leads-pre-series-a-funding-in-snacks-brand-hungry-foal/",
     "weekFolder": "W11 Q2 FY20"
   },
   {
@@ -44269,6 +49316,100 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W11 Q2 FY20"
   },
   {
+    "id": "W11 Q2 FY20-15",
+    "company": "Delhivery",
+    "amount": 96025,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "CPPIB"
+    ],
+    "leadInvestor": "CPPIB",
+    "date": "2019-09-10",
+    "location": "Gurugram",
+    "description": "Delhivery raised ₹960.3 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/09/canada-pension-plan-investment-board-logistics-unicorn-delhivery",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-16",
+    "company": "Glance",
+    "amount": 37575,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Media"
+    ],
+    "investors": [
+      "Mithril Capital"
+    ],
+    "leadInvestor": "Mithril Capital",
+    "date": "2019-09-10",
+    "location": "Bengaluru",
+    "description": "Glance raised ₹375.8 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/09/funding-startup-inmobi-group-glance-45-million-mithril",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-17",
+    "company": "SoStronk",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Gaming"
+    ],
+    "investors": [
+      "IP Ventures"
+    ],
+    "leadInvestor": "IP Ventures",
+    "date": "2019-09-10",
+    "location": "Bengaluru",
+    "description": "SoStronk raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/09/startup-funding-esports-gaming-sostronk-funding-ip-ventures",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-26",
+    "company": "Fitso",
+    "amount": 1252.5,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "SRI Capital",
+      "Sprout Capital",
+      "IPV Capital",
+      "Pankaj Chaddah",
+      "Ashish Gupta"
+    ],
+    "leadInvestor": "SRI Capital",
+    "date": "2019-09-10",
+    "location": "Delhi",
+    "description": "Fitso raised ₹12.5 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/sports-startup-fitso-raises-1-5-mn-funding-from-zomatos-pankaj-chaddah-and-others/",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-29",
+    "company": "Kawa Space",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Vijay Shekhar Sharma"
+    ],
+    "leadInvestor": "Vijay Shekhar Sharma",
+    "date": "2019-09-10",
+    "location": "Mumbai",
+    "description": "Kawa Space raised funding in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/kawa-space-gets-funding-from-paytms-vijay-shekar-sharma/",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
     "id": "W11 Q2 FY20-9",
     "company": "Fitso",
     "amount": 1252.5,
@@ -44285,6 +49426,116 @@ export const fundingData: FundingDeal[] = [
     "description": "Fitso raised ₹12.5 Cr in Pre-Series A round.",
     "sourceUrl": "https://yourstory.com/2019/09/fitness-startup-fitso-funding-sri-capital-swimming",
     "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-13",
+    "company": "Delhivery",
+    "amount": 96025,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "CPPIB"
+    ],
+    "leadInvestor": "CPPIB",
+    "date": "2019-09-09",
+    "location": "India",
+    "description": "Delhivery raised ₹960.3 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/09/cppib-115-mn-delhivery/",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-14",
+    "company": "Rebel Foods",
+    "amount": 56395.9,
+    "stage": "Series D",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Coatue PE Asia",
+      "GV Bites (Go-Jek)"
+    ],
+    "leadInvestor": "Coatue PE Asia",
+    "date": "2019-09-09",
+    "location": "Mumbai",
+    "description": "Rebel Foods raised ₹564.0 Cr in Series D round.",
+    "sourceUrl": "https://entrackr.com/2019/09/rebel-food-surpasses-ubereats-india-valuation/",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-23",
+    "company": "Prodapt",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Affirma Capital"
+    ],
+    "leadInvestor": "Affirma Capital",
+    "date": "2019-09-09",
+    "location": "Chennai",
+    "description": "Prodapt raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/09/affirma-capital-prodapt-startup-funding-investment",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-24",
+    "company": "Kawa Space",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Vijay Shekhar Sharma",
+      "SpecialE"
+    ],
+    "leadInvestor": "Vijay Shekhar Sharma",
+    "date": "2019-09-09",
+    "location": "Mumbai",
+    "description": "Kawa Space raised funding in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/09/vijay-shekhar-sharma-startup-funding-paytm-kawa-space",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W11 Q2 FY20-25",
+    "company": "SimSim",
+    "amount": 1043.75,
+    "stage": "Seed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Good Capital"
+    ],
+    "leadInvestor": "Good Capital",
+    "date": "2019-09-09",
+    "location": "India",
+    "description": "SimSim raised ₹10.4 Cr in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/good-capital-announces-25-mn-venture-fund-funding-simsim-spatial-inc/",
+    "weekFolder": "W11 Q2 FY20"
+  },
+  {
+    "id": "W10 Q2 FY20-13",
+    "company": "NEWJ",
+    "amount": 501,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Media & Entertainment"
+    ],
+    "investors": [
+      "Reliance Industries (RIIHL)"
+    ],
+    "leadInvestor": "Reliance Industries (RIIHL)",
+    "date": "2019-09-07",
+    "location": "Mumbai",
+    "description": "NEWJ raised ₹5.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/09/reliance-invests-rs-6-cr-media-startup-newj/",
+    "weekFolder": "W10 Q2 FY20"
   },
   {
     "id": "W10 Q2 FY20-1",
@@ -44323,6 +49574,26 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q2 FY20"
   },
   {
+    "id": "W10 Q2 FY20-14",
+    "company": "WMall",
+    "amount": 5845,
+    "stage": "Series B",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Chiratae Ventures",
+      "SAIF Partners",
+      "Venture Highway"
+    ],
+    "leadInvestor": "Chiratae Ventures",
+    "date": "2019-09-06",
+    "location": "Bengaluru",
+    "description": "WMall raised ₹58.5 Cr in Series B round.",
+    "sourceUrl": "https://entrackr.com/2019/09/exclusive-wmall-raising-7-mn-round-chiratae/",
+    "weekFolder": "W10 Q2 FY20"
+  },
+  {
     "id": "W10 Q2 FY20-7",
     "company": "FPL Technologies",
     "amount": 3757.5,
@@ -44357,6 +49628,79 @@ export const fundingData: FundingDeal[] = [
     "location": "Noida",
     "description": "Advisorymandi raised ₹300.6 Cr in Not Disclosed .",
     "sourceUrl": "https://yourstory.com/2019/09/funding-alert-adviosrymandi-est-group",
+    "weekFolder": "W10 Q2 FY20"
+  },
+  {
+    "id": "W10 Q2 FY20-23",
+    "company": "OTO Capital",
+    "amount": 1002,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Prime Venture Partners"
+    ],
+    "leadInvestor": "Prime Venture Partners",
+    "date": "2019-09-05",
+    "location": "Mumbai",
+    "description": "OTO Capital raised ₹10.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/09/funding-mumbai-fintech-oto-capital-prime-venture-partners",
+    "weekFolder": "W10 Q2 FY20"
+  },
+  {
+    "id": "W10 Q2 FY20-24",
+    "company": "ProPhysio",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "NestaVera Group"
+    ],
+    "leadInvestor": "NestaVera Group",
+    "date": "2019-09-05",
+    "location": "Bengaluru",
+    "description": "ProPhysio raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/09/funding-startup-healthcare-prophysio-nestavera-group",
+    "weekFolder": "W10 Q2 FY20"
+  },
+  {
+    "id": "W10 Q2 FY20-25",
+    "company": "FPL Tech",
+    "amount": 3757.5,
+    "stage": "Seed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Matrix Partners",
+      "Sequoia India"
+    ],
+    "leadInvestor": "Matrix Partners",
+    "date": "2019-09-05",
+    "location": "Pune",
+    "description": "FPL Tech raised ₹37.6 Cr in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/fpl-tech-matrix-sequoia-leads-4-5-mn-funding-round-in-fintech-startup/",
+    "weekFolder": "W10 Q2 FY20"
+  },
+  {
+    "id": "W10 Q2 FY20-26",
+    "company": "OTO",
+    "amount": 1002,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Prime Venture Partners"
+    ],
+    "leadInvestor": "Prime Venture Partners",
+    "date": "2019-09-05",
+    "location": "India",
+    "description": "OTO raised ₹10.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/indias-first-car-leasing-company-oto-raises-inr-10-cr-funding-from-prime-venture-partners/",
     "weekFolder": "W10 Q2 FY20"
   },
   {
@@ -44421,6 +49765,142 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q2 FY20"
   },
   {
+    "id": "W10 Q2 FY20-11",
+    "company": "CashFlo",
+    "amount": 2755.5,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-09-04",
+    "location": "Mumbai",
+    "description": "CashFlo raised ₹27.6 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/cashflo-raises-3dot3-mn-in-series-a-funding-from-saif-partners-others/",
+    "weekFolder": "W10 Q2 FY20"
+  },
+  {
+    "id": "W10 Q2 FY20-12",
+    "company": "Flix",
+    "amount": 4175,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Exfinity Ventures",
+      "YourNest",
+      "IDFC Parampara",
+      "HNIs"
+    ],
+    "leadInvestor": "Exfinity Ventures",
+    "date": "2019-09-04",
+    "location": "Hyderabad",
+    "description": "Flix raised ₹41.8 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/3rdflix-raises-pre-series-a-funding-led-by-exfinity-ventures/",
+    "weekFolder": "W10 Q2 FY20"
+  },
+  {
+    "id": "W10 Q2 FY20-15",
+    "company": "dunzo",
+    "amount": 41750,
+    "stage": "Series D",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "Google",
+      "Lightbox"
+    ],
+    "leadInvestor": "Google",
+    "date": "2019-09-04",
+    "location": "Bengaluru",
+    "description": "dunzo raised ₹417.5 Cr in Series D round.",
+    "sourceUrl": "https://entrackr.com/2019/09/dunzo-50-mn-series-d-round-led-lightbox-this-month/",
+    "weekFolder": "W10 Q2 FY20"
+  },
+  {
+    "id": "W10 Q2 FY20-19",
+    "company": "Digital Refresh Networks",
+    "amount": 5010,
+    "stage": "Acquisition",
+    "sectors": [
+      "Marketing"
+    ],
+    "investors": [
+      "TIW Private Equity"
+    ],
+    "leadInvestor": "TIW Private Equity",
+    "date": "2019-09-04",
+    "location": "Mumbai",
+    "description": "Digital Refresh Networks raised ₹50.1 Cr in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/09/startup-funding-tiw-private-equity-digital-refresh-networks",
+    "weekFolder": "W10 Q2 FY20"
+  },
+  {
+    "id": "W10 Q2 FY20-20",
+    "company": "3rdFlix",
+    "amount": 4175,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Exfinity Ventures",
+      "YourNest",
+      "IDFC Parampara"
+    ],
+    "leadInvestor": "Exfinity Ventures",
+    "date": "2019-09-04",
+    "location": "Hyderabad",
+    "description": "3rdFlix raised ₹41.8 Cr in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/09/startup-funding-edtech-3rdflix-visual-effects-exfinity-ventures",
+    "weekFolder": "W10 Q2 FY20"
+  },
+  {
+    "id": "W10 Q2 FY20-21",
+    "company": "Everest Fleet",
+    "amount": 918.5000000000001,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Rockstud Capital",
+      "Artha Ventures"
+    ],
+    "leadInvestor": "Rockstud Capital",
+    "date": "2019-09-04",
+    "location": "India",
+    "description": "Everest Fleet raised ₹9.2 Cr in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/09/startup-funding-everest-fleet-artha-ventures-rockstud-cab-aggregators",
+    "weekFolder": "W10 Q2 FY20"
+  },
+  {
+    "id": "W10 Q2 FY20-22",
+    "company": "YeLo",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Matrix Partners India",
+      "Omidyar Network India",
+      "Flourish",
+      "Better Capital"
+    ],
+    "leadInvestor": "Matrix Partners India",
+    "date": "2019-09-04",
+    "location": "India",
+    "description": "YeLo raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/09/yelo-funding-fintech-matrix-partners-omidyar-better-capital-startups",
+    "weekFolder": "W10 Q2 FY20"
+  },
+  {
     "id": "W10 Q2 FY20-2",
     "company": "GOQii",
     "amount": 4500.65,
@@ -44461,6 +49941,44 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q2 FY20"
   },
   {
+    "id": "W10 Q2 FY20-17",
+    "company": "Meru",
+    "amount": 20148.55,
+    "stage": "Acquisition",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Mahindra & Mahindra"
+    ],
+    "leadInvestor": "Mahindra & Mahindra",
+    "date": "2019-09-03",
+    "location": "India",
+    "description": "Meru raised ₹201.5 Cr in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/09/mahindra-and-mahindra-55-pc-stake-in-meru",
+    "weekFolder": "W10 Q2 FY20"
+  },
+  {
+    "id": "W10 Q2 FY20-18",
+    "company": "Vyapar",
+    "amount": 3598.85,
+    "stage": "Series A",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "IndiaMART",
+      "India Quotient",
+      "Axilor Ventures"
+    ],
+    "leadInvestor": "IndiaMART",
+    "date": "2019-09-03",
+    "location": "Bengaluru",
+    "description": "Vyapar raised ₹36.0 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/09/indiamart-series-investment-vyapar-gst",
+    "weekFolder": "W10 Q2 FY20"
+  },
+  {
     "id": "W10 Q2 FY20-10",
     "company": "Suzette Gourmet",
     "amount": 1002,
@@ -44479,6 +49997,42 @@ export const fundingData: FundingDeal[] = [
     "description": "Suzette Gourmet raised ₹10.0 Cr in Not Disclosed .",
     "sourceUrl": "https://yourstory.com/2019/09/funding-organic-food-suzette-gourmet-kitchen-garden-dsg-consumer-partners-yuj-ventures-sid-yog",
     "weekFolder": "W10 Q2 FY20"
+  },
+  {
+    "id": "W10 Q2 FY20-16",
+    "company": "Meru Cabs",
+    "amount": 20148.55,
+    "stage": "Acquisition",
+    "sectors": [
+      "EV and Mobility"
+    ],
+    "investors": [
+      "Mahindra and Mahindra"
+    ],
+    "leadInvestor": "Mahindra and Mahindra",
+    "date": "2019-09-02",
+    "location": "Mumbai",
+    "description": "Meru Cabs raised ₹201.5 Cr in Acquisition round.",
+    "sourceUrl": "https://entrackr.com/2019/09/mahindra-acquires-55-stake-in-meru/",
+    "weekFolder": "W10 Q2 FY20"
+  },
+  {
+    "id": "W9 Q2 FY20-27",
+    "company": "Meru Cabs",
+    "amount": 20148.55,
+    "stage": "Acquisition",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Mahindra & Mahindra"
+    ],
+    "leadInvestor": "Mahindra & Mahindra",
+    "date": "2019-09-01",
+    "location": "India",
+    "description": "Meru Cabs raised ₹201.5 Cr in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/mahindra-mahindra-acquires-55-stake-in-meru-cabs/",
+    "weekFolder": "W9 Q2 FY20"
   },
   {
     "id": "W9 Q2 FY20-1",
@@ -44545,6 +50099,46 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q2 FY20"
   },
   {
+    "id": "W9 Q2 FY20-15",
+    "company": "Vedantu",
+    "amount": 35070,
+    "stage": "Series C",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Tiger Global",
+      "WestBridge Capital",
+      "Accel",
+      "Omidyar India",
+      "TAL Education"
+    ],
+    "leadInvestor": "Tiger Global",
+    "date": "2019-08-30",
+    "location": "Bengaluru",
+    "description": "Vedantu raised ₹350.7 Cr in Series C round.",
+    "sourceUrl": "https://yourstory.com/2019/08/startup-funding-tiger-global-westbridge-capital-series-c-edtech-vedantu",
+    "weekFolder": "W9 Q2 FY20"
+  },
+  {
+    "id": "W9 Q2 FY20-26",
+    "company": "Tracxn",
+    "amount": 2095.85,
+    "stage": "Series B",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "KB Global Platform Fund"
+    ],
+    "leadInvestor": "KB Global Platform Fund",
+    "date": "2019-08-30",
+    "location": "Bengaluru",
+    "description": "Tracxn raised ₹21.0 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/data-intelligence-platform-tracxn-is-raising-inr-20-94-cr-in-series-b-funding/",
+    "weekFolder": "W9 Q2 FY20"
+  },
+  {
     "id": "W9 Q2 FY20-8",
     "company": "Chargebee",
     "amount": 11690,
@@ -44561,6 +50155,68 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "Chargebee raised ₹116.9 Cr in Series D round.",
     "sourceUrl": "https://yourstory.com/2019/08/funding-alert-chargebee-14-million-series-d-steadview-capital",
+    "weekFolder": "W9 Q2 FY20"
+  },
+  {
+    "id": "W9 Q2 FY20-12",
+    "company": "LenDenClub",
+    "amount": 835,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Artha Venture Fund",
+      "Shuchi Kothari",
+      "Ramakant Sharma",
+      "Narendra Karnavat",
+      "Nandi Mehta"
+    ],
+    "leadInvestor": "Artha Venture Fund",
+    "date": "2019-08-29",
+    "location": "Mumbai",
+    "description": "LenDenClub raised ₹8.3 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/lendenclub-raises-1-mn-pre-series-a-funding-led-by-artha-venture-fund/",
+    "weekFolder": "W9 Q2 FY20"
+  },
+  {
+    "id": "W9 Q2 FY20-13",
+    "company": "Vedantu",
+    "amount": 35070,
+    "stage": "Series C",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Tiger Global",
+      "Westbridge Capital",
+      "Accel",
+      "Omidyar India",
+      "TAL Education"
+    ],
+    "leadInvestor": "Tiger Global",
+    "date": "2019-08-29",
+    "location": "Bengaluru",
+    "description": "Vedantu raised ₹350.7 Cr in Series C round.",
+    "sourceUrl": "https://entrackr.com/2019/08/tiger-global-westbridge-capital-42-mn-vedantu/",
+    "weekFolder": "W9 Q2 FY20"
+  },
+  {
+    "id": "W9 Q2 FY20-25",
+    "company": "Dunzo",
+    "amount": 3456.9,
+    "stage": "Venture Debt",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Alteria Capital"
+    ],
+    "leadInvestor": "Alteria Capital",
+    "date": "2019-08-29",
+    "location": "Bengaluru",
+    "description": "Dunzo raised ₹34.6 Cr in Venture Debt round.",
+    "sourceUrl": "https://inc42.com/buzz/dunzo-raises-34-cr-funding-to-fend-off-swiggy-challenge/",
     "weekFolder": "W9 Q2 FY20"
   },
   {
@@ -44585,24 +50241,6 @@ export const fundingData: FundingDeal[] = [
   },
   {
     "id": "W9 Q2 FY20-9",
-    "company": "ThoughtSpot",
-    "amount": 207080,
-    "stage": "Series D",
-    "sectors": [
-      "Deeptech & AI"
-    ],
-    "investors": [
-      "Not Disclosed"
-    ],
-    "leadInvestor": "Not Disclosed",
-    "date": "2019-08-28",
-    "location": "Bengaluru",
-    "description": "ThoughtSpot raised ₹2070.8 Cr in Series D round.",
-    "sourceUrl": "https://yourstory.com/2019/08/startup-funding-thoughtspot-lightspeed-geodesic",
-    "weekFolder": "W9 Q2 FY20"
-  },
-  {
-    "id": "W9 Q2 FY20-10",
     "company": "Advantage Club",
     "amount": 835,
     "stage": "Pre-Series A",
@@ -44627,6 +50265,80 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q2 FY20"
   },
   {
+    "id": "W9 Q2 FY20-16",
+    "company": "Punjab Renewable Energy Systems",
+    "amount": 5502.65,
+    "stage": "Series B",
+    "sectors": [
+      "Cleantech"
+    ],
+    "investors": [
+      "Shell",
+      "Neev Fund"
+    ],
+    "leadInvestor": "Shell",
+    "date": "2019-08-28",
+    "location": "India",
+    "description": "Punjab Renewable Energy Systems raised ₹55.0 Cr in Series B round.",
+    "sourceUrl": "https://yourstory.com/2019/08/punjab-renewable-energy-funding-shell",
+    "weekFolder": "W9 Q2 FY20"
+  },
+  {
+    "id": "W9 Q2 FY20-17",
+    "company": "Fitternity",
+    "amount": 835,
+    "stage": "Series A",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Sixth Sense Ventures"
+    ],
+    "leadInvestor": "Sixth Sense Ventures",
+    "date": "2019-08-28",
+    "location": "India",
+    "description": "Fitternity raised ₹8.3 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/08/funding-fitness-startup-fitternity-sixth-sense-ventures-series-a",
+    "weekFolder": "W9 Q2 FY20"
+  },
+  {
+    "id": "W9 Q2 FY20-18",
+    "company": "RentoMojo",
+    "amount": 2772.2,
+    "stage": "Series C",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Samsung Venture Investments Corporation",
+      "Mitsui Sumitomo Insurance Venture Capital"
+    ],
+    "leadInvestor": "Samsung Venture Investments Corporation",
+    "date": "2019-08-28",
+    "location": "Bengaluru",
+    "description": "RentoMojo raised ₹27.7 Cr in Series C round.",
+    "sourceUrl": "https://yourstory.com/2019/08/startup-funding-furniture-rental-rentomojo-series-c-samsung-vc",
+    "weekFolder": "W9 Q2 FY20"
+  },
+  {
+    "id": "W9 Q2 FY20-24",
+    "company": "SastaSundar Healthbuddy",
+    "amount": 10003.300000000001,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Mitsubishi"
+    ],
+    "leadInvestor": "Mitsubishi",
+    "date": "2019-08-28",
+    "location": "Kolkata",
+    "description": "SastaSundar Healthbuddy raised ₹100.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/mitsubishi-commits-to-invest-inr-100-cr-in-sastasundar-healthbuddy/",
+    "weekFolder": "W9 Q2 FY20"
+  },
+  {
     "id": "W9 Q2 FY20-4",
     "company": "Rapido",
     "amount": 39103.049999999996,
@@ -44648,7 +50360,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q2 FY20"
   },
   {
-    "id": "W9 Q2 FY20-11",
+    "id": "W9 Q2 FY20-10",
     "company": "Recko",
     "amount": 601.1999999999999,
     "stage": "Seed",
@@ -44663,6 +50375,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Recko raised ₹6.0 Cr in Seed round.",
     "sourceUrl": "https://yourstory.com/2019/08/startup-funding-ai-fintech-reconciliation-software-startup-recko-funding",
+    "weekFolder": "W9 Q2 FY20"
+  },
+  {
+    "id": "W9 Q2 FY20-19",
+    "company": "Vedalabs",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Retail"
+    ],
+    "investors": [
+      "Satin Neo Dimensions"
+    ],
+    "leadInvestor": "Satin Neo Dimensions",
+    "date": "2019-08-27",
+    "location": "Gurugram",
+    "description": "Vedalabs raised funding in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/08/funding-retail-ai-startup-vedalabs-satin-neo-dimensions",
     "weekFolder": "W9 Q2 FY20"
   },
   {
@@ -44703,7 +50433,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q2 FY20"
   },
   {
-    "id": "W9 Q2 FY20-12",
+    "id": "W9 Q2 FY20-11",
     "company": "LBB",
     "amount": 701.4,
     "stage": "Series A",
@@ -44724,6 +50454,101 @@ export const fundingData: FundingDeal[] = [
     "location": "Delhi",
     "description": "LBB raised ₹7.0 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/08/startup-funding-local-discovery-platform-lbb-alteria-capital",
+    "weekFolder": "W9 Q2 FY20"
+  },
+  {
+    "id": "W9 Q2 FY20-14",
+    "company": "Cred",
+    "amount": 73004.05,
+    "stage": "Series B",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Ribbit Capital",
+      "Gemini Investments",
+      "Sequoia Capital India",
+      "Tiger Global",
+      "Hillhouse",
+      "Greenoaks Capital"
+    ],
+    "leadInvestor": "Ribbit Capital",
+    "date": "2019-08-26",
+    "location": "Bengaluru",
+    "description": "Cred raised ₹730.0 Cr in Series B round.",
+    "sourceUrl": "https://entrackr.com/2019/08/cred-raising-rs-730-cr-series-b-round-led-by-ribbit-and-gemini-tiger-joining-too/",
+    "weekFolder": "W9 Q2 FY20"
+  },
+  {
+    "id": "W9 Q2 FY20-20",
+    "company": "eBikeGo",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Sukhbir Singh"
+    ],
+    "leadInvestor": "Sukhbir Singh",
+    "date": "2019-08-26",
+    "location": "Amritsar",
+    "description": "eBikeGo raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/08/singer-sukhbir-singh-investment-electric-vehicle-startup-ebikego",
+    "weekFolder": "W9 Q2 FY20"
+  },
+  {
+    "id": "W9 Q2 FY20-21",
+    "company": "Blackboard Radio",
+    "amount": 83.5,
+    "stage": "Seed",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Villgro"
+    ],
+    "leadInvestor": "Villgro",
+    "date": "2019-08-26",
+    "location": "India",
+    "description": "Blackboard Radio raised ₹0.8 Cr in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/08/funding-ai-edtech-startup-blackboard-radio-villgro-learning",
+    "weekFolder": "W9 Q2 FY20"
+  },
+  {
+    "id": "W9 Q2 FY20-22",
+    "company": "DocWise",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "DocsApp"
+    ],
+    "leadInvestor": "DocsApp",
+    "date": "2019-08-26",
+    "location": "Bengaluru",
+    "description": "DocWise raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/08/docsapp-acquires-doctor-patient-engagement-platform-docwise",
+    "weekFolder": "W9 Q2 FY20"
+  },
+  {
+    "id": "W9 Q2 FY20-23",
+    "company": "Embassy Buildcon",
+    "amount": 2772.2,
+    "stage": "Debt",
+    "sectors": [
+      "Real Estate Tech"
+    ],
+    "investors": [
+      "ICICI Bank"
+    ],
+    "leadInvestor": "ICICI Bank",
+    "date": "2019-08-26",
+    "location": "Bengaluru",
+    "description": "Embassy Buildcon raised ₹27.7 Cr in Debt round.",
+    "sourceUrl": "https://inc42.com/buzz/wework-india-franchisee-embassy-buildcon-raises-27-7-mn-debt/",
     "weekFolder": "W9 Q2 FY20"
   },
   {
@@ -44851,6 +50676,138 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q2 FY20"
   },
   {
+    "id": "W8 Q2 FY20-17",
+    "company": "News INDwealth",
+    "amount": 12525,
+    "stage": "Acquisition",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-08-22",
+    "location": "Gurugram",
+    "description": "News INDwealth raised ₹125.3 Cr in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/tiger-global-invests-15-mn-in-ashish-kashyaps-indwealth/",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
+    "id": "W8 Q2 FY20-18",
+    "company": "INDwealth",
+    "amount": 12525,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Tiger Global"
+    ],
+    "leadInvestor": "Tiger Global",
+    "date": "2019-08-22",
+    "location": "Gurugram",
+    "description": "INDwealth raised ₹125.3 Cr in Series A round.",
+    "sourceUrl": "https://entrackr.com/2019/08/indwealth-15-mn-tiger-global-management/",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
+    "id": "W8 Q2 FY20-24",
+    "company": "Sportskeeda",
+    "amount": 4400.45,
+    "stage": "Acquisition",
+    "sectors": [
+      "Media"
+    ],
+    "investors": [
+      "Nazara Technologies"
+    ],
+    "leadInvestor": "Nazara Technologies",
+    "date": "2019-08-22",
+    "location": "Bengaluru",
+    "description": "Sportskeeda raised ₹44.0 Cr in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/08/startup-funding-nazara-technologies-sportskeeda",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
+    "id": "W8 Q2 FY20-25",
+    "company": "Lo! Foods",
+    "amount": 417.5,
+    "stage": "Seed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Anuj Golecha",
+      "Rashmi Daga",
+      "Raveen Sastry",
+      "Mitesh Shah",
+      "Sunil Chhabra",
+      "Gaurav Arora"
+    ],
+    "leadInvestor": "Anuj Golecha",
+    "date": "2019-08-22",
+    "location": "Bengaluru",
+    "description": "Lo! Foods raised ₹4.2 Cr in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/08/startup-funding-ola-lo-foods-angel-investors",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
+    "id": "W8 Q2 FY20-26",
+    "company": "SILA",
+    "amount": 5602.849999999999,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Real Estate"
+    ],
+    "investors": [
+      "Norwest Venture Partners"
+    ],
+    "leadInvestor": "Norwest Venture Partners",
+    "date": "2019-08-22",
+    "location": "Mumbai",
+    "description": "SILA raised ₹56.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/08/funding-startup-norwest-venture-partners-sila",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
+    "id": "W8 Q2 FY20-27",
+    "company": "Bolo Indya",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Media"
+    ],
+    "investors": [
+      "ah! Ventures"
+    ],
+    "leadInvestor": "ah! Ventures",
+    "date": "2019-08-22",
+    "location": "Gurugram",
+    "description": "Bolo Indya raised funding in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/08/funding-startup-bolo-indya-ah-ventures-pre-series-a",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
+    "id": "W8 Q2 FY20-32",
+    "company": "Dose FM",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Media & Entertainment"
+    ],
+    "investors": [
+      "Utsav Somani",
+      "Abhishek Madhavan"
+    ],
+    "leadInvestor": "Utsav Somani",
+    "date": "2019-08-22",
+    "location": "Mumbai",
+    "description": "Dose FM raised funding in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-audio-focused-platform-dose-fm-raises-seed-funding/",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
     "id": "W8 Q2 FY20-8",
     "company": "Better.com",
     "amount": 133600,
@@ -44942,6 +50899,100 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q2 FY20"
   },
   {
+    "id": "W8 Q2 FY20-19",
+    "company": "InterviewBit Academy",
+    "amount": 16700,
+    "stage": "Series A",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Tiger Global",
+      "Sequoia Capital India",
+      "Economic Development Board"
+    ],
+    "leadInvestor": "Tiger Global",
+    "date": "2019-08-21",
+    "location": "Pune",
+    "description": "InterviewBit Academy raised ₹167.0 Cr in Series A round.",
+    "sourceUrl": "https://entrackr.com/2019/08/surge-interviewbit-academy-20-mn-tiger-global-sequoia/",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
+    "id": "W8 Q2 FY20-21",
+    "company": "Global Esports",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Gaming"
+    ],
+    "investors": [
+      "Venture Catalysts"
+    ],
+    "leadInvestor": "Venture Catalysts",
+    "date": "2019-08-21",
+    "location": "Mumbai",
+    "description": "Global Esports raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/08/startup-funding-gaming-global-esports-seed-round-venture-catalysts",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
+    "id": "W8 Q2 FY20-22",
+    "company": "vPhrase",
+    "amount": 1670,
+    "stage": "Series A",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Bharat Innovation Fund",
+      "Falcon Edge Capital"
+    ],
+    "leadInvestor": "Bharat Innovation Fund",
+    "date": "2019-08-21",
+    "location": "Mumbai",
+    "description": "vPhrase raised ₹16.7 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/08/startup-funding-vphrase-bharat-innovation-fund-falcon-edge-capital",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
+    "id": "W8 Q2 FY20-23",
+    "company": "Resonance",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "IP Ventures"
+    ],
+    "leadInvestor": "IP Ventures",
+    "date": "2019-08-21",
+    "location": "Gurugram",
+    "description": "Resonance raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/08/startup-funding-ai-data-platform-resonance-ip-ventures",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
+    "id": "W8 Q2 FY20-31",
+    "company": "vPhrase Analytics",
+    "amount": 1670,
+    "stage": "Series A",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Falcon Edge Capital",
+      "Bharat Innovation Fund"
+    ],
+    "leadInvestor": "Falcon Edge Capital",
+    "date": "2019-08-21",
+    "location": "Mumbai",
+    "description": "vPhrase Analytics raised ₹16.7 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/vphrase-raises-2-mn-series-a-from-falcon-edge-bharat-innovation-fund/",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
     "id": "W8 Q2 FY20-4",
     "company": "AdmitKard",
     "amount": 835,
@@ -45018,6 +51069,64 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q2 FY20"
   },
   {
+    "id": "W8 Q2 FY20-34",
+    "company": "Blu Smart",
+    "amount": 1837.0000000000002,
+    "stage": "Seed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "JITO Angel Network",
+      "MayField Fund",
+      "Centrum",
+      "Micromax"
+    ],
+    "leadInvestor": "JITO Angel Network",
+    "date": "2019-08-20",
+    "location": "Delhi",
+    "description": "Blu Smart raised ₹18.4 Cr in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/electric-vehicle-startup-blu-smart-raises-2-2-mn-in-seed-funding/",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
+    "id": "W8 Q2 FY20-35",
+    "company": "HungerBox",
+    "amount": 1594.85,
+    "stage": "Series C",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "One 97 Communications",
+      "Sabre Partners Trust"
+    ],
+    "leadInvestor": "One 97 Communications",
+    "date": "2019-08-20",
+    "location": "Bengaluru",
+    "description": "HungerBox raised ₹15.9 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/paytm-invests-in-corporate-food-solutions-startup-hungerbox/",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
+    "id": "W8 Q2 FY20-37",
+    "company": "Grofers",
+    "amount": 58450,
+    "stage": "Series F",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "SoftBank Vision Fund"
+    ],
+    "leadInvestor": "SoftBank Vision Fund",
+    "date": "2019-08-20",
+    "location": "Gurugram",
+    "description": "Grofers raised ₹584.5 Cr in Series F round.",
+    "sourceUrl": "https://inc42.com/buzz/softbank-releases-70-mn-of-series-f-funding-to-grofers/",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
     "id": "W8 Q2 FY20-3",
     "company": "MPower",
     "amount": 83500,
@@ -45057,21 +51166,117 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q2 FY20"
   },
   {
-    "id": "W8 Q2 FY20-17",
-    "company": "MPOWER Financing",
-    "amount": 83500,
-    "stage": "Debt",
+    "id": "W8 Q2 FY20-20",
+    "company": "Grofers",
+    "amount": 58450,
+    "stage": "Series F",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "SoftBank Vision Fund"
+    ],
+    "leadInvestor": "SoftBank Vision Fund",
+    "date": "2019-08-19",
+    "location": "Gurugram",
+    "description": "Grofers raised ₹584.5 Cr in Series F round.",
+    "sourceUrl": "https://entrackr.com/2019/08/grofers-70-mn-series-f-softbank-567-mn-valuation/",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
+    "id": "W8 Q2 FY20-28",
+    "company": "AVIOM India Housing Finance",
+    "amount": 6003.65,
+    "stage": "Series B",
     "sectors": [
       "Fintech"
     ],
     "investors": [
-      "Not Disclosed"
+      "Gojo & Company",
+      "Capital 4 Development Asia Fund"
     ],
-    "leadInvestor": "Not Disclosed",
+    "leadInvestor": "Gojo & Company",
+    "date": "2019-08-19",
+    "location": "Delhi",
+    "description": "AVIOM India Housing Finance raised ₹60.0 Cr in Series B round.",
+    "sourceUrl": "https://yourstory.com/2019/08/startup-funding-aviom-housing-gojo-company-c4d-asia-fund",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
+    "id": "W8 Q2 FY20-29",
+    "company": "Instoried",
+    "amount": 417.5,
+    "stage": "Seed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Venture Catalysts"
+    ],
+    "leadInvestor": "Venture Catalysts",
     "date": "2019-08-19",
     "location": "Bengaluru",
-    "description": "MPOWER Financing raised ₹835.0 Cr in Debt round.",
-    "sourceUrl": "https://yourstory.com/2019/08/funding-startup-mpower-financing-100m-goldman-sachs",
+    "description": "Instoried raised ₹4.2 Cr in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/08/startup-funding-ai-deep-tech-instoried-venture-catalysts",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
+    "id": "W8 Q2 FY20-30",
+    "company": "Mishry.com",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Vir Sanghvi",
+      "Rajiv Garodia",
+      "Kiran Shetty"
+    ],
+    "leadInvestor": "Vir Sanghvi",
+    "date": "2019-08-19",
+    "location": "Gurugram",
+    "description": "Mishry.com raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/08/startup-funding-vir-sanghvi-mishry-ndtv-food",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
+    "id": "W8 Q2 FY20-33",
+    "company": "Mishry",
+    "amount": 0,
+    "stage": "Pre-Seed",
+    "sectors": [
+      "Media & Entertainment"
+    ],
+    "investors": [
+      "Vir Sanghvi",
+      "Rajiv Garodia",
+      "Kiran Shetty"
+    ],
+    "leadInvestor": "Vir Sanghvi",
+    "date": "2019-08-19",
+    "location": "Gurugram",
+    "description": "Mishry raised funding in Pre-Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/vir-sanghvi-backs-product-review-startup-mishry-with-pre-seed-funding/",
+    "weekFolder": "W8 Q2 FY20"
+  },
+  {
+    "id": "W8 Q2 FY20-36",
+    "company": "AVIOM",
+    "amount": 6003.65,
+    "stage": "Series B",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Gojo & Company",
+      "Capital 4 Development Asia Fund"
+    ],
+    "leadInvestor": "Gojo & Company",
+    "date": "2019-08-19",
+    "location": "Delhi",
+    "description": "AVIOM raised ₹60.0 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/housing-finance-firm-aviom-raises-60-cr-in-series-b-investment/",
     "weekFolder": "W8 Q2 FY20"
   },
   {
@@ -45226,6 +51431,85 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W7 Q2 FY20"
   },
   {
+    "id": "W7 Q2 FY20-25",
+    "company": "Yudiz Solutions",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Gaming"
+    ],
+    "investors": [
+      "Ability Games"
+    ],
+    "leadInvestor": "Ability Games",
+    "date": "2019-08-16",
+    "location": "Ahmedabad",
+    "description": "Yudiz Solutions raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/08/startup-bharat-ability-games-acquires-yudiz",
+    "weekFolder": "W7 Q2 FY20"
+  },
+  {
+    "id": "W7 Q2 FY20-26",
+    "company": "The UnCube",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Real Estate"
+    ],
+    "investors": [
+      "CoWrks"
+    ],
+    "leadInvestor": "CoWrks",
+    "date": "2019-08-16",
+    "location": "Delhi",
+    "description": "The UnCube raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/08/cowrks-uncube-coworking-startup-acquisition",
+    "weekFolder": "W7 Q2 FY20"
+  },
+  {
+    "id": "W7 Q2 FY20-27",
+    "company": "Orbo",
+    "amount": 1336,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "YourNest Venture Capital",
+      "Venture Catalysts",
+      "Vinod Dham",
+      "John Ason",
+      "Refex Capital"
+    ],
+    "leadInvestor": "YourNest Venture Capital",
+    "date": "2019-08-16",
+    "location": "Delhi",
+    "description": "Orbo raised ₹13.4 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/intel-vinod-dham-invests-ai-imaging-startup-orbo/",
+    "weekFolder": "W7 Q2 FY20"
+  },
+  {
+    "id": "W7 Q2 FY20-32",
+    "company": "Talview",
+    "amount": 5636.25,
+    "stage": "Series A",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Storm Ventures",
+      "Inventus Capital",
+      "Eileses Capital",
+      "Emergent Ventures"
+    ],
+    "leadInvestor": "Storm Ventures",
+    "date": "2019-08-16",
+    "location": "Bengaluru",
+    "description": "Talview raised ₹56.4 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/hr-tech-startup-talview-raises-funds-fasten-hiring-process/",
+    "weekFolder": "W7 Q2 FY20"
+  },
+  {
     "id": "W7 Q2 FY20-8",
     "company": "Emotix",
     "amount": 6262.5,
@@ -45299,6 +51583,46 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W7 Q2 FY20"
   },
   {
+    "id": "W7 Q2 FY20-30",
+    "company": "Faircent",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Das Capital",
+      "Gunosy Capital",
+      "Starharbor Asia",
+      "M&S Partners"
+    ],
+    "leadInvestor": "Das Capital",
+    "date": "2019-08-14",
+    "location": "Gurugram",
+    "description": "Faircent raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/faircent-gets-funding-from-das-capital-and-gunosy-capital/",
+    "weekFolder": "W7 Q2 FY20"
+  },
+  {
+    "id": "W7 Q2 FY20-31",
+    "company": "Dunzo",
+    "amount": 1302.6,
+    "stage": "Series C",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "Alteria Capital",
+      "Blume Ventures"
+    ],
+    "leadInvestor": "Alteria Capital",
+    "date": "2019-08-14",
+    "location": "Bengaluru",
+    "description": "Dunzo raised ₹13.0 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-dunzo-raises-venture-debt-and-series-c-funding-from-alteria/",
+    "weekFolder": "W7 Q2 FY20"
+  },
+  {
     "id": "W7 Q2 FY20-5",
     "company": "Tjori",
     "amount": 835,
@@ -45358,6 +51682,103 @@ export const fundingData: FundingDeal[] = [
     "location": "Gurugram",
     "description": "Faircent raised ₹600.0 Cr in Acquisition round.",
     "sourceUrl": "https://yourstory.com/2019/08/startup-funding-p2p-lending-faircent-das-capital",
+    "weekFolder": "W7 Q2 FY20"
+  },
+  {
+    "id": "W7 Q2 FY20-19",
+    "company": "Emotix",
+    "amount": 5344,
+    "stage": "Series A",
+    "sectors": [
+      "Deeptech and AI"
+    ],
+    "investors": [
+      "Chiratae Ventures",
+      "YourNest Venture Capital",
+      "Bruno Raschle"
+    ],
+    "leadInvestor": "Chiratae Ventures",
+    "date": "2019-08-13",
+    "location": "Mumbai",
+    "description": "Emotix raised ₹53.4 Cr in Series A round.",
+    "sourceUrl": "https://entrackr.com/2019/08/chiratae-yournest-lead-7-5-mn-series-a-round-emotix/",
+    "weekFolder": "W7 Q2 FY20"
+  },
+  {
+    "id": "W7 Q2 FY20-21",
+    "company": "GetNatty",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Fashion"
+    ],
+    "investors": [
+      "Abhay Kumar",
+      "Binod Choubey",
+      "Firoze Sethna",
+      "Parth Patel"
+    ],
+    "leadInvestor": "Abhay Kumar",
+    "date": "2019-08-13",
+    "location": "Vadodara",
+    "description": "GetNatty raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/08/fashion-tech-startup-getnatty-seed-funding",
+    "weekFolder": "W7 Q2 FY20"
+  },
+  {
+    "id": "W7 Q2 FY20-22",
+    "company": "Cars24",
+    "amount": 0,
+    "stage": "Series D",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "MS Dhoni"
+    ],
+    "leadInvestor": "MS Dhoni",
+    "date": "2019-08-13",
+    "location": "Gurugram",
+    "description": "Cars24 raised funding in Series D round.",
+    "sourceUrl": "https://yourstory.com/2019/08/startup-funding-cars24-ms-dhoni-partnership",
+    "weekFolder": "W7 Q2 FY20"
+  },
+  {
+    "id": "W7 Q2 FY20-28",
+    "company": "Rupeek",
+    "amount": 25050,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Bertelsmann India",
+      "Accel",
+      "Sequoia India"
+    ],
+    "leadInvestor": "Bertelsmann India",
+    "date": "2019-08-13",
+    "location": "Bengaluru",
+    "description": "Rupeek raised ₹250.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/bertelsmann-india-leads-30-mn-funding-in-gold-loans-startup-rupeek/",
+    "weekFolder": "W7 Q2 FY20"
+  },
+  {
+    "id": "W7 Q2 FY20-29",
+    "company": "Tesseract",
+    "amount": 1027.05,
+    "stage": "Acquisition",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Reliance Industries"
+    ],
+    "leadInvestor": "Reliance Industries",
+    "date": "2019-08-13",
+    "location": "Mumbai",
+    "description": "Tesseract raised ₹10.3 Cr in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-reliance-acquires-majority-stake-in-deeptech-startup-tesseract/",
     "weekFolder": "W7 Q2 FY20"
   },
   {
@@ -45450,6 +51871,60 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W7 Q2 FY20"
   },
   {
+    "id": "W7 Q2 FY20-20",
+    "company": "42hertz",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Cisco"
+    ],
+    "leadInvestor": "Cisco",
+    "date": "2019-08-12",
+    "location": "Bengaluru",
+    "description": "42hertz raised funding in Acquisition round.",
+    "sourceUrl": "https://entrackr.com/2019/08/exclusive-cisco-acquires-bengaluru-based-42hertz/",
+    "weekFolder": "W7 Q2 FY20"
+  },
+  {
+    "id": "W7 Q2 FY20-23",
+    "company": "LQI",
+    "amount": 167,
+    "stage": "Seed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Sukhbir Singh"
+    ],
+    "leadInvestor": "Sukhbir Singh",
+    "date": "2019-08-12",
+    "location": "Gurugram",
+    "description": "LQI raised ₹1.7 Cr in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/08/singer-sukhbir-singh-investment-beverage-startup-lqi",
+    "weekFolder": "W7 Q2 FY20"
+  },
+  {
+    "id": "W7 Q2 FY20-24",
+    "company": "WIMWI Foods",
+    "amount": 0,
+    "stage": "Series A",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Parle Biscuits"
+    ],
+    "leadInvestor": "Parle Biscuits",
+    "date": "2019-08-12",
+    "location": "Bengaluru",
+    "description": "WIMWI Foods raised funding in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/08/funding-fmcg-startup-wimwi-foods-parle-biscuits",
+    "weekFolder": "W7 Q2 FY20"
+  },
+  {
     "id": "W6 Q2 FY20-1",
     "company": "GoWork",
     "amount": 104375,
@@ -45508,6 +51983,42 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "C2FO raised ₹1670.0 Cr in Not Disclosed .",
     "sourceUrl": "https://yourstory.com/2019/08/funding-fintech-firm-c2fo-softbank-india",
+    "weekFolder": "W6 Q2 FY20"
+  },
+  {
+    "id": "W6 Q2 FY20-24",
+    "company": "Binge Digital",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Dineout"
+    ],
+    "leadInvestor": "Dineout",
+    "date": "2019-08-09",
+    "location": "Delhi",
+    "description": "Binge Digital raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/08/dineout-acquisition-binge-digital-foodtech-dine-in",
+    "weekFolder": "W6 Q2 FY20"
+  },
+  {
+    "id": "W6 Q2 FY20-25",
+    "company": "Upwardly",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Scripbox"
+    ],
+    "leadInvestor": "Scripbox",
+    "date": "2019-08-09",
+    "location": "Bengaluru",
+    "description": "Upwardly raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/08/startup-scripbox-acquires-upwardlyp-mutual-funds",
     "weekFolder": "W6 Q2 FY20"
   },
   {
@@ -45601,6 +52112,60 @@ export const fundingData: FundingDeal[] = [
     "location": "Delhi",
     "description": "Rooter raised ₹3.5 Cr in Pre-Series A round.",
     "sourceUrl": "https://yourstory.com/2019/08/sports-engagement-startup-rooter-funding-lead",
+    "weekFolder": "W6 Q2 FY20"
+  },
+  {
+    "id": "W6 Q2 FY20-19",
+    "company": "iDreamCareer",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Gray Matters Capital"
+    ],
+    "leadInvestor": "Gray Matters Capital",
+    "date": "2019-08-07",
+    "location": "Delhi",
+    "description": "iDreamCareer raised funding in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/08/career-counselling-startup-idreamcareer-funding-gray-matters-capital",
+    "weekFolder": "W6 Q2 FY20"
+  },
+  {
+    "id": "W6 Q2 FY20-22",
+    "company": "Pernias Pop Up Shop",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Fashion"
+    ],
+    "investors": [
+      "Purple Style Labs"
+    ],
+    "leadInvestor": "Purple Style Labs",
+    "date": "2019-08-07",
+    "location": "Mumbai",
+    "description": "Pernias Pop Up Shop raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/08/binny-bansal-purple-style-labs-pernia-pop-up-shop-acquisition",
+    "weekFolder": "W6 Q2 FY20"
+  },
+  {
+    "id": "W6 Q2 FY20-23",
+    "company": "Winjit Technologies",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "RIB Software"
+    ],
+    "leadInvestor": "RIB Software",
+    "date": "2019-08-07",
+    "location": "Nashik",
+    "description": "Winjit Technologies raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/08/rib-software-winjit-ai-iot-blockchain-startup-funding",
     "weekFolder": "W6 Q2 FY20"
   },
   {
@@ -45715,6 +52280,42 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q2 FY20"
   },
   {
+    "id": "W6 Q2 FY20-17",
+    "company": "Mama Mia!",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Pareto Capital"
+    ],
+    "leadInvestor": "Pareto Capital",
+    "date": "2019-08-06",
+    "location": "Kolkata",
+    "description": "Mama Mia! raised funding in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/08/funding-startup-premium-dessert-mama-pareto-capital",
+    "weekFolder": "W6 Q2 FY20"
+  },
+  {
+    "id": "W6 Q2 FY20-18",
+    "company": "Spyne",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Smile Group"
+    ],
+    "leadInvestor": "Smile Group",
+    "date": "2019-08-06",
+    "location": "Delhi",
+    "description": "Spyne raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/08/ai-saas-startup-funding-spyne-smile-group",
+    "weekFolder": "W6 Q2 FY20"
+  },
+  {
     "id": "W6 Q2 FY20-15",
     "company": "BalleBaazi",
     "amount": 3340,
@@ -45733,6 +52334,60 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q2 FY20"
   },
   {
+    "id": "W6 Q2 FY20-16",
+    "company": "Cred",
+    "amount": 417500,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-08-05",
+    "location": "India",
+    "description": "Cred raised ₹4175.0 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/cred-eyes-a-valuation-of-500-mn-with-a-125-mn-series-a-funding/",
+    "weekFolder": "W6 Q2 FY20"
+  },
+  {
+    "id": "W6 Q2 FY20-20",
+    "company": "Thirdwatch",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Razorpay"
+    ],
+    "leadInvestor": "Razorpay",
+    "date": "2019-08-05",
+    "location": "Gurugram",
+    "description": "Thirdwatch raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/08/razorpay-acquires-gurugram-based-ai-startup-thirdwatch",
+    "weekFolder": "W6 Q2 FY20"
+  },
+  {
+    "id": "W6 Q2 FY20-21",
+    "company": "Fynd",
+    "amount": 29525.6,
+    "stage": "Acquisition",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Reliance Industries"
+    ],
+    "leadInvestor": "Reliance Industries",
+    "date": "2019-08-05",
+    "location": "Mumbai",
+    "description": "Fynd raised ₹295.3 Cr in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/08/reliance-stake-google-backed-fynd",
+    "weekFolder": "W6 Q2 FY20"
+  },
+  {
     "id": "W5 Q2 FY20-4",
     "company": "HealthQik",
     "amount": 167,
@@ -45748,6 +52403,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Bhopal",
     "description": "HealthQik raised ₹1.7 Cr in Seed round.",
     "sourceUrl": "https://yourstory.com/2019/08/startup-bharat-funding-bhopal-ehr-platform-healthqik",
+    "weekFolder": "W5 Q2 FY20"
+  },
+  {
+    "id": "W5 Q2 FY20-23",
+    "company": "Fynd",
+    "amount": 29500.55,
+    "stage": "Acquisition",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Reliance Industries"
+    ],
+    "leadInvestor": "Reliance Industries",
+    "date": "2019-08-04",
+    "location": "Mumbai",
+    "description": "Fynd raised ₹295.0 Cr in Acquisition round.",
+    "sourceUrl": "https://entrackr.com/2019/08/reliance-to-acquire-87-6-stake-in-google-backed-fynd-for-rs-295-cr/",
     "weekFolder": "W5 Q2 FY20"
   },
   {
@@ -45775,6 +52448,27 @@ export const fundingData: FundingDeal[] = [
     "location": "Gurugram",
     "description": "Rebel Foods raised ₹2713.8 Cr in Series C round.",
     "sourceUrl": "https://entrackr.com/2019/08/funding-indian-startups-week-july-aug-2/",
+    "weekFolder": "W5 Q2 FY20"
+  },
+  {
+    "id": "W5 Q2 FY20-22",
+    "company": "Bn UrbanClap",
+    "amount": 133600,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Tiger Global",
+      "California-based Khosla Ventures",
+      "Steadview Capital",
+      "Vy Capital"
+    ],
+    "leadInvestor": "Tiger Global",
+    "date": "2019-08-03",
+    "location": "Bengaluru",
+    "description": "Bn UrbanClap raised ₹1336.0 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/top-indian-startup-funding-galore-115-august/",
     "weekFolder": "W5 Q2 FY20"
   },
   {
@@ -45837,6 +52531,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q2 FY20"
   },
   {
+    "id": "W5 Q2 FY20-24",
+    "company": "Ninjacart",
+    "amount": 41750,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Agritech"
+    ],
+    "investors": [
+      "Walmart"
+    ],
+    "leadInvestor": "Walmart",
+    "date": "2019-08-02",
+    "location": "Bengaluru",
+    "description": "Ninjacart raised ₹417.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/08/walmart-invests-50mn-ninjacart/",
+    "weekFolder": "W5 Q2 FY20"
+  },
+  {
     "id": "W5 Q2 FY20-8",
     "company": "MyPetrolPump",
     "amount": 1352.7,
@@ -45871,6 +52583,46 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "Rebel Foods raised ₹1043.8 Cr in Series D round.",
     "sourceUrl": "https://yourstory.com/2019/08/startup-funding-faasos-rebel-foods-gojek-goldman-sachs",
+    "weekFolder": "W5 Q2 FY20"
+  },
+  {
+    "id": "W5 Q2 FY20-25",
+    "company": "Rebel Foods (Faasos)",
+    "amount": 104375,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Coatue Management",
+      "GoJek",
+      "Goldman Sachs"
+    ],
+    "leadInvestor": "Coatue Management",
+    "date": "2019-08-01",
+    "location": "Mumbai",
+    "description": "Rebel Foods (Faasos) raised ₹1043.8 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/08/rebel-foods-fassos-funding-125-mn/",
+    "weekFolder": "W5 Q2 FY20"
+  },
+  {
+    "id": "W5 Q2 FY20-28",
+    "company": "CarDekho",
+    "amount": 13293.199999999999,
+    "stage": "Series C",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "SC GG India Mobility Holdings",
+      "Hillhouse",
+      "Kreatif Media Karya"
+    ],
+    "leadInvestor": "SC GG India Mobility Holdings",
+    "date": "2019-08-01",
+    "location": "Jaipur",
+    "description": "CarDekho raised ₹132.9 Cr in Series C round.",
+    "sourceUrl": "https://yourstory.com/2019/08/funding-ratan-tata-cardekho-startup-automobile-classified",
     "weekFolder": "W5 Q2 FY20"
   },
   {
@@ -45927,6 +52679,66 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "US-headquartered Vymo raised ₹150.3 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/07/startup-vymo-funding-emergence-capital",
+    "weekFolder": "W5 Q2 FY20"
+  },
+  {
+    "id": "W5 Q2 FY20-21",
+    "company": "Vymo",
+    "amount": 15030,
+    "stage": "Series B",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Emergence Capital",
+      "US-based venture capital firm Greycroft",
+      "PremjiInvest",
+      "Sequoia India",
+      "Sequoia Capital India"
+    ],
+    "leadInvestor": "Emergence Capital",
+    "date": "2019-07-31",
+    "location": "Bengaluru",
+    "description": "Vymo raised ₹150.3 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/saas-startup-vymo-raises-18-mn-series-b-funding-for-us-expansion/",
+    "weekFolder": "W5 Q2 FY20"
+  },
+  {
+    "id": "W5 Q2 FY20-26",
+    "company": "CarDekho",
+    "amount": 16700,
+    "stage": "Series C",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "SC GG India Mobility Holdings",
+      "Hillhouse",
+      "Kreatif Media Karya"
+    ],
+    "leadInvestor": "SC GG India Mobility Holdings",
+    "date": "2019-07-31",
+    "location": "Jaipur",
+    "description": "CarDekho raised ₹167.0 Cr in Series C round.",
+    "sourceUrl": "https://entrackr.com/2019/07/cardekho-receives-fresh-20-mn-in-series-c-tranche/",
+    "weekFolder": "W5 Q2 FY20"
+  },
+  {
+    "id": "W5 Q2 FY20-27",
+    "company": "Paytm Mall",
+    "amount": 133600,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "eBay"
+    ],
+    "leadInvestor": "eBay",
+    "date": "2019-07-31",
+    "location": "Noida",
+    "description": "Paytm Mall raised ₹1336.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/07/paytm-mall-receiving-160-mn-ebay-3-bn-valuation/",
     "weekFolder": "W5 Q2 FY20"
   },
   {
@@ -46002,6 +52814,27 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q2 FY20"
   },
   {
+    "id": "W5 Q2 FY20-20",
+    "company": "MindTickle",
+    "amount": 33400,
+    "stage": "Series C",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Norwest Venture Partners",
+      "Canaan",
+      "NewView Capital",
+      "Qualcomm Ventures"
+    ],
+    "leadInvestor": "Norwest Venture Partners",
+    "date": "2019-07-30",
+    "location": "Pune",
+    "description": "MindTickle raised ₹334.0 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/mindtickle-raises-40-mn-series-c-funding-round-from-norwest-venture-partners/",
+    "weekFolder": "W5 Q2 FY20"
+  },
+  {
     "id": "W5 Q2 FY20-15",
     "company": "MindTickle",
     "amount": 33400,
@@ -46061,6 +52894,78 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q2 FY20"
   },
   {
+    "id": "W5 Q2 FY20-18",
+    "company": "Leap",
+    "amount": 26469.5,
+    "stage": "Series C",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-07-29",
+    "location": "Mumbai",
+    "description": "Leap raised ₹264.7 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/logistics-startup-leap-raises-31-7-mn-in-series-c-funding/",
+    "weekFolder": "W5 Q2 FY20"
+  },
+  {
+    "id": "W5 Q2 FY20-19",
+    "company": "Basket",
+    "amount": 10003.300000000001,
+    "stage": "Series F",
+    "sectors": [
+      "General"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-07-29",
+    "location": "India",
+    "description": "Basket raised ₹100.0 Cr in Series F round.",
+    "sourceUrl": "https://inc42.com/buzz/bigbasket-raises-inr-100-cr-venture-debt-funding-from-trifecta-capital/",
+    "weekFolder": "W5 Q2 FY20"
+  },
+  {
+    "id": "W5 Q2 FY20-29",
+    "company": "Easy Home Finance",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Harbourfront Capital"
+    ],
+    "leadInvestor": "Harbourfront Capital",
+    "date": "2019-07-29",
+    "location": "Mumbai",
+    "description": "Easy Home Finance raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/07/funding-startup-easy-home-loan-tech-harbourfront",
+    "weekFolder": "W5 Q2 FY20"
+  },
+  {
+    "id": "W5 Q2 FY20-30",
+    "company": "PhonePe",
+    "amount": 10153.6,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "PhonePe Private Limited Singapore"
+    ],
+    "leadInvestor": "PhonePe Private Limited Singapore",
+    "date": "2019-07-29",
+    "location": "Bengaluru",
+    "description": "PhonePe raised ₹101.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/phonepe-receives-101-5-mn-fund-infusion-from-singapore-parent/",
+    "weekFolder": "W5 Q2 FY20"
+  },
+  {
     "id": "W4 Q2 FY20-1",
     "company": "Zeta",
     "amount": 174515,
@@ -46098,6 +53003,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Cred raised ₹33.4 Cr in Not Disclosed .",
     "sourceUrl": "https://yourstory.com/2019/07/whatsapp-cred-funding-zomato-infinity-dining",
+    "weekFolder": "W4 Q2 FY20"
+  },
+  {
+    "id": "W4 Q2 FY20-25",
+    "company": "Capital Float",
+    "amount": 7598.5,
+    "stage": "Series C",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-07-27",
+    "location": "Bengaluru",
+    "description": "Capital Float raised ₹76.0 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/capital-float-raises-debt-of-inr-76-cr-this-year-so-far/",
     "weekFolder": "W4 Q2 FY20"
   },
   {
@@ -46219,6 +53142,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W4 Q2 FY20"
   },
   {
+    "id": "W4 Q2 FY20-31",
+    "company": "boAt",
+    "amount": 1603.1999999999998,
+    "stage": "Debt",
+    "sectors": [
+      "Consumer Electronics"
+    ],
+    "investors": [
+      "InnoVen Capital"
+    ],
+    "leadInvestor": "InnoVen Capital",
+    "date": "2019-07-26",
+    "location": "Delhi",
+    "description": "boAt raised ₹16.0 Cr in Debt round.",
+    "sourceUrl": "https://yourstory.com/2019/07/startup-funding-consumer-audio-startup-boat-innoven-capital",
+    "weekFolder": "W4 Q2 FY20"
+  },
+  {
     "id": "W4 Q2 FY20-5",
     "company": "Udaan",
     "amount": 8350,
@@ -46304,6 +53245,28 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W4 Q2 FY20"
   },
   {
+    "id": "W4 Q2 FY20-30",
+    "company": "Coverfox",
+    "amount": 3999.6499999999996,
+    "stage": "Series C",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "International Finance Corporation",
+      "Aegon Digital Investments",
+      "Transamerica Ventures",
+      "Accel India",
+      "SAIF Partners"
+    ],
+    "leadInvestor": "International Finance Corporation",
+    "date": "2019-07-25",
+    "location": "Mumbai",
+    "description": "Coverfox raised ₹40.0 Cr in Series C round.",
+    "sourceUrl": "https://yourstory.com/2019/07/insure-tech-startup-coverfox-funding-insurance",
+    "weekFolder": "W4 Q2 FY20"
+  },
+  {
     "id": "W4 Q2 FY20-15",
     "company": "Raena",
     "amount": 1503,
@@ -46320,6 +53283,83 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "Raena raised ₹15.0 Cr in Seed round.",
     "sourceUrl": "https://yourstory.com/2019/07/startup-funding-social-media-influencer-raena",
+    "weekFolder": "W4 Q2 FY20"
+  },
+  {
+    "id": "W4 Q2 FY20-23",
+    "company": "Cash Suvidha",
+    "amount": 1920.4999999999998,
+    "stage": "Debt",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-07-24",
+    "location": "Delhi",
+    "description": "Cash Suvidha raised ₹19.2 Cr in Debt round.",
+    "sourceUrl": "https://inc42.com/buzz/cash-suvidha-raises-debt-funding-to-increase-its-loan-book/",
+    "weekFolder": "W4 Q2 FY20"
+  },
+  {
+    "id": "W4 Q2 FY20-24",
+    "company": "Quikr",
+    "amount": 2421.5,
+    "stage": "Debt",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-07-24",
+    "location": "Bengaluru",
+    "description": "Quikr raised ₹24.2 Cr in Debt round.",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-classifieds-platform-quikr-raises-venture-debt-from-trifecta/",
+    "weekFolder": "W4 Q2 FY20"
+  },
+  {
+    "id": "W4 Q2 FY20-28",
+    "company": "Chaitanya India Finance",
+    "amount": 2496.65,
+    "stage": "Debt",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Sachin Bansal"
+    ],
+    "leadInvestor": "Sachin Bansal",
+    "date": "2019-07-24",
+    "location": "Bengaluru",
+    "description": "Chaitanya India Finance raised ₹25.0 Cr in Debt round.",
+    "sourceUrl": "https://yourstory.com/2019/07/funding-sachin-bansal-chaitanya-india-finance",
+    "weekFolder": "W4 Q2 FY20"
+  },
+  {
+    "id": "W4 Q2 FY20-29",
+    "company": "Drip Capital",
+    "amount": 20875,
+    "stage": "Series B",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Accel",
+      "Sequoia India",
+      "Wing VC",
+      "Y Combinator",
+      "GC1 Ventures",
+      "Trusted Insight"
+    ],
+    "leadInvestor": "Accel",
+    "date": "2019-07-24",
+    "location": "Mumbai",
+    "description": "Drip Capital raised ₹208.8 Cr in Series B round.",
+    "sourceUrl": "https://yourstory.com/2019/07/funding-startup-digital-financing-drip-capital-accel",
     "weekFolder": "W4 Q2 FY20"
   },
   {
@@ -46431,6 +53471,46 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W4 Q2 FY20"
   },
   {
+    "id": "W4 Q2 FY20-26",
+    "company": "Chaitanya India Fin Credit",
+    "amount": 2496.65,
+    "stage": "Debt",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Sachin Bansal"
+    ],
+    "leadInvestor": "Sachin Bansal",
+    "date": "2019-07-23",
+    "location": "Bengaluru",
+    "description": "Chaitanya India Fin Credit raised ₹25.0 Cr in Debt round.",
+    "sourceUrl": "https://entrackr.com/2019/07/sachin-bansal-3-7-mn-microfinance-chaitanya-india/",
+    "weekFolder": "W4 Q2 FY20"
+  },
+  {
+    "id": "W4 Q2 FY20-27",
+    "company": "Five Star Business Finance",
+    "amount": 41750,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "TPG Capital",
+      "Matrix Partners India",
+      "Norwest Venture Partners",
+      "Sequoia",
+      "Morgan Stanley"
+    ],
+    "leadInvestor": "TPG Capital",
+    "date": "2019-07-23",
+    "location": "Chennai",
+    "description": "Five Star Business Finance raised ₹417.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/07/funding-nbfc-five-star-business-finance-tpg-capital",
+    "weekFolder": "W4 Q2 FY20"
+  },
+  {
     "id": "W4 Q2 FY20-7",
     "company": "GOQii",
     "amount": 1377.75,
@@ -46487,6 +53567,43 @@ export const fundingData: FundingDeal[] = [
     "location": "Delhi",
     "description": "SmartE raised ₹100.0 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/07/electric-vehicle-startup-smarte-mitsui-ev-funding-india",
+    "weekFolder": "W4 Q2 FY20"
+  },
+  {
+    "id": "W4 Q2 FY20-32",
+    "company": "OkCredit",
+    "amount": 835,
+    "stage": "Debt",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "OkTech Inc"
+    ],
+    "leadInvestor": "OkTech Inc",
+    "date": "2019-07-22",
+    "location": "Faridabad",
+    "description": "OkCredit raised ₹8.3 Cr in Debt round.",
+    "sourceUrl": "https://yourstory.com/2019/07/funding-tiger-global-okcredit-parent-entity",
+    "weekFolder": "W4 Q2 FY20"
+  },
+  {
+    "id": "W4 Q2 FY20-33",
+    "company": "WinZO",
+    "amount": 4175,
+    "stage": "Series A",
+    "sectors": [
+      "Media & Entertainment"
+    ],
+    "investors": [
+      "Kalaari Capital",
+      "Hike"
+    ],
+    "leadInvestor": "Kalaari Capital",
+    "date": "2019-07-22",
+    "location": "Delhi",
+    "description": "WinZO raised ₹41.8 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/winzo-games-raises-5-mn-series-a-funding-led-by-kalaari-hike/",
     "weekFolder": "W4 Q2 FY20"
   },
   {
@@ -46592,6 +53709,78 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W3 Q2 FY20"
   },
   {
+    "id": "W3 Q2 FY20-25",
+    "company": "Teabox",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "NB Ventures"
+    ],
+    "leadInvestor": "NB Ventures",
+    "date": "2019-07-18",
+    "location": "Siliguri",
+    "description": "Teabox raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/07/funding-teabox-nbventures-ratan-tata",
+    "weekFolder": "W3 Q2 FY20"
+  },
+  {
+    "id": "W3 Q2 FY20-26",
+    "company": "Paytm Mall",
+    "amount": 133600,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "eBay"
+    ],
+    "leadInvestor": "eBay",
+    "date": "2019-07-18",
+    "location": "Noida",
+    "description": "Paytm Mall raised ₹1336.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/07/paytm-mall-funding-ebay-ecommerce-india-vijay-shekhar-sharma",
+    "weekFolder": "W3 Q2 FY20"
+  },
+  {
+    "id": "W3 Q2 FY20-27",
+    "company": "SARVA",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Wellness"
+    ],
+    "investors": [
+      "Aishwaryaa R Dhanush"
+    ],
+    "leadInvestor": "Aishwaryaa R Dhanush",
+    "date": "2019-07-18",
+    "location": "Mumbai",
+    "description": "SARVA raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/07/rajinikanth-aishwaryaa-dhanush-investment-sarva-yoga-startup",
+    "weekFolder": "W3 Q2 FY20"
+  },
+  {
+    "id": "W3 Q2 FY20-28",
+    "company": "VComply",
+    "amount": 2087.5,
+    "stage": "Seed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Accel"
+    ],
+    "leadInvestor": "Accel",
+    "date": "2019-07-18",
+    "location": "India",
+    "description": "VComply raised ₹20.9 Cr in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/07/vcomply-saas-grc-solution-funding-accel",
+    "weekFolder": "W3 Q2 FY20"
+  },
+  {
     "id": "W3 Q2 FY20-9",
     "company": "Procol",
     "amount": 835,
@@ -46661,6 +53850,98 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "Tiny Spoons raised ₹2.0 Cr in Not Disclosed .",
     "sourceUrl": "https://yourstory.com/2019/07/startup-funding-tiny-spoons-organic-baby-food",
+    "weekFolder": "W3 Q2 FY20"
+  },
+  {
+    "id": "W3 Q2 FY20-18",
+    "company": "Yatra",
+    "amount": 282063,
+    "stage": "Acquisition",
+    "sectors": [
+      "Travel"
+    ],
+    "investors": [
+      "Ebix"
+    ],
+    "leadInvestor": "Ebix",
+    "date": "2019-07-17",
+    "location": "Gurugram",
+    "description": "Yatra raised ₹2820.6 Cr in Acquisition round.",
+    "sourceUrl": "https://entrackr.com/2019/07/ebix-acquires-yatra-337-mn-stock-deal/",
+    "weekFolder": "W3 Q2 FY20"
+  },
+  {
+    "id": "W3 Q2 FY20-19",
+    "company": "Icertis",
+    "amount": 96025,
+    "stage": "Series E",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Greycroft",
+      "PremjiInvest"
+    ],
+    "leadInvestor": "Greycroft",
+    "date": "2019-07-17",
+    "location": "Pune",
+    "description": "Icertis raised ₹960.3 Cr in Series E round.",
+    "sourceUrl": "https://entrackr.com/2019/07/icertis-unicorn-115-mn-greycroft-premjiinvest/",
+    "weekFolder": "W3 Q2 FY20"
+  },
+  {
+    "id": "W3 Q2 FY20-20",
+    "company": "Awfis",
+    "amount": 9001.3,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Coworking"
+    ],
+    "investors": [
+      "Bisque",
+      "Link Investment Trust"
+    ],
+    "leadInvestor": "Bisque",
+    "date": "2019-07-17",
+    "location": "New Delhi",
+    "description": "Awfis raised ₹90.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/07/awfis-raising-rs-90-cr-from-bisque-and-link-investment-trust/",
+    "weekFolder": "W3 Q2 FY20"
+  },
+  {
+    "id": "W3 Q2 FY20-23",
+    "company": "boAt",
+    "amount": 2004,
+    "stage": "Venture Debt",
+    "sectors": [
+      "Consumer Electronics"
+    ],
+    "investors": [
+      "BAC Acquisitions"
+    ],
+    "leadInvestor": "BAC Acquisitions",
+    "date": "2019-07-17",
+    "location": "Delhi",
+    "description": "boAt raised ₹20.0 Cr in Venture Debt round.",
+    "sourceUrl": "https://yourstory.com/2019/07/consumer-audio-startup-boat-funding-sachin-bansal",
+    "weekFolder": "W3 Q2 FY20"
+  },
+  {
+    "id": "W3 Q2 FY20-24",
+    "company": "Lymbyc",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Larsen & Toubro Infotech"
+    ],
+    "leadInvestor": "Larsen & Toubro Infotech",
+    "date": "2019-07-17",
+    "location": "Bengaluru",
+    "description": "Lymbyc raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/07/lt-infotech-acquires-deep-tech-startup-lymbyc",
     "weekFolder": "W3 Q2 FY20"
   },
   {
@@ -46781,6 +54062,43 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W3 Q2 FY20"
   },
   {
+    "id": "W3 Q2 FY20-21",
+    "company": "DIYBlockchain",
+    "amount": 2087.5,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Herbert R Sim"
+    ],
+    "leadInvestor": "Herbert R Sim",
+    "date": "2019-07-16",
+    "location": "India",
+    "description": "DIYBlockchain raised ₹20.9 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/07/startup-funding-diyblockchain-25m-bitcoin-man",
+    "weekFolder": "W3 Q2 FY20"
+  },
+  {
+    "id": "W3 Q2 FY20-22",
+    "company": "Ambee",
+    "amount": 100.19999999999999,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Aishwarya Rai",
+      "Vrinda KR"
+    ],
+    "leadInvestor": "Aishwarya Rai",
+    "date": "2019-07-16",
+    "location": "Bengaluru",
+    "description": "Ambee raised ₹1.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/07/ambee-aishwaraya-rai-startup-funding",
+    "weekFolder": "W3 Q2 FY20"
+  },
+  {
     "id": "W3 Q2 FY20-3",
     "company": "MobiKwik",
     "amount": 868.4000000000001,
@@ -46815,6 +54133,47 @@ export const fundingData: FundingDeal[] = [
     "description": "Ecozen raised ₹810.0 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/07/funding-agritech-startup-ecozen-caspian-hivos-triodos-fund",
     "weekFolder": "W3 Q2 FY20"
+  },
+  {
+    "id": "W3 Q2 FY20-29",
+    "company": "Ambee",
+    "amount": 325.65,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Aishwarya Rai Bachchan",
+      "Vrinda KR",
+      "Rajan Anandan",
+      "Techstars Bangalore",
+      "Touchstone Venture LLP",
+      "Motivated Minds Wealth LLP"
+    ],
+    "leadInvestor": "Aishwarya Rai Bachchan",
+    "date": "2019-07-15",
+    "location": "Bengaluru",
+    "description": "Ambee raised ₹3.3 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/ambee-raises-funding-from-aishwarya-rai-bachchan-rajan-anandan/",
+    "weekFolder": "W3 Q2 FY20"
+  },
+  {
+    "id": "W2 Q2 FY20-30",
+    "company": "Ace Turtle",
+    "amount": 2697.0499999999997,
+    "stage": "Pre-Series B",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Vertex Ventures"
+    ],
+    "leadInvestor": "Vertex Ventures",
+    "date": "2019-07-13",
+    "location": "Bengaluru",
+    "description": "Ace Turtle raised ₹27.0 Cr in Pre-Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/ecommerce-solutions-provider-ace-turtle-raises-funding-from-vertex-others/",
+    "weekFolder": "W2 Q2 FY20"
   },
   {
     "id": "W2 Q2 FY20-10",
@@ -46862,6 +54221,81 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W2 Q2 FY20"
   },
   {
+    "id": "W2 Q2 FY20-16",
+    "company": "Stanza Living",
+    "amount": 41750,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Proptech"
+    ],
+    "investors": [
+      "Falcon Edge Capital"
+    ],
+    "leadInvestor": "Falcon Edge Capital",
+    "date": "2019-07-12",
+    "location": "New Delhi",
+    "description": "Stanza Living raised ₹417.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/07/falcon-capital-invests-50-mn-stanza-living/",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
+    "id": "W2 Q2 FY20-25",
+    "company": "Pixxel",
+    "amount": 0,
+    "stage": "Pre-Seed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "growX Ventures",
+      "Raju Reddy",
+      "Dileep Nath",
+      "Pawan Sarda"
+    ],
+    "leadInvestor": "growX Ventures",
+    "date": "2019-07-12",
+    "location": "Bengaluru",
+    "description": "Pixxel raised funding in Pre-Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/07/space-startup-funding-pixxel-seed-round-growx-angels",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
+    "id": "W2 Q2 FY20-28",
+    "company": "O4S",
+    "amount": 1753.5,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Venture Highway"
+    ],
+    "leadInvestor": "Venture Highway",
+    "date": "2019-07-12",
+    "location": "Gurugram",
+    "description": "O4S raised ₹17.5 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/saas-startup-o4s-raises-in-pre-series-a-funding-round/",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
+    "id": "W2 Q2 FY20-31",
+    "company": "SportsKeeda",
+    "amount": 3498.65,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Media & Entertainment"
+    ],
+    "investors": [
+      "Nazara Technologies"
+    ],
+    "leadInvestor": "Nazara Technologies",
+    "date": "2019-07-12",
+    "location": "Bengaluru",
+    "description": "SportsKeeda raised ₹35.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/nazara-acquires-stake-in-sportskeeda-and-qunami/",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
     "id": "W2 Q2 FY20-1",
     "company": "Rivigo",
     "amount": 54275,
@@ -46903,6 +54337,102 @@ export const fundingData: FundingDeal[] = [
     "location": "Noida",
     "description": "Moglix raised ₹501.0 Cr in Series C round.",
     "sourceUrl": "https://yourstory.com/2019/07/startup-funding-moglix-series-d-tiger-global-sequoia-composite-capital",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
+    "id": "W2 Q2 FY20-17",
+    "company": "Emotix",
+    "amount": 1862.0500000000002,
+    "stage": "Seed",
+    "sectors": [
+      "Deeptech and AI"
+    ],
+    "investors": [
+      "Chiratae Ventures",
+      "YourNest",
+      "Technology Venture Fund"
+    ],
+    "leadInvestor": "Chiratae Ventures",
+    "date": "2019-07-11",
+    "location": "Mumbai",
+    "description": "Emotix raised ₹18.6 Cr in Seed round.",
+    "sourceUrl": "https://entrackr.com/2019/07/robot-maker-emotix-raises-rs18-6cr-seed1-round/",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
+    "id": "W2 Q2 FY20-18",
+    "company": "Azani Sports",
+    "amount": 751.5,
+    "stage": "Series B",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Redwood Trust (Sequoia Capital India)",
+      "Fireside Ventures"
+    ],
+    "leadInvestor": "Redwood Trust (Sequoia Capital India)",
+    "date": "2019-07-11",
+    "location": "Mumbai",
+    "description": "Azani Sports raised ₹7.5 Cr in Series B round.",
+    "sourceUrl": "https://entrackr.com/2019/07/sequoias-surge-backed-azani-sports-bags-rs-7-5-cr-fresh-fund/",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
+    "id": "W2 Q2 FY20-23",
+    "company": "Pure EV",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "VC Nannapaneni"
+    ],
+    "leadInvestor": "VC Nannapaneni",
+    "date": "2019-07-11",
+    "location": "Hyderabad",
+    "description": "Pure EV raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/07/pure-ev-startup-funding-electric-vehicle-iit-hyderabad",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
+    "id": "W2 Q2 FY20-24",
+    "company": "O4S",
+    "amount": 1753.5,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Venture Highway"
+    ],
+    "leadInvestor": "Venture Highway",
+    "date": "2019-07-11",
+    "location": "Gurugram",
+    "description": "O4S raised ₹17.5 Cr in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/07/funding-startup-saas-o4s-venture-highway",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
+    "id": "W2 Q2 FY20-29",
+    "company": "Stanza Living",
+    "amount": 41750,
+    "stage": "Series C",
+    "sectors": [
+      "Real Estate Tech"
+    ],
+    "investors": [
+      "Falcon Edge Capital",
+      "Sequoia Capital",
+      "Matrix Partners",
+      "Accel Partners"
+    ],
+    "leadInvestor": "Falcon Edge Capital",
+    "date": "2019-07-11",
+    "location": "New Delhi",
+    "description": "Stanza Living raised ₹417.5 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/student-housing-startup-stanza-living-gets-commitments-worth-50-mn/",
     "weekFolder": "W2 Q2 FY20"
   },
   {
@@ -46980,6 +54510,61 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W2 Q2 FY20"
   },
   {
+    "id": "W2 Q2 FY20-14",
+    "company": "BYJU’S",
+    "amount": 125250,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Qatar Investment Authority"
+    ],
+    "leadInvestor": "Qatar Investment Authority",
+    "date": "2019-07-10",
+    "location": "Bengaluru",
+    "description": "BYJU’S raised ₹1252.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/byjus-qatar-investment-authority/",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
+    "id": "W2 Q2 FY20-15",
+    "company": "Zoomcar India",
+    "amount": 9477.25,
+    "stage": "Venture Debt",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-07-10",
+    "location": "Bengaluru",
+    "description": "Zoomcar India raised ₹94.8 Cr in Venture Debt round.",
+    "sourceUrl": "https://inc42.com/buzz/zoomcar-india-raises-debt-and-equity-funding-from-multiple-investors/",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
+    "id": "W2 Q2 FY20-21",
+    "company": "Indus OS",
+    "amount": 4801.25,
+    "stage": "Series B",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Samsung Ventures",
+      "Ventureast"
+    ],
+    "leadInvestor": "Samsung Ventures",
+    "date": "2019-07-10",
+    "location": "Mumbai",
+    "description": "Indus OS raised ₹48.0 Cr in Series B round.",
+    "sourceUrl": "https://yourstory.com/2019/07/startup-funding-indus-os-samsung-ventures",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
     "id": "W2 Q2 FY20-3",
     "company": "Headfone",
     "amount": 3473.6000000000004,
@@ -47037,6 +54622,81 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W2 Q2 FY20"
   },
   {
+    "id": "W2 Q2 FY20-19",
+    "company": "House of Masaba",
+    "amount": 835,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fashion"
+    ],
+    "investors": [
+      "Binny Bansal",
+      "Purple Style Labs",
+      "Apoorva Patni",
+      "Apurva Salarpuria"
+    ],
+    "leadInvestor": "Binny Bansal",
+    "date": "2019-07-09",
+    "location": "Mumbai",
+    "description": "House of Masaba raised ₹8.3 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/07/binny-bansal-leads-1-mn-round-in-masaba/",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
+    "id": "W2 Q2 FY20-20",
+    "company": "BattRE",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Gajendra Chandel"
+    ],
+    "leadInvestor": "Gajendra Chandel",
+    "date": "2019-07-09",
+    "location": "Jaipur",
+    "description": "BattRE raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/07/funding-tata-motors-exec-electric-scooter-startup-battre",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
+    "id": "W2 Q2 FY20-22",
+    "company": "PSR Supply Chain",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Milkbasket"
+    ],
+    "leadInvestor": "Milkbasket",
+    "date": "2019-07-09",
+    "location": "Bengaluru",
+    "description": "PSR Supply Chain raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/07/milkbasket-psr-supply-chain-acquisition",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
+    "id": "W2 Q2 FY20-27",
+    "company": "HealthAssure",
+    "amount": 2087.5,
+    "stage": "Series A",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Blume Ventures"
+    ],
+    "leadInvestor": "Blume Ventures",
+    "date": "2019-07-09",
+    "location": "Mumbai",
+    "description": "HealthAssure raised ₹20.9 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/healthassure-raises-series-a-funding-led-by-blume-ventures/",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
     "id": "W2 Q2 FY20-12",
     "company": "Board Infinity",
     "amount": 217.10000000000002,
@@ -47052,6 +54712,44 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "Board Infinity raised ₹2.2 Cr in Not Disclosed .",
     "sourceUrl": "https://yourstory.com/2019/07/startup-mumbai-edtech-board-infinity-angel-funding",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
+    "id": "W2 Q2 FY20-13",
+    "company": "Rebel Foods",
+    "amount": 4175,
+    "stage": "Series D",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Sequoia",
+      "Evolvence"
+    ],
+    "leadInvestor": "Sequoia",
+    "date": "2019-07-08",
+    "location": "India",
+    "description": "Rebel Foods raised ₹41.8 Cr in Series D round.",
+    "sourceUrl": "https://inc42.com/buzz/rebel-foods-raise-funding-from-go-jek/",
+    "weekFolder": "W2 Q2 FY20"
+  },
+  {
+    "id": "W2 Q2 FY20-26",
+    "company": "Toch",
+    "amount": 375.75,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Media"
+    ],
+    "investors": [
+      "Hyderabad Angels",
+      "Mumbai Angels"
+    ],
+    "leadInvestor": "Hyderabad Angels",
+    "date": "2019-07-08",
+    "location": "Mumbai",
+    "description": "Toch raised ₹3.8 Cr in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/07/startup-funding-media-tech-toch-hyderabad-angels",
     "weekFolder": "W2 Q2 FY20"
   },
   {
@@ -47131,6 +54829,42 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q2 FY20"
   },
   {
+    "id": "W1 Q2 FY20-13",
+    "company": "Daalchini",
+    "amount": 350.7,
+    "stage": "Seed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Artha Venture Fund"
+    ],
+    "leadInvestor": "Artha Venture Fund",
+    "date": "2019-07-04",
+    "location": "Delhi-NCR",
+    "description": "Daalchini raised ₹3.5 Cr in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/07/funding-startup-artha-venture-fund-daalchini",
+    "weekFolder": "W1 Q2 FY20"
+  },
+  {
+    "id": "W1 Q2 FY20-14",
+    "company": "Bounce",
+    "amount": 1002,
+    "stage": "Debt",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "BAC Acquisitions"
+    ],
+    "leadInvestor": "BAC Acquisitions",
+    "date": "2019-07-04",
+    "location": "Bengaluru",
+    "description": "Bounce raised ₹10.0 Cr in Debt round.",
+    "sourceUrl": "https://yourstory.com/2019/07/startup-funding-sachin-bansal-bac-bounce",
+    "weekFolder": "W1 Q2 FY20"
+  },
+  {
     "id": "W1 Q2 FY20-5",
     "company": "Indus Valley",
     "amount": 100.19999999999999,
@@ -47164,6 +54898,83 @@ export const fundingData: FundingDeal[] = [
     "location": "Ahmedabad",
     "description": "SuperZop raised ₹8.0 Cr in Pre-Series A round.",
     "sourceUrl": "https://yourstory.com/2019/07/funding-superzop-agri-tech-startup-iim-ahmedabad-ciie-initiatives-sidbi",
+    "weekFolder": "W1 Q2 FY20"
+  },
+  {
+    "id": "W1 Q2 FY20-12",
+    "company": "Ola",
+    "amount": 9185,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-07-03",
+    "location": "Bengaluru",
+    "description": "Ola raised ₹91.8 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/ride-hailing-unicorn-ola-raises-11-mn-funding-as-part-of-series-j-round/",
+    "weekFolder": "W1 Q2 FY20"
+  },
+  {
+    "id": "W1 Q2 FY20-15",
+    "company": "Intugine",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "IP Ventures"
+    ],
+    "leadInvestor": "IP Ventures",
+    "date": "2019-07-03",
+    "location": "India",
+    "description": "Intugine raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/07/startup-funding-iot-logistics-intugine-ip-ventures",
+    "weekFolder": "W1 Q2 FY20"
+  },
+  {
+    "id": "W1 Q2 FY20-24",
+    "company": "TapChief",
+    "amount": 542.75,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Kunal Shah",
+      "Vijay Shekhar Sharma",
+      "Utsav Somani",
+      "Mekin Maheshwari",
+      "NuVentures",
+      "500 Startups"
+    ],
+    "leadInvestor": "Kunal Shah",
+    "date": "2019-07-03",
+    "location": "Bengaluru",
+    "description": "TapChief raised ₹5.4 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/startups/gigs-marketplace-tapchief-gets-funding-from-50-angel-investors/",
+    "weekFolder": "W1 Q2 FY20"
+  },
+  {
+    "id": "W1 Q2 FY20-25",
+    "company": "Bounce",
+    "amount": 1210.75,
+    "stage": "Debt",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "BAC Acquisitions"
+    ],
+    "leadInvestor": "BAC Acquisitions",
+    "date": "2019-07-03",
+    "location": "Bengaluru",
+    "description": "Bounce raised ₹12.1 Cr in Debt round.",
+    "sourceUrl": "https://inc42.com/buzz/bounce-raises-in-debt-funding-from-sachin-bansal/",
     "weekFolder": "W1 Q2 FY20"
   },
   {
@@ -47266,6 +55077,161 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q2 FY20"
   },
   {
+    "id": "W1 Q2 FY20-16",
+    "company": "Sepal",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "SucSEED Venture Partners"
+    ],
+    "leadInvestor": "SucSEED Venture Partners",
+    "date": "2019-07-02",
+    "location": "Hyderabad",
+    "description": "Sepal raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/07/startup-funding-sucseed-venture-partners-sepal",
+    "weekFolder": "W1 Q2 FY20"
+  },
+  {
+    "id": "W1 Q2 FY20-17",
+    "company": "mfine",
+    "amount": 3097.8500000000004,
+    "stage": "Venture Debt",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Alteria Capital"
+    ],
+    "leadInvestor": "Alteria Capital",
+    "date": "2019-07-02",
+    "location": "Bengaluru",
+    "description": "mfine raised ₹31.0 Cr in Venture Debt round.",
+    "sourceUrl": "https://yourstory.com/2019/07/debt-funding-startup-healthtech-mfine-venture-alteria-capital",
+    "weekFolder": "W1 Q2 FY20"
+  },
+  {
+    "id": "W1 Q2 FY20-18",
+    "company": "First Step Digital",
+    "amount": 0,
+    "stage": "Bridge",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Indian Angel Network",
+      "Vikas Kuthiala",
+      "Ishan Singh"
+    ],
+    "leadInvestor": "Indian Angel Network",
+    "date": "2019-07-02",
+    "location": "Delhi",
+    "description": "First Step Digital raised funding in Bridge round.",
+    "sourceUrl": "https://yourstory.com/2019/07/funding-startup-peebuddy-indian-angel-network-vikas-kuthiala-ishan-singh",
+    "weekFolder": "W1 Q2 FY20"
+  },
+  {
+    "id": "W1 Q2 FY20-19",
+    "company": "Atlan",
+    "amount": 1803.6000000000001,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "WaterBridge Ventures",
+      "Ratan Tata",
+      "Rajan Anandan",
+      "500 Startups",
+      "Hatcher"
+    ],
+    "leadInvestor": "WaterBridge Ventures",
+    "date": "2019-07-02",
+    "location": "India",
+    "description": "Atlan raised ₹18.0 Cr in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/07/startup-funding-atlan-waterbridge-ventures-ratan-tata",
+    "weekFolder": "W1 Q2 FY20"
+  },
+  {
+    "id": "W1 Q2 FY20-23",
+    "company": "Ola Electric",
+    "amount": 208750,
+    "stage": "Series B",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "SoftBank"
+    ],
+    "leadInvestor": "SoftBank",
+    "date": "2019-07-02",
+    "location": "Bengaluru",
+    "description": "Ola Electric raised ₹2087.5 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/ola-electric-turns-unicorn-with-softbank-series-b-funding/",
+    "weekFolder": "W1 Q2 FY20"
+  },
+  {
+    "id": "W1 Q2 FY20-20",
+    "company": "ToBeHealthy",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Ankur Capital"
+    ],
+    "leadInvestor": "Ankur Capital",
+    "date": "2019-07-01",
+    "location": "Delhi",
+    "description": "ToBeHealthy raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/07/tobehealthy-funding-ankur-capital-snack-health-brand",
+    "weekFolder": "W1 Q2 FY20"
+  },
+  {
+    "id": "W1 Q2 FY20-21",
+    "company": "Gizmobaba",
+    "amount": 208.75,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "LetsVenture"
+    ],
+    "leadInvestor": "LetsVenture",
+    "date": "2019-07-01",
+    "location": "Mumbai",
+    "description": "Gizmobaba raised ₹2.1 Cr in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/07/letsventure-invests-mumbai-etailer-gizmobaba-ecommerce",
+    "weekFolder": "W1 Q2 FY20"
+  },
+  {
+    "id": "W1 Q2 FY20-22",
+    "company": "Uniphore",
+    "amount": 31730,
+    "stage": "Series C",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "March Capital Partners",
+      "The CXO Fund",
+      "Patni Wealth Advisors",
+      "National Grid Partners",
+      "Sistema Asia Fund",
+      "Chiratae Ventures"
+    ],
+    "leadInvestor": "March Capital Partners",
+    "date": "2019-07-01",
+    "location": "Chennai",
+    "description": "Uniphore raised ₹317.3 Cr in Series C round.",
+    "sourceUrl": "https://yourstory.com/2019/07/funding-alert-startup-uniphore-series-c-march-capital-partners",
+    "weekFolder": "W1 Q2 FY20"
+  },
+  {
     "id": "W13 Q1 FY20-2",
     "company": "Wizcounsel",
     "amount": 100.19999999999999,
@@ -47284,27 +55250,68 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W13 Q1 FY20"
   },
   {
-    "id": "W13 Q1 FY20-3",
-    "company": "Grab",
-    "amount": 250500,
+    "id": "W13 Q1 FY20-10",
+    "company": "1mg",
+    "amount": 58450,
     "stage": "Series D",
     "sectors": [
-      "EV & Mobility"
+      "Healthtech"
     ],
     "investors": [
-      "IFC",
       "Corisol Holdings",
-      "Ankur Capital"
+      "IFC",
+      "Redwood Global",
+      "Korea Omega Healthcare Fund",
+      "Sequoia Capital",
+      "Omidyar Network",
+      "Kae Capital"
     ],
-    "leadInvestor": "IFC",
+    "leadInvestor": "Corisol Holdings",
     "date": "2019-06-28",
-    "location": "India",
-    "description": "Grab raised ₹2505.0 Cr in Series D round.",
-    "sourceUrl": "https://yourstory.com/2019/06/startup-funding-grab-invesco",
+    "location": "Gurugram",
+    "description": "1mg raised ₹584.5 Cr in Series D round.",
+    "sourceUrl": "https://entrackr.com/2019/06/1mg-scores-70-mn-series-d-round/",
     "weekFolder": "W13 Q1 FY20"
   },
   {
-    "id": "W13 Q1 FY20-4",
+    "id": "W13 Q1 FY20-19",
+    "company": "Avail Finance",
+    "amount": 7515,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Matrix Partners",
+      "Ola"
+    ],
+    "leadInvestor": "Matrix Partners",
+    "date": "2019-06-28",
+    "location": "Bengaluru",
+    "description": "Avail Finance raised ₹75.2 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/06/funding-ola-invest-avail-finance",
+    "weekFolder": "W13 Q1 FY20"
+  },
+  {
+    "id": "W13 Q1 FY20-20",
+    "company": "GOQii",
+    "amount": 0,
+    "stage": "Series C",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Akshay Kumar"
+    ],
+    "leadInvestor": "Akshay Kumar",
+    "date": "2019-06-28",
+    "location": "Mumbai",
+    "description": "GOQii raised funding in Series C round.",
+    "sourceUrl": "https://yourstory.com/2019/06/startup-funding-bollywood-akshay-kumar-goqii",
+    "weekFolder": "W13 Q1 FY20"
+  },
+  {
+    "id": "W13 Q1 FY20-3",
     "company": "Unacademy",
     "amount": 41750,
     "stage": "Series D",
@@ -47325,7 +55332,90 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W13 Q1 FY20"
   },
   {
-    "id": "W13 Q1 FY20-5",
+    "id": "W13 Q1 FY20-11",
+    "company": "1mg",
+    "amount": 58450,
+    "stage": "Series D",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "IFC",
+      "Corisol Holdings",
+      "Sequoia Capital",
+      "Omidyar Network",
+      "Maverick Ventures",
+      "Kae Capital"
+    ],
+    "leadInvestor": "IFC",
+    "date": "2019-06-27",
+    "location": "Gurugram",
+    "description": "1mg raised ₹584.5 Cr in Series D round.",
+    "sourceUrl": "https://yourstory.com/2019/06/startup-funding-1mg-ifc-world-bank-corisol-holdings",
+    "weekFolder": "W13 Q1 FY20"
+  },
+  {
+    "id": "W13 Q1 FY20-12",
+    "company": "String Bio",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Ankur Capital",
+      "ONGC",
+      "Seventure Partners",
+      "KITVEN",
+      "Srinivasa Hatcheries"
+    ],
+    "leadInvestor": "Ankur Capital",
+    "date": "2019-06-27",
+    "location": "Bangalore",
+    "description": "String Bio raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/06/biotech-startup-string-bio-funding-ankur-capital",
+    "weekFolder": "W13 Q1 FY20"
+  },
+  {
+    "id": "W13 Q1 FY20-25",
+    "company": "MyGlamm",
+    "amount": 12082.45,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Bessemer Venture Partners",
+      "Mankekar family office",
+      "L'Occitane"
+    ],
+    "leadInvestor": "Bessemer Venture Partners",
+    "date": "2019-06-27",
+    "location": "Mumbai",
+    "description": "MyGlamm raised ₹120.8 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/beauty-marketplace-myglamm-raises-funding-mn-led-by-bessemer/",
+    "weekFolder": "W13 Q1 FY20"
+  },
+  {
+    "id": "W13 Q1 FY20-26",
+    "company": "GOQii",
+    "amount": 0,
+    "stage": "Series C",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Akshay Kumar"
+    ],
+    "leadInvestor": "Akshay Kumar",
+    "date": "2019-06-27",
+    "location": "Mumbai",
+    "description": "GOQii raised funding in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/fitness-wearable-startup-goqii-raises-investment-from-akshay-kumar/",
+    "weekFolder": "W13 Q1 FY20"
+  },
+  {
+    "id": "W13 Q1 FY20-4",
     "company": "Clairvolex",
     "amount": 2922.5,
     "stage": "Pre-Series A",
@@ -47345,7 +55435,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W13 Q1 FY20"
   },
   {
-    "id": "W13 Q1 FY20-6",
+    "id": "W13 Q1 FY20-5",
     "company": "Unacademy",
     "amount": 41750,
     "stage": "Series C",
@@ -47364,7 +55454,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W13 Q1 FY20"
   },
   {
-    "id": "W13 Q1 FY20-7",
+    "id": "W13 Q1 FY20-6",
     "company": "Milkbasket",
     "amount": 1503,
     "stage": "Series B",
@@ -47382,6 +55472,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Gurugram",
     "description": "Milkbasket raised ₹15.0 Cr in Series B round.",
     "sourceUrl": "https://yourstory.com/2019/06/startup-funding-milkbasket-innoven-capital",
+    "weekFolder": "W13 Q1 FY20"
+  },
+  {
+    "id": "W13 Q1 FY20-13",
+    "company": "Recko",
+    "amount": 835,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Prime Venture Partners"
+    ],
+    "leadInvestor": "Prime Venture Partners",
+    "date": "2019-06-26",
+    "location": "Bengaluru",
+    "description": "Recko raised ₹8.3 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/06/funding-prime-venture-partners-recko-reconciliation-startup",
     "weekFolder": "W13 Q1 FY20"
   },
   {
@@ -47405,25 +55513,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W13 Q1 FY20"
   },
   {
-    "id": "W13 Q1 FY20-8",
-    "company": "Funding",
-    "amount": 175.35,
-    "stage": "Series A",
-    "sectors": [
-      "Fintech"
-    ],
-    "investors": [
-      "SucSEED will help us to leap forward"
-    ],
-    "leadInvestor": "SucSEED will help us to leap forward",
-    "date": "2019-06-25",
-    "location": "Noida",
-    "description": "Funding raised ₹1.8 Cr in Series A round.",
-    "sourceUrl": "https://yourstory.com/2019/06/startup-funding-p2p-lending-i2ifunding-sucseed-venture-partners",
-    "weekFolder": "W13 Q1 FY20"
-  },
-  {
-    "id": "W13 Q1 FY20-9",
+    "id": "W13 Q1 FY20-7",
     "company": "Cure.fit",
     "amount": 37575,
     "stage": "Series D",
@@ -47448,7 +55538,129 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W13 Q1 FY20"
   },
   {
-    "id": "W13 Q1 FY20-10",
+    "id": "W13 Q1 FY20-14",
+    "company": "TapChief",
+    "amount": 542.75,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "500 Startups",
+      "AngelList India",
+      "Stanford Angels",
+      "SucSEED Venture Partners",
+      "Paytm",
+      "Kunal Shah"
+    ],
+    "leadInvestor": "500 Startups",
+    "date": "2019-06-25",
+    "location": "India",
+    "description": "TapChief raised ₹5.4 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/06/tapchief-funding-vijay-shekhar-sharma-kunal-shah",
+    "weekFolder": "W13 Q1 FY20"
+  },
+  {
+    "id": "W13 Q1 FY20-15",
+    "company": "Streak AI",
+    "amount": 835,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "3one4 Capital",
+      "Rainmatter Capital"
+    ],
+    "leadInvestor": "3one4 Capital",
+    "date": "2019-06-25",
+    "location": "Bengaluru",
+    "description": "Streak AI raised ₹8.3 Cr in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/06/startup-funding-streak-3one4-capital-rainmatter-zerodha",
+    "weekFolder": "W13 Q1 FY20"
+  },
+  {
+    "id": "W13 Q1 FY20-21",
+    "company": "Streak.tech",
+    "amount": 835,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "3one4 Capital",
+      "Rainmatter Capital"
+    ],
+    "leadInvestor": "3one4 Capital",
+    "date": "2019-06-25",
+    "location": "Bengaluru",
+    "description": "Streak.tech raised ₹8.3 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/3one4-capital-funding-streak-tech/",
+    "weekFolder": "W13 Q1 FY20"
+  },
+  {
+    "id": "W13 Q1 FY20-22",
+    "company": "Scentials",
+    "amount": 3006,
+    "stage": "Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Unilever Ventures"
+    ],
+    "leadInvestor": "Unilever Ventures",
+    "date": "2019-06-25",
+    "location": "Mumbai",
+    "description": "Scentials raised ₹30.1 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/celebrity-products-brand-scentials-raises-funding-led-by-unilever/",
+    "weekFolder": "W13 Q1 FY20"
+  },
+  {
+    "id": "W13 Q1 FY20-23",
+    "company": "Curefit",
+    "amount": 100200,
+    "stage": "Series D",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Chiratae Ventures",
+      "Accel Partners",
+      "Kalaari Capital",
+      "Oaktree Capital",
+      "Unilever Ventures",
+      "Epiq Capital",
+      "Innoven Capital",
+      "Kotak Mahindra Bank"
+    ],
+    "leadInvestor": "Chiratae Ventures",
+    "date": "2019-06-25",
+    "location": "Bengaluru",
+    "description": "Curefit raised ₹1002.0 Cr in Series D round.",
+    "sourceUrl": "https://inc42.com/buzz/curefit-series-b-round/",
+    "weekFolder": "W13 Q1 FY20"
+  },
+  {
+    "id": "W13 Q1 FY20-24",
+    "company": "Isthara",
+    "amount": 4759.5,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Real Estate Tech"
+    ],
+    "investors": [
+      "JM Financial India Fund II"
+    ],
+    "leadInvestor": "JM Financial India Fund II",
+    "date": "2019-06-25",
+    "location": "Coimbatore",
+    "description": "Isthara raised ₹47.6 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/coliving-startup-isthara-raises-fresh-funds-to-support-expansion-plans/",
+    "weekFolder": "W13 Q1 FY20"
+  },
+  {
+    "id": "W13 Q1 FY20-8",
     "company": "Scentials",
     "amount": 2496.65,
     "stage": "Series A",
@@ -47463,6 +55675,90 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "Scentials raised ₹25.0 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/06/startup-funding-scentials-unilever-ventures",
+    "weekFolder": "W13 Q1 FY20"
+  },
+  {
+    "id": "W13 Q1 FY20-9",
+    "company": "Bellatrix",
+    "amount": 2505,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Spacetech"
+    ],
+    "investors": [
+      "IDFC-Parampara",
+      "StartupXseed",
+      "Karsemven Fund",
+      "Survam Partners",
+      "Karsemven Fund (KITVEN)",
+      "Survam Partners ( Suman Kant Munjal family office) at a post-money valuation of $ 10 mn",
+      "Deepika Padukone",
+      "GrowX Ventures",
+      "CIIE",
+      "SINE"
+    ],
+    "leadInvestor": "IDFC-Parampara",
+    "date": "2019-06-24",
+    "location": "Ahmedabad",
+    "description": "Bellatrix raised ₹25.1 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/deepika-padukone-invests-bellatrix-3-mn-funding/",
+    "weekFolder": "W13 Q1 FY20"
+  },
+  {
+    "id": "W13 Q1 FY20-16",
+    "company": "Astrogate Labs",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Speciale Invest"
+    ],
+    "leadInvestor": "Speciale Invest",
+    "date": "2019-06-24",
+    "location": "Bengaluru",
+    "description": "Astrogate Labs raised funding in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/06/startup-funding-spacetech-astrogate-labs-speciale-invest",
+    "weekFolder": "W13 Q1 FY20"
+  },
+  {
+    "id": "W13 Q1 FY20-17",
+    "company": "ConceptOwl",
+    "amount": 350.7,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Indian Angel Network",
+      "KRS Jamwal",
+      "Ankit Somani",
+      "Mitesh Shah"
+    ],
+    "leadInvestor": "Indian Angel Network",
+    "date": "2019-06-24",
+    "location": "Thiruvananthapuram",
+    "description": "ConceptOwl raised ₹3.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/06/funding-ian-edtech-startup-conceptowl",
+    "weekFolder": "W13 Q1 FY20"
+  },
+  {
+    "id": "W13 Q1 FY20-18",
+    "company": "Infigo Life Sciences",
+    "amount": 6997.3,
+    "stage": "Acquisition",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "IIFL India Private Equity Fund"
+    ],
+    "leadInvestor": "IIFL India Private Equity Fund",
+    "date": "2019-06-24",
+    "location": "Mumbai",
+    "description": "Infigo Life Sciences raised ₹70.0 Cr in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/06/funding-startup-iifl-india-eye-care-infigo",
     "weekFolder": "W13 Q1 FY20"
   },
   {
@@ -47528,6 +55824,60 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W12 Q1 FY20"
   },
   {
+    "id": "W12 Q1 FY20-19",
+    "company": "Practo",
+    "amount": 11998.95,
+    "stage": "Series A",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-06-21",
+    "location": "Bengaluru",
+    "description": "Practo raised ₹120.0 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-healthtech-startup-practo-raises-funding-from-trifecta/",
+    "weekFolder": "W12 Q1 FY20"
+  },
+  {
+    "id": "W12 Q1 FY20-20",
+    "company": "Ninjacart",
+    "amount": 83500,
+    "stage": "Series C",
+    "sectors": [
+      "Agritech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-06-21",
+    "location": "Bengaluru",
+    "description": "Ninjacart raised ₹835.0 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/ninjacart-series-c-funding-tiger-global-steadview-capital/",
+    "weekFolder": "W12 Q1 FY20"
+  },
+  {
+    "id": "W12 Q1 FY20-21",
+    "company": "Google-Backed Dunzo",
+    "amount": 300.59999999999997,
+    "stage": "Series C",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-06-21",
+    "location": "Bengaluru",
+    "description": "Google-Backed Dunzo raised ₹3.0 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-dunzo-raises-yet-another-inr-3-cr-in-series-c-funding/",
+    "weekFolder": "W12 Q1 FY20"
+  },
+  {
     "id": "W12 Q1 FY20-2",
     "company": "Droom",
     "amount": 8350,
@@ -47582,6 +55932,86 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W12 Q1 FY20"
   },
   {
+    "id": "W12 Q1 FY20-22",
+    "company": "Druva",
+    "amount": 108550,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Viking Global Investors",
+      "Neuberger Berman",
+      "Atreides Management",
+      "Riverwood Capital",
+      "Tenaya Capital",
+      "Nexus Venture Partners"
+    ],
+    "leadInvestor": "Viking Global Investors",
+    "date": "2019-06-20",
+    "location": "Pune",
+    "description": "Druva raised ₹1085.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/06/cloud-startup-druva-enters-unicorn-club-with-130-mn-fresh-round/",
+    "weekFolder": "W12 Q1 FY20"
+  },
+  {
+    "id": "W12 Q1 FY20-25",
+    "company": "Jovian",
+    "amount": 375.75,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Arka Venture Labs",
+      "Better Capital",
+      "SenseAI",
+      "Axilor Ventures"
+    ],
+    "leadInvestor": "Arka Venture Labs",
+    "date": "2019-06-20",
+    "location": "Bengaluru",
+    "description": "Jovian raised ₹3.8 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/06/funding-data-science-startup-jovian",
+    "weekFolder": "W12 Q1 FY20"
+  },
+  {
+    "id": "W12 Q1 FY20-26",
+    "company": "Biryani By Kilo",
+    "amount": 4175,
+    "stage": "Series A",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "IvyCap Ventures"
+    ],
+    "leadInvestor": "IvyCap Ventures",
+    "date": "2019-06-20",
+    "location": "Gurugram",
+    "description": "Biryani By Kilo raised ₹41.8 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/06/startup-funding-biryani-by-kilo-ivycap",
+    "weekFolder": "W12 Q1 FY20"
+  },
+  {
+    "id": "W12 Q1 FY20-29",
+    "company": "Local Play",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Media & Entertainment"
+    ],
+    "investors": [
+      "Dailyhunt"
+    ],
+    "leadInvestor": "Dailyhunt",
+    "date": "2019-06-20",
+    "location": "Bengaluru",
+    "description": "Local Play raised funding in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/dailyhunt-acquires-news-aggregation-platform-local-play/",
+    "weekFolder": "W12 Q1 FY20"
+  },
+  {
     "id": "W12 Q1 FY20-3",
     "company": "Postman",
     "amount": 41750,
@@ -47617,6 +56047,24 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "Finwego raised ₹14.2 Cr in Seed round.",
     "sourceUrl": "https://yourstory.com/2019/06/fintech-startup-finwego-funding-saif-partners",
+    "weekFolder": "W12 Q1 FY20"
+  },
+  {
+    "id": "W12 Q1 FY20-27",
+    "company": "Inblox",
+    "amount": 626.25,
+    "stage": "Acquisition",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "MoneyLoji"
+    ],
+    "leadInvestor": "MoneyLoji",
+    "date": "2019-06-19",
+    "location": "Gurugram",
+    "description": "Inblox raised ₹6.3 Cr in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/06/fintech-startup-moneyloji-inblox-network-acquisition",
     "weekFolder": "W12 Q1 FY20"
   },
   {
@@ -47716,6 +56164,27 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Bounce raised ₹601.2 Cr in Series C round.",
     "sourceUrl": "https://yourstory.com/2019/06/yourstory-maverick-urban-clap-bounce-funding",
+    "weekFolder": "W12 Q1 FY20"
+  },
+  {
+    "id": "W12 Q1 FY20-28",
+    "company": "VOGO",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Ananth Narayanan",
+      "K Ganesh",
+      "Srini Anumolu",
+      "Manish Vij"
+    ],
+    "leadInvestor": "Ananth Narayanan",
+    "date": "2019-06-18",
+    "location": "Bangalore",
+    "description": "VOGO raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/06/startup-funding-vogo-ex-myntra-ceo-growthstory",
     "weekFolder": "W12 Q1 FY20"
   },
   {
@@ -47825,6 +56294,42 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W12 Q1 FY20"
   },
   {
+    "id": "W12 Q1 FY20-23",
+    "company": "ShopX",
+    "amount": 29225,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Li and Fung (FSX Pte)"
+    ],
+    "leadInvestor": "Li and Fung (FSX Pte)",
+    "date": "2019-06-17",
+    "location": "Bengaluru",
+    "description": "ShopX raised ₹292.3 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/06/shopx-valuation/",
+    "weekFolder": "W12 Q1 FY20"
+  },
+  {
+    "id": "W12 Q1 FY20-24",
+    "company": "BYJUs",
+    "amount": 208750,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Qatar Investment Authority"
+    ],
+    "leadInvestor": "Qatar Investment Authority",
+    "date": "2019-06-17",
+    "location": "Bengaluru",
+    "description": "BYJUs raised ₹2087.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/06/byju-qia-250-mn/",
+    "weekFolder": "W12 Q1 FY20"
+  },
+  {
     "id": "W11 Q1 FY20-1",
     "company": "Meesho",
     "amount": 50100,
@@ -47850,6 +56355,50 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Meesho raised ₹501.0 Cr in Pre-Series A round.",
     "sourceUrl": "https://entrackr.com/2019/06/funding-indian-startups-week-june-6/",
+    "weekFolder": "W11 Q1 FY20"
+  },
+  {
+    "id": "W11 Q1 FY20-15",
+    "company": "OkCredit",
+    "amount": 12942.5,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "New York-based investment fund Tiger Global",
+      "Nexus Venture Partners",
+      "Unacademy founders Gaurav Munjal",
+      "Roman Saini",
+      "Hemesh Singh",
+      "Growth Story founders Ganesh Krishnan",
+      "Srinivas Anumolu",
+      "Newsdog founder Chen Yukun"
+    ],
+    "leadInvestor": "New York-based investment fund Tiger Global",
+    "date": "2019-06-15",
+    "location": "Bengaluru",
+    "description": "OkCredit raised ₹129.4 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/top-indian-startup-funding-galore-108-june/",
+    "weekFolder": "W11 Q1 FY20"
+  },
+  {
+    "id": "W11 Q1 FY20-18",
+    "company": "SARVA",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Shahid Kapoor",
+      "Mira Kapoor"
+    ],
+    "leadInvestor": "Shahid Kapoor",
+    "date": "2019-06-14",
+    "location": "Mumbai",
+    "description": "SARVA raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/06/funding-startup-sarva-bollywood-shahid-mira-kapoor-invest",
     "weekFolder": "W11 Q1 FY20"
   },
   {
@@ -47886,6 +56435,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Arzooo.com raised ₹8.3 Cr in Pre-Series A round.",
     "sourceUrl": "https://yourstory.com/2019/06/flipkart-startup-arzooo-funding",
+    "weekFolder": "W11 Q1 FY20"
+  },
+  {
+    "id": "W11 Q1 FY20-17",
+    "company": "Meesho",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Facebook"
+    ],
+    "leadInvestor": "Facebook",
+    "date": "2019-06-13",
+    "location": "Bengaluru",
+    "description": "Meesho raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/06/facebook-startup-investment-meesho-india",
     "weekFolder": "W11 Q1 FY20"
   },
   {
@@ -47987,6 +56554,47 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W11 Q1 FY20"
   },
   {
+    "id": "W11 Q1 FY20-14",
+    "company": "Rapido",
+    "amount": 41750,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "General"
+    ],
+    "investors": [
+      "WestBridge Capital",
+      "Hong Kong’s multi-strategy private investment office",
+      "Integrated Capital",
+      "Skycatchr",
+      "AdvantEdge",
+      "Astrac Ventures"
+    ],
+    "leadInvestor": "WestBridge Capital",
+    "date": "2019-06-12",
+    "location": "Bengaluru",
+    "description": "Rapido raised ₹417.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/westbridge-capital-may-lead-50-mn-round-in-rapido-bikes/",
+    "weekFolder": "W11 Q1 FY20"
+  },
+  {
+    "id": "W11 Q1 FY20-21",
+    "company": "AirCTO",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Go-Jek"
+    ],
+    "leadInvestor": "Go-Jek",
+    "date": "2019-06-12",
+    "location": "Bengaluru",
+    "description": "AirCTO raised funding in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/go-jek-eyes-india-expansion-acquires-ai-startup-aircto/",
+    "weekFolder": "W11 Q1 FY20"
+  },
+  {
     "id": "W11 Q1 FY20-4",
     "company": "GroMo",
     "amount": 400.79999999999995,
@@ -48021,6 +56629,43 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "Jumpstart raised ₹25.1 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/06/startup-funding-jumpstart-venture-catalysts",
+    "weekFolder": "W11 Q1 FY20"
+  },
+  {
+    "id": "W11 Q1 FY20-13",
+    "company": "OkCredit",
+    "amount": 12942.5,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "New York-based investment fund Tiger Global"
+    ],
+    "leadInvestor": "New York-based investment fund Tiger Global",
+    "date": "2019-06-11",
+    "location": "Bengaluru",
+    "description": "OkCredit raised ₹129.4 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/okcredit-raises-15-5-mn-from-tiger-global-y-combinator-and-others/",
+    "weekFolder": "W11 Q1 FY20"
+  },
+  {
+    "id": "W11 Q1 FY20-16",
+    "company": "Disha Medical Services",
+    "amount": 3340,
+    "stage": "Series C",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Insitor Impact Asia Fund",
+      "Nilekani Family Office"
+    ],
+    "leadInvestor": "Insitor Impact Asia Fund",
+    "date": "2019-06-11",
+    "location": "Bengaluru",
+    "description": "Disha Medical Services raised ₹33.4 Cr in Series C round.",
+    "sourceUrl": "https://yourstory.com/2019/06/startup-funding-eye-care-disha-medical-services-insitor",
     "weekFolder": "W11 Q1 FY20"
   },
   {
@@ -48062,6 +56707,76 @@ export const fundingData: FundingDeal[] = [
     "description": "Vowelor raised ₹1.0 Cr in Not Disclosed .",
     "sourceUrl": "https://yourstory.com/2019/06/startup-funding-vowelor-sanjeev-juneja",
     "weekFolder": "W11 Q1 FY20"
+  },
+  {
+    "id": "W11 Q1 FY20-19",
+    "company": "Syook",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "IP Ventures"
+    ],
+    "leadInvestor": "IP Ventures",
+    "date": "2019-06-10",
+    "location": "India",
+    "description": "Syook raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/06/funding-industrial-iot-startup-syook-ip-ventures",
+    "weekFolder": "W11 Q1 FY20"
+  },
+  {
+    "id": "W11 Q1 FY20-20",
+    "company": "OkCredit",
+    "amount": 12942.5,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Tiger Global Management",
+      "Morningside Venture Capital",
+      "Lightspeed India Partners",
+      "Venture Highway",
+      "Y Combinator"
+    ],
+    "leadInvestor": "Tiger Global Management",
+    "date": "2019-06-10",
+    "location": "Bengaluru",
+    "description": "OkCredit raised ₹129.4 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/06/tiger-global-funding-startup-okcredit-y-combinator",
+    "weekFolder": "W11 Q1 FY20"
+  },
+  {
+    "id": "W10 Q1 FY20-15",
+    "company": "NoBroker",
+    "amount": 42585,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "General Atlantic",
+      "China-based venture capital Qiming Venture Partners",
+      "Unilever Ventures",
+      "Mayfield India",
+      "Kalaari Capital",
+      "Blume Ventures",
+      "Nexus Venture Partners",
+      "Omidyar Network India",
+      "Shunwei Capital",
+      "Contrarian Vriddhi Fund",
+      "WEH Ventures had also participated in the round",
+      "BEENEXT",
+      "SAIF Partners"
+    ],
+    "leadInvestor": "General Atlantic",
+    "date": "2019-06-08",
+    "location": "Mumbai",
+    "description": "NoBroker raised ₹425.9 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/top-indian-startup-funding-galore-107-june/",
+    "weekFolder": "W10 Q1 FY20"
   },
   {
     "id": "W10 Q1 FY20-10",
@@ -48171,6 +56886,65 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q1 FY20"
   },
   {
+    "id": "W10 Q1 FY20-19",
+    "company": "Chakr Innovation",
+    "amount": 1903.8,
+    "stage": "Series A",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "IAN Fund",
+      "Jyoti Sagar",
+      "IDFC-Parampara Fund"
+    ],
+    "leadInvestor": "IAN Fund",
+    "date": "2019-06-06",
+    "location": "Delhi",
+    "description": "Chakr Innovation raised ₹19.0 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/06/startup-funding-chakr-innovation-ian-fund-idfc-parampara",
+    "weekFolder": "W10 Q1 FY20"
+  },
+  {
+    "id": "W10 Q1 FY20-20",
+    "company": "LetzConnect",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "SucSEED Venture Partners",
+      "Obopay Mobile Technologies"
+    ],
+    "leadInvestor": "SucSEED Venture Partners",
+    "date": "2019-06-06",
+    "location": "India",
+    "description": "LetzConnect raised funding in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/06/sucseed-venture-partners-invests-letzconnect",
+    "weekFolder": "W10 Q1 FY20"
+  },
+  {
+    "id": "W10 Q1 FY20-21",
+    "company": "NoBroker",
+    "amount": 42585,
+    "stage": "Series C",
+    "sectors": [
+      "Real Estate Tech"
+    ],
+    "investors": [
+      "General Atlantic",
+      "BEENEXT",
+      "SAIF Partners"
+    ],
+    "leadInvestor": "General Atlantic",
+    "date": "2019-06-06",
+    "location": "Bengaluru",
+    "description": "NoBroker raised ₹425.9 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/real-estate-startup-nobroker-com-raises-51-mn-in-round-led-by-general-atlantic/",
+    "weekFolder": "W10 Q1 FY20"
+  },
+  {
     "id": "W10 Q1 FY20-2",
     "company": "NoBroker",
     "amount": 41750,
@@ -48187,6 +56961,44 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "NoBroker raised ₹417.5 Cr in Series A round.",
     "sourceUrl": "https://entrackr.com/2019/06/nobroker-series-c-funding-50-mn/",
+    "weekFolder": "W10 Q1 FY20"
+  },
+  {
+    "id": "W10 Q1 FY20-14",
+    "company": "FabHotels",
+    "amount": 6513,
+    "stage": "Series B",
+    "sectors": [
+      "General"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-06-05",
+    "location": "Delhi",
+    "description": "FabHotels raised ₹65.1 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/fabhotels-ongoing-series-b-round/",
+    "weekFolder": "W10 Q1 FY20"
+  },
+  {
+    "id": "W10 Q1 FY20-17",
+    "company": "Nurturing Green",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Vijay Shekhar Sharma",
+      "Mohit Goel",
+      "Suraj Nangia"
+    ],
+    "leadInvestor": "Vijay Shekhar Sharma",
+    "date": "2019-06-05",
+    "location": "Delhi-NCR",
+    "description": "Nurturing Green raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/06/vijay-shekhar-sharma-nurturing-green-startup-funding",
     "weekFolder": "W10 Q1 FY20"
   },
   {
@@ -48272,6 +57084,66 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "FabHotels raised ₹65.1 Cr in Not Disclosed .",
     "sourceUrl": "https://yourstory.com/2019/06/startup-funding-fabhotels-goldman-sachs",
+    "weekFolder": "W10 Q1 FY20"
+  },
+  {
+    "id": "W10 Q1 FY20-13",
+    "company": "MilkBasket",
+    "amount": 8767.5,
+    "stage": "Debt",
+    "sectors": [
+      "General"
+    ],
+    "investors": [
+      "Unilever Ventures",
+      "Mayfield India",
+      "Kalaari Capital",
+      "Blume Ventures"
+    ],
+    "leadInvestor": "Unilever Ventures",
+    "date": "2019-06-04",
+    "location": "Noida",
+    "description": "MilkBasket raised ₹87.7 Cr in Debt round.",
+    "sourceUrl": "https://inc42.com/buzz/grocery-startup-milkbasket-raises-funding-led-by-unilever/",
+    "weekFolder": "W10 Q1 FY20"
+  },
+  {
+    "id": "W10 Q1 FY20-16",
+    "company": "BharatPe",
+    "amount": 62625,
+    "stage": "Series B",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Insight Partners",
+      "Sequoia Capital",
+      "Beenext"
+    ],
+    "leadInvestor": "Insight Partners",
+    "date": "2019-06-04",
+    "location": "New Delhi",
+    "description": "BharatPe raised ₹626.3 Cr in Series B round.",
+    "sourceUrl": "https://entrackr.com/2019/06/exclusive-bharatpe-raise-75-mn-insight-partners/",
+    "weekFolder": "W10 Q1 FY20"
+  },
+  {
+    "id": "W10 Q1 FY20-18",
+    "company": "Leegality",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Mumbai Angels Network",
+      "Chandigarh Angels"
+    ],
+    "leadInvestor": "Mumbai Angels Network",
+    "date": "2019-06-04",
+    "location": "Gurugram",
+    "description": "Leegality raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/06/funding-startup-leegality-mumbai-angels-aadhaar",
     "weekFolder": "W10 Q1 FY20"
   },
   {
@@ -48406,6 +57278,97 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q1 FY20"
   },
   {
+    "id": "W9 Q1 FY20-16",
+    "company": "Bira91 Parent",
+    "amount": 16700,
+    "stage": "Series C",
+    "sectors": [
+      "General"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-05-30",
+    "location": "Delhi",
+    "description": "Bira91 Parent raised ₹167.0 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/bira91-parent-raises-5-6-mn-from-sixth-sense-ventures-anicut-trust/",
+    "weekFolder": "W9 Q1 FY20"
+  },
+  {
+    "id": "W9 Q1 FY20-17",
+    "company": "Roposo",
+    "amount": 4175,
+    "stage": "Series D",
+    "sectors": [
+      "Social Media"
+    ],
+    "investors": [
+      "Tiger Global"
+    ],
+    "leadInvestor": "Tiger Global",
+    "date": "2019-05-30",
+    "location": "Gurugram",
+    "description": "Roposo raised ₹41.8 Cr in Series D round.",
+    "sourceUrl": "https://entrackr.com/2019/05/roposo-series-d-round-5-mn-tiger-global/",
+    "weekFolder": "W9 Q1 FY20"
+  },
+  {
+    "id": "W9 Q1 FY20-20",
+    "company": "Lifelong Online",
+    "amount": 3999.6499999999996,
+    "stage": "Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Tanglin Venture Partners"
+    ],
+    "leadInvestor": "Tanglin Venture Partners",
+    "date": "2019-05-30",
+    "location": "Gurugram",
+    "description": "Lifelong Online raised ₹40.0 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/05/startup-funding-lifelong-online-tanglin-venture-partners",
+    "weekFolder": "W9 Q1 FY20"
+  },
+  {
+    "id": "W9 Q1 FY20-21",
+    "company": "GlowRoad",
+    "amount": 9602.5,
+    "stage": "Series B",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Korea Investment Partners",
+      "Vertex Ventures"
+    ],
+    "leadInvestor": "Korea Investment Partners",
+    "date": "2019-05-30",
+    "location": "Bengaluru",
+    "description": "GlowRoad raised ₹96.0 Cr in Series B round.",
+    "sourceUrl": "https://yourstory.com/2019/05/startup-funding-social-commerce-glowroad-series-b-kip-vertex-ventures",
+    "weekFolder": "W9 Q1 FY20"
+  },
+  {
+    "id": "W9 Q1 FY20-22",
+    "company": "Bira 91",
+    "amount": 3590.5,
+    "stage": "Series C",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Sixth Sense Ventures"
+    ],
+    "leadInvestor": "Sixth Sense Ventures",
+    "date": "2019-05-30",
+    "location": "Delhi",
+    "description": "Bira 91 raised ₹35.9 Cr in Series C round.",
+    "sourceUrl": "https://yourstory.com/2019/05/craft-beer-bira-91-funding-sixth-sense-ventures",
+    "weekFolder": "W9 Q1 FY20"
+  },
+  {
     "id": "W9 Q1 FY20-5",
     "company": "FreshVnF",
     "amount": 1670,
@@ -48421,6 +57384,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "FreshVnF raised ₹16.7 Cr in Not Disclosed .",
     "sourceUrl": "https://yourstory.com/2019/05/agritech-supply-chain-startup-freshvnf-funding",
+    "weekFolder": "W9 Q1 FY20"
+  },
+  {
+    "id": "W9 Q1 FY20-15",
+    "company": "GlowRoad",
+    "amount": 9602.5,
+    "stage": "Series B",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-05-29",
+    "location": "Bengaluru",
+    "description": "GlowRoad raised ₹96.0 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-glowroad-raises-funding-from-vertex-korea-investment-partners/",
     "weekFolder": "W9 Q1 FY20"
   },
   {
@@ -48496,6 +57477,81 @@ export const fundingData: FundingDeal[] = [
     "location": "Delhi",
     "description": "Airblack raised ₹12.5 Cr in Seed round.",
     "sourceUrl": "https://yourstory.com/2019/05/startup-funding-social-travel-commerce-airblack-saif-partners",
+    "weekFolder": "W9 Q1 FY20"
+  },
+  {
+    "id": "W9 Q1 FY20-18",
+    "company": "Clairco",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "AngelList India",
+      "Prakhar Agarwal"
+    ],
+    "leadInvestor": "AngelList India",
+    "date": "2019-05-28",
+    "location": "Bengaluru",
+    "description": "Clairco raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/05/clean-air-startup-clairco-funding-angellist-india",
+    "weekFolder": "W9 Q1 FY20"
+  },
+  {
+    "id": "W9 Q1 FY20-19",
+    "company": "Highorbit Careers",
+    "amount": 8082.799999999999,
+    "stage": "Acquisition",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Info Edge"
+    ],
+    "leadInvestor": "Info Edge",
+    "date": "2019-05-28",
+    "location": "India",
+    "description": "Highorbit Careers raised ₹80.8 Cr in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/05/info-edge-highorbit-careers-iimjobs-acquisition",
+    "weekFolder": "W9 Q1 FY20"
+  },
+  {
+    "id": "W9 Q1 FY20-25",
+    "company": "UrbanClap",
+    "amount": 12525,
+    "stage": "Series D",
+    "sectors": [
+      "Consumer Services"
+    ],
+    "investors": [
+      "Abhiraj Bhal",
+      "Raghav Chandra",
+      "Varun Khaitan"
+    ],
+    "leadInvestor": "Abhiraj Bhal",
+    "date": "2019-05-28",
+    "location": "Gurugram",
+    "description": "UrbanClap raised ₹125.3 Cr in Series D round.",
+    "sourceUrl": "https://inc42.com/buzz/urbanclap-cofounders-invest-fifteen-million-series-d-funding/",
+    "weekFolder": "W9 Q1 FY20"
+  },
+  {
+    "id": "W9 Q1 FY20-26",
+    "company": "Inkmonk",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Printo"
+    ],
+    "leadInvestor": "Printo",
+    "date": "2019-05-28",
+    "location": "Chennai",
+    "description": "Inkmonk raised funding in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/blume-portfolio-startup-printo-acquires-custom-prints-marketplace-inkmonk/",
     "weekFolder": "W9 Q1 FY20"
   },
   {
@@ -48581,6 +57637,44 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q1 FY20"
   },
   {
+    "id": "W9 Q1 FY20-23",
+    "company": "@",
+    "amount": 275.55,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Anupam Mittal",
+      "Dharti Desai",
+      "Hardik Zaveri"
+    ],
+    "leadInvestor": "Anupam Mittal",
+    "date": "2019-05-27",
+    "location": "Mumbai",
+    "description": "@ raised ₹2.8 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/05/startup-funding-social-media-marketing-at",
+    "weekFolder": "W9 Q1 FY20"
+  },
+  {
+    "id": "W9 Q1 FY20-24",
+    "company": "Skilancer Solar",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Alfa Ventures"
+    ],
+    "leadInvestor": "Alfa Ventures",
+    "date": "2019-05-27",
+    "location": "Noida",
+    "description": "Skilancer Solar raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/05/startup-funding-skilancer-solar-alfa-ventures-ai",
+    "weekFolder": "W9 Q1 FY20"
+  },
+  {
     "id": "W8 Q1 FY20-1",
     "company": "Value",
     "amount": 38410,
@@ -48598,6 +57692,25 @@ export const fundingData: FundingDeal[] = [
     "location": "Delhi",
     "description": "Value raised ₹384.1 Cr in Series A round.",
     "sourceUrl": "https://entrackr.com/2019/05/funding-indian-startups-week-may-3/",
+    "weekFolder": "W8 Q1 FY20"
+  },
+  {
+    "id": "W8 Q1 FY20-5",
+    "company": "Spinny",
+    "amount": 11022,
+    "stage": "Series A",
+    "sectors": [
+      "Cleantech"
+    ],
+    "investors": [
+      "Accel",
+      "SAIF Partners"
+    ],
+    "leadInvestor": "Accel",
+    "date": "2019-05-25",
+    "location": "Gurugram",
+    "description": "Spinny raised ₹110.2 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/top-indian-startup-funding-galore-105-may/",
     "weekFolder": "W8 Q1 FY20"
   },
   {
@@ -48622,6 +57735,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q1 FY20"
   },
   {
+    "id": "W8 Q1 FY20-8",
+    "company": "LocoNav",
+    "amount": 3340,
+    "stage": "Series B",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "Sequoia Capital"
+    ],
+    "leadInvestor": "Sequoia Capital",
+    "date": "2019-05-23",
+    "location": "Delhi",
+    "description": "LocoNav raised ₹33.4 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/sequoia-invests-4-mn-in-fleet-management-startup-loconav-series-b-funding/",
+    "weekFolder": "W8 Q1 FY20"
+  },
+  {
     "id": "W8 Q1 FY20-3",
     "company": "Spinny",
     "amount": 11022,
@@ -48641,6 +57772,63 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q1 FY20"
   },
   {
+    "id": "W8 Q1 FY20-4",
+    "company": "TVF",
+    "amount": 4175,
+    "stage": "Series D",
+    "sectors": [
+      "General"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-05-22",
+    "location": "Mumbai",
+    "description": "TVF raised ₹41.8 Cr in Series D round.",
+    "sourceUrl": "https://inc42.com/buzz/tvf-raises-series-d-funding-from-tiger-global/",
+    "weekFolder": "W8 Q1 FY20"
+  },
+  {
+    "id": "W8 Q1 FY20-7",
+    "company": "Spinny",
+    "amount": 11022,
+    "stage": "Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Accel",
+      "SAIF Partners",
+      "Blume Ventures",
+      "Simile Ventures"
+    ],
+    "leadInvestor": "Accel",
+    "date": "2019-05-21",
+    "location": "Gurugram",
+    "description": "Spinny raised ₹110.2 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/used-car-marketplace-spinny-raises-funding/",
+    "weekFolder": "W8 Q1 FY20"
+  },
+  {
+    "id": "W8 Q1 FY20-6",
+    "company": "Livspace",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Real Estate Tech"
+    ],
+    "investors": [
+      "Ingka Group"
+    ],
+    "leadInvestor": "Ingka Group",
+    "date": "2019-05-20",
+    "location": "Bengaluru",
+    "description": "Livspace raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/ikea-parent-invests-in-home-design-startup-livspace/",
+    "weekFolder": "W8 Q1 FY20"
+  },
+  {
     "id": "W7 Q1 FY20-8",
     "company": "Disrupt",
     "amount": 150.29999999999998,
@@ -48656,6 +57844,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "Disrupt raised ₹1.5 Cr in Pre-Series A round.",
     "sourceUrl": "https://yourstory.com/2019/05/startup-funding-rannvijay-singha-fashion-disrupt",
+    "weekFolder": "W7 Q1 FY20"
+  },
+  {
+    "id": "W7 Q1 FY20-10",
+    "company": "Pipal Tree Beverages",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "ITI Growth Opportunities Fund"
+    ],
+    "leadInvestor": "ITI Growth Opportunities Fund",
+    "date": "2019-05-16",
+    "location": "Mumbai",
+    "description": "Pipal Tree Beverages raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/05/startup-funding-pipal-tree-beverages-iti-growth-opportunities-fund",
     "weekFolder": "W7 Q1 FY20"
   },
   {
@@ -48821,25 +58027,47 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W7 Q1 FY20"
   },
   {
-    "id": "W6 Q1 FY20-1",
-    "company": "LeapFrog Investments",
-    "amount": 584500,
-    "stage": "Series B",
+    "id": "W7 Q1 FY20-11",
+    "company": "Epigamia",
+    "amount": 18203,
+    "stage": "Series C",
     "sectors": [
-      "General"
+      "Foodtech"
     ],
     "investors": [
-      "US-based Prudential Financial in participation from leading Global insurers Admiral"
+      "Verlinvest",
+      "DSG Consumer Partners",
+      "Danone Manifesto Ventures",
+      "Deepika Padukone"
     ],
-    "leadInvestor": "US-based Prudential Financial in participation from leading Global insurers Admiral",
-    "date": "2019-05-10",
+    "leadInvestor": "Verlinvest",
+    "date": "2019-05-13",
     "location": "Mumbai",
-    "description": "LeapFrog Investments raised ₹5845.0 Cr in Series B round.",
-    "sourceUrl": "https://yourstory.com/2019/05/leapfrog-investments-700m-third-impact-fund-prudential",
-    "weekFolder": "W6 Q1 FY20"
+    "description": "Epigamia raised ₹182.0 Cr in Series C round.",
+    "sourceUrl": "https://yourstory.com/2019/05/deepika-padukone-funding-fmcg-startup-epigamia",
+    "weekFolder": "W7 Q1 FY20"
   },
   {
-    "id": "W6 Q1 FY20-2",
+    "id": "W7 Q1 FY20-12",
+    "company": "GIFkaro",
+    "amount": 208.75,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Pranay Gupta",
+      "Ekika Singh"
+    ],
+    "leadInvestor": "Pranay Gupta",
+    "date": "2019-05-13",
+    "location": "New Delhi",
+    "description": "GIFkaro raised ₹2.1 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/05/startup-angel-funding-gifkaro-invitekaro",
+    "weekFolder": "W7 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-1",
     "company": "Udaan",
     "amount": 13902.749999999998,
     "stage": "Series C",
@@ -48860,7 +58088,65 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q1 FY20"
   },
   {
-    "id": "W6 Q1 FY20-3",
+    "id": "W6 Q1 FY20-20",
+    "company": "NestAway",
+    "amount": 8350,
+    "stage": "Series D",
+    "sectors": [
+      "Proptech"
+    ],
+    "investors": [
+      "Tiger Global",
+      "Chiratae Ventures"
+    ],
+    "leadInvestor": "Tiger Global",
+    "date": "2019-05-10",
+    "location": "Bengaluru",
+    "description": "NestAway raised ₹83.5 Cr in Series D round.",
+    "sourceUrl": "https://entrackr.com/2019/05/tiger-global-chiarate-nestaway-series-d-10-mn/",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-21",
+    "company": "RentoMojo",
+    "amount": 7698.7,
+    "stage": "Series C",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Accel",
+      "Chiratae Ventures",
+      "Bain Capital",
+      "GMO VP"
+    ],
+    "leadInvestor": "Accel",
+    "date": "2019-05-10",
+    "location": "Bengaluru",
+    "description": "RentoMojo raised ₹77.0 Cr in Series C round.",
+    "sourceUrl": "https://entrackr.com/2019/05/rentomojo-rs-77-cr-series-c-accel-chiratae/",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-25",
+    "company": "SQUATS",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Suniel Shetty"
+    ],
+    "leadInvestor": "Suniel Shetty",
+    "date": "2019-05-10",
+    "location": "Pune",
+    "description": "SQUATS raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/05/startup-funding-bollywood-actor-suniel-shetty-squats",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-2",
     "company": "HealthKart",
     "amount": 20875,
     "stage": "Series D",
@@ -48880,7 +58166,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q1 FY20"
   },
   {
-    "id": "W6 Q1 FY20-4",
+    "id": "W6 Q1 FY20-3",
     "company": "Classplus",
     "amount": 1336,
     "stage": "Pre-Series A",
@@ -48900,7 +58186,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q1 FY20"
   },
   {
-    "id": "W6 Q1 FY20-5",
+    "id": "W6 Q1 FY20-4",
     "company": "Shree",
     "amount": 7999.299999999999,
     "stage": "Not Disclosed",
@@ -48918,7 +58204,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q1 FY20"
   },
   {
-    "id": "W6 Q1 FY20-6",
+    "id": "W6 Q1 FY20-5",
     "company": "GramFactory",
     "amount": 835,
     "stage": "Acquisition",
@@ -48943,7 +58229,84 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q1 FY20"
   },
   {
-    "id": "W6 Q1 FY20-7",
+    "id": "W6 Q1 FY20-19",
+    "company": "Locus",
+    "amount": 16700,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "New York-based hedge fund",
+      "Exfinity Technology And Blume Ventures"
+    ],
+    "leadInvestor": "New York-based hedge fund",
+    "date": "2019-05-09",
+    "location": "Bengaluru",
+    "description": "Locus raised ₹167.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-locus-funding-tiger-global-falcon-edge/",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-26",
+    "company": "boodmo.com",
+    "amount": 801.5999999999999,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-05-09",
+    "location": "Gurugram",
+    "description": "boodmo.com raised ₹8.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/05/startup-funding-auto-spare-parts-marketplace-boodmocom",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-27",
+    "company": "Kinara Capital",
+    "amount": 10003.300000000001,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Gaja Capital",
+      "GAWA Capital",
+      "Michael & Susan Dell Foundation",
+      "Patamar Capital"
+    ],
+    "leadInvestor": "Gaja Capital",
+    "date": "2019-05-09",
+    "location": "Bengaluru",
+    "description": "Kinara Capital raised ₹100.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/05/small-business-lender-kinara-capital-funding",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-37",
+    "company": "TagBox",
+    "amount": 3214.75,
+    "stage": "Series A",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "TVS Motor Company",
+      "TVS Motor (Singapore)"
+    ],
+    "leadInvestor": "TVS Motor Company",
+    "date": "2019-05-09",
+    "location": "Bengaluru",
+    "description": "TagBox raised ₹32.1 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/supply-chain-tagbox-raises-funding-tvs-motors/",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-6",
     "company": "Tagbox",
     "amount": 3214.75,
     "stage": "Series A",
@@ -48961,7 +58324,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q1 FY20"
   },
   {
-    "id": "W6 Q1 FY20-8",
+    "id": "W6 Q1 FY20-7",
     "company": "CapBuild",
     "amount": 14362,
     "stage": "Series B",
@@ -48980,7 +58343,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q1 FY20"
   },
   {
-    "id": "W6 Q1 FY20-9",
+    "id": "W6 Q1 FY20-8",
     "company": "Skillenza",
     "amount": 835,
     "stage": "Pre-Series A",
@@ -49001,7 +58364,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q1 FY20"
   },
   {
-    "id": "W6 Q1 FY20-10",
+    "id": "W6 Q1 FY20-9",
     "company": "CollegeDekho",
     "amount": 6680,
     "stage": "Pre-Series A",
@@ -49020,7 +58383,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q1 FY20"
   },
   {
-    "id": "W6 Q1 FY20-11",
+    "id": "W6 Q1 FY20-10",
     "company": "CureFit",
     "amount": 62625,
     "stage": "Series D",
@@ -49042,7 +58405,29 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q1 FY20"
   },
   {
-    "id": "W6 Q1 FY20-12",
+    "id": "W6 Q1 FY20-22",
+    "company": "GramFactory",
+    "amount": 835,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "BEENEXT",
+      "Tracxn Labs",
+      "AL Trust",
+      "Amrish Rau",
+      "Amit Lakhotia"
+    ],
+    "leadInvestor": "BEENEXT",
+    "date": "2019-05-08",
+    "location": "New Delhi",
+    "description": "GramFactory raised ₹8.3 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/05/gramfactory-1-million-beenext/",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-11",
     "company": "Fitternity",
     "amount": 3340,
     "stage": "Not Disclosed",
@@ -49060,7 +58445,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q1 FY20"
   },
   {
-    "id": "W6 Q1 FY20-13",
+    "id": "W6 Q1 FY20-12",
     "company": "CureFit",
     "amount": 62625,
     "stage": "Series C",
@@ -49080,7 +58465,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q1 FY20"
   },
   {
-    "id": "W6 Q1 FY20-14",
+    "id": "W6 Q1 FY20-13",
     "company": "Chumbak",
     "amount": 6997.3,
     "stage": "Series D",
@@ -49099,7 +58484,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q1 FY20"
   },
   {
-    "id": "W6 Q1 FY20-15",
+    "id": "W6 Q1 FY20-14",
     "company": "Wizikey",
     "amount": 250.5,
     "stage": "Not Disclosed",
@@ -49119,7 +58504,119 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q1 FY20"
   },
   {
-    "id": "W6 Q1 FY20-16",
+    "id": "W6 Q1 FY20-28",
+    "company": "Rare Planet",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Venture Catalysts"
+    ],
+    "leadInvestor": "Venture Catalysts",
+    "date": "2019-05-07",
+    "location": "Kolkata",
+    "description": "Rare Planet raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/05/startup-funding-rare-planet-artisans-venture-catalysts",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-29",
+    "company": "The Ayurveda Experience",
+    "amount": 1002,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Kalpavriksh"
+    ],
+    "leadInvestor": "Kalpavriksh",
+    "date": "2019-05-07",
+    "location": "Delhi",
+    "description": "The Ayurveda Experience raised ₹10.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/05/startup-funding-ayurveda-experience-dunzo-centrum-kalpavriksh",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-30",
+    "company": "Bakbuck",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Gaming"
+    ],
+    "investors": [
+      "Nazara Technologies"
+    ],
+    "leadInvestor": "Nazara Technologies",
+    "date": "2019-05-07",
+    "location": "Mumbai",
+    "description": "Bakbuck raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/05/startup-funding-nazara-technologies-invests-bakbuck",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-33",
+    "company": "Cure.fit",
+    "amount": 62625,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Accel Growth",
+      "IDG Ventures India",
+      "Kalaari Capital",
+      "Anand Piramal",
+      "Epiq Capital"
+    ],
+    "leadInvestor": "Accel Growth",
+    "date": "2019-05-07",
+    "location": "Bengaluru",
+    "description": "Cure.fit raised ₹626.3 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/piramal-curefit-fitness-startup-funding/",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-35",
+    "company": "Dunzo",
+    "amount": 501,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Consumer Services"
+    ],
+    "investors": [
+      "Centrum (Kalpavriksh Fund)"
+    ],
+    "leadInvestor": "Centrum (Kalpavriksh Fund)",
+    "date": "2019-05-07",
+    "location": "Bengaluru",
+    "description": "Dunzo raised ₹5.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/centrum-funding-dunzo-the-ayurveda-experience/",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-36",
+    "company": "ShopX",
+    "amount": 12525,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Fung Strategic Holdings"
+    ],
+    "leadInvestor": "Fung Strategic Holdings",
+    "date": "2019-05-07",
+    "location": "Bengaluru",
+    "description": "ShopX raised ₹125.3 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/nandan-nilekani-shopx-funding/",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-15",
     "company": "MyHealthcare",
     "amount": 2505,
     "stage": "Acquisition",
@@ -49137,7 +58634,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q1 FY20"
   },
   {
-    "id": "W6 Q1 FY20-17",
+    "id": "W6 Q1 FY20-16",
     "company": "Peel-Works",
     "amount": 4175,
     "stage": "Series B",
@@ -49157,6 +58654,147 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "Peel-Works raised ₹41.8 Cr in Series B round.",
     "sourceUrl": "https://yourstory.com/2019/05/ecommerce-startup-peel-works-funding-hdfc-bank",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-17",
+    "company": "BigBasket",
+    "amount": 125250,
+    "stage": "Series F",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-05-06",
+    "location": "Bengaluru",
+    "description": "BigBasket raised ₹1252.5 Cr in Series F round.",
+    "sourceUrl": "https://inc42.com/buzz/bigbasket-grocery-series-f-unicorn/",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-18",
+    "company": "Chumbak",
+    "amount": 8350,
+    "stage": "Series D",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Gaja Capital",
+      "Seedfund"
+    ],
+    "leadInvestor": "Gaja Capital",
+    "date": "2019-05-06",
+    "location": "Bengaluru",
+    "description": "Chumbak raised ₹83.5 Cr in Series D round.",
+    "sourceUrl": "https://inc42.com/buzz/chumbak-series-d-funding-gaja-capital/",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-23",
+    "company": "Cure.Fit",
+    "amount": 62625,
+    "stage": "Series D",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Accel",
+      "Kalaari Capital",
+      "Chiratae Ventures",
+      "Epiq Capital",
+      "Hadley Family Trust",
+      "Anand Piramal Trust"
+    ],
+    "leadInvestor": "Accel",
+    "date": "2019-05-06",
+    "location": "Bengaluru",
+    "description": "Cure.Fit raised ₹626.3 Cr in Series D round.",
+    "sourceUrl": "https://entrackr.com/2019/05/curefit-75-mn-series-d-round-accel/",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-24",
+    "company": "PolicyBazaar",
+    "amount": 126920,
+    "stage": "Series F",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "SoftBank Vision Fund",
+      "InfoEdge",
+      "True North"
+    ],
+    "leadInvestor": "SoftBank Vision Fund",
+    "date": "2019-05-06",
+    "location": "Gurugram",
+    "description": "PolicyBazaar raised ₹1269.2 Cr in Series F round.",
+    "sourceUrl": "https://entrackr.com/2019/05/policybazaar-152-mn-first-tranche/",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-31",
+    "company": "Ola Electric",
+    "amount": 39996.5,
+    "stage": "Series A",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Tiger Global Management",
+      "Matrix Partners India",
+      "Ratan Tata"
+    ],
+    "leadInvestor": "Tiger Global Management",
+    "date": "2019-05-06",
+    "location": "Bengaluru",
+    "description": "Ola Electric raised ₹400.0 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/05/ratan-tata-funding-ola-electric-bhavish-aggarwal",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-32",
+    "company": "Saahas Zero Waste",
+    "amount": 601.1999999999999,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "CleanTech"
+    ],
+    "investors": [
+      "Capital 4 Development",
+      "Indian Angel Network",
+      "Lesing-Artha Ventures",
+      "Asha Impact"
+    ],
+    "leadInvestor": "Capital 4 Development",
+    "date": "2019-05-06",
+    "location": "Bengaluru",
+    "description": "Saahas Zero Waste raised ₹6.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/05/funding-waste-management-startup-saahas-zero-waste-raises-6-cr",
+    "weekFolder": "W6 Q1 FY20"
+  },
+  {
+    "id": "W6 Q1 FY20-34",
+    "company": "Ola Electric Mobility",
+    "amount": 0,
+    "stage": "Series A",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Ratan Tata",
+      "Tiger Global",
+      "Matrix India"
+    ],
+    "leadInvestor": "Ratan Tata",
+    "date": "2019-05-06",
+    "location": "Bengaluru",
+    "description": "Ola Electric Mobility raised funding in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/ratan-tata-ola-electric-mobility-series-a-funding/",
     "weekFolder": "W6 Q1 FY20"
   },
   {
@@ -49181,7 +58819,89 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q1 FY20"
   },
   {
-    "id": "W5 Q1 FY20-11",
+    "id": "W5 Q1 FY20-12",
+    "company": "Healthkart",
+    "amount": 20875,
+    "stage": "Series G",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Advent Management"
+    ],
+    "leadInvestor": "Advent Management",
+    "date": "2019-05-03",
+    "location": "Gurugram",
+    "description": "Healthkart raised ₹208.8 Cr in Series G round.",
+    "sourceUrl": "https://entrackr.com/2019/05/healthkart-raise-25-mn-advent-management/",
+    "weekFolder": "W5 Q1 FY20"
+  },
+  {
+    "id": "W5 Q1 FY20-22",
+    "company": "StyleDotMe",
+    "amount": 0,
+    "stage": "Bridge",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Indian Angel Network",
+      "Ambarish Raghuvanshi",
+      "Ajay Gupta",
+      "Deval Tibrewalla",
+      "Rajan Anandan",
+      "Ritesh Malik",
+      "Supriya Paul"
+    ],
+    "leadInvestor": "Indian Angel Network",
+    "date": "2019-05-03",
+    "location": "Delhi",
+    "description": "StyleDotMe raised funding in Bridge round.",
+    "sourceUrl": "https://yourstory.com/2019/05/startup-styledotme-funding-ian-angel-investors",
+    "weekFolder": "W5 Q1 FY20"
+  },
+  {
+    "id": "W5 Q1 FY20-23",
+    "company": "Flynote",
+    "amount": 1402.8,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Travel"
+    ],
+    "investors": [
+      "Surge",
+      "Sequoia Capital",
+      "India Quotient"
+    ],
+    "leadInvestor": "Surge",
+    "date": "2019-05-03",
+    "location": "Bengaluru",
+    "description": "Flynote raised ₹14.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/05/travel-startup-flynote-funding-sequoia-surge",
+    "weekFolder": "W5 Q1 FY20"
+  },
+  {
+    "id": "W5 Q1 FY20-26",
+    "company": "Ftcash",
+    "amount": 6037.05,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "FMO",
+      "Accion International",
+      "IvyCap Ventures"
+    ],
+    "leadInvestor": "FMO",
+    "date": "2019-05-03",
+    "location": "Mumbai",
+    "description": "Ftcash raised ₹60.4 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/micro-lending-ftcash-series-a-funding/",
+    "weekFolder": "W5 Q1 FY20"
+  },
+  {
+    "id": "W5 Q1 FY20-10",
     "company": "Blackbuck",
     "amount": 125250,
     "stage": "Series D",
@@ -49203,7 +58923,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q1 FY20"
   },
   {
-    "id": "W5 Q1 FY20-12",
+    "id": "W5 Q1 FY20-11",
     "company": "Atomberg Technologies",
     "amount": 1252.5,
     "stage": "Pre-Series A",
@@ -49221,7 +58941,93 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q1 FY20"
   },
   {
-    "id": "W5 Q1 FY20-9",
+    "id": "W5 Q1 FY20-18",
+    "company": "Pesto",
+    "amount": 1670,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Matrix Partners India",
+      "Sriharsha Majety",
+      "Rahul Jaimini",
+      "Nandan Reddy",
+      "Ritesh Malik",
+      "Ashish Tulsian",
+      "OIC Capital"
+    ],
+    "leadInvestor": "Matrix Partners India",
+    "date": "2019-05-02",
+    "location": "Delhi",
+    "description": "Pesto raised ₹16.7 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/05/swiggy-matrix-partners-pesto-startup-funding",
+    "weekFolder": "W5 Q1 FY20"
+  },
+  {
+    "id": "W5 Q1 FY20-19",
+    "company": "SARVA",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Jennifer Lopez",
+      "Alex Rodriguez",
+      "Malaika Arora",
+      "Zumba",
+      "David Giampaolo",
+      "Mark Mastrov",
+      "Bill Roedy"
+    ],
+    "leadInvestor": "Jennifer Lopez",
+    "date": "2019-05-02",
+    "location": "Mumbai",
+    "description": "SARVA raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/05/jennifer-lopez-malaika-arora-funding-sarva-yoga",
+    "weekFolder": "W5 Q1 FY20"
+  },
+  {
+    "id": "W5 Q1 FY20-20",
+    "company": "ftcash",
+    "amount": 5001.650000000001,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Accion",
+      "FMO",
+      "IvyCap Ventures"
+    ],
+    "leadInvestor": "Accion",
+    "date": "2019-05-02",
+    "location": "Mumbai",
+    "description": "ftcash raised ₹50.0 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/05/mumbai-fintech-startup-ftcash-funding-fmo",
+    "weekFolder": "W5 Q1 FY20"
+  },
+  {
+    "id": "W5 Q1 FY20-21",
+    "company": "1-India Family Mart",
+    "amount": 2004,
+    "stage": "Debt",
+    "sectors": [
+      "Retail"
+    ],
+    "investors": [
+      "APAC Financial Services"
+    ],
+    "leadInvestor": "APAC Financial Services",
+    "date": "2019-05-02",
+    "location": "Eastern and Northern India",
+    "description": "1-India Family Mart raised ₹20.0 Cr in Debt round.",
+    "sourceUrl": "https://yourstory.com/2019/05/oneindia-family-mart-funding-apac-financial-services",
+    "weekFolder": "W5 Q1 FY20"
+  },
+  {
+    "id": "W5 Q1 FY20-8",
     "company": "Happy",
     "amount": 16700,
     "stage": "Not Disclosed",
@@ -49239,7 +59045,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q1 FY20"
   },
   {
-    "id": "W5 Q1 FY20-10",
+    "id": "W5 Q1 FY20-9",
     "company": "BlackBuck",
     "amount": 125250,
     "stage": "Series D",
@@ -49261,9 +59067,48 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q1 FY20"
   },
   {
+    "id": "W5 Q1 FY20-16",
+    "company": "AccioJob",
+    "amount": 125.25,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Mehta Ventures",
+      "Y Combinator"
+    ],
+    "leadInvestor": "Mehta Ventures",
+    "date": "2019-05-01",
+    "location": "Gurugram",
+    "description": "AccioJob raised ₹1.3 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/05/ycombinator-acciojob-funding-mehta-ventures",
+    "weekFolder": "W5 Q1 FY20"
+  },
+  {
+    "id": "W5 Q1 FY20-17",
+    "company": "Zenoti",
+    "amount": 41750,
+    "stage": "Series C",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Tiger Global Management",
+      "Accel Partners",
+      "Norwest Venture Partners"
+    ],
+    "leadInvestor": "Tiger Global Management",
+    "date": "2019-05-01",
+    "location": "Hyderabad",
+    "description": "Zenoti raised ₹417.5 Cr in Series C round.",
+    "sourceUrl": "https://yourstory.com/2019/05/tiger-global-invests-50m-zenoti-saas-platform-accel-norwest-india",
+    "weekFolder": "W5 Q1 FY20"
+  },
+  {
     "id": "W5 Q1 FY20-2",
     "company": "Blackbuck",
-    "amount": 794085,
+    "amount": 0,
     "stage": "Series D",
     "sectors": [
       "Logistics"
@@ -49274,7 +59119,7 @@ export const fundingData: FundingDeal[] = [
     "leadInvestor": "Not Disclosed",
     "date": "2019-04-30",
     "location": "India",
-    "description": "Blackbuck raised ₹7940.9 Cr in Series D round.",
+    "description": "Blackbuck raised funding in Series D round.",
     "sourceUrl": "https://entrackr.com/2019/04/blackbuck-funding-valuation-951-mn/",
     "weekFolder": "W5 Q1 FY20"
   },
@@ -49333,23 +59178,76 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q1 FY20"
   },
   {
-    "id": "W5 Q1 FY20-8",
-    "company": "UiPath",
-    "amount": 474280,
+    "id": "W5 Q1 FY20-13",
+    "company": "Mihup",
+    "amount": 1252.5,
     "stage": "Series A",
     "sectors": [
       "Deeptech & AI"
     ],
     "investors": [
-      "Coatue",
-      "Wellington",
-      "Sands Capital"
+      "Accel Partners",
+      "Ideaspring Capital"
     ],
-    "leadInvestor": "Coatue",
+    "leadInvestor": "Accel Partners",
     "date": "2019-04-30",
-    "location": "India",
-    "description": "UiPath raised ₹4742.8 Cr in Series A round.",
-    "sourceUrl": "https://yourstory.com/2019/04/rpa-uipath-funding-seven-billion-valuation",
+    "location": "Kolkata",
+    "description": "Mihup raised ₹12.5 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/04/accel-partners-ideaspring-capital-mihup-funding",
+    "weekFolder": "W5 Q1 FY20"
+  },
+  {
+    "id": "W5 Q1 FY20-14",
+    "company": "ZunRoof",
+    "amount": 1002,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "CleanTech"
+    ],
+    "investors": [
+      "Godrej"
+    ],
+    "leadInvestor": "Godrej",
+    "date": "2019-04-30",
+    "location": "Gurgaon",
+    "description": "ZunRoof raised ₹10.0 Cr in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/04/startup-zunroof-funding-godrej-solar-energy",
+    "weekFolder": "W5 Q1 FY20"
+  },
+  {
+    "id": "W5 Q1 FY20-15",
+    "company": "Chqbook",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Harsha Bhogle"
+    ],
+    "leadInvestor": "Harsha Bhogle",
+    "date": "2019-04-30",
+    "location": "Gurugram",
+    "description": "Chqbook raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/04/veteran-cricketer-harsha-bhogle-now-invests-in-gur",
+    "weekFolder": "W5 Q1 FY20"
+  },
+  {
+    "id": "W5 Q1 FY20-27",
+    "company": "Quest2Travel",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Travel Tech"
+    ],
+    "investors": [
+      "MakeMyTrip"
+    ],
+    "leadInvestor": "MakeMyTrip",
+    "date": "2019-04-30",
+    "location": "Mumbai",
+    "description": "Quest2Travel raised funding in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/makemytrip-acquires-corporate-travel-startup-quest2travel/",
     "weekFolder": "W5 Q1 FY20"
   },
   {
@@ -49388,6 +59286,45 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "NBFC InCred raised ₹600.0 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/04/fintech-startup-funding-nbfc-incred",
+    "weekFolder": "W5 Q1 FY20"
+  },
+  {
+    "id": "W5 Q1 FY20-24",
+    "company": "Milkbasket",
+    "amount": 2004,
+    "stage": "Debt",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "BAC Acquisitions"
+    ],
+    "leadInvestor": "BAC Acquisitions",
+    "date": "2019-04-29",
+    "location": "Gurugram",
+    "description": "Milkbasket raised ₹20.0 Cr in Debt round.",
+    "sourceUrl": "https://entrackr.com/2019/04/milkbasket-funding-sachin-bansal-back-acquisitions/",
+    "weekFolder": "W5 Q1 FY20"
+  },
+  {
+    "id": "W5 Q1 FY20-25",
+    "company": "Altizon",
+    "amount": 5845,
+    "stage": "Series A",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "TVS Motor (Singapore)",
+      "The Hive",
+      "Wipro Ventures",
+      "Lumis Partners"
+    ],
+    "leadInvestor": "TVS Motor (Singapore)",
+    "date": "2019-04-29",
+    "location": "Pune",
+    "description": "Altizon raised ₹58.5 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/altizon-iot-startup-series-a-funding/",
     "weekFolder": "W5 Q1 FY20"
   },
   {
@@ -49440,6 +59377,31 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W4 Q1 FY20"
   },
   {
+    "id": "W4 Q1 FY20-14",
+    "company": "simsim",
+    "amount": 1252.5,
+    "stage": "Seed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Rajan Anandan",
+      "Sunil Kalra",
+      "Gaurav Bedi",
+      "Maninder Gulati",
+      "Suhail Sameer",
+      "Sakshi Gudwani",
+      "Ankit Khera",
+      "Acorn Heavy Industry"
+    ],
+    "leadInvestor": "Rajan Anandan",
+    "date": "2019-04-26",
+    "location": "Delhi",
+    "description": "simsim raised ₹12.5 Cr in Seed round.",
+    "sourceUrl": "https://entrackr.com/2019/04/exclusive-simsim-bags-1-5-mn/",
+    "weekFolder": "W4 Q1 FY20"
+  },
+  {
     "id": "W4 Q1 FY20-5",
     "company": "Coursera",
     "amount": 86005,
@@ -49457,6 +59419,43 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "Coursera raised ₹860.0 Cr in Series D round.",
     "sourceUrl": "https://yourstory.com/2019/04/edtech-coursera-funding-seek-group",
+    "weekFolder": "W4 Q1 FY20"
+  },
+  {
+    "id": "W4 Q1 FY20-15",
+    "company": "Azani Sports",
+    "amount": 141.95,
+    "stage": "Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Surge",
+      "Sequoia Capital"
+    ],
+    "leadInvestor": "Surge",
+    "date": "2019-04-25",
+    "location": "India",
+    "description": "Azani Sports raised ₹1.4 Cr in Series A round.",
+    "sourceUrl": "https://entrackr.com/2019/04/funding-flynote-azani-skillmatics/",
+    "weekFolder": "W4 Q1 FY20"
+  },
+  {
+    "id": "W4 Q1 FY20-20",
+    "company": "Zefo",
+    "amount": 19998.25,
+    "stage": "Acquisition",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Quikr"
+    ],
+    "leadInvestor": "Quikr",
+    "date": "2019-04-25",
+    "location": "Bengaluru",
+    "description": "Zefo raised ₹200.0 Cr in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/breaking-quikr-acquires-used-goods-marketplace-zefo/",
     "weekFolder": "W4 Q1 FY20"
   },
   {
@@ -49500,6 +59499,108 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Premier League raised ₹296.4 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/04/startup-funding-esports-mobile-premier-league",
+    "weekFolder": "W4 Q1 FY20"
+  },
+  {
+    "id": "W4 Q1 FY20-11",
+    "company": "Ninjacart",
+    "amount": 74315,
+    "stage": "Series A",
+    "sectors": [
+      "Agritech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-04-24",
+    "location": "Bengaluru",
+    "description": "Ninjacart raised ₹743.1 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/agritech-startup-ninjacart-secures-tiger-global/",
+    "weekFolder": "W4 Q1 FY20"
+  },
+  {
+    "id": "W4 Q1 FY20-12",
+    "company": "Vue.ai",
+    "amount": 14195,
+    "stage": "Series B",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Falcon Edge Capital",
+      "Sequoia Capital India",
+      "Global Brain"
+    ],
+    "leadInvestor": "Falcon Edge Capital",
+    "date": "2019-04-24",
+    "location": "Chennai",
+    "description": "Vue.ai raised ₹141.9 Cr in Series B round.",
+    "sourceUrl": "https://yourstory.com/2019/04/startup-funding-mad-street-den-vue-ai-falcon-edge",
+    "weekFolder": "W4 Q1 FY20"
+  },
+  {
+    "id": "W4 Q1 FY20-16",
+    "company": "MPL",
+    "amount": 29642.5,
+    "stage": "Series A",
+    "sectors": [
+      "Gaming"
+    ],
+    "investors": [
+      "Go-Jek",
+      "Sequoia Capital",
+      "Times Internet Limited",
+      "RTP Global",
+      "BeeNext",
+      "Base Growth",
+      "Venture Highway"
+    ],
+    "leadInvestor": "Go-Jek",
+    "date": "2019-04-24",
+    "location": "Bengaluru",
+    "description": "MPL raised ₹296.4 Cr in Series A round.",
+    "sourceUrl": "https://entrackr.com/2019/04/mpl-funding-go-jek-sequoia-til/",
+    "weekFolder": "W4 Q1 FY20"
+  },
+  {
+    "id": "W4 Q1 FY20-18",
+    "company": "Mad Street Den",
+    "amount": 14195,
+    "stage": "Series B",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Falcon Edge Capital",
+      "Sequoia Capital India",
+      "Global Brain"
+    ],
+    "leadInvestor": "Falcon Edge Capital",
+    "date": "2019-04-24",
+    "location": "Chennai",
+    "description": "Mad Street Den raised ₹141.9 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/falcon-edge-funding-vue-ai-mad-street-den/",
+    "weekFolder": "W4 Q1 FY20"
+  },
+  {
+    "id": "W4 Q1 FY20-19",
+    "company": "Quick Ride",
+    "amount": 10078.45,
+    "stage": "Series B",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Sequoia Capital",
+      "Naspers",
+      "Venture Highway"
+    ],
+    "leadInvestor": "Sequoia Capital",
+    "date": "2019-04-24",
+    "location": "Bengaluru",
+    "description": "Quick Ride raised ₹100.8 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/sequoia-naspers-venture-highway-quick-ride-funding/",
     "weekFolder": "W4 Q1 FY20"
   },
   {
@@ -49586,6 +59687,27 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W4 Q1 FY20"
   },
   {
+    "id": "W4 Q1 FY20-13",
+    "company": "mfine",
+    "amount": 14362,
+    "stage": "Series B",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "SBI Investment",
+      "BEENEXT",
+      "Stellaris Venture Partners",
+      "Prime Venture Partners"
+    ],
+    "leadInvestor": "SBI Investment",
+    "date": "2019-04-23",
+    "location": "Bengaluru",
+    "description": "mfine raised ₹143.6 Cr in Series B round.",
+    "sourceUrl": "https://yourstory.com/2019/04/myntra-co-founders-startup-mfine-raises-172m-in-se",
+    "weekFolder": "W4 Q1 FY20"
+  },
+  {
     "id": "W4 Q1 FY20-10",
     "company": "Bounce",
     "amount": 2505,
@@ -49610,6 +59732,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W4 Q1 FY20"
   },
   {
+    "id": "W4 Q1 FY20-17",
+    "company": "DailyRounds",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "M3 India"
+    ],
+    "leadInvestor": "M3 India",
+    "date": "2019-04-22",
+    "location": "Bengaluru",
+    "description": "DailyRounds raised funding in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/healthtech-m3-majority-stake-dailyrounds/",
+    "weekFolder": "W4 Q1 FY20"
+  },
+  {
     "id": "W3 Q1 FY20-1",
     "company": "Shuttl",
     "amount": 16700,
@@ -49631,6 +59771,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W3 Q1 FY20"
   },
   {
+    "id": "W3 Q1 FY20-10",
+    "company": "FreshoKartz",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Agritech"
+    ],
+    "investors": [
+      "Sunil Kumar Singhvi"
+    ],
+    "leadInvestor": "Sunil Kumar Singhvi",
+    "date": "2019-04-20",
+    "location": "Rajasthan",
+    "description": "FreshoKartz raised funding in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-agritech-startup-freshokartz-expand-after-seed-funding/",
+    "weekFolder": "W3 Q1 FY20"
+  },
+  {
     "id": "W3 Q1 FY20-4",
     "company": "MyHealthcare",
     "amount": 2505,
@@ -49646,6 +59804,43 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "MyHealthcare raised ₹25.1 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/04/myhealthcare-funding-sixth-sense-ventures",
+    "weekFolder": "W3 Q1 FY20"
+  },
+  {
+    "id": "W3 Q1 FY20-6",
+    "company": "INCREFF",
+    "amount": 2505,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "021 Capital",
+      "Binny Bansal"
+    ],
+    "leadInvestor": "021 Capital",
+    "date": "2019-04-17",
+    "location": "Bengaluru",
+    "description": "INCREFF raised ₹25.1 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/04/binny-bansal-increff-startup-funding",
+    "weekFolder": "W3 Q1 FY20"
+  },
+  {
+    "id": "W3 Q1 FY20-8",
+    "company": "Quikr",
+    "amount": 2004,
+    "stage": "Venture Debt",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Trifecta Capital"
+    ],
+    "leadInvestor": "Trifecta Capital",
+    "date": "2019-04-17",
+    "location": "Bengaluru",
+    "description": "Quikr raised ₹20.0 Cr in Venture Debt round.",
+    "sourceUrl": "https://entrackr.com/2019/04/quikr-raises-20-cr-trifecta/",
     "weekFolder": "W3 Q1 FY20"
   },
   {
@@ -49682,6 +59877,61 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Kuvera raised ₹37.6 Cr in Series A round.",
     "sourceUrl": "https://entrackr.com/2019/04/kuvera-4-5-mn-funding-eight-roads/",
+    "weekFolder": "W3 Q1 FY20"
+  },
+  {
+    "id": "W3 Q1 FY20-5",
+    "company": "AtomX",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "BookMyShow"
+    ],
+    "leadInvestor": "BookMyShow",
+    "date": "2019-04-16",
+    "location": "Pune",
+    "description": "AtomX raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/04/bookmyshow-strategic-investment-payments-startup-atomx",
+    "weekFolder": "W3 Q1 FY20"
+  },
+  {
+    "id": "W3 Q1 FY20-9",
+    "company": "WhiteHat Jr",
+    "amount": 1085.5,
+    "stage": "Seed",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Nexus Venture Partners",
+      "Omidyar Network India"
+    ],
+    "leadInvestor": "Nexus Venture Partners",
+    "date": "2019-04-16",
+    "location": "Mumbai",
+    "description": "WhiteHat Jr raised ₹10.9 Cr in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/karan-bajaj-whitehat-jr-seed-funding/",
+    "weekFolder": "W3 Q1 FY20"
+  },
+  {
+    "id": "W3 Q1 FY20-7",
+    "company": "Amplus",
+    "amount": 269997.25,
+    "stage": "Acquisition",
+    "sectors": [
+      "CleanTech"
+    ],
+    "investors": [
+      "Petronas"
+    ],
+    "leadInvestor": "Petronas",
+    "date": "2019-04-15",
+    "location": "India",
+    "description": "Amplus raised ₹2700.0 Cr in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/04/petronas-acquires-amplus-solar-energy-company",
     "weekFolder": "W3 Q1 FY20"
   },
   {
@@ -49769,6 +60019,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W2 Q1 FY20"
   },
   {
+    "id": "W2 Q1 FY20-21",
+    "company": "Wibmo",
+    "amount": 58450,
+    "stage": "Acquisition",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "PayU"
+    ],
+    "leadInvestor": "PayU",
+    "date": "2019-04-12",
+    "location": "Bengaluru",
+    "description": "Wibmo raised ₹584.5 Cr in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/official-payu-acquires-online-payments-processor-wibmo/",
+    "weekFolder": "W2 Q1 FY20"
+  },
+  {
     "id": "W2 Q1 FY20-3",
     "company": "Azah",
     "amount": 3340,
@@ -49821,6 +60089,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Setu raised ₹29.2 Cr in Seed round.",
     "sourceUrl": "https://yourstory.com/2019/04/sahil-kini-fintech-venture-setu-raises-35m",
+    "weekFolder": "W2 Q1 FY20"
+  },
+  {
+    "id": "W2 Q1 FY20-18",
+    "company": "ShoeKonnect",
+    "amount": 601.1999999999999,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Info Edge"
+    ],
+    "leadInvestor": "Info Edge",
+    "date": "2019-04-11",
+    "location": "Agra",
+    "description": "ShoeKonnect raised ₹6.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/04/naukri-info-edge-invests-shoekonnect-gramophone",
     "weekFolder": "W2 Q1 FY20"
   },
   {
@@ -49982,6 +60268,25 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W2 Q1 FY20"
   },
   {
+    "id": "W2 Q1 FY20-20",
+    "company": "GlowRoad",
+    "amount": 8350,
+    "stage": "Series B",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "CDH Investments",
+      "Accel Partners"
+    ],
+    "leadInvestor": "CDH Investments",
+    "date": "2019-04-09",
+    "location": "Bengaluru",
+    "description": "GlowRoad raised ₹83.5 Cr in Series B round.",
+    "sourceUrl": "https://entrackr.com/2019/04/glowroad-funding-cdh-accel/",
+    "weekFolder": "W2 Q1 FY20"
+  },
+  {
     "id": "W2 Q1 FY20-7",
     "company": "Kuliza",
     "amount": 2505,
@@ -50019,7 +60324,47 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W2 Q1 FY20"
   },
   {
-    "id": "W1 Q1 FY20-5",
+    "id": "W2 Q1 FY20-19",
+    "company": "UrbanClap",
+    "amount": 158.65,
+    "stage": "Series D",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Kalyan Krishnamurthy"
+    ],
+    "leadInvestor": "Kalyan Krishnamurthy",
+    "date": "2019-04-08",
+    "location": "Gurugram",
+    "description": "UrbanClap raised ₹1.6 Cr in Series D round.",
+    "sourceUrl": "https://yourstory.com/2019/04/flipkart-kalyan-krishnamurthy-funding-urbanclap",
+    "weekFolder": "W2 Q1 FY20"
+  },
+  {
+    "id": "W1 Q1 FY20-15",
+    "company": "AIBono",
+    "amount": 2087.5,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "AgriTech"
+    ],
+    "investors": [
+      "Menterra Venture Advisors",
+      "Artha Initiatives",
+      "Milliways Ventures",
+      "Rebright Partners",
+      "3one4 Capital"
+    ],
+    "leadInvestor": "Menterra Venture Advisors",
+    "date": "2019-04-06",
+    "location": "Bengaluru",
+    "description": "AIBono raised ₹20.9 Cr in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/04/seed-fork-tech-company-helping-farmers",
+    "weekFolder": "W1 Q1 FY20"
+  },
+  {
+    "id": "W1 Q1 FY20-4",
     "company": "Blackbuck",
     "amount": 55001.450000000004,
     "stage": "Not Disclosed",
@@ -50044,7 +60389,29 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY20"
   },
   {
-    "id": "W1 Q1 FY20-6",
+    "id": "W1 Q1 FY20-28",
+    "company": "Dunzo",
+    "amount": 7999.299999999999,
+    "stage": "Series C",
+    "sectors": [
+      "Consumer Services"
+    ],
+    "investors": [
+      "Google",
+      "Blume Ventures",
+      "Alteria Capital",
+      "Greyhound",
+      "Beeline"
+    ],
+    "leadInvestor": "Google",
+    "date": "2019-04-05",
+    "location": "Bengaluru",
+    "description": "Dunzo raised ₹80.0 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/not-just-an-errand-boy-dunzo-is-closing-inr-80-cr-to-power-its-hyperlocal-delivery-ambitions/",
+    "weekFolder": "W1 Q1 FY20"
+  },
+  {
+    "id": "W1 Q1 FY20-5",
     "company": "LivGuard",
     "amount": 22002.25,
     "stage": "Not Disclosed",
@@ -50062,7 +60429,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY20"
   },
   {
-    "id": "W1 Q1 FY20-7",
+    "id": "W1 Q1 FY20-6",
     "company": "Teamonk Global",
     "amount": 835,
     "stage": "Pre-Series A",
@@ -50080,7 +60447,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY20"
   },
   {
-    "id": "W1 Q1 FY20-8",
+    "id": "W1 Q1 FY20-7",
     "company": "WedMeGood",
     "amount": 2171,
     "stage": "Series A",
@@ -50095,6 +60462,61 @@ export const fundingData: FundingDeal[] = [
     "location": "Gurugram",
     "description": "WedMeGood raised ₹21.7 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/04/online-wedding-platform-wedmegood-funding",
+    "weekFolder": "W1 Q1 FY20"
+  },
+  {
+    "id": "W1 Q1 FY20-14",
+    "company": "BharatPe",
+    "amount": 12942.5,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-04-04",
+    "location": "Delhi",
+    "description": "BharatPe raised ₹129.4 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/bharatpe-raises-15-5-mn-in-series-a-round-from-sequoia-insight-partners/",
+    "weekFolder": "W1 Q1 FY20"
+  },
+  {
+    "id": "W1 Q1 FY20-16",
+    "company": "Utkal Tubers",
+    "amount": 1002,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "AgriTech"
+    ],
+    "investors": [
+      "IPM Potato Group"
+    ],
+    "leadInvestor": "IPM Potato Group",
+    "date": "2019-04-04",
+    "location": "Bengaluru",
+    "description": "Utkal Tubers raised ₹10.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/04/potato-startup-raised-strategic-funding",
+    "weekFolder": "W1 Q1 FY20"
+  },
+  {
+    "id": "W1 Q1 FY20-20",
+    "company": "Teamonk",
+    "amount": 835,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Rajat Gupta",
+      "Roots Ventures"
+    ],
+    "leadInvestor": "Rajat Gupta",
+    "date": "2019-04-04",
+    "location": "Bengaluru",
+    "description": "Teamonk raised ₹8.3 Cr in Pre-Series A round.",
+    "sourceUrl": "https://entrackr.com/2019/04/teamonk-funding-rajat-gupta/",
     "weekFolder": "W1 Q1 FY20"
   },
   {
@@ -50134,7 +60556,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY20"
   },
   {
-    "id": "W1 Q1 FY20-9",
+    "id": "W1 Q1 FY20-8",
     "company": "Cars24",
     "amount": 7748.8,
     "stage": "Series C",
@@ -50152,7 +60574,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY20"
   },
   {
-    "id": "W1 Q1 FY20-10",
+    "id": "W1 Q1 FY20-9",
     "company": "LBB",
     "amount": 4175,
     "stage": "Series A",
@@ -50175,6 +60597,84 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY20"
   },
   {
+    "id": "W1 Q1 FY20-17",
+    "company": "Haptik",
+    "amount": 69998.05,
+    "stage": "Acquisition",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Reliance Jio"
+    ],
+    "leadInvestor": "Reliance Jio",
+    "date": "2019-04-03",
+    "location": "Mumbai",
+    "description": "Haptik raised ₹700.0 Cr in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/04/reliance-jio-acquires-majority-stake-haptik-aurhjy",
+    "weekFolder": "W1 Q1 FY20"
+  },
+  {
+    "id": "W1 Q1 FY20-21",
+    "company": "Transerv",
+    "amount": 4600.849999999999,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Indiabulls Consumer Finance"
+    ],
+    "leadInvestor": "Indiabulls Consumer Finance",
+    "date": "2019-04-03",
+    "location": "Mumbai",
+    "description": "Transerv raised ₹46.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/04/indiabulls-fund-transerv-acquire-stake/",
+    "weekFolder": "W1 Q1 FY20"
+  },
+  {
+    "id": "W1 Q1 FY20-26",
+    "company": "Intello Labs",
+    "amount": 1670,
+    "stage": "Seed",
+    "sectors": [
+      "Agritech"
+    ],
+    "investors": [
+      "Nexus Venture Partners",
+      "Omnivore"
+    ],
+    "leadInvestor": "Nexus Venture Partners",
+    "date": "2019-04-03",
+    "location": "Gurugram",
+    "description": "Intello Labs raised ₹16.7 Cr in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/omnivore-nexus-venture-invests-2-mn-in-agritech-startup-intello-labs/",
+    "weekFolder": "W1 Q1 FY20"
+  },
+  {
+    "id": "W1 Q1 FY20-27",
+    "company": "Little Black Book",
+    "amount": 4175,
+    "stage": "Series A",
+    "sectors": [
+      "Consumer Services"
+    ],
+    "investors": [
+      "Inventus India",
+      "IAN Fund",
+      "Dream Incubator",
+      "Akatsuki Entertainment Technology Fund",
+      "Blume Ventures",
+      "Chiratae Ventures"
+    ],
+    "leadInvestor": "Inventus India",
+    "date": "2019-04-03",
+    "location": "Delhi",
+    "description": "Little Black Book raised ₹41.8 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/japanese-and-indian-investors-invest-5-mn-in-little-black-book/",
+    "weekFolder": "W1 Q1 FY20"
+  },
+  {
     "id": "W1 Q1 FY20-3",
     "company": "KidzByte",
     "amount": 200.39999999999998,
@@ -50193,7 +60693,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY20"
   },
   {
-    "id": "W1 Q1 FY20-11",
+    "id": "W1 Q1 FY20-10",
     "company": "Lavelle Networks",
     "amount": 1670,
     "stage": "Series A",
@@ -50214,7 +60714,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY20"
   },
   {
-    "id": "W1 Q1 FY20-12",
+    "id": "W1 Q1 FY20-11",
     "company": "SurveySparrow",
     "amount": 1169,
     "stage": "Seed",
@@ -50232,25 +60732,30 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY20"
   },
   {
-    "id": "W1 Q1 FY20-4",
-    "company": "Airbnb",
-    "amount": 835000,
-    "stage": "Series E",
+    "id": "W1 Q1 FY20-22",
+    "company": "Little Black Book",
+    "amount": 4175,
+    "stage": "Series A",
     "sectors": [
-      "General"
+      "E-commerce"
     ],
     "investors": [
-      "SoftBank"
+      "Inventus India",
+      "IAN Fund",
+      "Dream Incubator",
+      "Akatsuki Entertainment Technology (AET) Fund",
+      "Blume Ventures",
+      "Chiratae Ventures"
     ],
-    "leadInvestor": "SoftBank",
-    "date": "2019-04-01",
-    "location": "India",
-    "description": "Airbnb raised ₹8350.0 Cr in Series E round.",
-    "sourceUrl": "https://entrackr.com/2019/04/airbnb-investment-oyo-series-e/",
+    "leadInvestor": "Inventus India",
+    "date": "2019-04-02",
+    "location": "Delhi",
+    "description": "Little Black Book raised ₹41.8 Cr in Series A round.",
+    "sourceUrl": "https://entrackr.com/2019/04/little-black-book-fund-5-mn/",
     "weekFolder": "W1 Q1 FY20"
   },
   {
-    "id": "W1 Q1 FY20-13",
+    "id": "W1 Q1 FY20-12",
     "company": "Nykaa",
     "amount": 10003.300000000001,
     "stage": "Acquisition",
@@ -50269,7 +60774,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY20"
   },
   {
-    "id": "W1 Q1 FY20-14",
+    "id": "W1 Q1 FY20-13",
     "company": "Baxi-Fresh",
     "amount": 200.39999999999998,
     "stage": "Bridge",
@@ -50284,6 +60789,99 @@ export const fundingData: FundingDeal[] = [
     "location": "Gurugram",
     "description": "Baxi-Fresh raised ₹2.0 Cr in Bridge round.",
     "sourceUrl": "https://yourstory.com/2019/04/funding-alert-micro-delivery-startup-baxi-fresh-4t3zdydwmz",
+    "weekFolder": "W1 Q1 FY20"
+  },
+  {
+    "id": "W1 Q1 FY20-18",
+    "company": "FastFox.com",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "PropTech"
+    ],
+    "investors": [
+      "Elara Technologies"
+    ],
+    "leadInvestor": "Elara Technologies",
+    "date": "2019-04-01",
+    "location": "Gurugram",
+    "description": "FastFox.com raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/04/housing-parent-elara-technologies-acquisition-a4nuwnj4jr",
+    "weekFolder": "W1 Q1 FY20"
+  },
+  {
+    "id": "W1 Q1 FY20-19",
+    "company": "ten3T",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "ITI Growth Opportunities Fund",
+      "pi Ventures",
+      "Bhupen Shah",
+      "Vijay Chandru"
+    ],
+    "leadInvestor": "ITI Growth Opportunities Fund",
+    "date": "2019-04-01",
+    "location": "Bengaluru",
+    "description": "ten3T raised funding in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/04/medical-wearable-startup-ten3t-funding-ij08i4zg1z",
+    "weekFolder": "W1 Q1 FY20"
+  },
+  {
+    "id": "W1 Q1 FY20-23",
+    "company": "CaratLane",
+    "amount": 9986.6,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Titan Company"
+    ],
+    "leadInvestor": "Titan Company",
+    "date": "2019-04-01",
+    "location": "Chennai",
+    "description": "CaratLane raised ₹99.9 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/titan-increases-its-stake-in-online-jewellery-startup-caratlane/",
+    "weekFolder": "W1 Q1 FY20"
+  },
+  {
+    "id": "W1 Q1 FY20-24",
+    "company": "OYO",
+    "amount": 167000,
+    "stage": "Series E",
+    "sectors": [
+      "Travel Tech"
+    ],
+    "investors": [
+      "Airbnb"
+    ],
+    "leadInvestor": "Airbnb",
+    "date": "2019-04-01",
+    "location": "Gurugram",
+    "description": "OYO raised ₹1670.0 Cr in Series E round.",
+    "sourceUrl": "https://inc42.com/buzz/breaking-airbnb-invests-nearly-200-mn-in-oyo/",
+    "weekFolder": "W1 Q1 FY20"
+  },
+  {
+    "id": "W1 Q1 FY20-25",
+    "company": "FastFox",
+    "amount": 11690,
+    "stage": "Acquisition",
+    "sectors": [
+      "Real Estate Tech"
+    ],
+    "investors": [
+      "Elara Technologies"
+    ],
+    "leadInvestor": "Elara Technologies",
+    "date": "2019-04-01",
+    "location": "Gurugram",
+    "description": "FastFox raised ₹116.9 Cr in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/housing-parent-elara-technologies-acquires-rental-brokerage-startup-fastfox/",
     "weekFolder": "W1 Q1 FY20"
   },
   {
@@ -50341,6 +60939,43 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Series D raised ₹417.5 Cr in Series C round.",
     "sourceUrl": "https://yourstory.com/2019/03/furlenco-seriesc-close-lxqbcykpku",
+    "weekFolder": "W13 Q4 FY19"
+  },
+  {
+    "id": "W13 Q4 FY19-17",
+    "company": "Zivame",
+    "amount": 6003.65,
+    "stage": "Bridge",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Zodius Technology Fund",
+      "Allana Investment and Trading Company"
+    ],
+    "leadInvestor": "Zodius Technology Fund",
+    "date": "2019-03-30",
+    "location": "Bengaluru",
+    "description": "Zivame raised ₹60.0 Cr in Bridge round.",
+    "sourceUrl": "https://yourstory.com/2019/03/funding-alert-zivame-seriesc-allana-6zv3vqb89f",
+    "weekFolder": "W13 Q4 FY19"
+  },
+  {
+    "id": "W13 Q4 FY19-22",
+    "company": "Vogo",
+    "amount": 2505,
+    "stage": "Debt",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "BAC Acquisitions"
+    ],
+    "leadInvestor": "BAC Acquisitions",
+    "date": "2019-03-30",
+    "location": "Bengaluru",
+    "description": "Vogo raised ₹25.1 Cr in Debt round.",
+    "sourceUrl": "https://inc42.com/buzz/sachin-bansal-invests-6-mn-in-vogo-bounce-through-bac-acquisitions/",
     "weekFolder": "W13 Q4 FY19"
   },
   {
@@ -50429,6 +61064,81 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W13 Q4 FY19"
   },
   {
+    "id": "W13 Q4 FY19-13",
+    "company": "Shiksa",
+    "amount": 501,
+    "stage": "Seed",
+    "sectors": [
+      "General"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-03-29",
+    "location": "Jaipur",
+    "description": "Shiksa raised ₹5.0 Cr in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-eshiksa-raises-funds-to-digitise-indian-schools-and-colleges/",
+    "weekFolder": "W13 Q4 FY19"
+  },
+  {
+    "id": "W13 Q4 FY19-20",
+    "company": "Furlenco",
+    "amount": 4876.4,
+    "stage": "Series C",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Lightbox Ventures",
+      "Crescent Enterprises"
+    ],
+    "leadInvestor": "Lightbox Ventures",
+    "date": "2019-03-29",
+    "location": "Bengaluru",
+    "description": "Furlenco raised ₹48.8 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/furniture-rental-marketplace-furlenco-raises-5-84-mn-in-series-c-round/",
+    "weekFolder": "W13 Q4 FY19"
+  },
+  {
+    "id": "W13 Q4 FY19-21",
+    "company": "Zivame",
+    "amount": 1002,
+    "stage": "Series C",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Allana Investment and Trading Company"
+    ],
+    "leadInvestor": "Allana Investment and Trading Company",
+    "date": "2019-03-29",
+    "location": "Bengaluru",
+    "description": "Zivame raised ₹10.0 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/online-lingerie-retailer-zivame-raises-inr-10-cr-in-extended-series-c-round/",
+    "weekFolder": "W13 Q4 FY19"
+  },
+  {
+    "id": "W13 Q4 FY19-19",
+    "company": "BigBasket",
+    "amount": 125250,
+    "stage": "Series F",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Alibaba Group",
+      "Mirae Asset",
+      "CDC Group"
+    ],
+    "leadInvestor": "Alibaba Group",
+    "date": "2019-03-28",
+    "location": "Bengaluru",
+    "description": "BigBasket raised ₹1252.5 Cr in Series F round.",
+    "sourceUrl": "https://inc42.com/buzz/bigbasket-inches-closer-to-150-mn-fundraise-from-alibaba-mirae-cdc-group/",
+    "weekFolder": "W13 Q4 FY19"
+  },
+  {
     "id": "W13 Q4 FY19-6",
     "company": "Healofy",
     "amount": 6680,
@@ -50444,6 +61154,47 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Healofy raised ₹66.8 Cr in Not Disclosed .",
     "sourceUrl": "https://yourstory.com/2019/03/women-healofy-funding-babytree-omidyar-lghuifm0ru",
+    "weekFolder": "W13 Q4 FY19"
+  },
+  {
+    "id": "W13 Q4 FY19-16",
+    "company": "Bulbulshop",
+    "amount": 1402.8,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "10XF",
+      "Leo Capital",
+      "Sequoia Capital India",
+      "Mohan Krishna Lakhamraju"
+    ],
+    "leadInvestor": "10XF",
+    "date": "2019-03-27",
+    "location": "India",
+    "description": "Bulbulshop raised ₹14.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/03/funding-alert-bulbulshop-ecommerce-llb5iabmye",
+    "weekFolder": "W13 Q4 FY19"
+  },
+  {
+    "id": "W13 Q4 FY19-18",
+    "company": "Zetwerk",
+    "amount": 7515,
+    "stage": "Series A",
+    "sectors": [
+      "Enterprise Tech"
+    ],
+    "investors": [
+      "Accel Partners",
+      "Sequoia Capital India",
+      "Kae Capital"
+    ],
+    "leadInvestor": "Accel Partners",
+    "date": "2019-03-27",
+    "location": "Bengaluru",
+    "description": "Zetwerk raised ₹75.2 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/manufacturing-services-platform-zetwerk-raises-9-mn-series-a-funding/",
     "weekFolder": "W13 Q4 FY19"
   },
   {
@@ -50524,6 +61275,42 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W13 Q4 FY19"
   },
   {
+    "id": "W13 Q4 FY19-14",
+    "company": "New Street Technologies",
+    "amount": 1670,
+    "stage": "Seed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Unitus Ventures"
+    ],
+    "leadInvestor": "Unitus Ventures",
+    "date": "2019-03-26",
+    "location": "Bengaluru",
+    "description": "New Street Technologies raised ₹16.7 Cr in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/03/funding-blockchain-startup-raises-2m-unitus-zhup09u5vo",
+    "weekFolder": "W13 Q4 FY19"
+  },
+  {
+    "id": "W13 Q4 FY19-15",
+    "company": "Benani Foods",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "WayCool Foods"
+    ],
+    "leadInvestor": "WayCool Foods",
+    "date": "2019-03-26",
+    "location": "Chennai",
+    "description": "Benani Foods raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/03/waycool-foods-acquisition-benani-foods-nuhwsmmq5u",
+    "weekFolder": "W13 Q4 FY19"
+  },
+  {
     "id": "W12 Q4 FY19-6",
     "company": "Delhivery",
     "amount": 344855,
@@ -50541,6 +61328,61 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "Delhivery raised ₹3448.6 Cr in Not Disclosed .",
     "sourceUrl": "https://yourstory.com/2019/03/delhivery-raises-fresh-funding-413-million-rzvaaayvw",
+    "weekFolder": "W12 Q4 FY19"
+  },
+  {
+    "id": "W12 Q4 FY19-10",
+    "company": "Finova Capital",
+    "amount": 12525,
+    "stage": "Series B",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Faering Capital",
+      "Sequoia Capital"
+    ],
+    "leadInvestor": "Faering Capital",
+    "date": "2019-03-25",
+    "location": "Jaipur",
+    "description": "Finova Capital raised ₹125.3 Cr in Series B round.",
+    "sourceUrl": "https://yourstory.com/2019/03/jaipur-nbfc-finova-capital-raises-funding-vp61091ch9",
+    "weekFolder": "W12 Q4 FY19"
+  },
+  {
+    "id": "W12 Q4 FY19-11",
+    "company": "KiViHealth",
+    "amount": 8350,
+    "stage": "Acquisition",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Netmeds"
+    ],
+    "leadInvestor": "Netmeds",
+    "date": "2019-03-25",
+    "location": "India",
+    "description": "KiViHealth raised ₹83.5 Cr in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/03/netmeds-acquires-kivihealth-3rus7p0jpy",
+    "weekFolder": "W12 Q4 FY19"
+  },
+  {
+    "id": "W12 Q4 FY19-16",
+    "company": "New Street Technologies",
+    "amount": 1670,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Unitus Ventures"
+    ],
+    "leadInvestor": "Unitus Ventures",
+    "date": "2019-03-25",
+    "location": "Bengaluru",
+    "description": "New Street Technologies raised ₹16.7 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/blockchain-startup-new-street-technologies-raises-2-mn-led-by-unitus-ventures/",
     "weekFolder": "W12 Q4 FY19"
   },
   {
@@ -50566,6 +61408,43 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "Delhivery raised ₹3448.6 Cr in Series F round.",
     "sourceUrl": "https://entrackr.com/2019/03/delhivery-fund-413-mn-series-f-round/",
+    "weekFolder": "W12 Q4 FY19"
+  },
+  {
+    "id": "W12 Q4 FY19-15",
+    "company": "PhonePe",
+    "amount": 89846,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "PhonePe Pvt Ltd"
+    ],
+    "leadInvestor": "PhonePe Pvt Ltd",
+    "date": "2019-03-22",
+    "location": "Bengaluru",
+    "description": "PhonePe raised ₹898.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/ahead-of-ipl-flipkarts-phonepe-receives-107-6-mn-from-parent-entity/",
+    "weekFolder": "W12 Q4 FY19"
+  },
+  {
+    "id": "W12 Q4 FY19-12",
+    "company": "BYJU'S",
+    "amount": 21401.05,
+    "stage": "Series F",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "General Atlantic",
+      "Tencent"
+    ],
+    "leadInvestor": "General Atlantic",
+    "date": "2019-03-21",
+    "location": "Bengaluru",
+    "description": "BYJU'S raised ₹214.0 Cr in Series F round.",
+    "sourceUrl": "https://yourstory.com/2019/03/byjus-funding-general-atlantic-tencent-2yv8bkk19e",
     "weekFolder": "W12 Q4 FY19"
   },
   {
@@ -50624,6 +61503,60 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "FrontdeskAI raised ₹16.7 Cr in Pre-Series A round.",
     "sourceUrl": "https://yourstory.com/2019/03/ai-startup-frontdeskai-funding-pi-ventures-xvals63ogz",
+    "weekFolder": "W12 Q4 FY19"
+  },
+  {
+    "id": "W12 Q4 FY19-13",
+    "company": "Paper Boat",
+    "amount": 1210.75,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "A91 Partners"
+    ],
+    "leadInvestor": "A91 Partners",
+    "date": "2019-03-20",
+    "location": "Bengaluru",
+    "description": "Paper Boat raised ₹12.1 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/a91-partners-invests-1-45-mn-in-beverage-maker-paper-boat/",
+    "weekFolder": "W12 Q4 FY19"
+  },
+  {
+    "id": "W12 Q4 FY19-14",
+    "company": "BYJU'S",
+    "amount": 20875,
+    "stage": "Series G",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "General Atlantic"
+    ],
+    "leadInvestor": "General Atlantic",
+    "date": "2019-03-20",
+    "location": "Bengaluru",
+    "description": "BYJU'S raised ₹208.8 Cr in Series G round.",
+    "sourceUrl": "https://inc42.com/buzz/byjus-begins-series-g-funding-valued-at-5-bn-with-25-mn-from-general-atlantic/",
+    "weekFolder": "W12 Q4 FY19"
+  },
+  {
+    "id": "W12 Q4 FY19-17",
+    "company": "Qwikcilver",
+    "amount": 91850,
+    "stage": "Acquisition",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Pine Labs"
+    ],
+    "leadInvestor": "Pine Labs",
+    "date": "2019-03-20",
+    "location": "Bengaluru",
+    "description": "Qwikcilver raised ₹918.5 Cr in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/pine-labs-strengthens-gift-card-biz-with-acquisition-of-qwikcilver/",
     "weekFolder": "W12 Q4 FY19"
   },
   {
@@ -50777,6 +61710,61 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W11 Q4 FY19"
   },
   {
+    "id": "W11 Q4 FY19-17",
+    "company": "Mswipe",
+    "amount": 9602.5,
+    "stage": "Venture Debt",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-03-15",
+    "location": "Bengaluru",
+    "description": "Mswipe raised ₹96.0 Cr in Venture Debt round.",
+    "sourceUrl": "https://inc42.com/buzz/innoviti-eyes-expansion-with-11-5-mn-debt-funding/",
+    "weekFolder": "W11 Q4 FY19"
+  },
+  {
+    "id": "W11 Q4 FY19-20",
+    "company": "Nua",
+    "amount": 3340,
+    "stage": "Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Lightbox Ventures",
+      "Kae Capital"
+    ],
+    "leadInvestor": "Lightbox Ventures",
+    "date": "2019-03-15",
+    "location": "India",
+    "description": "Nua raised ₹33.4 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/03/lightbox-ventures-funding-nua-women-wellness-jkbd2hao1j",
+    "weekFolder": "W11 Q4 FY19"
+  },
+  {
+    "id": "W11 Q4 FY19-30",
+    "company": "Innov8",
+    "amount": 26586.399999999998,
+    "stage": "Acquisition",
+    "sectors": [
+      "Coworking"
+    ],
+    "investors": [
+      "OYO"
+    ],
+    "leadInvestor": "OYO",
+    "date": "2019-03-15",
+    "location": "Gurugram",
+    "description": "Innov8 raised ₹265.9 Cr in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/breaking-oyo-acquires-innov8-for-inr-220-cr-in-all-cash-deal/",
+    "weekFolder": "W11 Q4 FY19"
+  },
+  {
     "id": "W11 Q4 FY19-8",
     "company": "Acko",
     "amount": 54275,
@@ -50818,6 +61806,63 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "MSwipe raised ₹219.8 Cr in Series C round.",
     "sourceUrl": "https://yourstory.com/2019/03/mobile-payment-solution-startup-mswipe-funding-bkddyipg",
+    "weekFolder": "W11 Q4 FY19"
+  },
+  {
+    "id": "W11 Q4 FY19-16",
+    "company": "HotStar",
+    "amount": 127755,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "General"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-03-14",
+    "location": "India",
+    "description": "HotStar raised ₹1277.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/hotstar-raises-153-mn-to-up-its-game-for-the-indian-ott-market/",
+    "weekFolder": "W11 Q4 FY19"
+  },
+  {
+    "id": "W11 Q4 FY19-19",
+    "company": "Rebel Foods",
+    "amount": 13193,
+    "stage": "Series D",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Sequoia Capital India",
+      "Lightbox Ventures",
+      "Evolvence India"
+    ],
+    "leadInvestor": "Sequoia Capital India",
+    "date": "2019-03-14",
+    "location": "Pune",
+    "description": "Rebel Foods raised ₹131.9 Cr in Series D round.",
+    "sourceUrl": "https://yourstory.com/2019/03/faasos-rebel-foods-funding-sequoia-capital-7ykiciek58",
+    "weekFolder": "W11 Q4 FY19"
+  },
+  {
+    "id": "W11 Q4 FY19-29",
+    "company": "BlackBuck",
+    "amount": 36322.5,
+    "stage": "Series D",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "B Capital Asia",
+      "Global Private Opportunities Partners"
+    ],
+    "leadInvestor": "B Capital Asia",
+    "date": "2019-03-14",
+    "location": "Bengaluru",
+    "description": "BlackBuck raised ₹363.2 Cr in Series D round.",
+    "sourceUrl": "https://inc42.com/buzz/blackbuck-gets-the-unicorn-tag-at-1-1-bn-valuation-looks-to-raise-43-mn-more/",
     "weekFolder": "W11 Q4 FY19"
   },
   {
@@ -50876,6 +61921,142 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "Acko raised ₹542.8 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/03/insurance-startup-acko-funding-binny-bansal-74hfi30shw",
+    "weekFolder": "W11 Q4 FY19"
+  },
+  {
+    "id": "W11 Q4 FY19-15",
+    "company": "Amazon-Backed Acko",
+    "amount": 54275,
+    "stage": "Series C",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Catamaran Ventures"
+    ],
+    "leadInvestor": "Catamaran Ventures",
+    "date": "2019-03-13",
+    "location": "Mumbai",
+    "description": "Amazon-Backed Acko raised ₹542.8 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/amazon-backed-acko-raises-fresh-65-mn-in-series-c-from-binny-bansal-rps-ventures-others/",
+    "weekFolder": "W11 Q4 FY19"
+  },
+  {
+    "id": "W11 Q4 FY19-18",
+    "company": "Vivriti Capital",
+    "amount": 10996.949999999999,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Creation Investments"
+    ],
+    "leadInvestor": "Creation Investments",
+    "date": "2019-03-13",
+    "location": "Chennai",
+    "description": "Vivriti Capital raised ₹110.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/03/creation-investments-vivriti-capital-funding",
+    "weekFolder": "W11 Q4 FY19"
+  },
+  {
+    "id": "W11 Q4 FY19-21",
+    "company": "BlackBuck",
+    "amount": 35905,
+    "stage": "Series D",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "Goldman Sachs",
+      "B Capital"
+    ],
+    "leadInvestor": "Goldman Sachs",
+    "date": "2019-03-13",
+    "location": "Bengaluru",
+    "description": "BlackBuck raised ₹359.1 Cr in Series D round.",
+    "sourceUrl": "https://entrackr.com/2019/03/blackbuck-fundinf-43-mn/",
+    "weekFolder": "W11 Q4 FY19"
+  },
+  {
+    "id": "W11 Q4 FY19-22",
+    "company": "Nua",
+    "amount": 3340,
+    "stage": "Series A",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Lightbox",
+      "Kae Capital"
+    ],
+    "leadInvestor": "Lightbox",
+    "date": "2019-03-13",
+    "location": "Mumbai",
+    "description": "Nua raised ₹33.4 Cr in Series A round.",
+    "sourceUrl": "https://entrackr.com/2019/03/nua-funding-lighbox/",
+    "weekFolder": "W11 Q4 FY19"
+  },
+  {
+    "id": "W11 Q4 FY19-26",
+    "company": "Guiddoo",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Travel Tech"
+    ],
+    "investors": [
+      "SOSV",
+      "Artesian China Fund"
+    ],
+    "leadInvestor": "SOSV",
+    "date": "2019-03-13",
+    "location": "Mumbai",
+    "description": "Guiddoo raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/traveltech-startup-guiddoo-raises-funds-to-lure-in-chinas-tourists/",
+    "weekFolder": "W11 Q4 FY19"
+  },
+  {
+    "id": "W11 Q4 FY19-27",
+    "company": "Mswipe",
+    "amount": 26302.5,
+    "stage": "Series E",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "B Capital",
+      "DSG Consumer Partners",
+      "Epiq Capital",
+      "Falcon Edge"
+    ],
+    "leadInvestor": "B Capital",
+    "date": "2019-03-13",
+    "location": "Mumbai",
+    "description": "Mswipe raised ₹263.0 Cr in Series E round.",
+    "sourceUrl": "https://inc42.com/buzz/mswipe-looks-to-swipe-pos-industry-with-31-5-mn-series-e-funding/",
+    "weekFolder": "W11 Q4 FY19"
+  },
+  {
+    "id": "W11 Q4 FY19-28",
+    "company": "Whatfix",
+    "amount": 11022,
+    "stage": "Series B",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Eight Roads Ventures",
+      "F Prime Capital",
+      "Cisco Investments",
+      "Stellaris Venture Partners",
+      "Helion Venture Partners"
+    ],
+    "leadInvestor": "Eight Roads Ventures",
+    "date": "2019-03-13",
+    "location": "Bengaluru",
+    "description": "Whatfix raised ₹110.2 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/startups/enterprisetech-startup-whatfix-raises-13-2-mn-to-finance-headcount-tech-expansion/",
     "weekFolder": "W11 Q4 FY19"
   },
   {
@@ -50956,6 +62137,81 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Tosshead raised ₹25.1 Cr in Not Disclosed .",
     "sourceUrl": "https://yourstory.com/2019/03/event-management-tosshead-funding-oyo-partnership-az4d95wbyh",
+    "weekFolder": "W11 Q4 FY19"
+  },
+  {
+    "id": "W11 Q4 FY19-14",
+    "company": "Aibono",
+    "amount": 2087.5,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Agritech"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-03-12",
+    "location": "Bengaluru",
+    "description": "Aibono raised ₹20.9 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/agritech-startup-aibono-raises-2-5-mn-in-pre-series-a-funding-round/",
+    "weekFolder": "W11 Q4 FY19"
+  },
+  {
+    "id": "W11 Q4 FY19-23",
+    "company": "Yatra",
+    "amount": 280560,
+    "stage": "Acquisition",
+    "sectors": [
+      "Travel Tech"
+    ],
+    "investors": [
+      "Ebix"
+    ],
+    "leadInvestor": "Ebix",
+    "date": "2019-03-12",
+    "location": "Gurugram",
+    "description": "Yatra raised ₹2805.6 Cr in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/ebix-eyes-online-travel-market-offers-336-mn-acquisition-deal-to-yatra/",
+    "weekFolder": "W11 Q4 FY19"
+  },
+  {
+    "id": "W11 Q4 FY19-24",
+    "company": "The Wedding Brigade",
+    "amount": 835,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "AET Fund",
+      "Blume Ventures",
+      "Allana Group"
+    ],
+    "leadInvestor": "AET Fund",
+    "date": "2019-03-12",
+    "location": "Mumbai",
+    "description": "The Wedding Brigade raised ₹8.3 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/matrimonial-marketplace-the-wedding-brigade-raises-1-mn-led-by-aet-blume-ventures/",
+    "weekFolder": "W11 Q4 FY19"
+  },
+  {
+    "id": "W11 Q4 FY19-25",
+    "company": "&Me",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Matrix Partners India",
+      "Sauce.vc"
+    ],
+    "leadInvestor": "Matrix Partners India",
+    "date": "2019-03-12",
+    "location": "Bengaluru",
+    "description": "&Me raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/matrix-follows-up-with-fresh-funds-for-womens-health-focused-beverage-me/",
     "weekFolder": "W11 Q4 FY19"
   },
   {
@@ -51043,6 +62299,46 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q4 FY19"
   },
   {
+    "id": "W10 Q4 FY19-14",
+    "company": "StayAbode",
+    "amount": 1252.5,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Gaming"
+    ],
+    "investors": [
+      "IDFC Alternatives",
+      "Mirae Asset",
+      "Nexus Venture Partners",
+      "Ncubate Ca"
+    ],
+    "leadInvestor": "IDFC Alternatives",
+    "date": "2019-03-11",
+    "location": "Bengaluru",
+    "description": "StayAbode raised ₹12.5 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/coliving-space-creator-stayabode-receives-add-on-to-pre-series-a/",
+    "weekFolder": "W10 Q4 FY19"
+  },
+  {
+    "id": "W10 Q4 FY19-21",
+    "company": "BYJU'S",
+    "amount": 9544.05,
+    "stage": "Series F",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "General Atlantic",
+      "Tencent"
+    ],
+    "leadInvestor": "General Atlantic",
+    "date": "2019-03-11",
+    "location": "Bengaluru",
+    "description": "BYJU'S raised ₹95.4 Cr in Series F round.",
+    "sourceUrl": "https://inc42.com/buzz/there-is-no-stopping-edtech-unicorn-byjus-raises-up-to-inr-80-cr/",
+    "weekFolder": "W10 Q4 FY19"
+  },
+  {
     "id": "W10 Q4 FY19-1",
     "company": "Delhivery",
     "amount": 338175,
@@ -51107,6 +62403,47 @@ export const fundingData: FundingDeal[] = [
     "location": "Gurugram",
     "description": "Aye Finance raised ₹233.6 Cr in Series D round.",
     "sourceUrl": "https://yourstory.com/2019/03/funding-google-aye-finance-r-nkl3m55w2l",
+    "weekFolder": "W10 Q4 FY19"
+  },
+  {
+    "id": "W10 Q4 FY19-15",
+    "company": "Delhivery",
+    "amount": 329825,
+    "stage": "Series F",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "SoftBank Group",
+      "Carlyle Group",
+      "Fosun International"
+    ],
+    "leadInvestor": "SoftBank Group",
+    "date": "2019-03-07",
+    "location": "Gurgaon",
+    "description": "Delhivery raised ₹3298.3 Cr in Series F round.",
+    "sourceUrl": "https://yourstory.com/2019/03/unicorn-delhivery-startup-funding-softbank-0pnpj2doi5",
+    "weekFolder": "W10 Q4 FY19"
+  },
+  {
+    "id": "W10 Q4 FY19-16",
+    "company": "Aye Finance",
+    "amount": 23296.5,
+    "stage": "Series D",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Falcon Edge",
+      "CapitalG",
+      "LGT Capital",
+      "MAJ Invest"
+    ],
+    "leadInvestor": "Falcon Edge",
+    "date": "2019-03-07",
+    "location": "Gurugram",
+    "description": "Aye Finance raised ₹233.0 Cr in Series D round.",
+    "sourceUrl": "https://entrackr.com/2019/03/aye-finance-funding-series-d/",
     "weekFolder": "W10 Q4 FY19"
   },
   {
@@ -51186,6 +62523,43 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q4 FY19"
   },
   {
+    "id": "W10 Q4 FY19-17",
+    "company": "Delhivery",
+    "amount": 292250,
+    "stage": "Series F",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "SoftBank Vision Fund"
+    ],
+    "leadInvestor": "SoftBank Vision Fund",
+    "date": "2019-03-06",
+    "location": "Gurugram",
+    "description": "Delhivery raised ₹2922.5 Cr in Series F round.",
+    "sourceUrl": "https://entrackr.com/2019/03/softbank-fund-350-mn-delhivery/",
+    "weekFolder": "W10 Q4 FY19"
+  },
+  {
+    "id": "W10 Q4 FY19-20",
+    "company": "SMECorner",
+    "amount": 10604.5,
+    "stage": "Debt",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Quona Capital",
+      "Accion Venture Lab"
+    ],
+    "leadInvestor": "Quona Capital",
+    "date": "2019-03-06",
+    "location": "Mumbai",
+    "description": "SMECorner raised ₹106.0 Cr in Debt round.",
+    "sourceUrl": "https://inc42.com/buzz/microlending-startup-smecorner-raises-12-7-mn-in-debt-equity/",
+    "weekFolder": "W10 Q4 FY19"
+  },
+  {
     "id": "W10 Q4 FY19-4",
     "company": "Jai Kisan",
     "amount": 1252.5,
@@ -51227,7 +62601,47 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q4 FY19"
   },
   {
-    "id": "W9 Q4 FY19-12",
+    "id": "W10 Q4 FY19-18",
+    "company": "Donatekart",
+    "amount": 250.5,
+    "stage": "Seed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "LetsVenture",
+      "M S Unnikrishnan",
+      "Pravin Gandhi",
+      "Arun Diaz",
+      "Pradeep Nair"
+    ],
+    "leadInvestor": "LetsVenture",
+    "date": "2019-03-05",
+    "location": "Hyderabad",
+    "description": "Donatekart raised ₹2.5 Cr in Seed round.",
+    "sourceUrl": "https://entrackr.com/2019/03/donatekart-seed-funding-letsventure/",
+    "weekFolder": "W10 Q4 FY19"
+  },
+  {
+    "id": "W10 Q4 FY19-19",
+    "company": "Brewhouse",
+    "amount": 2171,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Food Empire Holdings"
+    ],
+    "leadInvestor": "Food Empire Holdings",
+    "date": "2019-03-05",
+    "location": "Delhi",
+    "description": "Brewhouse raised ₹21.7 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/startups/how-an-investment-banker-turned-entrepreneur-is-redefining-indias-iced-tea-industry/",
+    "weekFolder": "W10 Q4 FY19"
+  },
+  {
+    "id": "W9 Q4 FY19-11",
     "company": "Jai Kisan",
     "amount": 1252.5,
     "stage": "Seed",
@@ -51247,6 +62661,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "Jai Kisan raised ₹12.5 Cr in Seed round.",
     "sourceUrl": "https://yourstory.com/2019/03/fintech-platform-jai-kisan-funding-14sfzflp42",
+    "weekFolder": "W9 Q4 FY19"
+  },
+  {
+    "id": "W9 Q4 FY19-14",
+    "company": "Reverie",
+    "amount": 18996.25,
+    "stage": "Acquisition",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Reliance Industrial Investments & Holdings"
+    ],
+    "leadInvestor": "Reliance Industrial Investments & Holdings",
+    "date": "2019-03-04",
+    "location": "Bengaluru",
+    "description": "Reverie raised ₹190.0 Cr in Acquisition round.",
+    "sourceUrl": "https://entrackr.com/2019/03/ril-stake-reverie-easygov-sankhya-sutra/",
     "weekFolder": "W9 Q4 FY19"
   },
   {
@@ -51293,6 +62725,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q4 FY19"
   },
   {
+    "id": "W9 Q4 FY19-16",
+    "company": "Clip",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Media & Entertainment"
+    ],
+    "investors": [
+      "ShareChat"
+    ],
+    "leadInvestor": "ShareChat",
+    "date": "2019-03-02",
+    "location": "Bengaluru",
+    "description": "Clip raised funding in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-clip-gets-acquired-by-sharechat-in-all-cash-deal-to-help-it-fight-off-bytedance-in-india/",
+    "weekFolder": "W9 Q4 FY19"
+  },
+  {
     "id": "W9 Q4 FY19-8",
     "company": "CloudSEK",
     "amount": 350.7,
@@ -51334,24 +62784,42 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q4 FY19"
   },
   {
-    "id": "W9 Q4 FY19-11",
-    "company": "February",
-    "amount": 110220,
-    "stage": "Series A",
+    "id": "W9 Q4 FY19-12",
+    "company": "Ola Electric",
+    "amount": 46760,
+    "stage": "Not Disclosed",
     "sectors": [
-      "Healthtech"
+      "EV & Mobility"
     ],
     "investors": [
-      "Matrix Partners",
-      "Tiger Global",
       "Ola executives Anand Shah",
       "Ankit Jain"
     ],
-    "leadInvestor": "Matrix Partners",
+    "leadInvestor": "Ola executives Anand Shah",
     "date": "2019-03-01",
-    "location": "Bengaluru",
-    "description": "February raised ₹1102.2 Cr in Series A round.",
-    "sourceUrl": "https://yourstory.com/2019/03/weekly-funding-ola-grofers-homelane-md4iiix8iu",
+    "location": "Nagpur",
+    "description": "Ola Electric raised ₹467.6 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/dreaming-big-for-electric-mobility-ola-electric-raises-56-mn/",
+    "weekFolder": "W9 Q4 FY19"
+  },
+  {
+    "id": "W9 Q4 FY19-17",
+    "company": "Grofers",
+    "amount": 50100,
+    "stage": "Series F",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "SoftBank Vision Fund",
+      "Tiger Global",
+      "Sequoia"
+    ],
+    "leadInvestor": "SoftBank Vision Fund",
+    "date": "2019-03-01",
+    "location": "Gurugram",
+    "description": "Grofers raised ₹501.0 Cr in Series F round.",
+    "sourceUrl": "https://inc42.com/buzz/softbank-invests-60-mn-in-grofers-larger-funding-round/",
     "weekFolder": "W9 Q4 FY19"
   },
   {
@@ -51466,6 +62934,43 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q4 FY19"
   },
   {
+    "id": "W9 Q4 FY19-13",
+    "company": "Reverie Technologies",
+    "amount": 18996.25,
+    "stage": "Acquisition",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Reliance Industries Investments & Holdings"
+    ],
+    "leadInvestor": "Reliance Industries Investments & Holdings",
+    "date": "2019-02-26",
+    "location": "Bengaluru",
+    "description": "Reverie Technologies raised ₹190.0 Cr in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/02/reliance-acquires-reverie-technologies",
+    "weekFolder": "W9 Q4 FY19"
+  },
+  {
+    "id": "W9 Q4 FY19-15",
+    "company": "BillDesk",
+    "amount": 60003.100000000006,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Visa",
+      "Temasek Holdings"
+    ],
+    "leadInvestor": "Visa",
+    "date": "2019-02-26",
+    "location": "Mumbai",
+    "description": "BillDesk raised ₹600.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/02/billdesk-funding-visa-temasek/",
+    "weekFolder": "W9 Q4 FY19"
+  },
+  {
     "id": "W8 Q4 FY19-10",
     "company": "Niramai",
     "amount": 5010,
@@ -51483,6 +62988,42 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "Niramai raised ₹50.1 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/02/ai-healthcare-startup-niramai-funding",
+    "weekFolder": "W8 Q4 FY19"
+  },
+  {
+    "id": "W8 Q4 FY19-13",
+    "company": "HomeLane",
+    "amount": 3807.6,
+    "stage": "Series D",
+    "sectors": [
+      "General"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-02-25",
+    "location": "Bengaluru",
+    "description": "HomeLane raised ₹38.1 Cr in Series D round.",
+    "sourceUrl": "https://inc42.com/buzz/homelane-secures-4-56-mn-in-its-ongoing-series-d-funding-round/",
+    "weekFolder": "W8 Q4 FY19"
+  },
+  {
+    "id": "W8 Q4 FY19-16",
+    "company": "Nymble Labs",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "WaterBridge Ventures"
+    ],
+    "leadInvestor": "WaterBridge Ventures",
+    "date": "2019-02-25",
+    "location": "Bengaluru",
+    "description": "Nymble Labs raised funding in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/waterbridge-invests-in-nymble-that-is-building-robot-that-can-cook-food/",
     "weekFolder": "W8 Q4 FY19"
   },
   {
@@ -51524,6 +63065,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Gurugram",
     "description": "SpotDraft raised ₹12.5 Cr in Pre-Series A round.",
     "sourceUrl": "https://yourstory.com/2019/02/spotdraft-funding-binny-bansal",
+    "weekFolder": "W8 Q4 FY19"
+  },
+  {
+    "id": "W8 Q4 FY19-15",
+    "company": "Fingerlix",
+    "amount": 3665.65,
+    "stage": "Series C",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Swiggy"
+    ],
+    "leadInvestor": "Swiggy",
+    "date": "2019-02-22",
+    "location": "Mumbai",
+    "description": "Fingerlix raised ₹36.7 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/swiggy-grabs-a-slice-of-ready-to-cook-startup-fingerlix-for-4-39-mn/",
     "weekFolder": "W8 Q4 FY19"
   },
   {
@@ -51606,6 +63165,63 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q4 FY19"
   },
   {
+    "id": "W8 Q4 FY19-11",
+    "company": "Xpressbees",
+    "amount": 4091.5000000000005,
+    "stage": "Venture Debt",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2019-02-20",
+    "location": "Pune",
+    "description": "Xpressbees raised ₹40.9 Cr in Venture Debt round.",
+    "sourceUrl": "https://inc42.com/buzz/ecommerce-logistics-startup-xpressbees-secures-4-9-mn-from-innoven-capital/",
+    "weekFolder": "W8 Q4 FY19"
+  },
+  {
+    "id": "W8 Q4 FY19-12",
+    "company": "SilverPush",
+    "amount": 4175,
+    "stage": "Series B",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Japan’s marketing company FreakOut Holdings"
+    ],
+    "leadInvestor": "Japan’s marketing company FreakOut Holdings",
+    "date": "2019-02-20",
+    "location": "Gurugram",
+    "description": "SilverPush raised ₹41.8 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/silverpush-raises-5mn-to-expand-its-ai-driven-adtech-solution-for-otts-in-apac/",
+    "weekFolder": "W8 Q4 FY19"
+  },
+  {
+    "id": "W8 Q4 FY19-14",
+    "company": "Pickyourtrail",
+    "amount": 2505,
+    "stage": "Series A",
+    "sectors": [
+      "Travel"
+    ],
+    "investors": [
+      "Kumar Vembu",
+      "Shyam Sekhar",
+      "Rajagopal Subramanian",
+      "Girish Mathrubootham"
+    ],
+    "leadInvestor": "Kumar Vembu",
+    "date": "2019-02-20",
+    "location": "Chennai",
+    "description": "Pickyourtrail raised ₹25.1 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/02/funding-pickyourtrail-expand-tech",
+    "weekFolder": "W8 Q4 FY19"
+  },
+  {
     "id": "W8 Q4 FY19-1",
     "company": "ZipLoan",
     "amount": 9001.3,
@@ -51684,6 +63300,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W7 Q4 FY19"
   },
   {
+    "id": "W7 Q4 FY19-8",
+    "company": "Dailyhunt",
+    "amount": 50100,
+    "stage": "Series E",
+    "sectors": [
+      "Media & Content"
+    ],
+    "investors": [
+      "Goldman Sachs Investment Partners"
+    ],
+    "leadInvestor": "Goldman Sachs Investment Partners",
+    "date": "2019-02-18",
+    "location": "Bengaluru",
+    "description": "Dailyhunt raised ₹501.0 Cr in Series E round.",
+    "sourceUrl": "https://entrackr.com/2019/02/dailyhunt-funding-goldman-sachs/",
+    "weekFolder": "W7 Q4 FY19"
+  },
+  {
     "id": "W7 Q4 FY19-4",
     "company": "Shiksha Finance",
     "amount": 5502.65,
@@ -51717,6 +63351,64 @@ export const fundingData: FundingDeal[] = [
     "location": "Chennai",
     "description": "Shiksha Finance raised ₹55.0 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/02/shiksha-finance-funding-capital-dzsq9w68gw",
+    "weekFolder": "W7 Q4 FY19"
+  },
+  {
+    "id": "W7 Q4 FY19-7",
+    "company": "OYO",
+    "amount": 83500,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Hospitality"
+    ],
+    "investors": [
+      "Didi Chuxing"
+    ],
+    "leadInvestor": "Didi Chuxing",
+    "date": "2019-02-14",
+    "location": "Gurugram",
+    "description": "OYO raised ₹835.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/02/oyo-china-funding-didi-chuxing-r9lyjtroza",
+    "weekFolder": "W7 Q4 FY19"
+  },
+  {
+    "id": "W7 Q4 FY19-10",
+    "company": "Zillious",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Ebix"
+    ],
+    "leadInvestor": "Ebix",
+    "date": "2019-02-14",
+    "location": "Delhi",
+    "description": "Zillious raised funding in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/ebix-grabs-major-stake-in-indias-saas-travel-company-zillious/",
+    "weekFolder": "W7 Q4 FY19"
+  },
+  {
+    "id": "W7 Q4 FY19-9",
+    "company": "Open",
+    "amount": 4175,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Beenext",
+      "Speedinvest",
+      "3one4 Capital",
+      "Unicorn India Ventures",
+      "Recruit Co"
+    ],
+    "leadInvestor": "Beenext",
+    "date": "2019-02-13",
+    "location": "Bengaluru",
+    "description": "Open raised ₹41.8 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/neo-banking-startup-open-raises-5-mn-from-beenext-speedinvest/",
     "weekFolder": "W7 Q4 FY19"
   },
   {
@@ -51767,6 +63459,29 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W7 Q4 FY19"
   },
   {
+    "id": "W7 Q4 FY19-6",
+    "company": "smallcase",
+    "amount": 6680,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Sequoia India",
+      "Blume Ventures",
+      "Straddle Capital",
+      "Beenext",
+      "WEH Ventures",
+      "DSP Adiko"
+    ],
+    "leadInvestor": "Sequoia India",
+    "date": "2019-02-12",
+    "location": "Bengaluru",
+    "description": "smallcase raised ₹66.8 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2019/02/investment-platform-smallcase-raises-8-m-series-a--htzhjboxv7",
+    "weekFolder": "W7 Q4 FY19"
+  },
+  {
     "id": "W6 Q4 FY19-1",
     "company": "OpenApp",
     "amount": 1085.5,
@@ -51788,6 +63503,88 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q4 FY19"
   },
   {
+    "id": "W6 Q4 FY19-11",
+    "company": "Officepulse",
+    "amount": 417.5,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Z Nation Lab",
+      "Ashish Jain",
+      "Pawan Poddar"
+    ],
+    "leadInvestor": "Z Nation Lab",
+    "date": "2019-02-11",
+    "location": "Bengaluru",
+    "description": "Officepulse raised ₹4.2 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/02/officepulse-funding-znation-lab",
+    "weekFolder": "W6 Q4 FY19"
+  },
+  {
+    "id": "W6 Q4 FY19-12",
+    "company": "Fyle",
+    "amount": 2997.6499999999996,
+    "stage": "Series A",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Tiger Global",
+      "Pravega Ventures",
+      "Beenext"
+    ],
+    "leadInvestor": "Tiger Global",
+    "date": "2019-02-11",
+    "location": "Bengaluru",
+    "description": "Fyle raised ₹30.0 Cr in Series A round.",
+    "sourceUrl": "https://entrackr.com/2019/02/fyle-funding-tiger-global-rs-30-cr/",
+    "weekFolder": "W6 Q4 FY19"
+  },
+  {
+    "id": "W6 Q4 FY19-19",
+    "company": "Open App",
+    "amount": 1085.5,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Unicorn India Ventures",
+      "Karnataka Semiconductor Venture Capital Fund",
+      "Axilor Capital",
+      "Kumar Vembu"
+    ],
+    "leadInvestor": "Unicorn India Ventures",
+    "date": "2019-02-11",
+    "location": "Bengaluru",
+    "description": "Open App raised ₹10.9 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/smart-lock-maker-open-app-raises-1-3-mn-in-pre-series-a-funding/",
+    "weekFolder": "W6 Q4 FY19"
+  },
+  {
+    "id": "W6 Q4 FY19-20",
+    "company": "Dunzo",
+    "amount": 2588.5,
+    "stage": "Series C",
+    "sectors": [
+      "Consumer Services"
+    ],
+    "investors": [
+      "Milestone Trusteeship Services",
+      "N Lakshmi Narayanan",
+      "Monika Garware Modi",
+      "Raintree Family"
+    ],
+    "leadInvestor": "Milestone Trusteeship Services",
+    "date": "2019-02-11",
+    "location": "Bengaluru",
+    "description": "Dunzo raised ₹25.9 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/ai-driven-hyperlocal-concierge-startup-dunzo-raises-3-1-mn-funding/",
+    "weekFolder": "W6 Q4 FY19"
+  },
+  {
     "id": "W6 Q4 FY19-3",
     "company": "Vidooly",
     "amount": 1511.35,
@@ -51803,6 +63600,25 @@ export const fundingData: FundingDeal[] = [
     "location": "Noida",
     "description": "Vidooly raised ₹15.1 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/02/alibaba-funding-vidooly-times-internet",
+    "weekFolder": "W6 Q4 FY19"
+  },
+  {
+    "id": "W6 Q4 FY19-9",
+    "company": "Country Delight",
+    "amount": 6997.3,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Matrix Partners India",
+      "Orios Venture Partners"
+    ],
+    "leadInvestor": "Matrix Partners India",
+    "date": "2019-02-08",
+    "location": "Delhi",
+    "description": "Country Delight raised ₹70.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/02/matrix-partners-invests-country-delight",
     "weekFolder": "W6 Q4 FY19"
   },
   {
@@ -51822,6 +63638,44 @@ export const fundingData: FundingDeal[] = [
     "location": "Gurugram",
     "description": "Zomato raised ₹334.0 Cr in Series C round.",
     "sourceUrl": "https://yourstory.com/2019/02/zomato-funding-3one4-fund",
+    "weekFolder": "W6 Q4 FY19"
+  },
+  {
+    "id": "W6 Q4 FY19-13",
+    "company": "Vidooly",
+    "amount": 1503,
+    "stage": "Series C",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Alibaba",
+      "Times Internet Limited"
+    ],
+    "leadInvestor": "Alibaba",
+    "date": "2019-02-07",
+    "location": "Noida",
+    "description": "Vidooly raised ₹15.0 Cr in Series C round.",
+    "sourceUrl": "https://entrackr.com/2019/02/vidooly-funding-alibaba-tmes-internet/",
+    "weekFolder": "W6 Q4 FY19"
+  },
+  {
+    "id": "W6 Q4 FY19-18",
+    "company": "Rivigo",
+    "amount": 29726,
+    "stage": "Series E",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "Warburg Pincus",
+      "SAIF Partners"
+    ],
+    "leadInvestor": "Warburg Pincus",
+    "date": "2019-02-07",
+    "location": "Gurugram",
+    "description": "Rivigo raised ₹297.3 Cr in Series E round.",
+    "sourceUrl": "https://inc42.com/buzz/warburg-pincus-saif-partners-lead-35-mn-series-e-funding-in-rivigo/",
     "weekFolder": "W6 Q4 FY19"
   },
   {
@@ -51861,6 +63715,43 @@ export const fundingData: FundingDeal[] = [
     "location": "Gurugram",
     "description": "Zomato raised ₹334.0 Cr in Acquisition round.",
     "sourceUrl": "https://yourstory.com/2019/02/zomato-funding-glade-brook",
+    "weekFolder": "W6 Q4 FY19"
+  },
+  {
+    "id": "W6 Q4 FY19-14",
+    "company": "Rivigo",
+    "amount": 29726,
+    "stage": "Series D",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "Warburg Pincus",
+      "SAIF Partners"
+    ],
+    "leadInvestor": "Warburg Pincus",
+    "date": "2019-02-06",
+    "location": "Gurugram",
+    "description": "Rivigo raised ₹297.3 Cr in Series D round.",
+    "sourceUrl": "https://entrackr.com/2019/02/rivigo-funding-warburg-saif/",
+    "weekFolder": "W6 Q4 FY19"
+  },
+  {
+    "id": "W6 Q4 FY19-16",
+    "company": "Infinichains",
+    "amount": 2004,
+    "stage": "Series A",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Purushottam Agrawal"
+    ],
+    "leadInvestor": "Purushottam Agrawal",
+    "date": "2019-02-06",
+    "location": "Pune",
+    "description": "Infinichains raised ₹20.0 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/blockchain-this-week-how-one-company-is-mapping-the-journey-of-clothes-from-seed-to-stitched-garment/",
     "weekFolder": "W6 Q4 FY19"
   },
   {
@@ -51925,6 +63816,100 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q4 FY19"
   },
   {
+    "id": "W6 Q4 FY19-10",
+    "company": "Solara Active Pharma",
+    "amount": 25050,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Pharma"
+    ],
+    "investors": [
+      "TPG Growth"
+    ],
+    "leadInvestor": "TPG Growth",
+    "date": "2019-02-05",
+    "location": "Chennai",
+    "description": "Solara Active Pharma raised ₹250.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/02/solara-raise-investment-tpg-growth",
+    "weekFolder": "W6 Q4 FY19"
+  },
+  {
+    "id": "W6 Q4 FY19-15",
+    "company": "fleetx",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "India Quotient",
+      "LetsVenture Angel Fund",
+      "Ajay Prabhu",
+      "Prashanth Susarla",
+      "Sajid Rahman"
+    ],
+    "leadInvestor": "India Quotient",
+    "date": "2019-02-05",
+    "location": "Gurugram",
+    "description": "fleetx raised funding in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/ai-driven-logistics-startup-fleetx-raises-pre-series-a-funding/",
+    "weekFolder": "W6 Q4 FY19"
+  },
+  {
+    "id": "W6 Q4 FY19-17",
+    "company": "Guarented",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Mumbai Angels Network"
+    ],
+    "leadInvestor": "Mumbai Angels Network",
+    "date": "2019-02-05",
+    "location": "Bengaluru",
+    "description": "Guarented raised funding in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/what-refurbished-furniture-seller-guarented-plan-to-do-with-latest-funding/",
+    "weekFolder": "W6 Q4 FY19"
+  },
+  {
+    "id": "W5 Q4 FY19-11",
+    "company": "Annapurna Finance",
+    "amount": 13702.349999999999,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Asian Development Bank"
+    ],
+    "leadInvestor": "Asian Development Bank",
+    "date": "2019-02-04",
+    "location": "Bhubaneswar",
+    "description": "Annapurna Finance raised ₹137.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/02/annapurna-finance-funding-asian-development-bank",
+    "weekFolder": "W5 Q4 FY19"
+  },
+  {
+    "id": "W5 Q4 FY19-16",
+    "company": "Awaaz",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Media & Entertainment"
+    ],
+    "investors": [
+      "Matrix Partners India"
+    ],
+    "leadInvestor": "Matrix Partners India",
+    "date": "2019-02-02",
+    "location": "India",
+    "description": "Awaaz raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/matrix-partners-invests-in-vernacular-video-content-platform-awaaz/",
+    "weekFolder": "W5 Q4 FY19"
+  },
+  {
     "id": "W5 Q4 FY19-1",
     "company": "Kruzr",
     "amount": 1085.5,
@@ -51982,6 +63967,62 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q4 FY19"
   },
   {
+    "id": "W5 Q4 FY19-12",
+    "company": "Medlabz",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Medlife"
+    ],
+    "leadInvestor": "Medlife",
+    "date": "2019-01-31",
+    "location": "Mumbai",
+    "description": "Medlabz raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/01/online-pharmacy-medlife-acquires-medlabz",
+    "weekFolder": "W5 Q4 FY19"
+  },
+  {
+    "id": "W5 Q4 FY19-14",
+    "company": "MoneyOnClick",
+    "amount": 1795.25,
+    "stage": "Seed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Orios Venture Partners",
+      "Kalaari Capital",
+      "3one4 Capital"
+    ],
+    "leadInvestor": "Orios Venture Partners",
+    "date": "2019-01-31",
+    "location": "Bengaluru",
+    "description": "MoneyOnClick raised ₹18.0 Cr in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/orios-kalaari-and-3one4-lead-2-mn-seed-round-in-moneyonclick/",
+    "weekFolder": "W5 Q4 FY19"
+  },
+  {
+    "id": "W5 Q4 FY19-15",
+    "company": "InfiniChains",
+    "amount": 2004,
+    "stage": "Series A",
+    "sectors": [
+      "Enterprise Tech"
+    ],
+    "investors": [
+      "Purushottam Agrawal"
+    ],
+    "leadInvestor": "Purushottam Agrawal",
+    "date": "2019-01-31",
+    "location": "Pune",
+    "description": "InfiniChains raised ₹20.0 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/blockchain-startup-infinichains-raises-2-4-mn-in-series-a-funding-round/",
+    "weekFolder": "W5 Q4 FY19"
+  },
+  {
     "id": "W5 Q4 FY19-3",
     "company": "AptEner Mechatronics",
     "amount": 1002,
@@ -52024,6 +64065,64 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q4 FY19"
   },
   {
+    "id": "W5 Q4 FY19-7",
+    "company": "Better India",
+    "amount": 2922.5,
+    "stage": "Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Elevar Equity"
+    ],
+    "leadInvestor": "Elevar Equity",
+    "date": "2019-01-30",
+    "location": "Bengaluru",
+    "description": "Better India raised ₹29.2 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/the-better-india-to-leverage-its-ecommerce-vertical-with-3-5-mn-series-a-funding/",
+    "weekFolder": "W5 Q4 FY19"
+  },
+  {
+    "id": "W5 Q4 FY19-8",
+    "company": "Clootrack",
+    "amount": 417.5,
+    "stage": "Seed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Indian Angel Network",
+      "IAN Fund",
+      "Unicorn India Ventures",
+      "SEA Fund",
+      "Malabar Angel Network"
+    ],
+    "leadInvestor": "Indian Angel Network",
+    "date": "2019-01-30",
+    "location": "Bengaluru",
+    "description": "Clootrack raised ₹4.2 Cr in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/01/bengaluru-clootrack-seed-funding",
+    "weekFolder": "W5 Q4 FY19"
+  },
+  {
+    "id": "W5 Q4 FY19-9",
+    "company": "Nightstay",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Travel"
+    ],
+    "investors": [
+      "Paytm"
+    ],
+    "leadInvestor": "Paytm",
+    "date": "2019-01-30",
+    "location": "India",
+    "description": "Nightstay raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/01/paytm-acquires-nightstay-hotel",
+    "weekFolder": "W5 Q4 FY19"
+  },
+  {
     "id": "W5 Q4 FY19-5",
     "company": "CreditVidya",
     "amount": 2505,
@@ -52041,6 +64140,43 @@ export const fundingData: FundingDeal[] = [
     "location": "New Delhi",
     "description": "CreditVidya raised ₹25.1 Cr in Series B round.",
     "sourceUrl": "https://yourstory.com/2019/01/startup-creditvidya-funding-india-smartphones",
+    "weekFolder": "W5 Q4 FY19"
+  },
+  {
+    "id": "W5 Q4 FY19-10",
+    "company": "Report Bee",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "XSEED Education"
+    ],
+    "leadInvestor": "XSEED Education",
+    "date": "2019-01-29",
+    "location": "Chennai",
+    "description": "Report Bee raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/01/xseed-education-acquires-report-bee",
+    "weekFolder": "W5 Q4 FY19"
+  },
+  {
+    "id": "W5 Q4 FY19-13",
+    "company": "SimYog",
+    "amount": 743.15,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Robert Bosch Engineering and Business Solutions",
+      "Ideaspring Capital"
+    ],
+    "leadInvestor": "Robert Bosch Engineering and Business Solutions",
+    "date": "2019-01-29",
+    "location": "Bengaluru",
+    "description": "SimYog raised ₹7.4 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/bosch-makes-first-venture-investment-in-india-with-deeptech-startup-simyog/",
     "weekFolder": "W5 Q4 FY19"
   },
   {
@@ -52125,6 +64261,67 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W4 Q4 FY19"
   },
   {
+    "id": "W4 Q4 FY19-10",
+    "company": "Country Delight",
+    "amount": 5845,
+    "stage": "Series B",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Matrix Partners",
+      "Orios Venture Partners",
+      "IMFR Trust",
+      "MAN Impact Accelerator"
+    ],
+    "leadInvestor": "Matrix Partners",
+    "date": "2019-01-24",
+    "location": "Gurugram",
+    "description": "Country Delight raised ₹58.5 Cr in Series B round.",
+    "sourceUrl": "https://entrackr.com/2019/01/country-delight-funding-matrix/",
+    "weekFolder": "W4 Q4 FY19"
+  },
+  {
+    "id": "W4 Q4 FY19-15",
+    "company": "Kapiva Ayurveda",
+    "amount": 1920.4999999999998,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Fireside Ventures",
+      "Mohandas Pai family office",
+      "Maninder Gulati",
+      "Madhusudan Kela"
+    ],
+    "leadInvestor": "Fireside Ventures",
+    "date": "2019-01-24",
+    "location": "Mumbai",
+    "description": "Kapiva Ayurveda raised ₹19.2 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/kapiva-ayurveda-gets-capital-commitments-for-2-3-mn/",
+    "weekFolder": "W4 Q4 FY19"
+  },
+  {
+    "id": "W4 Q4 FY19-16",
+    "company": "M1xchange",
+    "amount": 0,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Mayfield India",
+      "SIDBI Ventures"
+    ],
+    "leadInvestor": "Mayfield India",
+    "date": "2019-01-24",
+    "location": "Gurugram",
+    "description": "M1xchange raised funding in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/sidbi-mayfield-lead-series-a-funding-in-m1xchange/",
+    "weekFolder": "W4 Q4 FY19"
+  },
+  {
     "id": "W4 Q4 FY19-4",
     "company": "Groww",
     "amount": 5177,
@@ -52166,6 +64363,42 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "FreshMenu raised ₹21.0 Cr in Series B round.",
     "sourceUrl": "https://entrackr.com/2019/01/freshmenu-funding-lightspeed/",
+    "weekFolder": "W4 Q4 FY19"
+  },
+  {
+    "id": "W4 Q4 FY19-9",
+    "company": "FirstCry",
+    "amount": 334000,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "SoftBank Vision Fund"
+    ],
+    "leadInvestor": "SoftBank Vision Fund",
+    "date": "2019-01-23",
+    "location": "Pune",
+    "description": "FirstCry raised ₹3340.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/01/softbank-invests-babycare-firstcry",
+    "weekFolder": "W4 Q4 FY19"
+  },
+  {
+    "id": "W4 Q4 FY19-11",
+    "company": "GoMechanic",
+    "amount": 4175,
+    "stage": "Series A",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Sequoia Capital"
+    ],
+    "leadInvestor": "Sequoia Capital",
+    "date": "2019-01-23",
+    "location": "Gurugram",
+    "description": "GoMechanic raised ₹41.8 Cr in Series A round.",
+    "sourceUrl": "https://entrackr.com/2019/01/gomechanic-5-mn-funding-sequoia/",
     "weekFolder": "W4 Q4 FY19"
   },
   {
@@ -52212,6 +64445,60 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W4 Q4 FY19"
   },
   {
+    "id": "W4 Q4 FY19-12",
+    "company": "iKeva",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Real Estate Tech"
+    ],
+    "investors": [
+      "Meenakshi Group"
+    ],
+    "leadInvestor": "Meenakshi Group",
+    "date": "2019-01-22",
+    "location": "Hyderabad",
+    "description": "iKeva raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/meenakshi-group-launches-10-mn-startup-fund-makes-first-investment-in-ikeva/",
+    "weekFolder": "W4 Q4 FY19"
+  },
+  {
+    "id": "W4 Q4 FY19-13",
+    "company": "FirstCry",
+    "amount": 330409.5,
+    "stage": "Series E",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "SoftBank Vision Fund"
+    ],
+    "leadInvestor": "SoftBank Vision Fund",
+    "date": "2019-01-22",
+    "location": "Pune",
+    "description": "FirstCry raised ₹3304.1 Cr in Series E round.",
+    "sourceUrl": "https://inc42.com/buzz/softbank-commits-396-mn-in-firstcry-in-series-e-round/",
+    "weekFolder": "W4 Q4 FY19"
+  },
+  {
+    "id": "W4 Q4 FY19-14",
+    "company": "Maya",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "SHEROES"
+    ],
+    "leadInvestor": "SHEROES",
+    "date": "2019-01-22",
+    "location": "Bengaluru",
+    "description": "Maya raised funding in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/sheroes-acquires-women-health-app-maya-for-an-undisclosed-amount/",
+    "weekFolder": "W4 Q4 FY19"
+  },
+  {
     "id": "W3 Q4 FY19-1",
     "company": "Bounce",
     "amount": 5001.650000000001,
@@ -52229,6 +64516,81 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Bounce raised ₹50.0 Cr in Series A round.",
     "sourceUrl": "https://entrackr.com/2019/01/bounce-funding-accel-sequoia/",
+    "weekFolder": "W3 Q4 FY19"
+  },
+  {
+    "id": "W3 Q4 FY19-18",
+    "company": "AgNext",
+    "amount": 3340,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Agritech"
+    ],
+    "investors": [
+      "Singapore-based high-net-worth individual Samir Kumar"
+    ],
+    "leadInvestor": "Singapore-based high-net-worth individual Samir Kumar",
+    "date": "2019-01-21",
+    "location": "Chandigarh",
+    "description": "AgNext raised ₹33.4 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/agritech-startup-agnext-raises-funding-from-kalaari-capital/",
+    "weekFolder": "W3 Q4 FY19"
+  },
+  {
+    "id": "W3 Q4 FY19-19",
+    "company": "5C Network",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Unitus Ventures",
+      "Axilor Ventures",
+      "CIIE-IIMA"
+    ],
+    "leadInvestor": "Unitus Ventures",
+    "date": "2019-01-21",
+    "location": "Bengaluru",
+    "description": "5C Network raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2019/01/healthtech-startup-5c-network-funding",
+    "weekFolder": "W3 Q4 FY19"
+  },
+  {
+    "id": "W3 Q4 FY19-23",
+    "company": "Infinium",
+    "amount": 7014,
+    "stage": "Acquisition",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Tradohub"
+    ],
+    "leadInvestor": "Tradohub",
+    "date": "2019-01-21",
+    "location": "Ahmedabad",
+    "description": "Infinium raised ₹70.1 Cr in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/infibeam-sells-infinium-to-b2b-aggregator-tradohub-for-8-4-mn/",
+    "weekFolder": "W3 Q4 FY19"
+  },
+  {
+    "id": "W3 Q4 FY19-24",
+    "company": "REVOS",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "ITI Growth Opportunities Fund",
+      "SUN Mobility"
+    ],
+    "leadInvestor": "ITI Growth Opportunities Fund",
+    "date": "2019-01-21",
+    "location": "Bengaluru",
+    "description": "REVOS raised funding in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/iti-growth-opportunities-leads-seed-round-in-ev-startup-revos/",
     "weekFolder": "W3 Q4 FY19"
   },
   {
@@ -52292,6 +64654,25 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "ZestMoney raised ₹111.9 Cr in Venture Debt round.",
     "sourceUrl": "https://yourstory.com/2019/01/zestmoney-debt-funding-alteria-capital",
+    "weekFolder": "W3 Q4 FY19"
+  },
+  {
+    "id": "W3 Q4 FY19-20",
+    "company": "Caplin Steriles",
+    "amount": 21801.85,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Pharma"
+    ],
+    "investors": [
+      "Eight Roads Ventures",
+      "F-Prime Capital"
+    ],
+    "leadInvestor": "Eight Roads Ventures",
+    "date": "2019-01-18",
+    "location": "Chennai",
+    "description": "Caplin Steriles raised ₹218.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/01/caplin-point-injectables-subsidiary-investment",
     "weekFolder": "W3 Q4 FY19"
   },
   {
@@ -52512,6 +64893,92 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W3 Q4 FY19"
   },
   {
+    "id": "W3 Q4 FY19-17",
+    "company": "Epigamia",
+    "amount": 21359.3,
+    "stage": "Series B",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Verlinvest And Danone Manifesto Ventures",
+      "Belgium-based consumer-focused investment firm Verlinvest",
+      "New York City-based investor Danone Manifesto Ventures",
+      "Verlinvest",
+      "InnoVen Capital",
+      "DSG Consumer Partners (DSGCP)"
+    ],
+    "leadInvestor": "Verlinvest And Danone Manifesto Ventures",
+    "date": "2019-01-16",
+    "location": "Mumbai",
+    "description": "Epigamia raised ₹213.6 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/epigamia-raises-25-58-mn-in-a-series-c-round-led-by-verlinvest-and-danone-manifesto-ventures/",
+    "weekFolder": "W3 Q4 FY19"
+  },
+  {
+    "id": "W3 Q4 FY19-21",
+    "company": "Adurcup",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Venture Catalysts",
+      "Dipan Dalal",
+      "Navin Pansari",
+      "Sudhanshu Rastogi",
+      "Tushar Aggarwal"
+    ],
+    "leadInvestor": "Venture Catalysts",
+    "date": "2019-01-16",
+    "location": "Delhi",
+    "description": "Adurcup raised funding in Undisclosed round.",
+    "sourceUrl": "https://inc42.com/buzz/venture-catalysts-backs-restaurant-procurement-startup-adurcup/",
+    "weekFolder": "W3 Q4 FY19"
+  },
+  {
+    "id": "W3 Q4 FY19-22",
+    "company": "Zoomtail",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Matrix Partners India",
+      "V1 Capital",
+      "Anshuman Bapna",
+      "Kunal Shah",
+      "Shamik Sharma"
+    ],
+    "leadInvestor": "Matrix Partners India",
+    "date": "2019-01-16",
+    "location": "Bengaluru",
+    "description": "Zoomtail raised funding in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/matrix-partners-india-invests-in-ecommcerce-startup-zoomtails-seed-round/",
+    "weekFolder": "W3 Q4 FY19"
+  },
+  {
+    "id": "W3 Q4 FY19-16",
+    "company": "Leverage Edu",
+    "amount": 835,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "DSG",
+      "Blume"
+    ],
+    "leadInvestor": "DSG",
+    "date": "2019-01-15",
+    "location": "Delhi",
+    "description": "Leverage Edu raised ₹8.3 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/leverage-edu-raises-1mn-plus-in-pre-series-a-round-led-by-dsg-blume/",
+    "weekFolder": "W3 Q4 FY19"
+  },
+  {
     "id": "W2 Q4 FY19-1",
     "company": "Crofarm",
     "amount": 501,
@@ -52556,6 +65023,82 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W2 Q4 FY19"
   },
   {
+    "id": "W2 Q4 FY19-10",
+    "company": "DMI",
+    "amount": 192050,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "New Investment Solutions"
+    ],
+    "leadInvestor": "New Investment Solutions",
+    "date": "2019-01-14",
+    "location": "Delhi",
+    "description": "DMI raised ₹1920.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/dmi-raises-230-mn-in-funding-led-by-new-investment-solutions/",
+    "weekFolder": "W2 Q4 FY19"
+  },
+  {
+    "id": "W2 Q4 FY19-13",
+    "company": "Ola",
+    "amount": 17535,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Sachin Bansal"
+    ],
+    "leadInvestor": "Sachin Bansal",
+    "date": "2019-01-14",
+    "location": "Bengaluru",
+    "description": "Ola raised ₹175.3 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/01/sachin-bansal-invests-ola",
+    "weekFolder": "W2 Q4 FY19"
+  },
+  {
+    "id": "W2 Q4 FY19-22",
+    "company": "Ola",
+    "amount": 17702,
+    "stage": "Series J",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Sachin Bansal"
+    ],
+    "leadInvestor": "Sachin Bansal",
+    "date": "2019-01-14",
+    "location": "Bengaluru",
+    "description": "Ola raised ₹177.0 Cr in Series J round.",
+    "sourceUrl": "https://inc42.com/buzz/sachin-bansal-leads-21-2-mn-funding-in-olas-ongoing-series-j-round/",
+    "weekFolder": "W2 Q4 FY19"
+  },
+  {
+    "id": "W2 Q4 FY19-9",
+    "company": "Scripbox",
+    "amount": 17869,
+    "stage": "Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Accel Partners",
+      "Omidyar Network in June 2016",
+      "Omidyar Network",
+      "NLI Investment Fund",
+      "Paper"
+    ],
+    "leadInvestor": "Accel Partners",
+    "date": "2019-01-12",
+    "location": "Bengaluru",
+    "description": "Scripbox raised ₹178.7 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/scripbox-raises-21-4-mn-series-c-funding-from-accel-partners/",
+    "weekFolder": "W2 Q4 FY19"
+  },
+  {
     "id": "W2 Q4 FY19-2",
     "company": "Scripbox",
     "amount": 17535,
@@ -52573,6 +65116,81 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "Scripbox raised ₹175.3 Cr in Pre-Series A round.",
     "sourceUrl": "https://entrackr.com/2019/01/scripbox-funding-21-mn-trusted-insight/",
+    "weekFolder": "W2 Q4 FY19"
+  },
+  {
+    "id": "W2 Q4 FY19-8",
+    "company": "Faasos",
+    "amount": 3507,
+    "stage": "Series C",
+    "sectors": [
+      "General"
+    ],
+    "investors": [
+      "South Africa-based Naspers"
+    ],
+    "leadInvestor": "South Africa-based Naspers",
+    "date": "2019-01-11",
+    "location": "Pune",
+    "description": "Faasos raised ₹35.1 Cr in Series C round.",
+    "sourceUrl": "https://inc42.com/buzz/faasos-raises-4-2-mn-debt-funding-from-alteria-capital/",
+    "weekFolder": "W2 Q4 FY19"
+  },
+  {
+    "id": "W2 Q4 FY19-14",
+    "company": "Ola",
+    "amount": 61790,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Steadview Capital"
+    ],
+    "leadInvestor": "Steadview Capital",
+    "date": "2019-01-11",
+    "location": "Bengaluru",
+    "description": "Ola raised ₹617.9 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/01/ola-set-raise-2b-focus-evs-foodpanda-international-markets",
+    "weekFolder": "W2 Q4 FY19"
+  },
+  {
+    "id": "W2 Q4 FY19-20",
+    "company": "Grexter",
+    "amount": 1252.5,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Real Estate Tech"
+    ],
+    "investors": [
+      "Venture Catalysts",
+      "Arisht Jain",
+      "Vikas Bohra",
+      "Vishal Shah"
+    ],
+    "leadInvestor": "Venture Catalysts",
+    "date": "2019-01-11",
+    "location": "Bengaluru",
+    "description": "Grexter raised ₹12.5 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/co-living-startup-grexter-raises-1-5-mn-from-venture-catalysts/",
+    "weekFolder": "W2 Q4 FY19"
+  },
+  {
+    "id": "W2 Q4 FY19-21",
+    "company": "Digiperform",
+    "amount": 3006,
+    "stage": "Series A",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "HT Media"
+    ],
+    "leadInvestor": "HT Media",
+    "date": "2019-01-11",
+    "location": "Delhi",
+    "description": "Digiperform raised ₹30.1 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/ht-media-invests-3-6-mn-in-digital-marketing-startup-digiperform/",
     "weekFolder": "W2 Q4 FY19"
   },
   {
@@ -52596,6 +65214,61 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W2 Q4 FY19"
   },
   {
+    "id": "W2 Q4 FY19-7",
+    "company": "PayLater",
+    "amount": 1670,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "ICICI Bank",
+      "GMO Global Fintech Fund"
+    ],
+    "leadInvestor": "ICICI Bank",
+    "date": "2019-01-10",
+    "location": "India",
+    "description": "PayLater raised ₹16.7 Cr in Pre-Series A round.",
+    "sourceUrl": "https://inc42.com/buzz/icici-japanese-fund-gmo-backs-digital-credit-provider-epaylater/",
+    "weekFolder": "W2 Q4 FY19"
+  },
+  {
+    "id": "W2 Q4 FY19-15",
+    "company": "Ola",
+    "amount": 61764.95,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Steadview Capital"
+    ],
+    "leadInvestor": "Steadview Capital",
+    "date": "2019-01-10",
+    "location": "Bengaluru",
+    "description": "Ola raised ₹617.6 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/01/ola-funding-74-mn-steadview-capital/",
+    "weekFolder": "W2 Q4 FY19"
+  },
+  {
+    "id": "W2 Q4 FY19-18",
+    "company": "WealthTrust",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "OroWealth"
+    ],
+    "leadInvestor": "OroWealth",
+    "date": "2019-01-10",
+    "location": "Mumbai",
+    "description": "WealthTrust raised funding in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/fintech-startup-orowealth-acquires-wealthtrust/",
+    "weekFolder": "W2 Q4 FY19"
+  },
+  {
     "id": "W2 Q4 FY19-5",
     "company": "Digiperform",
     "amount": 3006,
@@ -52611,6 +65284,83 @@ export const fundingData: FundingDeal[] = [
     "location": "Delhi",
     "description": "Digiperform raised ₹30.1 Cr in Not Disclosed .",
     "sourceUrl": "https://yourstory.com/2019/01/edtech-digiperform-raises-funds-from-ht-media",
+    "weekFolder": "W2 Q4 FY19"
+  },
+  {
+    "id": "W2 Q4 FY19-11",
+    "company": "Vantage Health",
+    "amount": 41750,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "IQGEN Holdings"
+    ],
+    "leadInvestor": "IQGEN Holdings",
+    "date": "2019-01-09",
+    "location": "Mumbai",
+    "description": "Vantage Health raised ₹417.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2019/01/healthtech-vantage-health-raise-50-million-from-iqgen-holdings",
+    "weekFolder": "W2 Q4 FY19"
+  },
+  {
+    "id": "W2 Q4 FY19-16",
+    "company": "1mg",
+    "amount": 29483.850000000002,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Corisol Holding AG",
+      "Sequoia Capital India",
+      "Omidyar Network",
+      "HBM Healthcare Investments"
+    ],
+    "leadInvestor": "Corisol Holding AG",
+    "date": "2019-01-09",
+    "location": "Gurugram",
+    "description": "1mg raised ₹294.8 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/01/1mg-funding-corisol-holding-ag/",
+    "weekFolder": "W2 Q4 FY19"
+  },
+  {
+    "id": "W2 Q4 FY19-17",
+    "company": "GreyCampus",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Talentedge"
+    ],
+    "leadInvestor": "Talentedge",
+    "date": "2019-01-09",
+    "location": "Hyderabad",
+    "description": "GreyCampus raised funding in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/edtech-startup-talentedge-acquires-stake-in-greycampus-for-international-expansion/",
+    "weekFolder": "W2 Q4 FY19"
+  },
+  {
+    "id": "W2 Q4 FY19-19",
+    "company": "Cashcow",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Astarc Ventures",
+      "Valpro Capital",
+      "Indian School of Management and Entrepreneurship"
+    ],
+    "leadInvestor": "Astarc Ventures",
+    "date": "2019-01-09",
+    "location": "Mumbai",
+    "description": "Cashcow raised funding in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-fintech-startup-cashcow-looks-to-enter-sea-middle-east-with-latest-funding/",
     "weekFolder": "W2 Q4 FY19"
   },
   {
@@ -52632,6 +65382,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "InnerChef raised ₹43.0 Cr in Series B round.",
     "sourceUrl": "https://yourstory.com/2019/01/innerchef-raises-rs-43-crore-pre-series-b-funding-investors",
+    "weekFolder": "W2 Q4 FY19"
+  },
+  {
+    "id": "W2 Q4 FY19-12",
+    "company": "ShieldSquare",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Radware"
+    ],
+    "leadInvestor": "Radware",
+    "date": "2019-01-08",
+    "location": "Bengaluru",
+    "description": "ShieldSquare raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/01/israel-cybersecurity-radware-acquires-shieldsquare",
     "weekFolder": "W2 Q4 FY19"
   },
   {
@@ -52670,6 +65438,42 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Zolostays raised ₹250.5 Cr in Series A round.",
     "sourceUrl": "https://yourstory.com/2019/01/zolostays-raises-funding-30-m",
+    "weekFolder": "W1 Q4 FY19"
+  },
+  {
+    "id": "W1 Q4 FY19-6",
+    "company": "Aasaanjobs",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "HR Tech"
+    ],
+    "investors": [
+      "OLX Group"
+    ],
+    "leadInvestor": "OLX Group",
+    "date": "2019-01-07",
+    "location": "Mumbai",
+    "description": "Aasaanjobs raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2019/01/olx-acquires-mumbai-based-aasaanjobs",
+    "weekFolder": "W1 Q4 FY19"
+  },
+  {
+    "id": "W1 Q4 FY19-10",
+    "company": "OLX",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "Consumer Services"
+    ],
+    "investors": [
+      "OLX Group"
+    ],
+    "leadInvestor": "OLX Group",
+    "date": "2019-01-07",
+    "location": "Mumbai",
+    "description": "OLX raised funding in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/olx-group-acquires-aasaan-jobs-to-strengthen-its-jobs-vertical/",
     "weekFolder": "W1 Q4 FY19"
   },
   {
@@ -52712,6 +65516,64 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q4 FY19"
   },
   {
+    "id": "W1 Q4 FY19-7",
+    "company": "Manch",
+    "amount": 626.25,
+    "stage": "Seed",
+    "sectors": [
+      "Media"
+    ],
+    "investors": [
+      "Stellaris Venture Partners"
+    ],
+    "leadInvestor": "Stellaris Venture Partners",
+    "date": "2019-01-04",
+    "location": "Bengaluru",
+    "description": "Manch raised ₹6.3 Cr in Seed round.",
+    "sourceUrl": "https://yourstory.com/2019/01/vernacular-content-manch-seed-funding-stellaris-venture",
+    "weekFolder": "W1 Q4 FY19"
+  },
+  {
+    "id": "W1 Q4 FY19-9",
+    "company": "Abita Healthcare",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Sky7Ventures",
+      "Vignesh Ramanujam",
+      "Balasubramanian Sankaranarayanan",
+      "Navy Ramavat",
+      "Swapnil Mehta"
+    ],
+    "leadInvestor": "Sky7Ventures",
+    "date": "2019-01-04",
+    "location": "Gurugram",
+    "description": "Abita Healthcare raised funding in Seed round.",
+    "sourceUrl": "https://inc42.com/buzz/exclusive-healthtech-startup-abita-gets-seed-funding-from-global-incubator-sky7ventures-others/",
+    "weekFolder": "W1 Q4 FY19"
+  },
+  {
+    "id": "W1 Q4 FY19-11",
+    "company": "Fractal Analytics",
+    "amount": 167000,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Apax Partners"
+    ],
+    "leadInvestor": "Apax Partners",
+    "date": "2019-01-04",
+    "location": "Mumbai",
+    "description": "Fractal Analytics raised ₹1670.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://inc42.com/buzz/ai-startup-fractal-analytics-looks-to-raise-upto-200-mn-from-apax-partners/",
+    "weekFolder": "W1 Q4 FY19"
+  },
+  {
     "id": "W1 Q4 FY19-5",
     "company": "CarDekho",
     "amount": 91850,
@@ -52730,6 +65592,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Jaipur",
     "description": "CarDekho raised ₹918.5 Cr in Series C round.",
     "sourceUrl": "https://yourstory.com/2019/01/cardekho-series-c-funding-110-million-axis-bank-existing-investors",
+    "weekFolder": "W1 Q4 FY19"
+  },
+  {
+    "id": "W1 Q4 FY19-8",
+    "company": "Ola",
+    "amount": 1402.8,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Eternal Yield International"
+    ],
+    "leadInvestor": "Eternal Yield International",
+    "date": "2019-01-02",
+    "location": "Bengaluru",
+    "description": "Ola raised ₹14.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://entrackr.com/2019/01/ola-rs-14-cr-strategic-investment/",
     "weekFolder": "W1 Q4 FY19"
   },
   {
@@ -52784,6 +65664,27 @@ export const fundingData: FundingDeal[] = [
     "location": "Delhi/NCR",
     "description": "High Street Essentials raised ₹60.0 Cr in Series B round.",
     "sourceUrl": "https://yourstory.com/2018/12/faballey-gets-funding-saif-partners",
+    "weekFolder": "W13 Q3 FY19"
+  },
+  {
+    "id": "W13 Q3 FY19-8",
+    "company": "Bounce",
+    "amount": 5845,
+    "stage": "Series B",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "Chiratae Ventures",
+      "Accel India",
+      "Sequoia India",
+      "On Mauritius"
+    ],
+    "leadInvestor": "Chiratae Ventures",
+    "date": "2018-12-27",
+    "location": "Bengaluru",
+    "description": "Bounce raised ₹58.5 Cr in Series B round.",
+    "sourceUrl": "https://inc42.com/buzz/bike-sharing-startup-bounce-raises-7-mn-led-by-chiratae/",
     "weekFolder": "W13 Q3 FY19"
   },
   {
@@ -54111,7 +67012,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q3 FY19"
   },
   {
-    "id": "W9 Q3 FY19-14",
+    "id": "W9 Q3 FY19-13",
     "company": "Drivezy",
     "amount": 16700,
     "stage": "Series B",
@@ -54148,33 +67049,29 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q3 FY19"
   },
   {
-    "id": "W9 Q3 FY19-9",
-    "company": "Funding",
-    "amount": 41750,
+    "id": "W9 Q3 FY19-16",
+    "company": "FreshToHome",
+    "amount": 9185,
     "stage": "Series A",
     "sectors": [
-      "Deeptech & AI"
+      "E-commerce"
     ],
     "investors": [
-      "Steadview Capital",
-      "Vy Capital",
+      "CE Ventures",
       "Das Capital",
-      "Omidyar Network",
-      "Accel Partners",
-      "C4D Partners",
-      "SAIF Partners",
-      "Bessemer Venture Partners",
-      "Ratan Tata"
+      "Kortschak Investments",
+      "TTCER Partners",
+      "Al-Nasser Holdings"
     ],
-    "leadInvestor": "Steadview Capital",
+    "leadInvestor": "CE Ventures",
     "date": "2018-11-30",
     "location": "Bengaluru",
-    "description": "Funding raised ₹417.5 Cr in Series A round.",
-    "sourceUrl": "https://yourstory.com/2018/11/weekly-funding-roundup-exits-shine-urban-clap-raises-50-million",
+    "description": "FreshToHome raised ₹91.8 Cr in Series A round.",
+    "sourceUrl": "https://inc42.com/startups/with-funding-freshtohome-expands-to-offline-retail-adds-vegetables-to-the-basket/",
     "weekFolder": "W9 Q3 FY19"
   },
   {
-    "id": "W9 Q3 FY19-10",
+    "id": "W9 Q3 FY19-9",
     "company": "Hospals",
     "amount": 1252.5,
     "stage": "Acquisition",
@@ -54193,7 +67090,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q3 FY19"
   },
   {
-    "id": "W9 Q3 FY19-11",
+    "id": "W9 Q3 FY19-10",
     "company": "Drivezy",
     "amount": 16700,
     "stage": "Pre-Series A",
@@ -54215,7 +67112,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q3 FY19"
   },
   {
-    "id": "W9 Q3 FY19-15",
+    "id": "W9 Q3 FY19-14",
     "company": "Hush",
     "amount": 450.90000000000003,
     "stage": "Not Disclosed",
@@ -54274,7 +67171,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q3 FY19"
   },
   {
-    "id": "W9 Q3 FY19-12",
+    "id": "W9 Q3 FY19-11",
     "company": "Souled Store",
     "amount": 2505,
     "stage": "Not Disclosed",
@@ -54329,7 +67226,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q3 FY19"
   },
   {
-    "id": "W9 Q3 FY19-16",
+    "id": "W9 Q3 FY19-15",
     "company": "Atom Technologies",
     "amount": 7715.4,
     "stage": "Acquisition",
@@ -54388,7 +67285,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W9 Q3 FY19"
   },
   {
-    "id": "W9 Q3 FY19-13",
+    "id": "W9 Q3 FY19-12",
     "company": "Freyr Energy",
     "amount": 2697.0499999999997,
     "stage": "Series A",
@@ -57528,7 +70425,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q2 FY19"
   },
   {
-    "id": "W10 Q2 FY19-20",
+    "id": "W10 Q2 FY19-19",
     "company": "GreyOrange",
     "amount": 116900,
     "stage": "Series C",
@@ -57548,7 +70445,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q2 FY19"
   },
   {
-    "id": "W10 Q2 FY19-21",
+    "id": "W10 Q2 FY19-20",
     "company": "Dream11",
     "amount": 83500,
     "stage": "Not Disclosed",
@@ -57695,7 +70592,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q2 FY19"
   },
   {
-    "id": "W10 Q2 FY19-22",
+    "id": "W10 Q2 FY19-21",
     "company": "Zomato",
     "amount": 15030,
     "stage": "Acquisition",
@@ -57768,24 +70665,6 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "SlicePay raised ₹125.3 Cr in Pre-Series A round.",
     "sourceUrl": "https://entrackr.com/2018/09/slicepay-15-mn-fund-china-finup-group/",
-    "weekFolder": "W10 Q2 FY19"
-  },
-  {
-    "id": "W10 Q2 FY19-19",
-    "company": "Wipro",
-    "amount": 1252500,
-    "stage": "Acquisition",
-    "sectors": [
-      "General"
-    ],
-    "investors": [
-      "Not Disclosed"
-    ],
-    "leadInvestor": "Not Disclosed",
-    "date": "2018-09-02",
-    "location": "Gurugram",
-    "description": "Wipro raised ₹12525.0 Cr in Acquisition round.",
-    "sourceUrl": "https://yourstory.com/2018/09/wipro-bags-1-5-b-deal-us-based-light-solutions",
     "weekFolder": "W10 Q2 FY19"
   },
   {
@@ -59064,7 +71943,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q2 FY19"
   },
   {
-    "id": "W6 Q2 FY19-24",
+    "id": "W6 Q2 FY19-23",
     "company": "Balance.Tech",
     "amount": 0,
     "stage": "Acquisition",
@@ -59142,24 +72021,6 @@ export const fundingData: FundingDeal[] = [
   },
   {
     "id": "W6 Q2 FY19-19",
-    "company": "Funding",
-    "amount": 200.39999999999998,
-    "stage": "Seed",
-    "sectors": [
-      "Agritech"
-    ],
-    "investors": [
-      "Not Disclosed"
-    ],
-    "leadInvestor": "Not Disclosed",
-    "date": "2018-08-08",
-    "location": "Chennai",
-    "description": "Funding raised ₹2.0 Cr in Seed round.",
-    "sourceUrl": "https://yourstory.com/2018/08/stanford-seed-startup-future-farms-solve-indias-food-crisis-clean-soil-less-farming",
-    "weekFolder": "W6 Q2 FY19"
-  },
-  {
-    "id": "W6 Q2 FY19-20",
     "company": "ZipGo",
     "amount": 30001.550000000003,
     "stage": "Series A",
@@ -59184,7 +72045,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q2 FY19"
   },
   {
-    "id": "W6 Q2 FY19-21",
+    "id": "W6 Q2 FY19-20",
     "company": "Hansel",
     "amount": 3340,
     "stage": "Pre-Series A",
@@ -59205,7 +72066,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q2 FY19"
   },
   {
-    "id": "W6 Q2 FY19-23",
+    "id": "W6 Q2 FY19-22",
     "company": "Run Adam",
     "amount": 0,
     "stage": "Undisclosed",
@@ -59297,7 +72158,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q2 FY19"
   },
   {
-    "id": "W6 Q2 FY19-22",
+    "id": "W6 Q2 FY19-21",
     "company": "Carmesi",
     "amount": 417.5,
     "stage": "Pre-Series A",
@@ -59322,7 +72183,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q2 FY19"
   },
   {
-    "id": "W6 Q2 FY19-25",
+    "id": "W6 Q2 FY19-24",
     "company": "Run Adam",
     "amount": 0,
     "stage": "Undisclosed",
@@ -59365,7 +72226,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q2 FY19"
   },
   {
-    "id": "W5 Q2 FY19-30",
+    "id": "W5 Q2 FY19-28",
     "company": "ZiffyHomes",
     "amount": 100.19999999999999,
     "stage": "Not Disclosed",
@@ -59383,7 +72244,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q2 FY19"
   },
   {
-    "id": "W5 Q2 FY19-32",
+    "id": "W5 Q2 FY19-30",
     "company": "ZipGo",
     "amount": 30001.550000000003,
     "stage": "Series B",
@@ -59456,7 +72317,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q2 FY19"
   },
   {
-    "id": "W5 Q2 FY19-27",
+    "id": "W5 Q2 FY19-25",
     "company": "Zoomcar",
     "amount": 3006,
     "stage": "Series C",
@@ -59552,7 +72413,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q2 FY19"
   },
   {
-    "id": "W5 Q2 FY19-33",
+    "id": "W5 Q2 FY19-31",
     "company": "Mercury Travels",
     "amount": 11857,
     "stage": "Acquisition",
@@ -59570,7 +72431,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q2 FY19"
   },
   {
-    "id": "W5 Q2 FY19-34",
+    "id": "W5 Q2 FY19-32",
     "company": "Scootsy",
     "amount": 0,
     "stage": "Acquisition",
@@ -59681,7 +72542,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q2 FY19"
   },
   {
-    "id": "W5 Q2 FY19-28",
+    "id": "W5 Q2 FY19-26",
     "company": "Racetrack.ai",
     "amount": 4175,
     "stage": "Pre-Series A",
@@ -59702,7 +72563,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q2 FY19"
   },
   {
-    "id": "W5 Q2 FY19-29",
+    "id": "W5 Q2 FY19-27",
     "company": "Flinto",
     "amount": 601.1999999999999,
     "stage": "Series A",
@@ -59722,7 +72583,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q2 FY19"
   },
   {
-    "id": "W5 Q2 FY19-31",
+    "id": "W5 Q2 FY19-29",
     "company": "Purple Style Labs",
     "amount": 2505,
     "stage": "Not Disclosed",
@@ -59742,7 +72603,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q2 FY19"
   },
   {
-    "id": "W5 Q2 FY19-35",
+    "id": "W5 Q2 FY19-33",
     "company": "PhotographAI",
     "amount": 0,
     "stage": "Acquisition",
@@ -59760,7 +72621,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q2 FY19"
   },
   {
-    "id": "W5 Q2 FY19-36",
+    "id": "W5 Q2 FY19-34",
     "company": "Five Star Business Finance",
     "amount": 83500,
     "stage": "Not Disclosed",
@@ -59880,24 +72741,6 @@ export const fundingData: FundingDeal[] = [
   },
   {
     "id": "W5 Q2 FY19-23",
-    "company": "Funding",
-    "amount": 200.39999999999998,
-    "stage": "Not Disclosed",
-    "sectors": [
-      "E-commerce"
-    ],
-    "investors": [
-      "Not Disclosed"
-    ],
-    "leadInvestor": "Not Disclosed",
-    "date": "2018-07-31",
-    "location": "Jaipur",
-    "description": "Funding raised ₹2.0 Cr in Not Disclosed .",
-    "sourceUrl": "https://yourstory.com/2018/07/2-years-jaipur-based-team-3-recorded-sales-worth-rs-2-cr-jewelove",
-    "weekFolder": "W5 Q2 FY19"
-  },
-  {
-    "id": "W5 Q2 FY19-24",
     "company": "HealthPlix",
     "amount": 2505,
     "stage": "Series A",
@@ -59998,7 +72841,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q2 FY19"
   },
   {
-    "id": "W5 Q2 FY19-25",
+    "id": "W5 Q2 FY19-24",
     "company": "Curefit",
     "amount": 100200,
     "stage": "Acquisition",
@@ -60014,24 +72857,6 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Curefit raised ₹1002.0 Cr in Acquisition round.",
     "sourceUrl": "https://yourstory.com/2018/07/fitness-startup-curefit-raises-120-m-series-c-round",
-    "weekFolder": "W5 Q2 FY19"
-  },
-  {
-    "id": "W5 Q2 FY19-26",
-    "company": "Funding",
-    "amount": 1603.1999999999998,
-    "stage": "Not Disclosed",
-    "sectors": [
-      "General"
-    ],
-    "investors": [
-      "Not Disclosed"
-    ],
-    "leadInvestor": "Not Disclosed",
-    "date": "2018-07-30",
-    "location": "Delhi",
-    "description": "Funding raised ₹16.0 Cr in Not Disclosed .",
-    "sourceUrl": "https://yourstory.com/2018/07/starting-college-trio-earned-rs-16-cr-gmv-tagg-just-2-years",
     "weekFolder": "W5 Q2 FY19"
   },
   {
@@ -60642,7 +73467,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W3 Q2 FY19"
   },
   {
-    "id": "W3 Q2 FY19-21",
+    "id": "W3 Q2 FY19-20",
     "company": "Wooden Street",
     "amount": 835,
     "stage": "Series A",
@@ -60812,24 +73637,6 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W3 Q2 FY19"
   },
   {
-    "id": "W3 Q2 FY19-20",
-    "company": "Funding",
-    "amount": 835,
-    "stage": "Acquisition",
-    "sectors": [
-      "General"
-    ],
-    "investors": [
-      "Not Disclosed"
-    ],
-    "leadInvestor": "Not Disclosed",
-    "date": "2018-07-17",
-    "location": "Noida",
-    "description": "Funding raised ₹8.3 Cr in Acquisition round.",
-    "sourceUrl": "https://yourstory.com/2018/07/many-died-sector-now-delivery-turned-profitable-makes-2-million-month",
-    "weekFolder": "W3 Q2 FY19"
-  },
-  {
     "id": "W3 Q2 FY19-4",
     "company": "StayAbode",
     "amount": 0,
@@ -60871,7 +73678,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W3 Q2 FY19"
   },
   {
-    "id": "W3 Q2 FY19-22",
+    "id": "W3 Q2 FY19-21",
     "company": "Zopper Retail",
     "amount": 0,
     "stage": "Acquisition",
@@ -60889,7 +73696,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W3 Q2 FY19"
   },
   {
-    "id": "W3 Q2 FY19-23",
+    "id": "W3 Q2 FY19-22",
     "company": "ItsPleaZure",
     "amount": 0,
     "stage": "Acquisition",
@@ -62437,6 +75244,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W11 Q1 FY19"
   },
   {
+    "id": "W11 Q1 FY19-14",
+    "company": "Awfis",
+    "amount": 16700,
+    "stage": "Series B",
+    "sectors": [
+      "Co-working"
+    ],
+    "investors": [
+      "Sequoia Capital"
+    ],
+    "leadInvestor": "Sequoia Capital",
+    "date": "2018-06-15",
+    "location": "Delhi-NCR",
+    "description": "Awfis raised ₹167.0 Cr in Series B round.",
+    "sourceUrl": "https://yourstory.com/2018/06/housing-mncs-smes-awfis-makes-room-every-office-user",
+    "weekFolder": "W11 Q1 FY19"
+  },
+  {
     "id": "W11 Q1 FY19-4",
     "company": "Loyal Hospitality",
     "amount": 12525,
@@ -62470,6 +75295,25 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "HomeLane raised ₹29.6 Cr in Not Disclosed .",
     "sourceUrl": "https://inc42.com/buzz/home-furnishing-startup-homelane-raises-3-54-mn-from-bccls-brand-capital/",
+    "weekFolder": "W11 Q1 FY19"
+  },
+  {
+    "id": "W11 Q1 FY19-15",
+    "company": "DailyNinja",
+    "amount": 2505,
+    "stage": "Series A",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "Saama Capital",
+      "Sequoia Capital"
+    ],
+    "leadInvestor": "Saama Capital",
+    "date": "2018-06-14",
+    "location": "Bengaluru",
+    "description": "DailyNinja raised ₹25.1 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2018/06/truecaller-acquires-chillr-dailyninja-nivesh-com-raise-funds-daily-capsule",
     "weekFolder": "W11 Q1 FY19"
   },
   {
@@ -62583,6 +75427,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Kolkata",
     "description": "Wow! Momo raised ₹3.0 Cr in Not Disclosed .",
     "sourceUrl": "https://entrackr.com/2018/06/wow-momo-bags-funding-fabindia-md/",
+    "weekFolder": "W11 Q1 FY19"
+  },
+  {
+    "id": "W11 Q1 FY19-16",
+    "company": "eShakti",
+    "amount": 7498.3,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Paragon Partners"
+    ],
+    "leadInvestor": "Paragon Partners",
+    "date": "2018-06-13",
+    "location": "Chennai",
+    "description": "eShakti raised ₹75.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2018/06/paragon-partners-invests-rs-75-crore-in-womens-fashion-brand-eshakti",
     "weekFolder": "W11 Q1 FY19"
   },
   {
@@ -62817,6 +75679,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q1 FY19"
   },
   {
+    "id": "W10 Q1 FY19-11",
+    "company": "Hey Deedee",
+    "amount": 417.5,
+    "stage": "Pre-Seed",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "Metaform Ventures"
+    ],
+    "leadInvestor": "Metaform Ventures",
+    "date": "2018-06-05",
+    "location": "Mumbai",
+    "description": "Hey Deedee raised ₹4.2 Cr in Pre-Seed round.",
+    "sourceUrl": "https://yourstory.com/2018/06/f-word-women-hyperlocal-delivery-startup-hey-deedee-raises-pre-seed-funding-500k",
+    "weekFolder": "W10 Q1 FY19"
+  },
+  {
     "id": "W10 Q1 FY19-1",
     "company": "Locus",
     "amount": 3340,
@@ -62867,6 +75747,25 @@ export const fundingData: FundingDeal[] = [
     "location": "Noida",
     "description": "Pine Labs raised ₹1945.5 Cr in Series A round.",
     "sourceUrl": "https://entrackr.com/2018/06/funding-indian-startups-week-may-june/",
+    "weekFolder": "W9 Q1 FY19"
+  },
+  {
+    "id": "W9 Q1 FY19-21",
+    "company": "CoinTribe",
+    "amount": 8350,
+    "stage": "Series B",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Sabre Partners",
+      "Puneet Dalmia"
+    ],
+    "leadInvestor": "Sabre Partners",
+    "date": "2018-06-02",
+    "location": "Gurugram",
+    "description": "CoinTribe raised ₹83.5 Cr in Series B round.",
+    "sourceUrl": "https://yourstory.com/2018/06/stellapps-cointribe-raise-funds-phonepe-clocks-20-billion-in-annual-transaction-value-daily-capsule",
     "weekFolder": "W9 Q1 FY19"
   },
   {
@@ -62922,6 +75821,31 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Kunal Shah raised ₹250.5 Cr in Not Disclosed .",
     "sourceUrl": "https://entrackr.com/2018/06/kunal-shah-funding-sequoia-capital/",
+    "weekFolder": "W9 Q1 FY19"
+  },
+  {
+    "id": "W9 Q1 FY19-22",
+    "company": "Stellapps",
+    "amount": 11690,
+    "stage": "Series B",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "IndusAge Partners",
+      "Bill & Melinda Gates Foundation",
+      "Qualcomm Ventures",
+      "ABB Technology Ventures",
+      "Omnivore",
+      "Blume Ventures",
+      "Venture Highway",
+      "BEENEXT"
+    ],
+    "leadInvestor": "IndusAge Partners",
+    "date": "2018-06-01",
+    "location": "Bengaluru",
+    "description": "Stellapps raised ₹116.9 Cr in Series B round.",
+    "sourceUrl": "https://yourstory.com/2018/06/binny-bansal-backed-stellapps-raises-14-million-gates-foundation-others",
     "weekFolder": "W9 Q1 FY19"
   },
   {
@@ -63002,6 +75926,25 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Stellapps raised ₹116.9 Cr in Not Disclosed .",
     "sourceUrl": "https://inc42.com/buzz/gates-foundation-indusage-led-14-mn-funding-in-iot-focussed-agritech-startup-stellapps/",
+    "weekFolder": "W9 Q1 FY19"
+  },
+  {
+    "id": "W9 Q1 FY19-23",
+    "company": "Qtrove",
+    "amount": 35003.200000000004,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Springboard Ventures",
+      "Brand Capital"
+    ],
+    "leadInvestor": "Springboard Ventures",
+    "date": "2018-05-31",
+    "location": "India",
+    "description": "Qtrove raised ₹350.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2018/05/qtrove-and-uber-rival-taxify-raise-funds-alibaba-group-leads-investment-in-zto-express-daily-capsule",
     "weekFolder": "W9 Q1 FY19"
   },
   {
@@ -63261,6 +76204,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q1 FY19"
   },
   {
+    "id": "W8 Q1 FY19-21",
+    "company": "LifeSight",
+    "amount": 1670,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Provident Capital Partners"
+    ],
+    "leadInvestor": "Provident Capital Partners",
+    "date": "2018-05-26",
+    "location": "Bengaluru",
+    "description": "LifeSight raised ₹16.7 Cr in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2018/05/samsung-to-pay-539-m-to-apple-lifesight-raises-pre-series-a-funding-of-2-m-daily-capsule",
+    "weekFolder": "W8 Q1 FY19"
+  },
+  {
     "id": "W8 Q1 FY19-15",
     "company": "LifeSight",
     "amount": 1670,
@@ -63428,6 +76389,27 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q1 FY19"
   },
   {
+    "id": "W8 Q1 FY19-22",
+    "company": "Milkbasket",
+    "amount": 5845,
+    "stage": "Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Kalaari Capital",
+      "BeeNext",
+      "Blume Ventures",
+      "Unilever Ventures"
+    ],
+    "leadInvestor": "Kalaari Capital",
+    "date": "2018-05-23",
+    "location": "Gurugram",
+    "description": "Milkbasket raised ₹58.5 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2018/05/ola-expands-operations-in-australia-milkbasket-newsdog-raise-funds-earlysalary-acquire-cashcare-daily-capsule",
+    "weekFolder": "W8 Q1 FY19"
+  },
+  {
     "id": "W8 Q1 FY19-1",
     "company": "Mobisy",
     "amount": 2922.5,
@@ -63523,6 +76505,26 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q1 FY19"
   },
   {
+    "id": "W8 Q1 FY19-19",
+    "company": "ImpactGuru",
+    "amount": 1670,
+    "stage": "Series A",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Apollo Hospitals Group",
+      "Venture Catalysts",
+      "RB Investments"
+    ],
+    "leadInvestor": "Apollo Hospitals Group",
+    "date": "2018-05-22",
+    "location": "India",
+    "description": "ImpactGuru raised ₹16.7 Cr in Series A round.",
+    "sourceUrl": "https://yourstory.com/2018/05/paytm-mall-to-offer-no-cost-emi-rocketium-impactguru-raise-funds-microsoft-acquires-semantic-machines-daily-capsule",
+    "weekFolder": "W8 Q1 FY19"
+  },
+  {
     "id": "W8 Q1 FY19-4",
     "company": "ImpactGuru",
     "amount": 1670,
@@ -63585,6 +76587,45 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W8 Q1 FY19"
   },
   {
+    "id": "W8 Q1 FY19-20",
+    "company": "Rocketium",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "SaaS"
+    ],
+    "investors": [
+      "Blume Ventures",
+      "TN Hari",
+      "Raghunandan G"
+    ],
+    "leadInvestor": "Blume Ventures",
+    "date": "2018-05-21",
+    "location": "Bengaluru",
+    "description": "Rocketium raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2018/05/rocketium-raises-seed-funding-led-blume-ventures-angel-investors",
+    "weekFolder": "W8 Q1 FY19"
+  },
+  {
+    "id": "W7 Q1 FY19-11",
+    "company": "Droom",
+    "amount": 25050,
+    "stage": "Series D",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Toyota Tsusho Corporation",
+      "Digital Garage"
+    ],
+    "leadInvestor": "Toyota Tsusho Corporation",
+    "date": "2018-05-18",
+    "location": "India",
+    "description": "Droom raised ₹250.5 Cr in Series D round.",
+    "sourceUrl": "https://yourstory.com/2018/05/droom-mfine-raise-funding-suresh-prabhu-addresses-entrepreneurs-in-facebook-live-session-daily-capsule",
+    "weekFolder": "W7 Q1 FY19"
+  },
+  {
     "id": "W7 Q1 FY19-5",
     "company": "Open",
     "amount": 0,
@@ -63645,6 +76686,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W7 Q1 FY19"
   },
   {
+    "id": "W7 Q1 FY19-12",
+    "company": "Digit Insurance",
+    "amount": 35003.200000000004,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Fairfax Financial Holdings"
+    ],
+    "leadInvestor": "Fairfax Financial Holdings",
+    "date": "2018-05-16",
+    "location": "Bengaluru",
+    "description": "Digit Insurance raised ₹350.0 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2018/05/rs-350-cr-investment-within-6-months-operations-digit-plans-take-prime-spot",
+    "weekFolder": "W7 Q1 FY19"
+  },
+  {
     "id": "W7 Q1 FY19-4",
     "company": "Z2P",
     "amount": 0,
@@ -63660,6 +76719,25 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "Z2P raised funding in Acquisition round.",
     "sourceUrl": "https://inc42.com/buzz/paymate-acquires-digital-lending-platform-z2p/",
+    "weekFolder": "W7 Q1 FY19"
+  },
+  {
+    "id": "W7 Q1 FY19-13",
+    "company": "Nykaa",
+    "amount": 2396.4500000000003,
+    "stage": "Series D",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Sunil Kant Munjal",
+      "Harsh Mariwala"
+    ],
+    "leadInvestor": "Sunil Kant Munjal",
+    "date": "2018-05-15",
+    "location": "India",
+    "description": "Nykaa raised ₹24.0 Cr in Series D round.",
+    "sourceUrl": "https://yourstory.com/2018/05/nykaa-aye-finance-raise-funding-ecommerce-to-see-higher-cross-border-data-transfer-daily-capsule",
     "weekFolder": "W7 Q1 FY19"
   },
   {
@@ -63778,6 +76856,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W7 Q1 FY19"
   },
   {
+    "id": "W7 Q1 FY19-14",
+    "company": "Aye Finance",
+    "amount": 2997.6499999999996,
+    "stage": "Debt",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "SBI"
+    ],
+    "leadInvestor": "SBI",
+    "date": "2018-05-14",
+    "location": "India",
+    "description": "Aye Finance raised ₹30.0 Cr in Debt round.",
+    "sourceUrl": "https://yourstory.com/2018/05/sbi-extends-rs-30-cr-in-debt-to-msme-lender-aye-finance",
+    "weekFolder": "W7 Q1 FY19"
+  },
+  {
     "id": "W6 Q1 FY19-4",
     "company": "EarthFood",
     "amount": 8266.5,
@@ -63831,6 +76927,26 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "Innovaccer raised ₹208.8 Cr in Series B round.",
     "sourceUrl": "https://inc42.com/buzz/healthcare-data-analytics-startup-innovaccer-raises-25-mn-from-westbridge-and-lightspeed/",
+    "weekFolder": "W6 Q1 FY19"
+  },
+  {
+    "id": "W6 Q1 FY19-15",
+    "company": "Charcoal Eats",
+    "amount": 501,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Rajesh Ramanathan",
+      "Kush Verma",
+      "Sanjay Bhandarkar"
+    ],
+    "leadInvestor": "Rajesh Ramanathan",
+    "date": "2018-05-10",
+    "location": "Mumbai",
+    "description": "Charcoal Eats raised ₹5.0 Cr in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2018/05/qsr-startup-charcoal-eats-raises-rs-5-cr-pre-series-funding",
     "weekFolder": "W6 Q1 FY19"
   },
   {
@@ -63910,6 +77026,45 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q1 FY19"
   },
   {
+    "id": "W6 Q1 FY19-12",
+    "company": "i3systems",
+    "amount": 835,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Deeptech & AI"
+    ],
+    "investors": [
+      "Unitus Ventures",
+      "Behram Vakil",
+      "Jerxis Vandrevala"
+    ],
+    "leadInvestor": "Unitus Ventures",
+    "date": "2018-05-09",
+    "location": "Mumbai",
+    "description": "i3systems raised ₹8.3 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2018/05/ai-powered-insure-tech-platform-i3systems-raises-1-m-from-unitus-ventures-and-others",
+    "weekFolder": "W6 Q1 FY19"
+  },
+  {
+    "id": "W6 Q1 FY19-13",
+    "company": "Bira 91",
+    "amount": 41750,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "Sofina",
+      "Sequoia Capital"
+    ],
+    "leadInvestor": "Sofina",
+    "date": "2018-05-09",
+    "location": "India",
+    "description": "Bira 91 raised ₹417.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2018/05/craft-beer-brand-bira-91-cheers-50m-fundraise-belgian-investment-firm-sofina",
+    "weekFolder": "W6 Q1 FY19"
+  },
+  {
     "id": "W6 Q1 FY19-6",
     "company": "Fastfilmz",
     "amount": 0,
@@ -63944,6 +77099,24 @@ export const fundingData: FundingDeal[] = [
     "location": "New Delhi",
     "description": "Bira 91 raised ₹417.5 Cr in Not Disclosed .",
     "sourceUrl": "https://entrackr.com/2018/05/craft-beer-bira-91-fund-50-mn-sofina/",
+    "weekFolder": "W6 Q1 FY19"
+  },
+  {
+    "id": "W6 Q1 FY19-14",
+    "company": "Timios",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Foodtech"
+    ],
+    "investors": [
+      "MTR Foods"
+    ],
+    "leadInvestor": "MTR Foods",
+    "date": "2018-05-08",
+    "location": "Bengaluru",
+    "description": "Timios raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2018/05/mtr-foods-announces-first-investment-childrens-packaged-food-brand-timios",
     "weekFolder": "W6 Q1 FY19"
   },
   {
@@ -64170,6 +77343,27 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W5 Q1 FY19"
   },
   {
+    "id": "W5 Q1 FY19-17",
+    "company": "Rubique",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "Recruit Group",
+      "Emery Capital",
+      "Blacksoil",
+      "Kalaari Capital"
+    ],
+    "leadInvestor": "Recruit Group",
+    "date": "2018-05-01",
+    "location": "Mumbai",
+    "description": "Rubique raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2018/05/rubique-samco-raise-funds-unitus-ventures-closes-second-fund-of-rs-300-crore-daily-capsule",
+    "weekFolder": "W5 Q1 FY19"
+  },
+  {
     "id": "W5 Q1 FY19-1",
     "company": "Rubique",
     "amount": 8350,
@@ -64301,6 +77495,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W4 Q1 FY19"
   },
   {
+    "id": "W4 Q1 FY19-21",
+    "company": "Constapark",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "GetMyParking"
+    ],
+    "leadInvestor": "GetMyParking",
+    "date": "2018-04-28",
+    "location": "Bengaluru",
+    "description": "Constapark raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2018/04/backed-funding-4-5-million-getmeparking-acquires-constapark",
+    "weekFolder": "W4 Q1 FY19"
+  },
+  {
     "id": "W4 Q1 FY19-9",
     "company": "RailYatri",
     "amount": 0,
@@ -64429,6 +77641,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W4 Q1 FY19"
   },
   {
+    "id": "W4 Q1 FY19-18",
+    "company": "OYO",
+    "amount": 8350,
+    "stage": "Not Disclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "China Lodging Group"
+    ],
+    "leadInvestor": "China Lodging Group",
+    "date": "2018-04-26",
+    "location": "India",
+    "description": "OYO raised ₹83.5 Cr in Not Disclosed .",
+    "sourceUrl": "https://yourstory.com/2018/04/oyo-rooms-receives-its-funding-from-china-lodging-group",
+    "weekFolder": "W4 Q1 FY19"
+  },
+  {
     "id": "W4 Q1 FY19-6",
     "company": "Indo Pacific Aviation",
     "amount": 0,
@@ -64481,6 +77711,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Delhi",
     "description": "TripShelf raised ₹1.6 Cr in Pre-Series A round.",
     "sourceUrl": "https://yourstory.com/2018/04/tripshelf-raises-rs-1-6-cr-in-pre-series-a-round",
+    "weekFolder": "W4 Q1 FY19"
+  },
+  {
+    "id": "W4 Q1 FY19-19",
+    "company": "Pepperfry",
+    "amount": 30895,
+    "stage": "Series F",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Not Disclosed"
+    ],
+    "leadInvestor": "Not Disclosed",
+    "date": "2018-04-25",
+    "location": "Mumbai",
+    "description": "Pepperfry raised ₹308.9 Cr in Series F round.",
+    "sourceUrl": "https://yourstory.com/2018/04/raising-37-million-pepperfry-moves-beyond-furniture-profit",
     "weekFolder": "W4 Q1 FY19"
   },
   {
@@ -64616,6 +77864,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W4 Q1 FY19"
   },
   {
+    "id": "W4 Q1 FY19-20",
+    "company": "Indo Pacific Aviation",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "EV & Mobility"
+    ],
+    "investors": [
+      "JetSetGo"
+    ],
+    "leadInvestor": "JetSetGo",
+    "date": "2018-04-23",
+    "location": "India",
+    "description": "Indo Pacific Aviation raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2018/04/jet-set-go-acquires-indo-pacific-aviation",
+    "weekFolder": "W4 Q1 FY19"
+  },
+  {
     "id": "W3 Q1 FY19-14",
     "company": "True Balance",
     "amount": 61790,
@@ -64716,6 +77982,43 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "Coverfox.com raised ₹183.7 Cr in Series C round.",
     "sourceUrl": "https://yourstory.com/2018/04/coverfox-chai-point-raise-series-c-funding-trucaller-crosses-100-m-daily-active-users-daily-capsule",
+    "weekFolder": "W3 Q1 FY19"
+  },
+  {
+    "id": "W3 Q1 FY19-24",
+    "company": "Mamaearth",
+    "amount": 0,
+    "stage": "Undisclosed",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Shilpa Shetty Kundra",
+      "Fireside Ventures"
+    ],
+    "leadInvestor": "Shilpa Shetty Kundra",
+    "date": "2018-04-20",
+    "location": "Delhi",
+    "description": "Mamaearth raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2018/04/shilpa-shetty-kundra-invests-mamaearth-says-love-toxin-free-baby-care-products",
+    "weekFolder": "W3 Q1 FY19"
+  },
+  {
+    "id": "W3 Q1 FY19-25",
+    "company": "Smartclass",
+    "amount": 6680,
+    "stage": "Acquisition",
+    "sectors": [
+      "Edtech"
+    ],
+    "investors": [
+      "Ebix"
+    ],
+    "leadInvestor": "Ebix",
+    "date": "2018-04-20",
+    "location": "India",
+    "description": "Smartclass raised ₹66.8 Cr in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2018/04/ebix-enters-indias-e-learning-market-through-acquisition-of-smartclass-earmarks-100m-for-the-sector",
     "weekFolder": "W3 Q1 FY19"
   },
   {
@@ -64872,6 +78175,24 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W3 Q1 FY19"
   },
   {
+    "id": "W3 Q1 FY19-27",
+    "company": "Cogoport",
+    "amount": 0,
+    "stage": "Series A",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "Accel Partners"
+    ],
+    "leadInvestor": "Accel Partners",
+    "date": "2018-04-18",
+    "location": "India",
+    "description": "Cogoport raised funding in Series A round.",
+    "sourceUrl": "https://yourstory.com/2018/04/cogoport-arman-financial-services-raise-funds-new-south-wales-india-announce-1-6-m-partnership-daily-capsule",
+    "weekFolder": "W3 Q1 FY19"
+  },
+  {
     "id": "W3 Q1 FY19-4",
     "company": "ShopX",
     "amount": 1670,
@@ -64931,6 +78252,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "PregBuddy raised ₹4175.0 Cr in Series B round.",
     "sourceUrl": "https://yourstory.com/2018/04/pregbuddy-jio-raise-funds-ola-evs-daily-capsule",
+    "weekFolder": "W3 Q1 FY19"
+  },
+  {
+    "id": "W3 Q1 FY19-26",
+    "company": "Arman Financial Services",
+    "amount": 5669.650000000001,
+    "stage": "Debt",
+    "sectors": [
+      "Fintech"
+    ],
+    "investors": [
+      "SAIF Partners"
+    ],
+    "leadInvestor": "SAIF Partners",
+    "date": "2018-04-17",
+    "location": "Gujarat",
+    "description": "Arman Financial Services raised ₹56.7 Cr in Debt round.",
+    "sourceUrl": "https://yourstory.com/2018/04/nbfc-arman-financial-services-raises-rs-57-cr-saif-partners",
     "weekFolder": "W3 Q1 FY19"
   },
   {
@@ -65041,6 +78380,26 @@ export const fundingData: FundingDeal[] = [
     "location": "Delhi",
     "description": "Sleepy Owl raised ₹4.2 Cr in Seed round.",
     "sourceUrl": "https://entrackr.com/2018/04/cold-coffee-sleepy-owl-500k-seed-fund/",
+    "weekFolder": "W3 Q1 FY19"
+  },
+  {
+    "id": "W3 Q1 FY19-23",
+    "company": "PregBuddy",
+    "amount": 0,
+    "stage": "Seed",
+    "sectors": [
+      "Healthtech"
+    ],
+    "investors": [
+      "Indian Angel Network",
+      "Rajan Anandan",
+      "Madhusudhan Kannan"
+    ],
+    "leadInvestor": "Indian Angel Network",
+    "date": "2018-04-16",
+    "location": "Bengaluru",
+    "description": "PregBuddy raised funding in Seed round.",
+    "sourceUrl": "https://yourstory.com/2018/04/pregbuddy-announces-undisclosed-seed-funding-indian-angel-network",
     "weekFolder": "W3 Q1 FY19"
   },
   {
@@ -65159,6 +78518,43 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W2 Q1 FY19"
   },
   {
+    "id": "W2 Q1 FY19-16",
+    "company": "Nivaasa",
+    "amount": 0,
+    "stage": "Acquisition",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "ZiffyHomes"
+    ],
+    "leadInvestor": "ZiffyHomes",
+    "date": "2018-04-12",
+    "location": "Gurugram",
+    "description": "Nivaasa raised funding in Acquisition round.",
+    "sourceUrl": "https://yourstory.com/2018/04/gurugram-based-real-estate-tech-startup-ziffyhomes-acquires-nivaasa",
+    "weekFolder": "W2 Q1 FY19"
+  },
+  {
+    "id": "W2 Q1 FY19-17",
+    "company": "Mojro",
+    "amount": 542.75,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "Logistics"
+    ],
+    "investors": [
+      "1Crowd",
+      "Naga Limited"
+    ],
+    "leadInvestor": "1Crowd",
+    "date": "2018-04-12",
+    "location": "Bengaluru",
+    "description": "Mojro raised ₹5.4 Cr in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2018/04/mojro-biosense-tech-raise-funds-whatsapp-seeks-india-head-communications-manager-daily-capsule",
+    "weekFolder": "W2 Q1 FY19"
+  },
+  {
     "id": "W2 Q1 FY19-6",
     "company": "Kristal.AI",
     "amount": 1561.45,
@@ -65212,6 +78608,25 @@ export const fundingData: FundingDeal[] = [
     "location": "Mumbai",
     "description": "Biosense raised ₹8.3 Cr in Debt round.",
     "sourceUrl": "https://yourstory.com/2018/04/biosense-funding-menterra",
+    "weekFolder": "W2 Q1 FY19"
+  },
+  {
+    "id": "W2 Q1 FY19-18",
+    "company": "Grofers",
+    "amount": 39996.5,
+    "stage": "Series E",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "SoftBank",
+      "Tiger Global Management"
+    ],
+    "leadInvestor": "SoftBank",
+    "date": "2018-04-11",
+    "location": "Gurugram",
+    "description": "Grofers raised ₹400.0 Cr in Series E round.",
+    "sourceUrl": "https://yourstory.com/2018/04/grofers-got-online-grocery-game-right-won-rs-400-crore-softbank",
     "weekFolder": "W2 Q1 FY19"
   },
   {
@@ -65381,21 +78796,39 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY19"
   },
   {
-    "id": "W1 Q1 FY19-13",
-    "company": "Funding",
-    "amount": 5427.5,
-    "stage": "Acquisition",
+    "id": "W1 Q1 FY19-21",
+    "company": "Facilio",
+    "amount": 0,
+    "stage": "Undisclosed",
     "sectors": [
-      "Edtech"
+      "SaaS"
     ],
     "investors": [
-      "Not Disclosed"
+      "Accel"
     ],
-    "leadInvestor": "Not Disclosed",
+    "leadInvestor": "Accel",
     "date": "2018-04-06",
-    "location": "Bengaluru",
-    "description": "Funding raised ₹54.3 Cr in Acquisition round.",
-    "sourceUrl": "https://yourstory.com/2018/04/6-5-m-funding-edtech-startup-helps-professionals-remain-relevant-industry",
+    "location": "Chennai",
+    "description": "Facilio raised funding in Undisclosed round.",
+    "sourceUrl": "https://yourstory.com/2018/04/accel-funds-ex-zoho-teams-startup-facilio-that-makes-buildings-smarter",
+    "weekFolder": "W1 Q1 FY19"
+  },
+  {
+    "id": "W1 Q1 FY19-22",
+    "company": "UClean",
+    "amount": 0,
+    "stage": "Pre-Series A",
+    "sectors": [
+      "E-commerce"
+    ],
+    "investors": [
+      "Anubhav Chopra"
+    ],
+    "leadInvestor": "Anubhav Chopra",
+    "date": "2018-04-06",
+    "location": "Faridabad",
+    "description": "UClean raised funding in Pre-Series A round.",
+    "sourceUrl": "https://yourstory.com/2018/04/zilingo-uclean-raise-funds-ola-launches-in-trip-insurance-programme-daily-capsule",
     "weekFolder": "W1 Q1 FY19"
   },
   {
@@ -65419,7 +78852,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY19"
   },
   {
-    "id": "W1 Q1 FY19-14",
+    "id": "W1 Q1 FY19-13",
     "company": "UClean",
     "amount": 400.79999999999995,
     "stage": "Pre-Series A",
@@ -65437,7 +78870,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY19"
   },
   {
-    "id": "W1 Q1 FY19-19",
+    "id": "W1 Q1 FY19-18",
     "company": "CoutLoot",
     "amount": 835,
     "stage": "Pre-Series A",
@@ -65532,7 +78965,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY19"
   },
   {
-    "id": "W1 Q1 FY19-16",
+    "id": "W1 Q1 FY19-15",
     "company": "Power2SME",
     "amount": 3999.6499999999996,
     "stage": "Debt",
@@ -65625,7 +79058,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY19"
   },
   {
-    "id": "W1 Q1 FY19-15",
+    "id": "W1 Q1 FY19-14",
     "company": "Fitternity",
     "amount": 1670,
     "stage": "Series A",
@@ -65643,7 +79076,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY19"
   },
   {
-    "id": "W1 Q1 FY19-17",
+    "id": "W1 Q1 FY19-16",
     "company": "Infibeam",
     "amount": 3999.6499999999996,
     "stage": "Not Disclosed",
@@ -65662,7 +79095,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY19"
   },
   {
-    "id": "W1 Q1 FY19-20",
+    "id": "W1 Q1 FY19-19",
     "company": "Paytm Mall",
     "amount": 375750,
     "stage": "Not Disclosed",
@@ -65702,7 +79135,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY19"
   },
   {
-    "id": "W1 Q1 FY19-18",
+    "id": "W1 Q1 FY19-17",
     "company": "Paytm Mall",
     "amount": 371575,
     "stage": "Not Disclosed",
@@ -65721,7 +79154,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W1 Q1 FY19"
   },
   {
-    "id": "W1 Q1 FY19-21",
+    "id": "W1 Q1 FY19-20",
     "company": "Houseome",
     "amount": 50.099999999999994,
     "stage": "Not Disclosed",
@@ -68569,7 +82002,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q4 FY18"
   },
   {
-    "id": "W6 Q4 FY18-22",
+    "id": "W6 Q4 FY18-21",
     "company": "HeyHolidays",
     "amount": 835,
     "stage": "Not Disclosed",
@@ -68587,7 +82020,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q4 FY18"
   },
   {
-    "id": "W6 Q4 FY18-23",
+    "id": "W6 Q4 FY18-22",
     "company": "Nazara Technologies",
     "amount": 2596.85,
     "stage": "Not Disclosed",
@@ -68605,7 +82038,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q4 FY18"
   },
   {
-    "id": "W6 Q4 FY18-27",
+    "id": "W6 Q4 FY18-26",
     "company": "Placio",
     "amount": 1670,
     "stage": "Pre-Series A",
@@ -68685,25 +82118,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q4 FY18"
   },
   {
-    "id": "W6 Q4 FY18-18",
-    "company": "Funding",
-    "amount": 3340,
-    "stage": "Not Disclosed",
-    "sectors": [
-      "General"
-    ],
-    "investors": [
-      "Not Disclosed"
-    ],
-    "leadInvestor": "Not Disclosed",
-    "date": "2018-02-08",
-    "location": "Delhi",
-    "description": "Funding raised ₹33.4 Cr in Not Disclosed .",
-    "sourceUrl": "https://yourstory.com/2018/02/4-m-funding-rentickle-com-lets-rent-ease",
-    "weekFolder": "W6 Q4 FY18"
-  },
-  {
-    "id": "W6 Q4 FY18-24",
+    "id": "W6 Q4 FY18-23",
     "company": "Strand Life Sciences",
     "amount": 10855,
     "stage": "Not Disclosed",
@@ -68723,7 +82138,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q4 FY18"
   },
   {
-    "id": "W6 Q4 FY18-25",
+    "id": "W6 Q4 FY18-24",
     "company": "Fusion Microfinance",
     "amount": 7999.299999999999,
     "stage": "Not Disclosed",
@@ -68799,7 +82214,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q4 FY18"
   },
   {
-    "id": "W6 Q4 FY18-26",
+    "id": "W6 Q4 FY18-25",
     "company": "Healthi",
     "amount": 2588.5,
     "stage": "Not Disclosed",
@@ -68876,7 +82291,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q4 FY18"
   },
   {
-    "id": "W6 Q4 FY18-19",
+    "id": "W6 Q4 FY18-18",
     "company": "CollegeDekho",
     "amount": 1670,
     "stage": "Not Disclosed",
@@ -68894,7 +82309,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q4 FY18"
   },
   {
-    "id": "W6 Q4 FY18-20",
+    "id": "W6 Q4 FY18-19",
     "company": "Cash Suvidha",
     "amount": 2087.5,
     "stage": "Debt",
@@ -68912,7 +82327,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q4 FY18"
   },
   {
-    "id": "W6 Q4 FY18-21",
+    "id": "W6 Q4 FY18-20",
     "company": "Pratilipi",
     "amount": 3590.5,
     "stage": "Series A",
@@ -68935,7 +82350,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W6 Q4 FY18"
   },
   {
-    "id": "W6 Q4 FY18-28",
+    "id": "W6 Q4 FY18-27",
     "company": "GenRobotic",
     "amount": 0,
     "stage": "Seed",
@@ -69807,24 +83222,6 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W3 Q4 FY18"
   },
   {
-    "id": "W3 Q4 FY18-9",
-    "company": "Funding",
-    "amount": 250.5,
-    "stage": "Not Disclosed",
-    "sectors": [
-      "General"
-    ],
-    "investors": [
-      "Not Disclosed"
-    ],
-    "leadInvestor": "Not Disclosed",
-    "date": "2018-01-19",
-    "location": "Delhi",
-    "description": "Funding raised ₹2.5 Cr in Not Disclosed .",
-    "sourceUrl": "https://yourstory.com/2018/01/120-employees-5-districts-rs-2-5-cr-annual-turnover-kozhikode-based-green-worms-turning-trash-money",
-    "weekFolder": "W3 Q4 FY18"
-  },
-  {
     "id": "W3 Q4 FY18-1",
     "company": "ShareChat",
     "amount": 15197,
@@ -69847,7 +83244,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W3 Q4 FY18"
   },
   {
-    "id": "W3 Q4 FY18-10",
+    "id": "W3 Q4 FY18-9",
     "company": "Nysaa Retail",
     "amount": 5427.5,
     "stage": "Not Disclosed",
@@ -69865,7 +83262,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W3 Q4 FY18"
   },
   {
-    "id": "W3 Q4 FY18-12",
+    "id": "W3 Q4 FY18-11",
     "company": "Awign",
     "amount": 501,
     "stage": "Not Disclosed",
@@ -69883,7 +83280,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W3 Q4 FY18"
   },
   {
-    "id": "W3 Q4 FY18-13",
+    "id": "W3 Q4 FY18-12",
     "company": "myGate",
     "amount": 1603.1999999999998,
     "stage": "Seed",
@@ -69920,7 +83317,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W3 Q4 FY18"
   },
   {
-    "id": "W3 Q4 FY18-14",
+    "id": "W3 Q4 FY18-13",
     "company": "Husk Power Systems",
     "amount": 16700,
     "stage": "Series C",
@@ -69996,7 +83393,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W3 Q4 FY18"
   },
   {
-    "id": "W3 Q4 FY18-11",
+    "id": "W3 Q4 FY18-10",
     "company": "Scooterson",
     "amount": 1461.25,
     "stage": "Not Disclosed",
@@ -70635,7 +84032,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W12 Q3 FY18"
   },
   {
-    "id": "W12 Q3 FY18-18",
+    "id": "W12 Q3 FY18-17",
     "company": "Univariety",
     "amount": 1252.5,
     "stage": "Not Disclosed",
@@ -70854,24 +84251,6 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "Foodpanda raised ₹1670.0 Cr in Acquisition round.",
     "sourceUrl": "https://entrackr.com/2017/12/ola-acquires-foodpanda/",
-    "weekFolder": "W12 Q3 FY18"
-  },
-  {
-    "id": "W12 Q3 FY18-17",
-    "company": "Funding",
-    "amount": 25050,
-    "stage": "Not Disclosed",
-    "sectors": [
-      "General"
-    ],
-    "investors": [
-      "Not Disclosed"
-    ],
-    "leadInvestor": "Not Disclosed",
-    "date": "2017-12-19",
-    "location": "Bengaluru",
-    "description": "Funding raised ₹250.5 Cr in Not Disclosed .",
-    "sourceUrl": "https://yourstory.com/2017/12/run-around-parents-medicine-entrepreneur-now-makes-healthcare-seamless-experience",
     "weekFolder": "W12 Q3 FY18"
   },
   {
@@ -71260,7 +84639,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q3 FY18"
   },
   {
-    "id": "W10 Q3 FY18-23",
+    "id": "W10 Q3 FY18-22",
     "company": "MilkLane",
     "amount": 3340,
     "stage": "Seed",
@@ -71371,7 +84750,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q3 FY18"
   },
   {
-    "id": "W10 Q3 FY18-18",
+    "id": "W10 Q3 FY18-17",
     "company": "The Man Company",
     "amount": 0,
     "stage": "Undisclosed",
@@ -71389,7 +84768,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q3 FY18"
   },
   {
-    "id": "W10 Q3 FY18-19",
+    "id": "W10 Q3 FY18-18",
     "company": "Ultraviolette",
     "amount": 501,
     "stage": "Not Disclosed",
@@ -71462,7 +84841,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q3 FY18"
   },
   {
-    "id": "W10 Q3 FY18-20",
+    "id": "W10 Q3 FY18-19",
     "company": "6over6",
     "amount": 835,
     "stage": "Not Disclosed",
@@ -71503,25 +84882,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q3 FY18"
   },
   {
-    "id": "W10 Q3 FY18-13",
-    "company": "It",
-    "amount": 66800,
-    "stage": "Acquisition",
-    "sectors": [
-      "General"
-    ],
-    "investors": [
-      "Paytm"
-    ],
-    "leadInvestor": "Paytm",
-    "date": "2017-12-06",
-    "location": "Noida",
-    "description": "It raised ₹668.0 Cr in Acquisition round.",
-    "sourceUrl": "https://entrackr.com/2017/12/paytm-acquires-nearbuy-little/",
-    "weekFolder": "W10 Q3 FY18"
-  },
-  {
-    "id": "W10 Q3 FY18-21",
+    "id": "W10 Q3 FY18-20",
     "company": "Mobycy",
     "amount": 317.3,
     "stage": "Seed",
@@ -71539,7 +84900,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q3 FY18"
   },
   {
-    "id": "W10 Q3 FY18-24",
+    "id": "W10 Q3 FY18-23",
     "company": "Flinto",
     "amount": 5845,
     "stage": "Series A",
@@ -71599,7 +84960,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q3 FY18"
   },
   {
-    "id": "W10 Q3 FY18-14",
+    "id": "W10 Q3 FY18-13",
     "company": "Flintobox",
     "amount": 5845,
     "stage": "Series A",
@@ -71617,7 +84978,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q3 FY18"
   },
   {
-    "id": "W10 Q3 FY18-15",
+    "id": "W10 Q3 FY18-14",
     "company": "Airtel",
     "amount": 1503,
     "stage": "Seed",
@@ -71637,7 +84998,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q3 FY18"
   },
   {
-    "id": "W10 Q3 FY18-16",
+    "id": "W10 Q3 FY18-15",
     "company": "Rentickle",
     "amount": 3340,
     "stage": "Debt",
@@ -71666,7 +85027,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q3 FY18"
   },
   {
-    "id": "W10 Q3 FY18-17",
+    "id": "W10 Q3 FY18-16",
     "company": "NestAway",
     "amount": 41750,
     "stage": "Acquisition",
@@ -71686,7 +85047,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q3 FY18"
   },
   {
-    "id": "W10 Q3 FY18-22",
+    "id": "W10 Q3 FY18-21",
     "company": "Rentickle.com",
     "amount": 3340,
     "stage": "Seed",
@@ -71708,7 +85069,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q3 FY18"
   },
   {
-    "id": "W10 Q3 FY18-25",
+    "id": "W10 Q3 FY18-24",
     "company": "Juggernaut Books",
     "amount": 0,
     "stage": "Acquisition",
@@ -75351,25 +88712,6 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W10 Q2 FY18"
   },
   {
-    "id": "W10 Q2 FY18-13",
-    "company": "OYO",
-    "amount": 2087500,
-    "stage": "Not Disclosed",
-    "sectors": [
-      "Hospitality"
-    ],
-    "investors": [
-      "SoftBank",
-      "Hero Enterprise"
-    ],
-    "leadInvestor": "SoftBank",
-    "date": "2017-09-07",
-    "location": "Gurugram",
-    "description": "OYO raised ₹20875.0 Cr in Not Disclosed .",
-    "sourceUrl": "https://entrackr.com/2017/09/softbank-vision-fund-puts-in-rs-1600-crore-oyo/",
-    "weekFolder": "W10 Q2 FY18"
-  },
-  {
     "id": "W10 Q2 FY18-14",
     "company": "Vulcan Express",
     "amount": 19789.5,
@@ -77909,6 +91251,24 @@ export const fundingData: FundingDeal[] = [
     "location": "Bengaluru",
     "description": "Billionloans raised ₹8.3 Cr in Seed round.",
     "sourceUrl": "https://entrackr.com/2017/07/fintech-start-billionloans-gets-1-mn-reliance-capital/",
+    "weekFolder": "W1 Q2 FY18"
+  },
+  {
+    "id": "W1 Q2 FY18-18",
+    "company": "Air Travel Bureau",
+    "amount": 6137.25,
+    "stage": "Acquisition",
+    "sectors": [
+      "Travel Tech"
+    ],
+    "investors": [
+      "Yatra"
+    ],
+    "leadInvestor": "Yatra",
+    "date": "2017-07-01",
+    "location": "India",
+    "description": "Air Travel Bureau raised ₹61.4 Cr in Acquisition round.",
+    "sourceUrl": "https://inc42.com/buzz/yatras-acquisition-of-air-travel-bureau-stuck-in-court/",
     "weekFolder": "W1 Q2 FY18"
   },
   {
@@ -90394,24 +103754,6 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W7 Q2 FY17"
   },
   {
-    "id": "W7 Q2 FY17-13",
-    "company": "Wipro",
-    "amount": 1252.5,
-    "stage": "Acquisition",
-    "sectors": [
-      "General"
-    ],
-    "investors": [
-      "Not Disclosed"
-    ],
-    "leadInvestor": "Not Disclosed",
-    "date": "2016-08-18",
-    "location": "Bengaluru",
-    "description": "Wipro raised ₹12.5 Cr in Acquisition round.",
-    "sourceUrl": "https://yourstory.com/2016/08/wipro-picks-up-minority-stake",
-    "weekFolder": "W7 Q2 FY17"
-  },
-  {
     "id": "W7 Q2 FY17-9",
     "company": "Pikkol",
     "amount": 0,
@@ -90546,7 +103888,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W7 Q2 FY17"
   },
   {
-    "id": "W7 Q2 FY17-14",
+    "id": "W7 Q2 FY17-13",
     "company": "Hike Messenger",
     "amount": 146125,
     "stage": "Series D",
@@ -90566,7 +103908,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W7 Q2 FY17"
   },
   {
-    "id": "W7 Q2 FY17-17",
+    "id": "W7 Q2 FY17-16",
     "company": "Appknox",
     "amount": 0,
     "stage": "Pre-Series A",
@@ -90584,7 +103926,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W7 Q2 FY17"
   },
   {
-    "id": "W7 Q2 FY17-18",
+    "id": "W7 Q2 FY17-17",
     "company": "Joolz",
     "amount": 417.5,
     "stage": "Pre-Series A",
@@ -90690,7 +104032,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W7 Q2 FY17"
   },
   {
-    "id": "W7 Q2 FY17-15",
+    "id": "W7 Q2 FY17-14",
     "company": "Zenoti",
     "amount": 12525,
     "stage": "Series A",
@@ -90709,7 +104051,7 @@ export const fundingData: FundingDeal[] = [
     "weekFolder": "W7 Q2 FY17"
   },
   {
-    "id": "W7 Q2 FY17-16",
+    "id": "W7 Q2 FY17-15",
     "company": "Faircent",
     "amount": 1252.5,
     "stage": "Series A",
@@ -102501,7 +115843,7 @@ export const fundingData: FundingDeal[] = [
   {
     "id": "W3 Q4 FY16-1",
     "company": "Remidio",
-    "amount": 1252500,
+    "amount": 0,
     "stage": "Series B",
     "sectors": [
       "Healthtech"
@@ -102512,7 +115854,7 @@ export const fundingData: FundingDeal[] = [
     "leadInvestor": "Not Disclosed",
     "date": "2016-01-15",
     "location": "Bengaluru",
-    "description": "Remidio raised ₹12525.0 Cr in Series B round.",
+    "description": "Remidio raised funding in Series B round.",
     "sourceUrl": "https://inc42.com/flash-feed/remidio-funding/",
     "weekFolder": "W3 Q4 FY16"
   },
@@ -113721,7 +127063,7 @@ export const fundingData: FundingDeal[] = [
   {
     "id": "W2 Q2 FY16-5",
     "company": "MySmartPrice",
-    "amount": 835000,
+    "amount": 0,
     "stage": "Series A",
     "sectors": [
       "E-commerce"
@@ -113732,7 +127074,7 @@ export const fundingData: FundingDeal[] = [
     "leadInvestor": "Helion Venture Partners",
     "date": "2015-07-14",
     "location": "Hyderabad",
-    "description": "MySmartPrice raised ₹8350.0 Cr in Series A round.",
+    "description": "MySmartPrice raised funding in Series A round.",
     "sourceUrl": "https://inc42.com/buzz/mysmartprice-series-b-funding/",
     "weekFolder": "W2 Q2 FY16"
   },
@@ -117207,24 +130549,6 @@ export const fundingData: FundingDeal[] = [
     "location": "India",
     "description": "Buyhatke raised ₹8.3 Cr in Acquisition round.",
     "sourceUrl": "https://yourstory.com/2015/05/buyhatke-funding",
-    "weekFolder": "W6 Q1 FY16"
-  },
-  {
-    "id": "W6 Q1 FY16-14",
-    "company": "KleverKid",
-    "amount": 999995.9999999999,
-    "stage": "Not Disclosed",
-    "sectors": [
-      "General"
-    ],
-    "investors": [
-      "Not Disclosed"
-    ],
-    "leadInvestor": "Not Disclosed",
-    "date": "2015-05-08",
-    "location": "Delhi",
-    "description": "KleverKid raised ₹10000.0 Cr in Not Disclosed .",
-    "sourceUrl": "https://yourstory.com/2015/05/aarin-capital-funding-kleverkid",
     "weekFolder": "W6 Q1 FY16"
   },
   {

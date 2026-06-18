@@ -50,7 +50,18 @@ _BLOCKLIST = {
     "matrix partners", "nexus venture partners", "accel", "kalaari capital", "blume ventures",
     # junk / non-company tokens seen as the "company"
     "that", "questions", "question", "india", "government", "finally", "flipkart finally",
-    "entrackr", "inc42", "yourstory", "buddy", "august", "life circle",
+    "entrackr", "inc42", "yourstory", "buddy", "life circle",
+    # generic words a regex extractor mistook for a company name
+    "funding", "it", "govt", "the", "this", "startup", "startups", "company", "indian",
+    # month names parsed as the company (from "<Month> ..." headlines)
+    "january", "february", "march", "april", "may", "june", "july", "august",
+    "september", "october", "november", "december",
+    # investor / VC firms wrongly used as the company (extends the list above)
+    "lightspeed", "lightspeed india", "steadview", "steadview capital", "falcon edge",
+    "chiratae ventures", "elevation capital", "general atlantic", "ribbit capital",
+    "leapfrog investments", "leapfrog",
+    # large non-startups (IT majors) misparsed from "<corp> bags $X deal" headlines
+    "wipro",
 }
 
 
