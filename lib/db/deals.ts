@@ -72,7 +72,13 @@ export async function getDeals(filters: DealFilters = {}): Promise<PaginatedDeal
     if (minAmount > 0) query = query.gte("amount_inr", minAmount)
     if (maxAmount < Infinity) query = query.lte("amount_inr", maxAmount)
     if (years.length) {
-      const yearFilters = years.map((y) => `deal_date.gte.${y}-01-01,deal_date.lte.${y}-12-31`)
+      // Each year is an AND of its bounds; the years themselves OR together.
+      // Without the and(...) grouping, `.or()` reads the bare gte/lte as a flat
+      // OR — "date >= Jan 1 OR date <= Dec 31" — which is true for every row, so
+      // the year filter silently matched the entire table.
+      const yearFilters = years.map(
+        (y) => `and(deal_date.gte.${y}-01-01,deal_date.lte.${y}-12-31)`
+      )
       query = query.or(yearFilters.join(","))
     }
 
@@ -167,4 +173,35 @@ export async function getAllSectors(): Promise<string[]> {
 export async function getAllStages(): Promise<string[]> {
   const predefined = ["Pre-Seed", "Seed", "Series A", "Series B", "Series C", "Series C+", "Pre-Series A", "Pre-Series B", "Bridge", "Debt", "IPO"]
   return predefined
+}
+
+// Years actually present in the dataset, newest first. The deal table spans
+// 2015→present, so a hardcoded "last 5 years" list left a decade of deals
+// impossible to filter by year. Derive the floor from the oldest row instead.
+export async function getDealYears(): Promise<string[]> {
+  const currentYear = new Date().getFullYear()
+
+  let minYear = currentYear
+  if (isSupabaseConfigured && supabase) {
+    const { data } = await supabase
+      .from("deals")
+      .select("deal_date")
+      .order("deal_date", { ascending: true })
+      .limit(1)
+    const oldest = data?.[0]?.deal_date as string | undefined
+    if (oldest) minYear = new Date(oldest).getFullYear()
+  } else {
+    const years = fundingData
+      .map((d) => new Date(d.date).getFullYear())
+      .filter((y) => Number.isFinite(y))
+    if (years.length) minYear = Math.min(...years)
+  }
+
+  // Guard against a bad/out-of-range oldest date producing a huge list.
+  if (!Number.isFinite(minYear) || minYear < 2000 || minYear > currentYear) {
+    minYear = currentYear - 10
+  }
+
+  const span = currentYear - minYear + 1
+  return Array.from({ length: span }, (_, i) => String(currentYear - i))
 }
