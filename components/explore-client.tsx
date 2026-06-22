@@ -30,7 +30,7 @@ export function ExploreClient({ sectors, locations, stages, years }: ExploreClie
   const [showUndisclosed,  setShowUndisclosed]  = useState<boolean>(true)
   const [page,             setPage]             = useState(1)
 
-  const { deals, loading, total, totalPages, refetch } = useDeals({})
+  const { deals, loading, error, total, totalPages, refetch } = useDeals()
 
   // Initialize filters from URL query params (e.g. linked from /analytics "View data →")
   useEffect(() => {
@@ -57,8 +57,10 @@ export function ExploreClient({ sectors, locations, stages, years }: ExploreClie
       stages: selectedStages,
       location: selectedLocation,
       years: selectedYears,
-      minAmount: fundingRange[0] > 0 ? fundingRange[0] : undefined,
-      maxAmount: fundingRange[1] < 10000 ? fundingRange[1] : undefined,
+      // Slider is in ₹Cr; amount_inr is stored in lakhs (1 Cr = 100 lakhs).
+      // Convert here or every range filter is off by 100×.
+      minAmount: fundingRange[0] > 0 ? fundingRange[0] * 100 : undefined,
+      maxAmount: fundingRange[1] < 10000 ? fundingRange[1] * 100 : undefined,
       showUndisclosed,
       sortBy,
       page,
@@ -74,8 +76,14 @@ export function ExploreClient({ sectors, locations, stages, years }: ExploreClie
     setPage(1)
   }, [selectedSectors, selectedStages, selectedLocation, selectedYears, fundingRange, searchQuery, investorSearch, sortBy, showUndisclosed])
 
+  // Debounce the fetch: runSearch's deps include the free-text search boxes, so
+  // an un-debounced effect fired one request per keystroke. With the 60 req/min
+  // API rate limit that locks an active user out fast (the lockout then surfaced
+  // as an empty result). Collapsing rapid changes into one trailing request
+  // keeps interactive filtering well under the limit.
   useEffect(() => {
-    runSearch()
+    const t = setTimeout(runSearch, 350)
+    return () => clearTimeout(t)
   }, [runSearch])
 
   const clearFilters = () => {
@@ -143,7 +151,7 @@ export function ExploreClient({ sectors, locations, stages, years }: ExploreClie
           <div className="md:col-span-3">
             <div className="flex flex-col md:flex-row justify-between md:items-center gap-4 mb-6 pb-4 border-b-2 border-gray-300">
               <p className="text-sm font-semibold text-gray-600">
-                {loading ? "LOADING..." : `SHOWING ${total} DEALS`}
+                {loading ? "LOADING..." : error ? "COULDN'T LOAD DEALS" : `SHOWING ${total} DEALS`}
               </p>
               <div className="flex gap-4 items-center">
                 <button
@@ -172,6 +180,25 @@ export function ExploreClient({ sectors, locations, stages, years }: ExploreClie
                     <div className="h-4 bg-gray-100 w-1/2" />
                   </div>
                 ))}
+              </div>
+            ) : error ? (
+              <div className="neo-border p-12 text-center bg-white">
+                <p className="text-gray-900 font-bold mb-2">{error.message}</p>
+                {error.kind === "auth" ? (
+                  <a
+                    href="/"
+                    className="inline-block mt-2 border-4 border-black px-4 py-2 font-bold text-sm hover:bg-black hover:text-white transition-colors"
+                  >
+                    SIGN IN
+                  </a>
+                ) : (
+                  <button
+                    onClick={runSearch}
+                    className="mt-2 border-4 border-black px-4 py-2 font-bold text-sm hover:bg-black hover:text-white transition-colors"
+                  >
+                    RETRY
+                  </button>
+                )}
               </div>
             ) : (
               <DealsList deals={deals} />

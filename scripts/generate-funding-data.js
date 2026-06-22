@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { USD_TO_INR, LAST_UPDATED } = require('../config/currency');
+const { USD_TO_INR, LAST_UPDATED, rateForYear } = require('../config/currency');
 
 // Read all CSV files from funding_data directory
 function getAllCSVFiles() {
@@ -156,10 +156,12 @@ function transformDeal(deal, id, weekFolder) {
   }
 
   // Convert USD millions to INR lakhs (1 Cr = 100 lakhs, 1 Cr = 10M INR)
-  // Exchange rate configured in config/currency.js
-  // Current rate: 1 USD = ₹${USD_TO_INR} (as of ${LAST_UPDATED})
-  const amountInLakhs = amount * USD_TO_INR * 10; // $M to INR lakhs
-  const amountInCrores = amount * USD_TO_INR / 10; // $M to INR crores
+  // Exchange rate configured in config/currency.js. Period-correct: 2005–2014 deals
+  // use that year's average rate (rupee was ~₹40–61/USD then); 2015+ uses the flat
+  // ₹${USD_TO_INR} (as of ${LAST_UPDATED}), so existing values are unchanged.
+  const rate = rateForYear(date); // `date` is YYYY-MM-DD
+  const amountInLakhs = amount * rate * 10; // $M to INR lakhs
+  const amountInCrores = amount * rate / 10; // $M to INR crores
 
   return {
     id,

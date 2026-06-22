@@ -1,11 +1,26 @@
 "use client"
-import { useState, useEffect, useCallback } from "react"
+import { useState, useCallback } from "react"
 import type { Deal, DealFilters } from "@/lib/types"
 
-export function useDeals(initial: DealFilters = {}) {
+export type DealsErrorKind = "auth" | "rate-limit" | "server" | "network"
+
+export interface DealsError {
+  kind: DealsErrorKind
+  message: string
+}
+
+function classifyStatus(status: number): DealsError {
+  if (status === 401 || status === 403)
+    return { kind: "auth", message: "Your session has expired. Sign in again to view deals." }
+  if (status === 429)
+    return { kind: "rate-limit", message: "Too many requests. Wait a moment and try again." }
+  return { kind: "server", message: `Couldn't load deals (server error ${status}). Please retry.` }
+}
+
+export function useDeals() {
   const [deals, setDeals] = useState<Deal[]>([])
   const [loading, setLoading] = useState(true)
-  const [error, setError] = useState<string | null>(null)
+  const [error, setError] = useState<DealsError | null>(null)
   const [total, setTotal] = useState(0)
   const [totalPages, setTotalPages] = useState(1)
 
@@ -30,23 +45,32 @@ export function useDeals(initial: DealFilters = {}) {
       filters.years?.forEach((y)   => qs.append("year", y))
 
       const res = await fetch(`/api/deals?${qs}`)
-      if (!res.ok) throw new Error(`fetch failed: ${res.status}`)
+      if (!res.ok) {
+        // Distinguish auth/rate-limit/server failures from a genuine empty
+        // result — otherwise every failure renders as "No deals found", which
+        // sends users to fiddle with filters that aren't the problem.
+        setDeals([])
+        setTotal(0)
+        setTotalPages(1)
+        setError(classifyStatus(res.status))
+        return
+      }
       const data = await res.json()
 
       setDeals(data.deals ?? [])
       setTotal(data.total ?? 0)
       setTotalPages(data.totalPages ?? 1)
-    } catch (e) {
-      setError(e instanceof Error ? e.message : "Failed to load deals")
+    } catch {
+      setDeals([])
+      setTotal(0)
+      setTotalPages(1)
+      setError({ kind: "network", message: "Network error — check your connection and retry." })
     } finally {
       setLoading(false)
     }
   }, [])
 
-  useEffect(() => {
-    load(initial)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
-
+  // No auto-fetch on mount: the consumer (ExploreClient) drives the first load
+  // through its filter effect, so fetching here too would double every request.
   return { deals, loading, error, total, totalPages, refetch: load }
 }

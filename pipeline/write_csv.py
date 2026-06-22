@@ -42,6 +42,7 @@ from datetime import date
 from pathlib import Path
 from typing import Any, Iterable
 
+from pipeline.fx_rates import usd_to_inr
 from pipeline.fy_calendar import folder_name
 
 _ROOT = Path(__file__).resolve().parent.parent
@@ -49,13 +50,20 @@ _FUNDING_DIR = _ROOT / "funding_data"
 
 CSV_HEADER = ["Company", "Amount ($M)", "Date", "HQ", "Sector", "Series", "Source", "Investors"]
 
-# Reverse of generate-funding-data.js's flat USD_TO_INR=83.5: storing ₹Cr/8.35 as
-# $M makes the displayed ₹ figure round-trip exactly. Keep in sync with config/currency.js.
-_USD_TO_INR = 83.5
+# The CSV stores a single Amount ($M) column; generate-funding-data.js converts it
+# back to ₹ with the SAME period rate (config/currency.js rateForYear), so for INR
+# deals the displayed ₹ round-trips exactly while USD is period-correct. For 2015+
+# the rate is the flat 83.5, preserving existing values. Keep in sync with
+# pipeline/fx_rates.py and config/currency.js.
 
 
-def to_usd_millions(amount_value: float | None, currency: str | None) -> float | None:
-    """Convert a native-currency amount to USD-millions for the CSV column."""
+def to_usd_millions(
+    amount_value: float | None, currency: str | None, year: int | None = None
+) -> float | None:
+    """Convert a native-currency amount to USD-millions for the CSV column.
+
+    `year` selects the period-correct USD↔INR rate (flat 83.5 for 2015+/unknown).
+    """
     if amount_value is None or currency is None:
         return None
     try:
@@ -68,8 +76,9 @@ def to_usd_millions(amount_value: float | None, currency: str | None) -> float |
     if cur == "USD":
         return v / 1e6
     if cur == "INR":
-        # v is in rupees; ₹Cr = v/1e7; $M = ₹Cr / 8.35
-        return (v / 1e7) / (_USD_TO_INR / 10.0)
+        # v is in rupees; ₹Cr = v/1e7; $M = ₹Cr / (rate/10)
+        rate = usd_to_inr(year)
+        return (v / 1e7) / (rate / 10.0)
     return None  # OTHER / unknown -> treat as undisclosed amount
 
 
@@ -110,7 +119,7 @@ def record_to_row(rec: dict) -> dict[str, str] | None:
     except ValueError:
         return None
 
-    usd_m = to_usd_millions(rec.get("amount_value"), rec.get("amount_currency"))
+    usd_m = to_usd_millions(rec.get("amount_value"), rec.get("amount_currency"), d.year)
     # Backstop against misclassified foreign mega-deals (e.g. Bayer/Monsanto $66B,
     # Rosneft $13B): no Indian startup round has ever exceeded ~$6B, so >$10B is noise.
     if usd_m is not None and usd_m > 10000:
