@@ -31,6 +31,18 @@ const BATCH_SIZE   = parseInt(
 const FUNDING_DATA_DIR = path.join(__dirname, "../funding_data")
 const USD_TO_INR = 84.5
 
+// Period-correct USD→INR for the 2005–2014 historical backfill (annual averages,
+// mirrors pipeline/fx_rates.py & config/currency.js). 2015+ keeps the flat
+// USD_TO_INR above so existing rows are unchanged.
+const USD_TO_INR_BY_YEAR: Record<number, number> = {
+  2005: 44, 2006: 45, 2007: 41, 2008: 43, 2009: 48,
+  2010: 46, 2011: 47, 2012: 53, 2013: 58, 2014: 61,
+}
+function rateForYear(dealDate: string): number {
+  const y = parseInt((dealDate || "").slice(0, 4), 10)
+  return USD_TO_INR_BY_YEAR[y] || USD_TO_INR
+}
+
 if (!DRY_RUN && (!SUPABASE_URL || !SERVICE_KEY)) {
   console.error("❌ Missing NEXT_PUBLIC_SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY")
   console.error("   Set them in .env.local or export them in your shell before running.")
@@ -102,13 +114,13 @@ function parseDate(raw: string): string | null {
   return null
 }
 
-function parseAmount(raw: string): { inr: number; usd: number } {
+function parseAmount(raw: string, dealDate = ""): { inr: number; usd: number } {
   if (!raw || raw.trim() === "") return { inr: 0, usd: 0 }
   const cleaned = raw.replace(/[$,\s]/g, "")
   const usd = parseFloat(cleaned)
   if (isNaN(usd) || usd < 0) return { inr: 0, usd: 0 }
-  // Amount in CSV is USD millions → convert to INR lakhs
-  const inr = Math.round(usd * USD_TO_INR * 100) / 100
+  // Amount in CSV is USD millions → convert to INR lakhs at the deal year's rate.
+  const inr = Math.round(usd * rateForYear(dealDate) * 100) / 100
   return { inr, usd }
 }
 
@@ -148,7 +160,7 @@ function processCSVFile(csvPath: string, weekFolder: string): NormalizedDeal[] {
       continue
     }
 
-    const { inr, usd } = parseAmount(raw["Amount ($M)"] || "")
+    const { inr, usd } = parseAmount(raw["Amount ($M)"] || "", date)
     const rawCompany   = (raw.Company || "").trim()
     const companyUrl   = rawCompany.startsWith("http") ? rawCompany : null
     const companyName  = companyUrl

@@ -36,6 +36,7 @@ from pathlib import Path
 from typing import Any, Iterable
 
 from pipeline.rule_extractor import _FUNDING_VERBS_RE, _QUALIFIER_TOKENS, rule_extract
+from pipeline.fx_rates import year_of
 from pipeline.write_csv import to_usd_millions
 
 # Slug/title funding signal for the "is this even a fundraise?" gate on needs_claude.
@@ -71,7 +72,9 @@ def _company_is_clean(name: str | None) -> bool:
 
 def _amount_is_sane(rec: dict) -> bool:
     """Reject implausible amounts (misparsed valuations / fund sizes / wrong units)."""
-    usd_m = to_usd_millions(rec.get("amount_value"), rec.get("amount_currency"))
+    usd_m = to_usd_millions(
+        rec.get("amount_value"), rec.get("amount_currency"), year_of(rec.get("deal_date"))
+    )
     if usd_m is None:
         return False
     if usd_m > 1500:  # > $1.5B — almost always a misparse in these articles
